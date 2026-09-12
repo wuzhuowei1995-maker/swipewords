@@ -2,62 +2,77 @@
   const app = document.getElementById("app");
   const items = Array.isArray(window.VOCABULARY) ? window.VOCABULARY : VOCABULARY;
 
-  const STORAGE_KEY = "swipewords_daily_state_v1";
+  const STORAGE_KEY = "swipewords_state_v2";
+  const COOLDOWN = 50;
   const SWIPE_THRESHOLD = 46;
 
-  function localDateKey() {
-    const d = new Date();
-    const y = d.getFullYear();
-    const m = String(d.getMonth() + 1).padStart(2, "0");
-    const day = String(d.getDate()).padStart(2, "0");
-    return `${y}-${m}-${day}`;
-  }
-
-  function shuffledIndexes(length) {
-    const arr = Array.from({ length }, (_, i) => i);
-    for (let i = arr.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [arr[i], arr[j]] = [arr[j], arr[i]];
-    }
-    return arr;
-  }
-
-  function newState() {
-    return {
-      date: localDateKey(),
-      order: shuffledIndexes(items.length),
-      position: 0
-    };
-  }
-
-  function validState(state) {
-    return state &&
-      state.date === localDateKey() &&
-      Array.isArray(state.order) &&
-      state.order.length === items.length &&
-      state.order.every((v) => Number.isInteger(v) && v >= 0 && v < items.length) &&
-      Number.isInteger(state.position) &&
-      state.position >= 0 &&
-      state.position < Math.max(items.length, 1);
-  }
-
-  function loadState() {
-    if (!items.length) return { date: localDateKey(), order: [], position: 0 };
-
-    try {
-      const saved = JSON.parse(localStorage.getItem(STORAGE_KEY));
-      if (validState(saved)) return saved;
-    } catch (_) {}
-
-    const state = newState();
-    saveState(state);
-    return state;
+  function itemKey(item) {
+    return JSON.stringify([
+      item?.front || "",
+      item?.meaning || "",
+      item?.example || ""
+    ]);
   }
 
   function saveState(state) {
     try {
       localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
     } catch (_) {}
+  }
+
+  function randomIndex(indexes) {
+    return indexes[Math.floor(Math.random() * indexes.length)];
+  }
+
+  function createInitialState() {
+    if (!items.length) {
+      return { currentKey: null, recentKeys: [] };
+    }
+
+    const index = Math.floor(Math.random() * items.length);
+    const key = itemKey(items[index]);
+    const state = {
+      currentKey: key,
+      recentKeys: [key]
+    };
+    saveState(state);
+    return state;
+  }
+
+  function loadState() {
+    if (!items.length) return { currentKey: null, recentKeys: [] };
+
+    const availableKeys = new Set(items.map(itemKey));
+
+    try {
+      const saved = JSON.parse(localStorage.getItem(STORAGE_KEY));
+      if (saved && Array.isArray(saved.recentKeys)) {
+        let recentKeys = saved.recentKeys
+          .filter((key) => availableKeys.has(key))
+          .slice(-COOLDOWN);
+
+        let currentKey = availableKeys.has(saved.currentKey)
+          ? saved.currentKey
+          : null;
+
+        if (!currentKey) {
+          const index = Math.floor(Math.random() * items.length);
+          currentKey = itemKey(items[index]);
+        }
+
+        // 当前正在显示的词也属于“最近出现”，必须进入 50 次冷却窗口。
+        if (recentKeys[recentKeys.length - 1] !== currentKey) {
+          recentKeys.push(currentKey);
+          recentKeys = recentKeys.slice(-COOLDOWN);
+        }
+
+        const state = { currentKey, recentKeys };
+        saveState(state);
+        return state;
+      }
+    } catch (_) {}
+
+    return createInitialState();
   }
 
   let state = loadState();
@@ -84,9 +99,55 @@
   }
 
   function currentItem() {
+    if (!items.length || !state.currentKey) return null;
+    return items.find((item) => itemKey(item) === state.currentKey) || null;
+  }
+
+  function chooseNextItem() {
     if (!items.length) return null;
-    const index = state.order[state.position];
-    return items[index];
+    if (items.length === 1) return items[0];
+
+    // recentKeys 保存“当前词 + 最近 49 个词”。
+    // 因此一个词出现后，接下来的 50 次滑动都不会再次出现；
+    // 第 51 次选择时，它已经从 recentKeys 头部移出并重新进入随机池。
+    let blocked = new Set(state.recentKeys);
+    let eligibleIndexes = [];
+
+    for (let i = 0; i < items.length; i++) {
+      if (!blocked.has(itemKey(items[i]))) eligibleIndexes.push(i);
+    }
+
+    // 正常词库大于 50 条时不会走到这里。
+    // 若未来词库少于等于 50 条，则逐步释放最早出现的词，避免卡死。
+    if (!eligibleIndexes.length) {
+      const relaxedRecent = [...state.recentKeys];
+      while (!eligibleIndexes.length && relaxedRecent.length) {
+        relaxedRecent.shift();
+        blocked = new Set(relaxedRecent);
+        for (let i = 0; i < items.length; i++) {
+          if (!blocked.has(itemKey(items[i]))) eligibleIndexes.push(i);
+        }
+      }
+    }
+
+    const nextIndex = randomIndex(eligibleIndexes);
+    return items[nextIndex];
+  }
+
+  function advanceState() {
+    const nextItem = chooseNextItem();
+    if (!nextItem) return;
+
+    const nextKey = itemKey(nextItem);
+    state.currentKey = nextKey;
+    state.recentKeys.push(nextKey);
+
+    // 只保留最近 50 个“已经显示过”的词。
+    if (state.recentKeys.length > COOLDOWN) {
+      state.recentKeys = state.recentKeys.slice(-COOLDOWN);
+    }
+
+    saveState(state);
   }
 
   function renderInitial() {
@@ -102,20 +163,6 @@
     }
 
     app.appendChild(makeCard(item));
-  }
-
-  function advanceState() {
-    if (items.length <= 1) return;
-
-    state.position += 1;
-
-    // 一轮看完后重新洗牌，继续展示。
-    if (state.position >= state.order.length) {
-      state.order = shuffledIndexes(items.length);
-      state.position = 0;
-    }
-
-    saveState(state);
   }
 
   function next() {
@@ -156,7 +203,6 @@
     const dx = endX - startX;
     const dy = endY - startY;
 
-    // 上滑，或明显左滑：下一条。
     if (
       (dy < -SWIPE_THRESHOLD && Math.abs(dy) > Math.abs(dx)) ||
       (dx < -SWIPE_THRESHOLD && Math.abs(dx) > Math.abs(dy))
