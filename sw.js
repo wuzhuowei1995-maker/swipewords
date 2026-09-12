@@ -1,4 +1,4 @@
-const CACHE = "swipewords-v2";
+const CACHE = "swipewords-v3";
 const ASSETS = [
   "./",
   "./index.html",
@@ -28,8 +28,8 @@ self.addEventListener("fetch", (event) => {
 
   const url = new URL(event.request.url);
 
-  // 词库优先读取网络最新版；断网时再读缓存。
-  if (url.pathname.endsWith("/vocabulary.js")) {
+  // 核心脚本和词库优先读取网络最新版，断网时再使用缓存。
+  if (url.pathname.endsWith("/vocabulary.js") || url.pathname.endsWith("/app.js")) {
     event.respondWith(
       fetch(event.request)
         .then((response) => {
@@ -42,7 +42,6 @@ self.addEventListener("fetch", (event) => {
     return;
   }
 
-  // 其他静态文件优先缓存，确保离线秒开。
   event.respondWith(
     caches.match(event.request).then((cached) => {
       return cached || fetch(event.request).then((response) => {
