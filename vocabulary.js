@@ -1,6 +1,6 @@
 // SwipeWords 词库
-// 来源：English_Active_Vocabulary_Master_Review_04(1).docx
-// 已加入：词汇与固定搭配、核心句式、程度递进/近义反义、场景25–30新增词汇。
+// 来源：English_Active_Vocabulary_Master_Review_04(1).docx + English_Active_Vocabulary_Master_Review_05(1).docx
+// 已加入：词汇与固定搭配、核心句式、程度递进/近义反义、场景25–39新增词汇。
 // 未加入：混合场景长段落、双语句子库（避免一张卡片内容过长）。
 const VOCABULARY = [
   {
@@ -1688,6 +1688,528 @@ const VOCABULARY = [
     "front": "slow down → brake → brake hard → slam on the brakes",
     "meaning": "减速 → 刹车 → 用力刹车 → 急刹",
     "example": "The driver first slowed down, then had to slam on the brakes."
+  },
+  {
+    "type": "word",
+    "front": "be stuck to",
+    "meaning": "粘在……上",
+    "example": "Some dried food was stuck to the stove."
+  },
+  {
+    "type": "word",
+    "front": "loosen something up",
+    "meaning": "把粘紧、僵硬的东西弄松",
+    "example": "Soak it in warm water to loosen it up."
+  },
+  {
+    "type": "word",
+    "front": "scrub",
+    "meaning": "用力刷洗",
+    "example": "I scrubbed the pan with a sponge."
+  },
+  {
+    "type": "word",
+    "front": "come off",
+    "meaning": "从表面脱落、被清除",
+    "example": "Most of the dirt came off easily."
+  },
+  {
+    "type": "word",
+    "front": "stubborn stain / dirt / mud",
+    "meaning": "顽固污渍 / 污垢 / 泥",
+    "example": "There were still a few stubborn stains."
+  },
+  {
+    "type": "word",
+    "front": "scrape off",
+    "meaning": "刮掉",
+    "example": "I carefully scraped the dried food off the pan."
+  },
+  {
+    "type": "word",
+    "front": "jerk forward / jerk to a stop",
+    "meaning": "猛地向前一顿 / 猛地停住",
+    "example": "The bus jerked forward when the driver braked."
+  },
+  {
+    "type": "word",
+    "front": "throw someone off balance",
+    "meaning": "使某人失去平衡",
+    "example": "The sudden stop threw me off balance."
+  },
+  {
+    "type": "word",
+    "front": "handrail",
+    "meaning": "扶手、栏杆",
+    "example": "I grabbed the handrail."
+  },
+  {
+    "type": "word",
+    "front": "hold on tightly",
+    "meaning": "紧紧抓住",
+    "example": "Hold on tightly when the bus starts moving."
+  },
+  {
+    "type": "word",
+    "front": "come to a stop / come to a complete stop",
+    "meaning": "停下来 / 完全停稳",
+    "example": "Wait until the bus comes to a complete stop."
+  },
+  {
+    "type": "word",
+    "front": "available / a seat becomes available",
+    "meaning": "可用的；有座位空出来",
+    "example": "When a seat became available, I let the elderly man sit down."
+  },
+  {
+    "type": "word",
+    "front": "fallen tree / fallen leaves",
+    "meaning": "倒下的树 / 落叶",
+    "example": "A fallen tree was blocking the trail."
+  },
+  {
+    "type": "word",
+    "front": "get past",
+    "meaning": "越过、通过阻碍",
+    "example": "We had to figure out how to get past it."
+  },
+  {
+    "type": "word",
+    "front": "step over",
+    "meaning": "一步跨过较低障碍",
+    "example": "Step over the log carefully."
+  },
+  {
+    "type": "word",
+    "front": "duck under",
+    "meaning": "低头、弯身从下面通过",
+    "example": "I ducked under a low branch."
+  },
+  {
+    "type": "word",
+    "front": "climb over",
+    "meaning": "爬过、翻过",
+    "example": "We climbed over the fallen trunk."
+  },
+  {
+    "type": "word",
+    "front": "step across",
+    "meaning": "跨过沟、缝、水流等间隔",
+    "example": "I stepped across a narrow ditch."
+  },
+  {
+    "type": "word",
+    "front": "ditch / gully / ravine",
+    "meaning": "小沟 / 冲沟 / 深沟谷",
+    "example": "The trail crossed a muddy ditch before entering a narrow gully."
+  },
+  {
+    "type": "word",
+    "front": "get caught on",
+    "meaning": "被……勾住、挂住",
+    "example": "My backpack got caught on a branch."
+  },
+  {
+    "type": "word",
+    "front": "go around",
+    "meaning": "绕过去",
+    "example": "The trunk was too high, so my friend went around instead."
+  },
+  {
+    "type": "word",
+    "front": "tip over",
+    "meaning": "倾倒、翻倒",
+    "example": "The bottle tipped over on the rock."
+  },
+  {
+    "type": "word",
+    "front": "roll downhill / across",
+    "meaning": "滚下坡 / 滚过",
+    "example": "It started rolling downhill."
+  },
+  {
+    "type": "word",
+    "front": "bounce off",
+    "meaning": "撞到……后弹开",
+    "example": "The bottle bounced off a rock."
+  },
+  {
+    "type": "word",
+    "front": "slide across / slide down",
+    "meaning": "滑过 / 滑下",
+    "example": "It slid across a patch of wet grass."
+  },
+  {
+    "type": "word",
+    "front": "float on the surface",
+    "meaning": "漂浮在表面",
+    "example": "The bottle floated on the surface."
+  },
+  {
+    "type": "word",
+    "front": "sink – sank – sunk",
+    "meaning": "下沉",
+    "example": "One end slowly sank below the surface."
+  },
+  {
+    "type": "word",
+    "front": "surface / below the surface",
+    "meaning": "表面、水面 / 表面以下",
+    "example": "Something was moving just below the surface."
+  },
+  {
+    "type": "word",
+    "front": "drift / drift downstream",
+    "meaning": "随水流或风缓慢漂移 / 顺流漂走",
+    "example": "A branch drifted downstream."
+  },
+  {
+    "type": "word",
+    "front": "upstream / downstream",
+    "meaning": "上游方向 / 下游方向",
+    "example": "We walked upstream while the bottle drifted downstream."
+  },
+  {
+    "type": "word",
+    "front": "won't budge",
+    "meaning": "怎么用力也纹丝不动",
+    "example": "The window won't budge."
+  },
+  {
+    "type": "word",
+    "front": "jammed",
+    "meaning": "机械或结构卡死",
+    "example": "The zipper seems to be jammed."
+  },
+  {
+    "type": "word",
+    "front": "back and forth",
+    "meaning": "来来回回、前后反复",
+    "example": "I wiggled the handle back and forth."
+  },
+  {
+    "type": "word",
+    "front": "come loose",
+    "meaning": "原本固定的东西变松",
+    "example": "The window finally came loose."
+  },
+  {
+    "type": "word",
+    "front": "slide open / swing open",
+    "meaning": "滑动打开 / 绕轴摆开",
+    "example": "The sliding door slid open, while the front door swung open."
+  },
+  {
+    "type": "word",
+    "front": "wide open / halfway open / slightly open",
+    "meaning": "完全敞开 / 开一半 / 稍微打开",
+    "example": "The wind blew the window wide open."
+  },
+  {
+    "type": "word",
+    "front": "firmly",
+    "meaning": "稳稳地、较用力地",
+    "example": "Push the frame firmly."
+  },
+  {
+    "type": "word",
+    "front": "click into place",
+    "meaning": "咔哒一声卡到正确位置",
+    "example": "Push it until it clicks into place."
+  },
+  {
+    "type": "word",
+    "front": "stream / creek",
+    "meaning": "溪流；小溪",
+    "example": "The trail crossed a shallow stream."
+  },
+  {
+    "type": "word",
+    "front": "bank",
+    "meaning": "河岸、溪岸",
+    "example": "The water was shallow near the bank."
+  },
+  {
+    "type": "word",
+    "front": "shallow ↔ deep",
+    "meaning": "浅 ↔ 深",
+    "example": "The stream gets deeper toward the middle."
+  },
+  {
+    "type": "word",
+    "front": "current",
+    "meaning": "水流",
+    "example": "The current was stronger than it looked."
+  },
+  {
+    "type": "word",
+    "front": "gentle / steady / strong / powerful current",
+    "meaning": "缓和 / 稳定 / 强 / 很强的水流",
+    "example": "We looked for a section with a gentler current."
+  },
+  {
+    "type": "word",
+    "front": "stepping stone",
+    "meaning": "踏脚石",
+    "example": "The stepping stones were wet and slippery."
+  },
+  {
+    "type": "word",
+    "front": "wobble / wobbly",
+    "meaning": "摇晃 / 摇晃不稳的",
+    "example": "One stone wobbled under my foot."
+  },
+  {
+    "type": "word",
+    "front": "risk it",
+    "meaning": "冒这个险",
+    "example": "The current looked too strong, so I decided not to risk it."
+  },
+  {
+    "type": "word",
+    "front": "wade across / wade through",
+    "meaning": "涉水走过 / 涉水穿过",
+    "example": "We waded across a calmer section."
+  },
+  {
+    "type": "word",
+    "front": "ankle-deep / knee-deep / waist-deep",
+    "meaning": "齐脚踝 / 齐膝 / 齐腰深",
+    "example": "The water went from ankle-deep to knee-deep."
+  },
+  {
+    "type": "word",
+    "front": "bunch up",
+    "meaning": "皱成一团、聚成一堆",
+    "example": "The blanket was bunched up at the foot of the bed."
+  },
+  {
+    "type": "word",
+    "front": "spread out",
+    "meaning": "展开、摊开；分散开",
+    "example": "I spread the blanket out across the bed."
+  },
+  {
+    "type": "word",
+    "front": "smooth out",
+    "meaning": "抚平、弄平",
+    "example": "I smoothed out the wrinkles."
+  },
+  {
+    "type": "word",
+    "front": "tuck something under",
+    "meaning": "把某物掖到……下面",
+    "example": "Tuck the sheet under the mattress."
+  },
+  {
+    "type": "word",
+    "front": "mattress / sheet / blanket / pillow",
+    "meaning": "床垫 / 床单 / 毯子或被子 / 枕头",
+    "example": "The sheet had come loose from under the mattress."
+  },
+  {
+    "type": "word",
+    "front": "fluff up",
+    "meaning": "拍松、抖松",
+    "example": "I fluffed up the pillows."
+  },
+  {
+    "type": "word",
+    "front": "fold / unfold / fold in half",
+    "meaning": "折叠 / 展开 / 对折",
+    "example": "Fold the blanket in half."
+  },
+  {
+    "type": "word",
+    "front": "lay – laid – laid",
+    "meaning": "把某物放置、铺放",
+    "example": "I laid the folded blanket across the end of the bed."
+  },
+  {
+    "type": "word",
+    "front": "lie down",
+    "meaning": "自己躺下",
+    "example": "I lay down for a few minutes."
+  },
+  {
+    "type": "word",
+    "front": "knock something off",
+    "meaning": "不小心把某物碰落",
+    "example": "I knocked a glass off the counter."
+  },
+  {
+    "type": "word",
+    "front": "shatter",
+    "meaning": "碎裂成许多块",
+    "example": "The glass shattered into dozens of pieces."
+  },
+  {
+    "type": "word",
+    "front": "shard / glass shard",
+    "meaning": "尖锐碎片 / 玻璃碎片",
+    "example": "A few sharp shards scattered across the floor."
+  },
+  {
+    "type": "word",
+    "front": "scatter / scattered",
+    "meaning": "四散开 / 散落的",
+    "example": "The pieces scattered across the kitchen."
+  },
+  {
+    "type": "word",
+    "front": "sweep up",
+    "meaning": "把散落的小东西扫起来",
+    "example": "I swept up the smaller pieces."
+  },
+  {
+    "type": "word",
+    "front": "chip / chipped",
+    "meaning": "边缘崩掉一小块 / 有崩口的",
+    "example": "One plate was slightly chipped."
+  },
+  {
+    "type": "word",
+    "front": "sharp ↔ blunt / dull",
+    "meaning": "锋利 ↔ 钝",
+    "example": "Be careful—the broken edge is sharp."
+  },
+  {
+    "type": "word",
+    "front": "mist / fog",
+    "meaning": "薄雾 / 浓雾",
+    "example": "There was light mist in the valley but dense fog higher up."
+  },
+  {
+    "type": "word",
+    "front": "thin / thick / dense",
+    "meaning": "薄、稀 / 厚、浓 / 浓密",
+    "example": "A thin layer of mist gradually turned into dense fog."
+  },
+  {
+    "type": "word",
+    "front": "thicken / thin out",
+    "meaning": "变浓、变厚 / 逐渐变稀",
+    "example": "The fog thickened quickly, then began to thin out an hour later."
+  },
+  {
+    "type": "word",
+    "front": "drift in / drift across",
+    "meaning": "飘入 / 缓慢飘过",
+    "example": "Fog drifted across the ridge."
+  },
+  {
+    "type": "word",
+    "front": "visibility drops / improves",
+    "meaning": "能见度下降 / 改善",
+    "example": "Visibility dropped dramatically."
+  },
+  {
+    "type": "word",
+    "front": "make out",
+    "meaning": "在困难条件下勉强辨认出",
+    "example": "I could barely make out the trail ahead."
+  },
+  {
+    "type": "word",
+    "front": "clearly / faintly / barely visible",
+    "meaning": "清楚可见 / 隐约可见 / 几乎看不见",
+    "example": "The waymark was barely visible through the fog."
+  },
+  {
+    "type": "word",
+    "front": "waymark / trail marker",
+    "meaning": "路线标记",
+    "example": "We followed the waymarks through the fog."
+  },
+  {
+    "type": "word",
+    "front": "fog lifts",
+    "meaning": "雾抬升、散去",
+    "example": "The fog started to lift around noon."
+  },
+  {
+    "type": "word",
+    "front": "come into view / come back into view",
+    "meaning": "进入视野 / 重新进入视野",
+    "example": "The ridge gradually came back into view."
+  },
+  {
+    "type": "word",
+    "front": "disappear from view",
+    "meaning": "从视野中消失",
+    "example": "The summit disappeared from view as the fog thickened."
+  },
+  {
+    "type": "ladder",
+    "front": "wipe → scrub → scrape off",
+    "meaning": "擦 → 用力刷 → 刮掉",
+    "example": "The stain wouldn't come off when I wiped it, so I scrubbed it and finally scraped off the dried bits."
+  },
+  {
+    "type": "ladder",
+    "front": "brake hard → jerk forward → be thrown off balance → grab → hold on → steady yourself",
+    "meaning": "急刹 → 猛地前顿 → 失去平衡 → 抓住 → 抓紧 → 稳住",
+    "example": "The bus jerked forward and threw me off balance, so I grabbed the rail and held on tightly."
+  },
+  {
+    "type": "ladder",
+    "front": "step over / step across / climb over / duck under / squeeze through / go around",
+    "meaning": "跨过低障碍 / 跨过间隔 / 翻过 / 钻过 / 挤过 / 绕过",
+    "example": "We stepped over a root, crossed a ditch, ducked under a branch and went around a fallen tree."
+  },
+  {
+    "type": "ladder",
+    "front": "tip over → roll → bounce → slide → come to a stop",
+    "meaning": "翻倒 → 滚动 → 弹跳 → 滑动 → 停住",
+    "example": "The bottle tipped over, rolled downhill, bounced off a rock and slid to a stop."
+  },
+  {
+    "type": "ladder",
+    "front": "float → drift → sink",
+    "meaning": "漂浮 → 漂移 → 下沉",
+    "example": "The branch floated for a while, drifted downstream and eventually sank."
+  },
+  {
+    "type": "ladder",
+    "front": "get stuck / get caught on / jammed / won't budge",
+    "meaning": "泛指卡住 / 被勾住 / 机械卡死 / 用力也不动",
+    "example": "My boot got stuck in mud, my strap got caught on a branch, and the zipper jammed and wouldn't budge."
+  },
+  {
+    "type": "ladder",
+    "front": "shallow → ankle-deep → knee-deep → waist-deep → deep",
+    "meaning": "浅 → 齐踝 → 齐膝 → 齐腰 → 深",
+    "example": "The stream was ankle-deep near the bank but knee-deep in the middle."
+  },
+  {
+    "type": "ladder",
+    "front": "gentle → steady → strong → powerful current",
+    "meaning": "缓和 → 稳定 → 强 → 很强的水流",
+    "example": "The current looked gentle near the bank but became strong toward the middle."
+  },
+  {
+    "type": "ladder",
+    "front": "bunch up → spread out → smooth out → fold → tuck away",
+    "meaning": "皱成一团 → 展开 → 抚平 → 折叠 → 收好",
+    "example": "I spread out the bunched-up blanket, smoothed it out and folded it neatly."
+  },
+  {
+    "type": "ladder",
+    "front": "scratch → chip → crack → break → shatter",
+    "meaning": "划痕 → 崩口 → 裂纹 → 破损 → 碎裂",
+    "example": "The plate was chipped, but the glass fell and shattered completely."
+  },
+  {
+    "type": "ladder",
+    "front": "light mist → thick mist → dense fog → visibility drops → fog lifts → visibility improves",
+    "meaning": "薄雾 → 浓一些的雾 → 浓雾 → 能见度下降 → 雾散 → 能见度改善",
+    "example": "Light mist thickened into dense fog before lifting later in the morning."
+  },
+  {
+    "type": "ladder",
+    "front": "clearly visible → faintly visible → barely visible → hidden from view",
+    "meaning": "清楚可见 → 隐约可见 → 几乎看不见 → 完全被遮挡",
+    "example": "The ridge went from clearly visible to barely visible before disappearing from view."
   }
 ];
 
