@@ -1,7 +1,7 @@
 // SwipeWords 词库
-// 来源：English_Active_Vocabulary_Master_Review_04(1).docx + English_Active_Vocabulary_Master_Review_05(1).docx
-// 已加入：词汇与固定搭配、核心句式、程度递进/近义反义、场景25–39新增词汇。
-// 未加入：混合场景长段落、双语句子库（避免一张卡片内容过长）。
+// 来源：English_Active_Vocabulary_Master_Review_04(1).docx + English_Active_Vocabulary_Master_Review_05(1).docx + 日语五十音
+// 已加入：英语词汇/固定搭配/句式/程度链，以及日语基础五十音（平假名、片假名、发音）。
+// 日语五十音卡在随机抽取中使用更高权重；50 次滑动冷却规则仍然保留。
 const VOCABULARY = [
   {
     "type": "word",
@@ -2210,6 +2210,420 @@ const VOCABULARY = [
     "front": "clearly visible → faintly visible → barely visible → hidden from view",
     "meaning": "清楚可见 → 隐约可见 → 几乎看不见 → 完全被遮挡",
     "example": "The ridge went from clearly visible to barely visible before disappearing from view."
+  },
+  {
+    "type": "kana",
+    "front": "あ",
+    "meaning": "ア",
+    "example": "a",
+    "hiragana": "あ",
+    "katakana": "ア",
+    "romaji": "a"
+  },
+  {
+    "type": "kana",
+    "front": "い",
+    "meaning": "イ",
+    "example": "i",
+    "hiragana": "い",
+    "katakana": "イ",
+    "romaji": "i"
+  },
+  {
+    "type": "kana",
+    "front": "う",
+    "meaning": "ウ",
+    "example": "u",
+    "hiragana": "う",
+    "katakana": "ウ",
+    "romaji": "u"
+  },
+  {
+    "type": "kana",
+    "front": "え",
+    "meaning": "エ",
+    "example": "e",
+    "hiragana": "え",
+    "katakana": "エ",
+    "romaji": "e"
+  },
+  {
+    "type": "kana",
+    "front": "お",
+    "meaning": "オ",
+    "example": "o",
+    "hiragana": "お",
+    "katakana": "オ",
+    "romaji": "o"
+  },
+  {
+    "type": "kana",
+    "front": "か",
+    "meaning": "カ",
+    "example": "ka",
+    "hiragana": "か",
+    "katakana": "カ",
+    "romaji": "ka"
+  },
+  {
+    "type": "kana",
+    "front": "き",
+    "meaning": "キ",
+    "example": "ki",
+    "hiragana": "き",
+    "katakana": "キ",
+    "romaji": "ki"
+  },
+  {
+    "type": "kana",
+    "front": "く",
+    "meaning": "ク",
+    "example": "ku",
+    "hiragana": "く",
+    "katakana": "ク",
+    "romaji": "ku"
+  },
+  {
+    "type": "kana",
+    "front": "け",
+    "meaning": "ケ",
+    "example": "ke",
+    "hiragana": "け",
+    "katakana": "ケ",
+    "romaji": "ke"
+  },
+  {
+    "type": "kana",
+    "front": "こ",
+    "meaning": "コ",
+    "example": "ko",
+    "hiragana": "こ",
+    "katakana": "コ",
+    "romaji": "ko"
+  },
+  {
+    "type": "kana",
+    "front": "さ",
+    "meaning": "サ",
+    "example": "sa",
+    "hiragana": "さ",
+    "katakana": "サ",
+    "romaji": "sa"
+  },
+  {
+    "type": "kana",
+    "front": "し",
+    "meaning": "シ",
+    "example": "shi",
+    "hiragana": "し",
+    "katakana": "シ",
+    "romaji": "shi"
+  },
+  {
+    "type": "kana",
+    "front": "す",
+    "meaning": "ス",
+    "example": "su",
+    "hiragana": "す",
+    "katakana": "ス",
+    "romaji": "su"
+  },
+  {
+    "type": "kana",
+    "front": "せ",
+    "meaning": "セ",
+    "example": "se",
+    "hiragana": "せ",
+    "katakana": "セ",
+    "romaji": "se"
+  },
+  {
+    "type": "kana",
+    "front": "そ",
+    "meaning": "ソ",
+    "example": "so",
+    "hiragana": "そ",
+    "katakana": "ソ",
+    "romaji": "so"
+  },
+  {
+    "type": "kana",
+    "front": "た",
+    "meaning": "タ",
+    "example": "ta",
+    "hiragana": "た",
+    "katakana": "タ",
+    "romaji": "ta"
+  },
+  {
+    "type": "kana",
+    "front": "ち",
+    "meaning": "チ",
+    "example": "chi",
+    "hiragana": "ち",
+    "katakana": "チ",
+    "romaji": "chi"
+  },
+  {
+    "type": "kana",
+    "front": "つ",
+    "meaning": "ツ",
+    "example": "tsu",
+    "hiragana": "つ",
+    "katakana": "ツ",
+    "romaji": "tsu"
+  },
+  {
+    "type": "kana",
+    "front": "て",
+    "meaning": "テ",
+    "example": "te",
+    "hiragana": "て",
+    "katakana": "テ",
+    "romaji": "te"
+  },
+  {
+    "type": "kana",
+    "front": "と",
+    "meaning": "ト",
+    "example": "to",
+    "hiragana": "と",
+    "katakana": "ト",
+    "romaji": "to"
+  },
+  {
+    "type": "kana",
+    "front": "な",
+    "meaning": "ナ",
+    "example": "na",
+    "hiragana": "な",
+    "katakana": "ナ",
+    "romaji": "na"
+  },
+  {
+    "type": "kana",
+    "front": "に",
+    "meaning": "ニ",
+    "example": "ni",
+    "hiragana": "に",
+    "katakana": "ニ",
+    "romaji": "ni"
+  },
+  {
+    "type": "kana",
+    "front": "ぬ",
+    "meaning": "ヌ",
+    "example": "nu",
+    "hiragana": "ぬ",
+    "katakana": "ヌ",
+    "romaji": "nu"
+  },
+  {
+    "type": "kana",
+    "front": "ね",
+    "meaning": "ネ",
+    "example": "ne",
+    "hiragana": "ね",
+    "katakana": "ネ",
+    "romaji": "ne"
+  },
+  {
+    "type": "kana",
+    "front": "の",
+    "meaning": "ノ",
+    "example": "no",
+    "hiragana": "の",
+    "katakana": "ノ",
+    "romaji": "no"
+  },
+  {
+    "type": "kana",
+    "front": "は",
+    "meaning": "ハ",
+    "example": "ha",
+    "hiragana": "は",
+    "katakana": "ハ",
+    "romaji": "ha"
+  },
+  {
+    "type": "kana",
+    "front": "ひ",
+    "meaning": "ヒ",
+    "example": "hi",
+    "hiragana": "ひ",
+    "katakana": "ヒ",
+    "romaji": "hi"
+  },
+  {
+    "type": "kana",
+    "front": "ふ",
+    "meaning": "フ",
+    "example": "fu",
+    "hiragana": "ふ",
+    "katakana": "フ",
+    "romaji": "fu"
+  },
+  {
+    "type": "kana",
+    "front": "へ",
+    "meaning": "ヘ",
+    "example": "he",
+    "hiragana": "へ",
+    "katakana": "ヘ",
+    "romaji": "he"
+  },
+  {
+    "type": "kana",
+    "front": "ほ",
+    "meaning": "ホ",
+    "example": "ho",
+    "hiragana": "ほ",
+    "katakana": "ホ",
+    "romaji": "ho"
+  },
+  {
+    "type": "kana",
+    "front": "ま",
+    "meaning": "マ",
+    "example": "ma",
+    "hiragana": "ま",
+    "katakana": "マ",
+    "romaji": "ma"
+  },
+  {
+    "type": "kana",
+    "front": "み",
+    "meaning": "ミ",
+    "example": "mi",
+    "hiragana": "み",
+    "katakana": "ミ",
+    "romaji": "mi"
+  },
+  {
+    "type": "kana",
+    "front": "む",
+    "meaning": "ム",
+    "example": "mu",
+    "hiragana": "む",
+    "katakana": "ム",
+    "romaji": "mu"
+  },
+  {
+    "type": "kana",
+    "front": "め",
+    "meaning": "メ",
+    "example": "me",
+    "hiragana": "め",
+    "katakana": "メ",
+    "romaji": "me"
+  },
+  {
+    "type": "kana",
+    "front": "も",
+    "meaning": "モ",
+    "example": "mo",
+    "hiragana": "も",
+    "katakana": "モ",
+    "romaji": "mo"
+  },
+  {
+    "type": "kana",
+    "front": "や",
+    "meaning": "ヤ",
+    "example": "ya",
+    "hiragana": "や",
+    "katakana": "ヤ",
+    "romaji": "ya"
+  },
+  {
+    "type": "kana",
+    "front": "ゆ",
+    "meaning": "ユ",
+    "example": "yu",
+    "hiragana": "ゆ",
+    "katakana": "ユ",
+    "romaji": "yu"
+  },
+  {
+    "type": "kana",
+    "front": "よ",
+    "meaning": "ヨ",
+    "example": "yo",
+    "hiragana": "よ",
+    "katakana": "ヨ",
+    "romaji": "yo"
+  },
+  {
+    "type": "kana",
+    "front": "ら",
+    "meaning": "ラ",
+    "example": "ra",
+    "hiragana": "ら",
+    "katakana": "ラ",
+    "romaji": "ra"
+  },
+  {
+    "type": "kana",
+    "front": "り",
+    "meaning": "リ",
+    "example": "ri",
+    "hiragana": "り",
+    "katakana": "リ",
+    "romaji": "ri"
+  },
+  {
+    "type": "kana",
+    "front": "る",
+    "meaning": "ル",
+    "example": "ru",
+    "hiragana": "る",
+    "katakana": "ル",
+    "romaji": "ru"
+  },
+  {
+    "type": "kana",
+    "front": "れ",
+    "meaning": "レ",
+    "example": "re",
+    "hiragana": "れ",
+    "katakana": "レ",
+    "romaji": "re"
+  },
+  {
+    "type": "kana",
+    "front": "ろ",
+    "meaning": "ロ",
+    "example": "ro",
+    "hiragana": "ろ",
+    "katakana": "ロ",
+    "romaji": "ro"
+  },
+  {
+    "type": "kana",
+    "front": "わ",
+    "meaning": "ワ",
+    "example": "wa",
+    "hiragana": "わ",
+    "katakana": "ワ",
+    "romaji": "wa"
+  },
+  {
+    "type": "kana",
+    "front": "を",
+    "meaning": "ヲ",
+    "example": "o",
+    "hiragana": "を",
+    "katakana": "ヲ",
+    "romaji": "o"
+  },
+  {
+    "type": "kana",
+    "front": "ん",
+    "meaning": "ン",
+    "example": "n",
+    "hiragana": "ん",
+    "katakana": "ン",
+    "romaji": "n"
   }
 ];
 
