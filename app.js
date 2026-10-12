@@ -6,11 +6,19 @@
   const COOLDOWN = 50;
   const SWIPE_THRESHOLD = 46;
 
+  // 每张五十音卡的抽取权重是普通词卡的 4 倍。
+  // 在没有冷却影响的完整池里，46 张五十音卡约占三分之一的抽取概率。
+  const KANA_WEIGHT = 4;
+
   function itemKey(item) {
     return JSON.stringify([
+      item?.type || "",
       item?.front || "",
       item?.meaning || "",
-      item?.example || ""
+      item?.example || "",
+      item?.hiragana || "",
+      item?.katakana || "",
+      item?.romaji || ""
     ]);
   }
 
@@ -20,8 +28,28 @@
     } catch (_) {}
   }
 
-  function randomIndex(indexes) {
-    return indexes[Math.floor(Math.random() * indexes.length)];
+  function itemWeight(item) {
+    return item?.type === "kana" ? KANA_WEIGHT : 1;
+  }
+
+  function weightedRandomIndex(indexes) {
+    if (!indexes.length) return null;
+
+    let total = 0;
+    for (const index of indexes) total += itemWeight(items[index]);
+
+    let roll = Math.random() * total;
+    for (const index of indexes) {
+      roll -= itemWeight(items[index]);
+      if (roll < 0) return index;
+    }
+    return indexes[indexes.length - 1];
+  }
+
+  function chooseWeightedFromAll() {
+    const indexes = items.map((_, i) => i);
+    const index = weightedRandomIndex(indexes);
+    return index == null ? null : items[index];
   }
 
   function createInitialState() {
@@ -29,8 +57,8 @@
       return { currentKey: null, recentKeys: [] };
     }
 
-    const index = Math.floor(Math.random() * items.length);
-    const key = itemKey(items[index]);
+    const item = chooseWeightedFromAll();
+    const key = itemKey(item);
     const state = {
       currentKey: key,
       recentKeys: [key]
@@ -56,11 +84,10 @@
           : null;
 
         if (!currentKey) {
-          const index = Math.floor(Math.random() * items.length);
-          currentKey = itemKey(items[index]);
+          const item = chooseWeightedFromAll();
+          currentKey = itemKey(item);
         }
 
-        // 当前正在显示的词也属于“最近出现”，必须进入 50 次冷却窗口。
         if (recentKeys[recentKeys.length - 1] !== currentKey) {
           recentKeys.push(currentKey);
           recentKeys = recentKeys.slice(-COOLDOWN);
@@ -78,9 +105,50 @@
   let state = loadState();
   let animating = false;
 
+  function makeKanaCard(item, card) {
+    const pair = document.createElement("div");
+    pair.className = "kana-pair";
+
+    const hira = document.createElement("div");
+    hira.className = "kana-symbol";
+    hira.textContent = item.hiragana || item.front || "";
+
+    const kata = document.createElement("div");
+    kata.className = "kana-symbol";
+    kata.textContent = item.katakana || item.meaning || "";
+
+    pair.append(hira, kata);
+
+    const labels = document.createElement("div");
+    labels.className = "kana-labels";
+
+    const hiraLabel = document.createElement("span");
+    hiraLabel.textContent = "平假名";
+
+    const kataLabel = document.createElement("span");
+    kataLabel.textContent = "片假名";
+
+    labels.append(hiraLabel, kataLabel);
+
+    const pronunciation = document.createElement("div");
+    pronunciation.className = "kana-pronunciation";
+    pronunciation.textContent = item.romaji || item.example || "";
+
+    const pronunciationLabel = document.createElement("div");
+    pronunciationLabel.className = "kana-pronunciation-label";
+    pronunciationLabel.textContent = "发音";
+
+    card.append(pair, labels, pronunciation, pronunciationLabel);
+  }
+
   function makeCard(item, extraClass = "") {
     const card = document.createElement("section");
-    card.className = `card ${extraClass}`.trim();
+    card.className = `card ${item?.type === "kana" ? "kana-card" : ""} ${extraClass}`.trim();
+
+    if (item?.type === "kana") {
+      makeKanaCard(item, card);
+      return card;
+    }
 
     const front = document.createElement("div");
     front.className = "front";
@@ -107,9 +175,6 @@
     if (!items.length) return null;
     if (items.length === 1) return items[0];
 
-    // recentKeys 保存“当前词 + 最近 49 个词”。
-    // 因此一个词出现后，接下来的 50 次滑动都不会再次出现；
-    // 第 51 次选择时，它已经从 recentKeys 头部移出并重新进入随机池。
     let blocked = new Set(state.recentKeys);
     let eligibleIndexes = [];
 
@@ -117,8 +182,6 @@
       if (!blocked.has(itemKey(items[i]))) eligibleIndexes.push(i);
     }
 
-    // 正常词库大于 50 条时不会走到这里。
-    // 若未来词库少于等于 50 条，则逐步释放最早出现的词，避免卡死。
     if (!eligibleIndexes.length) {
       const relaxedRecent = [...state.recentKeys];
       while (!eligibleIndexes.length && relaxedRecent.length) {
@@ -130,8 +193,8 @@
       }
     }
 
-    const nextIndex = randomIndex(eligibleIndexes);
-    return items[nextIndex];
+    const nextIndex = weightedRandomIndex(eligibleIndexes);
+    return nextIndex == null ? null : items[nextIndex];
   }
 
   function advanceState() {
@@ -142,7 +205,6 @@
     state.currentKey = nextKey;
     state.recentKeys.push(nextKey);
 
-    // 只保留最近 50 个“已经显示过”的词。
     if (state.recentKeys.length > COOLDOWN) {
       state.recentKeys = state.recentKeys.slice(-COOLDOWN);
     }
@@ -211,7 +273,6 @@
     }
   }, { passive: true });
 
-  // 仅方便电脑上预览；iPhone 界面不会出现任何按钮。
   window.addEventListener("keydown", (e) => {
     if (["ArrowUp", "ArrowRight", " ", "PageDown"].includes(e.key)) {
       e.preventDefault();
@@ -222,8 +283,11 @@
   renderInitial();
 
   if ("serviceWorker" in navigator) {
-    window.addEventListener("load", () => {
-      navigator.serviceWorker.register("./sw.js").catch(() => {});
+    window.addEventListener("load", async () => {
+      try {
+        const registration = await navigator.serviceWorker.register("./sw.js");
+        await registration.update();
+      } catch (_) {}
     });
   }
 })();
