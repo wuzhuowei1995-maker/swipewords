@@ -119,26 +119,11 @@
 
     pair.append(hira, kata);
 
-    const labels = document.createElement("div");
-    labels.className = "kana-labels";
-
-    const hiraLabel = document.createElement("span");
-    hiraLabel.textContent = "平假名";
-
-    const kataLabel = document.createElement("span");
-    kataLabel.textContent = "片假名";
-
-    labels.append(hiraLabel, kataLabel);
-
     const pronunciation = document.createElement("div");
     pronunciation.className = "kana-pronunciation";
     pronunciation.textContent = item.romaji || item.example || "";
 
-    const pronunciationLabel = document.createElement("div");
-    pronunciationLabel.className = "kana-pronunciation-label";
-    pronunciationLabel.textContent = "发音";
-
-    card.append(pair, labels, pronunciation, pronunciationLabel);
+    card.append(pair, pronunciation);
   }
 
   function makeCard(item, extraClass = "") {
