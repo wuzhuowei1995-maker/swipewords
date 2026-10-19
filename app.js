@@ -28,8 +28,15 @@
     } catch (_) {}
   }
 
+  // 后 60% 是按照英文词库原始排列顺序划分，不将五十音计入比例。
+  const englishOnly = items.filter(item => item?.type !== "kana");
+  const boostedFrom = Math.floor(englishOnly.length * 0.4);
+  const englishRanks = new Map(englishOnly.map((item, index) => [itemKey(item), index]));
+
   function itemWeight(item) {
-    return item?.type === "kana" ? KANA_WEIGHT : 1;
+    if (item?.type === "kana") return KANA_WEIGHT;
+    const rank = englishRanks.get(itemKey(item));
+    return rank >= boostedFrom ? 3 : 1;
   }
 
   function weightedRandomIndex(indexes) {
