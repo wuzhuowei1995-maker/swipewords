@@ -1,7 +1,6 @@
-// SwipeWords 词库
-// 来源：English_Active_Vocabulary_Master_Review_04(1).docx + English_Active_Vocabulary_Master_Review_05(1).docx + 日语五十音
-// 已加入：英语词汇/固定搭配/句式/程度链，以及日语基础五十音（平假名、片假名、发音）。
-// 日语五十音卡在随机抽取中使用更高权重；50 次滑动冷却规则仍然保留。
+// SwipeWords：Review 04、05、06 英语词汇与五十音
+// 保留英语单卡中英解释与例句。新增 Review 06 场景 40–60 和动作链，按英文正面去重。
+// 抽取权重：英文词库前40%为1倍、后60%为3倍；五十音4倍，冷却50次。
 const VOCABULARY = [
   {
     "type": "word",
@@ -2210,6 +2209,1440 @@ const VOCABULARY = [
     "front": "clearly visible → faintly visible → barely visible → hidden from view",
     "meaning": "清楚可见 → 隐约可见 → 几乎看不见 → 完全被遮挡",
     "example": "The ridge went from clearly visible to barely visible before disappearing from view."
+  },
+  {
+    "type": "word",
+    "front": "trash can / bin / dumpster",
+    "meaning": "垃圾桶（美）／垃圾桶 （英）／大型室外垃圾 箱",
+    "example": "Put a fresh bag in the bin."
+  },
+  {
+    "type": "word",
+    "front": "spill over the top / edge",
+    "meaning": "从顶部／边缘溢出",
+    "example": "Rubbish was spilling over the top."
+  },
+  {
+    "type": "word",
+    "front": "overflow / be overflowing",
+    "meaning": "溢出／装满到溢出",
+    "example": "The bin is overflowing."
+  },
+  {
+    "type": "word",
+    "front": "empty → half full → nearly full → full → overflowing",
+    "meaning": "从空到溢出的程度链",
+    "example": "The bin is nearly full."
+  },
+  {
+    "type": "word",
+    "front": "pull the bag out",
+    "meaning": "把袋子拉出来",
+    "example": "Pull the trash bag out carefully."
+  },
+  {
+    "type": "word",
+    "front": "tie up the bag",
+    "meaning": "将袋子扎紧",
+    "example": "Tie up the bag before carrying it out."
+  },
+  {
+    "type": "word",
+    "front": "leak from the bottom / drip",
+    "meaning": "从底部漏液／滴下",
+    "example": "Liquid was leaking from the bottom and dripping onto the floor."
+  },
+  {
+    "type": "word",
+    "front": "hold something away from",
+    "meaning": "让某物远离……",
+    "example": "Hold the wet bag away from your clothes."
+  },
+  {
+    "type": "word",
+    "front": "smell awful / stink / musty",
+    "meaning": "难闻／发臭／有霉味",
+    "example": "The rubbish stinks."
+  },
+  {
+    "type": "word",
+    "front": "wipe up the spill / drops",
+    "meaning": "擦掉洒出的液体／滴液",
+    "example": "Wipe up the drops on the floor."
+  },
+  {
+    "type": "word",
+    "front": "put a fresh bag in / replace the bag",
+    "meaning": "换上新袋",
+    "example": "I replaced the trash bag."
+  },
+  {
+    "type": "word",
+    "front": "lift something off the ground",
+    "meaning": "把某物从地面抬起",
+    "example": "Lift your end a little."
+  },
+  {
+    "type": "word",
+    "front": "carry something upstairs",
+    "meaning": "搬着某物上楼",
+    "example": "We carried the cabinet upstairs."
+  },
+  {
+    "type": "word",
+    "front": "heavy vs bulky",
+    "meaning": "重量重 vs 体积大笨重",
+    "example": "It is bulky but not very heavy."
+  },
+  {
+    "type": "word",
+    "front": "tilt something toward / slightly",
+    "meaning": "朝某方向倾斜／微倾",
+    "example": "Tilt the cabinet toward me."
+  },
+  {
+    "type": "word",
+    "front": "rotate / turn sideways",
+    "meaning": "旋转／侧转",
+    "example": "Turn it sideways to fit through."
+  },
+  {
+    "type": "word",
+    "front": "doorway vs door",
+    "meaning": "门洞／门本身",
+    "example": "The cabinet would not fit through the doorway."
+  },
+  {
+    "type": "word",
+    "front": "lower something slowly",
+    "meaning": "缓慢放低",
+    "example": "Lower your end slowly."
+  },
+  {
+    "type": "word",
+    "front": "set something down",
+    "meaning": "把某物放下来",
+    "example": "Let’s set it down for a minute."
+  },
+  {
+    "type": "word",
+    "front": "pick something back up",
+    "meaning": "把东西重新抬起／拿起",
+    "example": "We picked it back up after the break."
+  },
+  {
+    "type": "word",
+    "front": "the rest of the way",
+    "meaning": "剩下的路程",
+    "example": "We carried it the rest of the way."
+  },
+  {
+    "type": "word",
+    "front": "checkout / line at checkout",
+    "meaning": "结账处／结账队伍",
+    "example": "The line at the checkout moved quickly."
+  },
+  {
+    "type": "word",
+    "front": "conveyor belt",
+    "meaning": "传送带",
+    "example": "Put your groceries on the conveyor belt."
+  },
+  {
+    "type": "word",
+    "front": "cashier / scan a barcode",
+    "meaning": "收银员／扫描条形码",
+    "example": "The cashier scanned everything one by one."
+  },
+  {
+    "type": "word",
+    "front": "one by one",
+    "meaning": "一个接一个",
+    "example": "Cross the slippery section one by one."
+  },
+  {
+    "type": "word",
+    "front": "tap your card / contactless payment",
+    "meaning": "感应刷卡／非接触支付",
+    "example": "I tapped my card on the terminal."
+  },
+  {
+    "type": "word",
+    "front": "card terminal",
+    "meaning": "刷卡终端",
+    "example": "Tap your card on the terminal."
+  },
+  {
+    "type": "word",
+    "front": "be declined",
+    "meaning": "支付被拒绝",
+    "example": "My card was declined."
+  },
+  {
+    "type": "word",
+    "front": "payment go through / would not go through",
+    "meaning": "支付完成／就是不成功",
+    "example": "The payment would not go through."
+  },
+  {
+    "type": "word",
+    "front": "insert card / enter PIN",
+    "meaning": "插卡／输入密码",
+    "example": "I inserted my card and entered my PIN."
+  },
+  {
+    "type": "word",
+    "front": "receipt / digital receipt",
+    "meaning": "小票／电子收据",
+    "example": "Do you need a receipt?"
+  },
+  {
+    "type": "word",
+    "front": "step aside / move aside",
+    "meaning": "让到一旁",
+    "example": "I packed my groceries and moved aside."
+  },
+  {
+    "type": "word",
+    "front": "snag on a branch / nail",
+    "meaning": "被树枝／钉子勾住",
+    "example": "My sleeve snagged on a branch."
+  },
+  {
+    "type": "word",
+    "front": "tear – tore – torn",
+    "meaning": "撕裂的动词变化",
+    "example": "The fabric tore near the pocket."
+  },
+  {
+    "type": "word",
+    "front": "a rip / rip open",
+    "meaning": "裂口／撕开",
+    "example": "There is a small rip in my jacket."
+  },
+  {
+    "type": "word",
+    "front": "fabric / stiff fabric",
+    "meaning": "布料／硬挺布料",
+    "example": "The fabric feels stiff."
+  },
+  {
+    "type": "word",
+    "front": "loose thread",
+    "meaning": "松散线头",
+    "example": "Trim the loose threads."
+  },
+  {
+    "type": "word",
+    "front": "trim the edges / threads",
+    "meaning": "修剪边缘／线头",
+    "example": "I trimmed a few loose threads."
+  },
+  {
+    "type": "word",
+    "front": "patch a tear / hole / tent",
+    "meaning": "修补裂口／洞／帐篷",
+    "example": "I patched the tear with repair tape."
+  },
+  {
+    "type": "word",
+    "front": "temporary fix / permanent fix",
+    "meaning": "临时修补／永久修复",
+    "example": "It was only a temporary fix."
+  },
+  {
+    "type": "word",
+    "front": "hold together",
+    "meaning": "维持完整、不散开",
+    "example": "The tape held the jacket together."
+  },
+  {
+    "type": "word",
+    "front": "get caught on vs snag on",
+    "meaning": "泛指挂住／强调尖锐物勾住织物",
+    "example": "The strap got caught on a rock."
+  },
+  {
+    "type": "word",
+    "front": "approach a stop / summit",
+    "meaning": "接近车站／山顶",
+    "example": "The bus was approaching my stop."
+  },
+  {
+    "type": "word",
+    "front": "look up from your phone",
+    "meaning": "从手机上抬头",
+    "example": "I looked up too late."
+  },
+  {
+    "type": "word",
+    "front": "pull in",
+    "meaning": "驶入停靠点 ↔ 驶离停靠点",
+    "example": "The bus pulled away from the stop."
+  },
+  {
+    "type": "word",
+    "front": "press the stop button",
+    "meaning": "按停车按钮",
+    "example": "Press the stop button before your stop."
+  },
+  {
+    "type": "word",
+    "front": "miss the bus vs miss my stop",
+    "meaning": "错 过 公 交vs车坐过站",
+    "example": "I missed my stop and got off at the next one."
+  },
+  {
+    "type": "word",
+    "front": "get off at the next stop",
+    "meaning": "下一站下车",
+    "example": "I got off at the next stop."
+  },
+  {
+    "type": "word",
+    "front": "walk back / head back",
+    "meaning": "走回去／往回走",
+    "example": "I crossed the street and walked back."
+  },
+  {
+    "type": "word",
+    "front": "in advance / well in advance",
+    "meaning": "提前／提前很久 等……时，……早已",
+    "example": "Press the button well in advance."
+  },
+  {
+    "type": "word",
+    "front": "by the time + past, had already...",
+    "meaning": "等……时，……早已经……",
+    "example": "By the time I looked up, the bus had already pulled away."
+  },
+  {
+    "type": "word",
+    "front": "rub against / rubbing",
+    "meaning": "摩擦／反复蹭 脚后跟／脚趾／脚底／",
+    "example": "My boot is rubbing against my heel."
+  },
+  {
+    "type": "word",
+    "front": "heel / toe / sole / ankle",
+    "meaning": "脚后跟／脚趾／脚底／脚踝",
+    "example": "I have a blister on my heel."
+  },
+  {
+    "type": "word",
+    "front": "sting vs sore",
+    "meaning": "刺痛灼痛 vs 持续酸痛触痛",
+    "example": "The skin started to sting."
+  },
+  {
+    "type": "word",
+    "front": "a blister starts to form",
+    "meaning": "水泡开始形成",
+    "example": "A blister was starting to form."
+  },
+  {
+    "type": "word",
+    "front": "blister plaster / adhesive bandage",
+    "meaning": "水泡贴／创可贴",
+    "example": "Cover it with a blister plaster."
+  },
+  {
+    "type": "word",
+    "front": "cover the area with",
+    "meaning": "用……覆盖该部位",
+    "example": "Cover the cut with a clean dressing."
+  },
+  {
+    "type": "word",
+    "front": "slide around inside",
+    "meaning": "在里面滑来滑去 系好靴子／收紧／放松",
+    "example": "My heel kept sliding around inside the boot."
+  },
+  {
+    "type": "word",
+    "front": "lace up / tighten / loosen laces",
+    "meaning": "系好靴子／收紧／放松鞋带",
+    "example": "Tighten the laces slightly."
+  },
+  {
+    "type": "word",
+    "front": "stop A from doing B",
+    "meaning": "阻止 A 做 B",
+    "example": "I adjusted the boots to stop my heel from sliding around."
+  },
+  {
+    "type": "word",
+    "front": "keep going vs push on",
+    "meaning": "正常继续 vs 克服困难坚持前进",
+    "example": "My foot feels fine, so I can keep going."
+  },
+  {
+    "type": "word",
+    "front": "slimy / go slimy",
+    "meaning": "黏滑的／变得黏滑",
+    "example": "The chicken had gone slimy."
+  },
+  {
+    "type": "word",
+    "front": "mold / moldy / go moldy",
+    "meaning": "霉菌／发霉／变得发霉",
+    "example": "The bread has gone moldy."
+  },
+  {
+    "type": "word",
+    "front": "stale vs moldy",
+    "meaning": "不新鲜变干硬 vs 发霉",
+    "example": "The bread was stale but not moldy."
+  },
+  {
+    "type": "word",
+    "front": "wilt / wilted",
+    "meaning": "萎蔫／萎蔫的",
+    "example": "The lettuce has started to wilt."
+  },
+  {
+    "type": "word",
+    "front": "turn brown around the edges",
+    "meaning": "边缘变褐",
+    "example": "The lettuce was turning brown around the edges."
+  },
+  {
+    "type": "word",
+    "front": "leftover chicken / leftovers",
+    "meaning": "剩下的鸡肉／剩菜",
+    "example": "Heat up the leftovers."
+  },
+  {
+    "type": "word",
+    "front": "thaw / defrost",
+    "meaning": "解冻 到期日／安全食用截止",
+    "example": "I left the frozen food to thaw in the fridge."
+  },
+  {
+    "type": "word",
+    "front": "expiration date / use-by date",
+    "meaning": "到期日／安全食用截止日期",
+    "example": "Check the use-by date."
+  },
+  {
+    "type": "word",
+    "front": "go off / go bad / spoil",
+    "meaning": "（食物）变质",
+    "example": "The milk has gone off."
+  },
+  {
+    "type": "word",
+    "front": "fresh → wilted / slimy / moldy → spoiled",
+    "meaning": "新鲜 → 萎蔫／发黏／发霉 → 变质",
+    "example": "I threw out the spoiled food."
+  },
+  {
+    "type": "word",
+    "front": "slip out of my pocket / hand",
+    "meaning": "从口袋／手中滑出",
+    "example": "My phone slipped out of my pocket."
+  },
+  {
+    "type": "word",
+    "front": "get soaked / slightly damp → wet → soaked",
+    "meaning": "湿透／湿度程度链",
+    "example": "The phone got completely soaked."
+  },
+  {
+    "type": "word",
+    "front": "excess water / excess moisture",
+    "meaning": "多余的水／水分",
+    "example": "Remove the excess water."
+  },
+  {
+    "type": "word",
+    "front": "shake off the water",
+    "meaning": "轻轻抖掉水",
+    "example": "I gently shook off the excess water."
+  },
+  {
+    "type": "word",
+    "front": "wipe something dry vs let dry out",
+    "meaning": "擦干表面 vs 让内部逐渐干透",
+    "example": "I wiped it dry and let it dry out."
+  },
+  {
+    "type": "word",
+    "front": "good airflow / hardly any airflow",
+    "meaning": "通风良好／几乎不通风",
+    "example": "Leave it somewhere with good airflow."
+  },
+  {
+    "type": "word",
+    "front": "be tempted to do something",
+    "meaning": "忍不住想做某事",
+    "example": "I was tempted to turn it back on."
+  },
+  {
+    "type": "word",
+    "front": "plug in / unplug / charging port",
+    "meaning": "插电／拔插头／充电口",
+    "example": "Do not plug it in while the port is wet."
+  },
+  {
+    "type": "word",
+    "front": "turn something back on",
+    "meaning": "重新打开",
+    "example": "I waited before turning the phone back on."
+  },
+  {
+    "type": "word",
+    "front": "boulder / boulder field",
+    "meaning": "巨石／巨石区 小卵石 → 石头 → 岩石",
+    "example": "We climbed past a large boulder."
+  },
+  {
+    "type": "word",
+    "front": "pebble → stone → rock → boulder",
+    "meaning": "小卵石 → 石头 → 岩石 → 巨石",
+    "example": "A boulder blocked the trail."
+  },
+  {
+    "type": "word",
+    "front": "narrow gap / squeeze through a gap",
+    "meaning": "狭窄缝隙／挤过缝隙",
+    "example": "I squeezed through a narrow gap."
+  },
+  {
+    "type": "word",
+    "front": "turn sideways",
+    "meaning": "侧身",
+    "example": "I had to turn sideways to fit through."
+  },
+  {
+    "type": "word",
+    "front": "back out (of a gap)",
+    "meaning": "从缝隙中倒退出来",
+    "example": "I carefully backed out of the gap."
+  },
+  {
+    "type": "word",
+    "front": "back out vs backtrack",
+    "meaning": "从某空间退出 vs 沿原路折返",
+    "example": "We backtracked to the previous junction."
+  },
+  {
+    "type": "word",
+    "front": "crouch down → crawl through",
+    "meaning": "蹲低 → 爬行穿过 低矮突出岩壁／低头钻",
+    "example": "I crouched down and crawled through."
+  },
+  {
+    "type": "word",
+    "front": "low overhang / duck under",
+    "meaning": "低矮突出岩壁／低头钻过",
+    "example": "Duck under the overhang."
+  },
+  {
+    "type": "word",
+    "front": "brush the dust off",
+    "meaning": "掸掉灰尘",
+    "example": "I brushed the dust off my jacket."
+  },
+  {
+    "type": "word",
+    "front": "put my backpack back on",
+    "meaning": "重新背上背包",
+    "example": "I put my pack back on."
+  },
+  {
+    "type": "word",
+    "front": "drain properly / drain (noun)",
+    "meaning": "排水顺畅／排水口",
+    "example": "The sink is not draining properly."
+  },
+  {
+    "type": "word",
+    "front": "fill up / be clogged / overflow",
+    "meaning": "逐渐装满／堵塞／溢出",
+    "example": "The sink was filling up."
+  },
+  {
+    "type": "word",
+    "front": "bits of food / leftovers",
+    "meaning": "食物碎屑／剩余食物",
+    "example": "Scrape the leftovers off the plates."
+  },
+  {
+    "type": "word",
+    "front": "scrape something off",
+    "meaning": "刮去附着物",
+    "example": "Scrape the food off the plate."
+  },
+  {
+    "type": "word",
+    "front": "rinse under running water",
+    "meaning": "用流动水冲洗",
+    "example": "Rinse the plates under running water."
+  },
+  {
+    "type": "word",
+    "front": "stack the dishes vs pile up",
+    "meaning": "整齐叠放餐具 vs 随意堆放",
+    "example": "Stack the dishes on the rack."
+  },
+  {
+    "type": "word",
+    "front": "drying rack",
+    "meaning": "沥水架／晾衣架",
+    "example": "Put the plates on the drying rack."
+  },
+  {
+    "type": "word",
+    "front": "clear a blockage",
+    "meaning": "清除堵塞",
+    "example": "I cleared the blockage."
+  },
+  {
+    "type": "word",
+    "front": "shake off excess water",
+    "meaning": "甩掉多余水分",
+    "example": "Shake the water off gently."
+  },
+  {
+    "type": "word",
+    "front": "leave to air-dry",
+    "meaning": "放着自然风干",
+    "example": "Leave the dishes to air-dry."
+  },
+  {
+    "type": "word",
+    "front": "soak vs scrub vs rinse",
+    "meaning": "浸泡 vs 刷洗 vs 冲洗",
+    "example": "Soak it, scrub it, then rinse it."
+  },
+  {
+    "type": "word",
+    "front": "check-in counter",
+    "meaning": "值机柜台",
+    "example": "I arrived at the check-in counter."
+  },
+  {
+    "type": "word",
+    "front": "scale / put suitcase on scale",
+    "meaning": "秤／把箱子放秤上",
+    "example": "Put your suitcase on the scale."
+  },
+  {
+    "type": "word",
+    "front": "three kilos overweight",
+    "meaning": "超重三公斤",
+    "example": "The suitcase is three kilos overweight."
+  },
+  {
+    "type": "word",
+    "front": "overweight vs oversized vs bulky",
+    "meaning": "超重 vs 超尺寸 vs 体积大",
+    "example": "It is bulky but not overweight."
+  },
+  {
+    "type": "word",
+    "front": "rearrange my luggage / furniture / schedule",
+    "meaning": "重整行李／家具／安排",
+    "example": "I rearranged my luggage."
+  },
+  {
+    "type": "word",
+    "front": "unzip / zip back up",
+    "meaning": "拉开拉链／重新拉好",
+    "example": "I unzipped the suitcase and zipped it back up."
+  },
+  {
+    "type": "word",
+    "front": "stuff into a bag",
+    "meaning": "塞进包",
+    "example": "I stuffed the jacket into my carry-on."
+  },
+  {
+    "type": "word",
+    "front": "carry-on bag vs checked baggage",
+    "meaning": "随身行李 vs 托运行李",
+    "example": "I moved the books into my carry-on bag."
+  },
+  {
+    "type": "word",
+    "front": "within the weight / time limit / budget",
+    "meaning": "在重量／时间／预算限 制内",
+    "example": "Now it is within the weight limit."
+  },
+  {
+    "type": "word",
+    "front": "attach a baggage tag / check in a bag",
+    "meaning": "贴上行李标签／托运",
+    "example": "The agent attached a baggage tag."
+  },
+  {
+    "type": "word",
+    "front": "wander off the trail / marked route",
+    "meaning": "不知不觉偏离小路／标记路线",
+    "example": "I wandered off the marked route."
+  },
+  {
+    "type": "word",
+    "front": "marked route / waymark",
+    "meaning": "有标记路线／路标",
+    "example": "I had not seen a waymark for a while."
+  },
+  {
+    "type": "word",
+    "front": "trail junction",
+    "meaning": "徒步岔路口",
+    "example": "We stopped at a junction."
+  },
+  {
+    "type": "word",
+    "front": "landmark / familiar landmark",
+    "meaning": "地标／熟悉的地物 弄清位置／想出解决办",
+    "example": "Look for familiar landmarks."
+  },
+  {
+    "type": "word",
+    "front": "work out where I am / a solution",
+    "meaning": "弄清位置／想出解决办法",
+    "example": "I tried to work out where I was."
+  },
+  {
+    "type": "word",
+    "front": "match the terrain / not match the map",
+    "meaning": "和地形匹配／与地图对不上",
+    "example": "The terrain did not match my map."
+  },
+  {
+    "type": "word",
+    "front": "be off course / get farther off course",
+    "meaning": "走偏／越走越偏",
+    "example": "We are getting farther off course."
+  },
+  {
+    "type": "word",
+    "front": "retrace my steps",
+    "meaning": "沿来路返回",
+    "example": "I retraced my steps to the last junction."
+  },
+  {
+    "type": "word",
+    "front": "get my bearings",
+    "meaning": "确认位置和方位",
+    "example": "Give me a minute to get my bearings."
+  },
+  {
+    "type": "word",
+    "front": "rather than push on",
+    "meaning": "而不是硬往前走",
+    "example": "I turned back rather than pushing on."
+  },
+  {
+    "type": "word",
+    "front": "damp vs humid vs moist",
+    "meaning": "物体潮湿 vs 空气湿润 vs 适度湿润",
+    "example": "The clothes are damp because the room is humid."
+  },
+  {
+    "type": "word",
+    "front": "hardly any airflow",
+    "meaning": "几乎不通风",
+    "example": "There is hardly any airflow."
+  },
+  {
+    "type": "word",
+    "front": "give something a (good) shake",
+    "meaning": "把某物用力抖一抖",
+    "example": "Give the jacket a good shake."
+  },
+  {
+    "type": "word",
+    "front": "shake off vs give a shake",
+    "meaning": "甩掉附着物 vs 做抖动动作",
+    "example": "Shake off the excess water."
+  },
+  {
+    "type": "word",
+    "front": "hang clothes farther apart",
+    "meaning": "衣服挂得更分散",
+    "example": "Hang the clothes farther apart."
+  },
+  {
+    "type": "word",
+    "front": "too close together / spread out",
+    "meaning": "挨太近／分散展开",
+    "example": "The shirts are too close together."
+  },
+  {
+    "type": "word",
+    "front": "squeeze out vs wring out",
+    "meaning": "挤出 vs 拧干",
+    "example": "Squeeze the sponge, but wring out the towel."
+  },
+  {
+    "type": "word",
+    "front": "smell musty vs be moldy",
+    "meaning": "有霉味 vs 长了霉",
+    "example": "The room smells musty but I cannot see mold."
+  },
+  {
+    "type": "word",
+    "front": "leave something sitting there",
+    "meaning": "让某物一直搁着",
+    "example": "Do not leave wet clothes sitting in the machine."
+  },
+  {
+    "type": "word",
+    "front": "dry → damp → wet → soaked",
+    "meaning": "干 → 潮 → 湿 → 湿透",
+    "example": "My clothes stayed damp for hours."
+  },
+  {
+    "type": "word",
+    "front": "knock over vs knock off vs tip over",
+    "meaning": "碰翻 vs 从表面碰落 vs 自己翻倒",
+    "example": "I knocked over my glass."
+  },
+  {
+    "type": "word",
+    "front": "spill across vs spill onto",
+    "meaning": "洒过表面 vs 洒到某物上",
+    "example": "Water spilled across the table and onto my trousers."
+  },
+  {
+    "type": "word",
+    "front": "drip over the edge",
+    "meaning": "沿边缘滴落",
+    "example": "Water was dripping over the edge."
+  },
+  {
+    "type": "word",
+    "front": "soak up the water / spill",
+    "meaning": "吸掉水／洒出的液体",
+    "example": "Use napkins to soak up the water."
+  },
+  {
+    "type": "word",
+    "front": "soak in vs soak up",
+    "meaning": "浸泡在……中 vs 吸收液体",
+    "example": "The cloth soaked up the spill."
+  },
+  {
+    "type": "word",
+    "front": "seep into / seep through",
+    "meaning": "慢慢渗入／渗透 餐巾纸／厨房纸／面巾",
+    "example": "Water seeped into the fabric."
+  },
+  {
+    "type": "word",
+    "front": "napkin / paper towel / tissue",
+    "meaning": "餐巾纸／厨房纸／面巾纸",
+    "example": "Grab a few napkins."
+  },
+  {
+    "type": "word",
+    "front": "move something out of the way",
+    "meaning": "把某物挪开免得碍事 换桌／改路线／改用现",
+    "example": "Move the bag out of the way."
+  },
+  {
+    "type": "word",
+    "front": "switch to another table / route / cash",
+    "meaning": "换桌／改路线／改用现金",
+    "example": "Can we switch to another table?"
+  },
+  {
+    "type": "word",
+    "front": "wipe down / wipe dry",
+    "meaning": "整体擦拭／擦干",
+    "example": "The waiter wiped down the table."
+  },
+  {
+    "type": "word",
+    "front": "scree slope / gravel / boulder field",
+    "meaning": "碎石坡／砾石／巨石区 松动岩石／不稳定脚下",
+    "example": "The trail crossed a steep scree slope."
+  },
+  {
+    "type": "word",
+    "front": "loose rocks / unstable footing",
+    "meaning": "松动岩石／不稳定脚下条件",
+    "example": "Watch out for loose rocks."
+  },
+  {
+    "type": "word",
+    "front": "shift underneath my feet",
+    "meaning": "在我脚下移动",
+    "example": "The gravel kept shifting underneath me."
+  },
+  {
+    "type": "word",
+    "front": "footing vs foothold",
+    "meaning": "整体落脚条件 vs 具体落脚点",
+    "example": "I could not find a firm foothold."
+  },
+  {
+    "type": "word",
+    "front": "firm foothold",
+    "meaning": "稳 固 的 落 脚 点",
+    "example": "Look for a firm foothold."
+  },
+  {
+    "type": "word",
+    "front": "shift your weight onto / keep weight over feet",
+    "meaning": "转移重心到……／让重心保持在脚上方",
+    "example": "Shift your weight onto your left foot."
+  },
+  {
+    "type": "word",
+    "front": "tumble downhill vs roll downhill",
+    "meaning": "不规则翻滚下坡 vs 滚下坡",
+    "example": "A rock tumbled downhill."
+  },
+  {
+    "type": "word",
+    "front": "rattle / rattling stones",
+    "meaning": "哗啦作响／石块碰撞声",
+    "example": "I heard stones rattling above me."
+  },
+  {
+    "type": "word",
+    "front": "traverse a slope / cross the slope",
+    "meaning": "横切山坡",
+    "example": "We traversed the steep slope."
+  },
+  {
+    "type": "word",
+    "front": "ascend / descend / traverse",
+    "meaning": "上升／下降／横切",
+    "example": "We descended before traversing the slope."
+  },
+  {
+    "type": "word",
+    "front": "make your way across",
+    "meaning": "逐渐、小心穿过",
+    "example": "We made our way across the loose rocks."
+  },
+  {
+    "type": "word",
+    "front": "portable charger / power bank",
+    "meaning": "便携充电器／充电宝",
+    "example": "I bought a portable charger."
+  },
+  {
+    "type": "word",
+    "front": "faulty vs defective vs damaged vs worn out",
+    "meaning": "有故障 vs 有缺陷 vs 受损 vs 用旧磨损",
+    "example": "The charger seemed faulty."
+  },
+  {
+    "type": "word",
+    "front": "plug in / would not charge",
+    "meaning": "插电／就是充不进去电",
+    "example": "I plugged it in but it would not charge."
+  },
+  {
+    "type": "word",
+    "front": "take something back to the store",
+    "meaning": "把商品拿回商店退换",
+    "example": "I took it back with the receipt."
+  },
+  {
+    "type": "word",
+    "front": "receipt / proof of purchase",
+    "meaning": "收据／购买凭证",
+    "example": "Do you have proof of purchase?"
+  },
+  {
+    "type": "word",
+    "front": "exchange A for B",
+    "meaning": "用A换B",
+    "example": "Can I exchange it for a new one?"
+  },
+  {
+    "type": "word",
+    "front": "ask for / get / issue a refund",
+    "meaning": "要求／获得／办理退款",
+    "example": "I asked for a refund instead."
+  },
+  {
+    "type": "word",
+    "front": "process a return / refund / payment",
+    "meaning": "处理退货／退款／支付",
+    "example": "The assistant processed the return."
+  },
+  {
+    "type": "word",
+    "front": "store credit",
+    "meaning": "商店购物余额／额度",
+    "example": "They offered store credit instead."
+  },
+  {
+    "type": "word",
+    "front": "money go back onto my card",
+    "meaning": "钱退回银行卡",
+    "example": "The money will go back onto your card."
+  },
+  {
+    "type": "word",
+    "front": "slip off the chainring",
+    "meaning": "从齿盘滑脱",
+    "example": "The chain slipped off the front chainring."
+  },
+  {
+    "type": "word",
+    "front": "chain / chainring / pedal",
+    "meaning": "链条／前齿盘／踏板",
+    "example": "The pedals started spinning freely."
+  },
+  {
+    "type": "word",
+    "front": "spin freely",
+    "meaning": "自由旋转、空转",
+    "example": "The wheel spins freely."
+  },
+  {
+    "type": "word",
+    "front": "turn vs rotate vs spin",
+    "meaning": "转动 vs 旋转（偏正式）vs 连续旋转",
+    "example": "Spin the wheel by hand."
+  },
+  {
+    "type": "word",
+    "front": "pull over to the side",
+    "meaning": "靠路边停车",
+    "example": "I pulled over to check the chain."
+  },
+  {
+    "type": "word",
+    "front": "turn upside down vs turn sideways",
+    "meaning": "倒过来 vs 侧转",
+    "example": "I turned the bike upside down."
+  },
+  {
+    "type": "word",
+    "front": "put the chain back on",
+    "meaning": "把链条装回",
+    "example": "Put the chain back on the chainring."
+  },
+  {
+    "type": "word",
+    "front": "by hand / turn the pedals by hand",
+    "meaning": "手动／用手转动踏板 润滑脂／油腻／沾满油",
+    "example": "I turned the pedals by hand."
+  },
+  {
+    "type": "word",
+    "front": "grease / greasy / covered in grease",
+    "meaning": "润滑脂／油腻／沾满油脂",
+    "example": "My fingers were covered in grease."
+  },
+  {
+    "type": "word",
+    "front": "test ride / test drive",
+    "meaning": "试骑／试驾",
+    "example": "I took the bike for a short test ride."
+  },
+  {
+    "type": "word",
+    "front": "run smoothly",
+    "meaning": "运转顺畅",
+    "example": "Everything was running smoothly."
+  },
+  {
+    "type": "word",
+    "front": "wash away / washed out",
+    "meaning": "被水冲走／被冲毁",
+    "example": "Part of the trail was washed away."
+  },
+  {
+    "type": "word",
+    "front": "wash off vs wash away",
+    "meaning": "从表面洗掉 vs 整体冲走",
+    "example": "Rain washed away the path."
+  },
+  {
+    "type": "word",
+    "front": "swell / swollen river / stream",
+    "meaning": "涨大／暴涨的河／溪",
+    "example": "The stream had swollen overnight."
+  },
+  {
+    "type": "word",
+    "front": "erode the bank / erosion",
+    "meaning": "侵蚀河岸／侵蚀",
+    "example": "The water eroded the bank."
+  },
+  {
+    "type": "word",
+    "front": "collapse / collapsed bridge",
+    "meaning": "坍塌／坍塌的桥 突然支撑不住／地面塌",
+    "example": "Part of the bridge collapsed."
+  },
+  {
+    "type": "word",
+    "front": "give way / ground gives way",
+    "meaning": "突然支撑不住／地面塌陷",
+    "example": "The bridge gave way under the load."
+  },
+  {
+    "type": "word",
+    "front": "debris / scattered debris",
+    "meaning": "残骸、碎屑／散落残骸",
+    "example": "Debris was piled up downstream."
+  },
+  {
+    "type": "word",
+    "front": "debris vs shards",
+    "meaning": "片",
+    "example": "Broken branches and other debris filled the stream."
+  },
+  {
+    "type": "word",
+    "front": "stay well back / well away from",
+    "meaning": "退到足够远的距离",
+    "example": "Stay well back from the edge."
+  },
+  {
+    "type": "word",
+    "front": "higher ground",
+    "meaning": "地势更高的地方",
+    "example": "Move to higher ground."
+  },
+  {
+    "type": "word",
+    "front": "follow a marked detour",
+    "meaning": "沿着标记好的绕行路线",
+    "example": "We followed a marked detour."
+  },
+  {
+    "type": "word",
+    "front": "get tangled up / tangled hair",
+    "meaning": "缠乱／打结的头发",
+    "example": "The cable was completely tangled up."
+  },
+  {
+    "type": "word",
+    "front": "wrap around something",
+    "meaning": "围绕某物缠绕 打结／收紧／放松／解",
+    "example": "The cable wrapped around my keys."
+  },
+  {
+    "type": "word",
+    "front": "tie / tighten / loosen / untie a knot",
+    "meaning": "打结／收紧／放松／解结",
+    "example": "There was a tight knot near the end."
+  },
+  {
+    "type": "word",
+    "front": "pull something apart",
+    "meaning": "把某物拉开",
+    "example": "Pulling the wires apart made things worse."
+  },
+  {
+    "type": "word",
+    "front": "untangle the cable / hair",
+    "meaning": "解开缠绕的线／头发",
+    "example": "I untangled the cable."
+  },
+  {
+    "type": "word",
+    "front": "twist vs tangle / untwist",
+    "meaning": "扭转 vs 缠乱／解开扭转",
+    "example": "I untwisted the cable."
+  },
+  {
+    "type": "word",
+    "front": "straighten out the cable / collar",
+    "meaning": "理直线／理平衣领 纤维磨散／磨损绳子／",
+    "example": "Straighten out the cable."
+  },
+  {
+    "type": "word",
+    "front": "fray / frayed rope / frayed edges",
+    "meaning": "纤维磨散／磨损绳子／磨散边缘",
+    "example": "The insulation was starting to fray."
+  },
+  {
+    "type": "word",
+    "front": "connector / insulation",
+    "meaning": "接头／绝缘层",
+    "example": "The cable was frayed near the connector."
+  },
+  {
+    "type": "word",
+    "front": "coil up a cable / rope",
+    "meaning": "把线／绳子盘成圈",
+    "example": "Coil the cable up neatly."
+  },
+  {
+    "type": "word",
+    "front": "mix-up / there has been a mix-up",
+    "meaning": "弄混／发生了差错",
+    "example": "There seems to have been a mix-up."
+  },
+  {
+    "type": "word",
+    "front": "bring out the food / food comes out",
+    "meaning": "端菜出来／菜上了",
+    "example": "The waiter brought out the food."
+  },
+  {
+    "type": "word",
+    "front": "flag down a waiter / taxi",
+    "meaning": "招 呼 服 务 员 ／招手拦车",
+    "example": "I flagged down the waiter."
+  },
+  {
+    "type": "word",
+    "front": "be backed up / kitchen backed up / traffic backed up",
+    "meaning": "订单或交通积压",
+    "example": "The kitchen is pretty backed up."
+  },
+  {
+    "type": "word",
+    "front": "get held up / order held up",
+    "meaning": "被耽搁／订单延误",
+    "example": "My order has been held up."
+  },
+  {
+    "type": "word",
+    "front": "check on my order / check on someone",
+    "meaning": "查看订单进度／看看某人状况",
+    "example": "Could you check on my order?"
+  },
+  {
+    "type": "word",
+    "front": "on the house",
+    "meaning": "店家免费赠送",
+    "example": "Dessert is on the house."
+  },
+  {
+    "type": "word",
+    "front": "make up for the delay / lost time",
+    "meaning": "弥补延误／耽误的时间",
+    "example": "The dessert was meant to make up for the delay."
+  },
+  {
+    "type": "word",
+    "front": "roughly how long will it take?",
+    "meaning": "大约还要多久？",
+    "example": "Do you know roughly how long it will take?"
+  },
+  {
+    "type": "word",
+    "front": "when you get a chance / no worries",
+    "meaning": "方便时／没关系",
+    "example": "Could you check when you get a chance?"
+  },
+  {
+    "type": "word",
+    "front": "fresh / powdery / packed / icy / slushy snow",
+    "meaning": "新雪／粉雪／踩实的雪／结冰雪／湿软雪泥",
+    "example": "The snow was soft and powdery."
+  },
+  {
+    "type": "word",
+    "front": "pack down snow / soil",
+    "meaning": "踩实积雪／压实土壤 冻结 → 融化 → 重新冻",
+    "example": "The snow was packed down by hikers."
+  },
+  {
+    "type": "word",
+    "front": "freeze → melt → refreeze",
+    "meaning": "结",
+    "example": "The snow melted and refroze overnight."
+  },
+  {
+    "type": "word",
+    "front": "icy patch / a patch of snow",
+    "meaning": "局部冰面／一片雪",
+    "example": "Watch out for icy patches."
+  },
+  {
+    "type": "word",
+    "front": "crunch underfoot / crunch under boots",
+    "meaning": "脚下发出咯吱声",
+    "example": "The snow crunched underfoot."
+  },
+  {
+    "type": "word",
+    "front": "crust / hard snow crust",
+    "meaning": "表层硬壳／硬雪壳",
+    "example": "The hard crust gave way."
+  },
+  {
+    "type": "word",
+    "front": "give way (support collapses)",
+    "meaning": "支撑突然失效",
+    "example": "The snow crust gave way under my foot."
+  },
+  {
+    "type": "word",
+    "front": "sink – sank – sunk / sink into",
+    "meaning": "下沉／陷进",
+    "example": "My boot sank into the snow."
+  },
+  {
+    "type": "word",
+    "front": "slushy / turn slushy",
+    "meaning": "湿软雪泥状／变成雪泥",
+    "example": "The snow is turning slushy."
+  },
+  {
+    "type": "word",
+    "front": "traction / grip / good grip",
+    "meaning": "抓地力／附着力 背阴路段／结冰更严重",
+    "example": "These boots have little grip on ice."
+  },
+  {
+    "type": "word",
+    "front": "shaded section / icier ridge",
+    "meaning": "背阴路段／结冰更严重的山脊",
+    "example": "The shaded sections were icy."
+  },
+  {
+    "type": "ladder",
+    "front": "leak / drip / spill / overflow",
+    "meaning": "漏／滴／洒／溢",
+    "example": "The bag was leaking and water was dripping on the floor."
+  },
+  {
+    "type": "ladder",
+    "front": "lift → carry → tilt → turn sideways → lower → set down",
+    "meaning": "抬起→搬运→倾斜→侧转→降低→放下",
+    "example": "Lower your end slowly."
+  },
+  {
+    "type": "ladder",
+    "front": "tap → declined → try again → insert → enter PIN → go through",
+    "meaning": "感应→拒付→重试→插卡→输入密码→成功",
+    "example": "The payment finally went through."
+  },
+  {
+    "type": "ladder",
+    "front": "snag → tear → rip → trim → patch → hold together",
+    "meaning": "勾住→撕裂→裂口→修剪→打补丁→维持完整",
+    "example": "The temporary patch held together."
+  },
+  {
+    "type": "ladder",
+    "front": "approach → pull in → come to a stop → get off → pull away",
+    "meaning": "接近→驶入→停稳→下车→驶离",
+    "example": "By the time I looked up, the bus had pulled away."
+  },
+  {
+    "type": "ladder",
+    "front": "rub → irritate → sting → blister forms → cover → adjust",
+    "meaning": "摩擦→刺激→刺痛→水泡形成→覆盖→调整",
+    "example": "The rubbing made my skin sting."
+  },
+  {
+    "type": "ladder",
+    "front": "fresh → stale / wilted / slimy / moldy → spoiled",
+    "meaning": "新鲜→变干／萎蔫／黏滑／发霉→变质",
+    "example": "The lettuce wilted and the bread went moldy."
+  },
+  {
+    "type": "ladder",
+    "front": "slip out → get soaked → turn off → wipe dry → dry out",
+    "meaning": "滑出→湿透→关机→擦干→干透",
+    "example": "I wiped the surface dry and left it to dry out."
+  },
+  {
+    "type": "ladder",
+    "front": "turn sideways → squeeze through → snag → back out → crawl",
+    "meaning": "侧身→挤过→勾住→退出→爬过",
+    "example": "I backed out and crawled under the rock."
+  },
+  {
+    "type": "ladder",
+    "front": "soak → scrub → rinse → stack → shake off → air-dry",
+    "meaning": "泡→刷→冲→叠→甩水→自然风干",
+    "example": "Stack the dishes on the drying rack."
+  },
+  {
+    "type": "ladder",
+    "front": "weigh → overweight → rearrange → move to carry-on → reweigh → check in",
+    "meaning": "称重→超重→重整→移入随身包→重称→托运",
+    "example": "After rearranging, the bag was within the limit."
+  },
+  {
+    "type": "ladder",
+    "front": "wander off → notice waymarks missing → GPS → landmarks → retrace → get bearings",
+    "meaning": "走偏→缺少标记→GPS→地标→折返→确定方位",
+    "example": "I stopped to get my bearings."
+  },
+  {
+    "type": "ladder",
+    "front": "dry → damp → wet → soaked; humid → musty",
+    "meaning": "干→潮→湿→湿透；潮湿空气→霉味",
+    "example": "The humid room made the towels smell musty."
+  },
+  {
+    "type": "ladder",
+    "front": "knock over → spill across → drip → seep into → soak up → wipe dry",
+    "meaning": "碰翻→流过→滴落→渗入→吸掉→擦干",
+    "example": "Water seeped into the fabric."
+  },
+  {
+    "type": "ladder",
+    "front": "loose rocks → gravel shifts → lose foothold → tumble → rattle",
+    "meaning": "松石→砾石移动→失稳→翻滚→碰撞声",
+    "example": "The gravel shifted under my feet."
+  },
+  {
+    "type": "ladder",
+    "front": "faulty → take back → test → exchange / refund → process return",
+    "meaning": "故障→带回→检测→换货／退款→办理",
+    "example": "They processed a refund."
+  },
+  {
+    "type": "ladder",
+    "front": "chain slips off → pedals spin freely → put back on → test ride",
+    "meaning": "链条脱落→踏板空转→装回→试骑",
+    "example": "The pedals spun freely."
+  },
+  {
+    "type": "ladder",
+    "front": "stream swells → bank erodes → trail washes out → bridge gives way",
+    "meaning": "溪水暴涨→冲刷河岸→冲毁山路→桥垮塌",
+    "example": "Part of the footbridge gave way."
+  },
+  {
+    "type": "ladder",
+    "front": "tangle → wrap around → knot → loosen → untwist → straighten → coil up",
+    "meaning": "缠乱→绕住→打结→松开→解扭→理直→盘起",
+    "example": "I untangled and coiled up the cable."
+  },
+  {
+    "type": "ladder",
+    "front": "mix-up → flag down → backed up → held up → check on → on the house",
+    "meaning": "弄混→招呼→积压→延误→催查→店家赠送",
+    "example": "They offered dessert on the house."
+  },
+  {
+    "type": "ladder",
+    "front": "powdery → packed → melt / refreeze → icy / slushy",
+    "meaning": "粉雪→踩实→融化／复冻→结冰／雪泥",
+    "example": "The snow melted and refroze into icy patches."
+  },
+  {
+    "type": "ladder",
+    "front": "solid crust → crust gives way → sink knee-deep",
+    "meaning": "坚实雪壳→突然塌陷→陷至齐膝",
+    "example": "My leg sank knee-deep into the snow."
+  },
+  {
+    "type": "ladder",
+    "front": "roll vs spin vs rotate vs tumble",
+    "meaning": "滚动 vs 连续旋转 vs 旋转改变方向 vs 不规则翻滚",
+    "example": "The rock tumbled downhill while the wheel spun."
+  },
+  {
+    "type": "ladder",
+    "front": "check on an order / check on hikers",
+    "meaning": "跟进订单／看看队员情况",
+    "example": "I checked on the slower hikers."
   },
   {
     "type": "kana",
