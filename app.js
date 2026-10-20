@@ -35,6 +35,8 @@
 
   function itemWeight(item) {
     if (item?.type === "kana") return KANA_WEIGHT;
+    // 用户单独指定的权重按基准值计算，不与后 60% 的 3 倍叠乘。
+    if (Number.isFinite(item?.weight) && item.weight > 0) return item.weight;
     const rank = englishRanks.get(itemKey(item));
     return rank >= boostedFrom ? 3 : 1;
   }
