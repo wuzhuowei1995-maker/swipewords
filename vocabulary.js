@@ -1,4 +1,6 @@
 // SwipeWords：Review 04、05、06 英语词汇与五十音
+// 新增口语表达/固定搭配/句型来自用户上传《English Speaking Vocabulary & Natural Expressions》。
+// 新增词条与重复匹配词条均采用明确 3 倍基准权重，不与后60%默认权重叠乘。
 // 保留英语单卡中英解释与例句。新增 Review 06 场景 40–60 和动作链，按英文正面去重。
 // 抽取权重：英文词库前40%为1倍、后60%为3倍；五十音4倍，冷却50次。
 const VOCABULARY = [
@@ -216,7 +218,8 @@ const VOCABULARY = [
     "type": "word",
     "front": "at the last minute",
     "meaning": "临到最后一刻",
-    "example": "He cancelled at the last minute."
+    "example": "He cancelled at the last minute.",
+    "weight": 3
   },
   {
     "type": "word",
@@ -3915,6 +3918,1166 @@ const VOCABULARY = [
     "example": "Cook the vegetables over high heat.",
     "weight": 3,
     "topic": "cooking_methods"
+  },
+  {
+    "type": "word",
+    "front": "a spare phone",
+    "meaning": "一部备用手机",
+    "example": "I keep a spare phone for emergencies.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "a backup phone",
+    "meaning": "以防万一使用的备用手机",
+    "example": "I always carry a backup phone when I travel.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "my main phone",
+    "meaning": "我的主力手机",
+    "example": "This isn't my main phone; it's a spare.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "my primary phone",
+    "meaning": "我的主要手机",
+    "example": "My primary phone is running out of battery.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "my second phone",
+    "meaning": "我的第二部手机",
+    "example": "I use my second phone when I travel.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "my daily driver",
+    "meaning": "我日常主要使用的设备（科技口语）",
+    "example": "This phone has been my daily driver for two years.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "keep something as a backup",
+    "meaning": "把某物留作备用",
+    "example": "I keep an older laptop as a backup.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "in case my phone dies",
+    "meaning": "以防手机没电",
+    "example": "I brought a charger in case my phone dies.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "switch to another phone",
+    "meaning": "换用另一部手机",
+    "example": "I'll switch to another phone if this one stops working.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "spray perfume on something",
+    "meaning": "往某处喷香水",
+    "example": "Spray perfume on your clothes lightly.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "spritz something on",
+    "meaning": "轻轻喷一点",
+    "example": "I spritz a little perfume on my wrists.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "give something a quick spritz",
+    "meaning": "快速喷一下",
+    "example": "Give your hair a quick spritz of water.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "mist your hair",
+    "meaning": "给头发轻喷一层水雾",
+    "example": "Mist your hair with water before styling it.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "dab perfume on your wrists",
+    "meaning": "往手腕上轻点香水",
+    "example": "I dab perfume on my wrists.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "apply perfume",
+    "meaning": "涂抹或喷洒香水",
+    "example": "Apply perfume sparingly.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "splash water on your face",
+    "meaning": "往脸上泼水",
+    "example": "Splash some water on your face to wake up.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "wet your hair",
+    "meaning": "把头发弄湿",
+    "example": "Wet your hair before applying shampoo.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "blow-dry your hair",
+    "meaning": "用吹风机吹干头发",
+    "example": "I blow-dry my hair after a shower.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "let your hair air-dry",
+    "meaning": "让头发自然风干",
+    "example": "I prefer to let my hair air-dry.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "soak into something",
+    "meaning": "渗入某物",
+    "example": "Give the sauce time to soak into the meat.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "spread evenly",
+    "meaning": "均匀涂开、分布",
+    "example": "Spread the cream evenly over your skin.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "breezy",
+    "meaning": "微风习习的",
+    "example": "It's a lovely breezy day for a walk.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "a light breeze",
+    "meaning": "一阵微风",
+    "example": "A light breeze made the walk more comfortable.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "gusty",
+    "meaning": "阵风较多的",
+    "example": "It's really gusty out today.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "a sudden gust of wind",
+    "meaning": "一阵突如其来的强风",
+    "example": "A sudden gust of wind almost knocked me over.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "strong gusts",
+    "meaning": "强阵风",
+    "example": "Strong gusts made cycling difficult.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "howling wind",
+    "meaning": "呼啸的风",
+    "example": "We could hear the howling wind outside.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "rain pelting down",
+    "meaning": "雨猛烈地下着",
+    "example": "I could feel the rain pelting down on me.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "rain pelting against the window",
+    "meaning": "雨猛烈敲打窗户",
+    "example": "The rain was pelting against the window.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "get caught in a downpour",
+    "meaning": "遭遇倾盆大雨",
+    "example": "I got caught in a downpour on my way home.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "pouring rain",
+    "meaning": "倾盆大雨",
+    "example": "I had to walk through the pouring rain.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "soaking wet",
+    "meaning": "湿透了",
+    "example": "My clothes were soaking wet.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "drenched",
+    "meaning": "浑身湿透的",
+    "example": "I got caught in a downpour and ended up drenched.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "slippery roads",
+    "meaning": "湿滑的道路",
+    "example": "Be careful on slippery roads after the rain.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "outdoor activities",
+    "meaning": "户外活动",
+    "example": "Strong gusts can make outdoor activities risky.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "get delayed",
+    "meaning": "被延误",
+    "example": "My train got delayed again.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "be running late",
+    "meaning": "运行晚点",
+    "example": "The train is running late this morning.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "be delayed by 20 minutes",
+    "meaning": "晚点20分钟",
+    "example": "Our train was delayed by 20 minutes.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "change platforms",
+    "meaning": "更换站台",
+    "example": "We had to change platforms at the station.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "a platform change",
+    "meaning": "站台变更",
+    "example": "There was a last-minute platform change.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "switch to another platform",
+    "meaning": "改到另一个站台",
+    "example": "We had to switch to another platform.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "a last-minute platform change",
+    "meaning": "临时站台变更",
+    "example": "A last-minute platform change caught me off guard.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "how often something happens",
+    "meaning": "某件事发生得多么频繁",
+    "example": "I'm surprised by how often this happens.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "It happens a lot.",
+    "meaning": "这种事经常发生",
+    "example": "It happens a lot on this route.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "catch a train",
+    "meaning": "赶上、乘坐火车",
+    "example": "I need to catch a train to Vilnius.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "miss a train",
+    "meaning": "错过火车",
+    "example": "I don't want to miss my train.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "rush to the platform",
+    "meaning": "匆忙赶往站台",
+    "example": "We had to rush to the platform.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "loudspeaker",
+    "meaning": "扬声器、大喇叭",
+    "example": "The announcement came through the loudspeaker.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "public-address system (PA system)",
+    "meaning": "公共广播系统",
+    "example": "The PA system was hard to hear.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "announcement",
+    "meaning": "广播通知",
+    "example": "I missed the announcement about the platform.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "muffled",
+    "meaning": "声音发闷、不清晰",
+    "example": "Why do station announcements sound so muffled?",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "muddy",
+    "meaning": "声音浑浊、细节不清",
+    "example": "The audio sounded muddy and unclear.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "hollow",
+    "meaning": "空洞的、带空腔感的",
+    "example": "The recording sounded hollow.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "crisp and clear",
+    "meaning": "清脆而清晰",
+    "example": "Her voice came through crisp and clear.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "high-fidelity sound",
+    "meaning": "高保真声音",
+    "example": "These headphones produce high-fidelity sound.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "background noise",
+    "meaning": "背景噪声",
+    "example": "The announcement was lost in the background noise.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "echoes",
+    "meaning": "回声",
+    "example": "The tunnel was full of echoes.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "mid-range frequencies",
+    "meaning": "中频",
+    "example": "The mid-range frequencies sounded too strong.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "sound distortion",
+    "meaning": "声音失真",
+    "example": "There was a lot of sound distortion.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "sound compression",
+    "meaning": "音频压缩",
+    "example": "Sound compression can affect the clarity of audio.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "blur together",
+    "meaning": "模糊地混在一起",
+    "example": "The different voices seem to blur together.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "run together",
+    "meaning": "声音或单词连成一片",
+    "example": "The words all seem to run together.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "get drowned out",
+    "meaning": "被其他声音盖过",
+    "example": "The announcement got drowned out by the noise.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "make something out",
+    "meaning": "听清、辨认出某事物",
+    "example": "I could barely make out what they were saying.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "sound squished",
+    "meaning": "听起来像被挤在一起（形象、非正式说法）",
+    "example": "The recording sounded squished and flat.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "sound blurry",
+    "meaning": "听起来模糊（比喻用法）",
+    "example": "The audio sounded blurry rather than clear.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "passive vocabulary",
+    "meaning": "被动词汇（认识但未必会用）",
+    "example": "I recognize the word, but it's still part of my passive vocabulary.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "active vocabulary",
+    "meaning": "主动词汇（能主动使用）",
+    "example": "I want to turn more words into active vocabulary.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "recognize a word",
+    "meaning": "认出一个单词",
+    "example": "I can recognize a word without knowing how to use it.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "actively use a word",
+    "meaning": "主动使用一个单词",
+    "example": "Try to actively use a word in a conversation.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "retrieve a word",
+    "meaning": "从记忆中提取单词",
+    "example": "Sometimes I can't retrieve a word quickly enough.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "word retrieval",
+    "meaning": "词汇提取",
+    "example": "Word retrieval gets easier with practice.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "struggle to find the right words",
+    "meaning": "难以找到合适的措辞",
+    "example": "I often struggle to find the right words.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "put something into words",
+    "meaning": "用语言表达某事",
+    "example": "It's hard to put that feeling into words.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "put something into simple terms",
+    "meaning": "用简单的话解释某事",
+    "example": "Can you put that into simple terms?",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "overcomplicate things",
+    "meaning": "把事情弄得过于复杂",
+    "example": "I tend to overcomplicate things when I speak.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "sound overly formal",
+    "meaning": "听起来过于正式",
+    "example": "That expression might sound overly formal.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "sound unnatural",
+    "meaning": "听起来不自然",
+    "example": "I know the grammar is right, but it can sound unnatural.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "make something sound complicated",
+    "meaning": "把某事说得很复杂",
+    "example": "I sometimes make simple ideas sound complicated.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "use abstract language",
+    "meaning": "使用抽象的语言",
+    "example": "Try not to use abstract language for everyday things.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "get your point across",
+    "meaning": "把自己的意思表达清楚",
+    "example": "I can get my point across, but I don't always sound natural.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "come naturally",
+    "meaning": "自然而然地做到",
+    "example": "These expressions will come naturally with practice.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "think on your feet",
+    "meaning": "临场快速思考并回应",
+    "example": "You need to think on your feet in a fast conversation.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "under pressure",
+    "meaning": "在压力下",
+    "example": "I struggle to respond under pressure.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "a sarcastic remark",
+    "meaning": "讽刺性评论",
+    "example": "That sounded more like a sarcastic remark.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "take something literally",
+    "meaning": "从字面上理解某事",
+    "example": "Don't take everything I say literally.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "sound like Shakespeare",
+    "meaning": "听起来像莎士比亚（夸张或调侃）",
+    "example": "That sentence makes me sound like Shakespeare.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "a staff member",
+    "meaning": "一名工作人员",
+    "example": "A staff member helped me find the right platform.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "a member of staff",
+    "meaning": "一名工作人员（英式英语常见）",
+    "example": "I asked a member of staff for help.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "station staff",
+    "meaning": "车站工作人员",
+    "example": "The station staff announced another delay.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "an airline gate agent",
+    "meaning": "航空公司登机口工作人员",
+    "example": "An airline gate agent checked my boarding pass.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "ticket inspector",
+    "meaning": "检票员",
+    "example": "The ticket inspector checked everyone's tickets.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "ticket clerk",
+    "meaning": "售票员、售票窗口工作人员",
+    "example": "I bought my ticket from the ticket clerk.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "customer service representative",
+    "meaning": "客服代表",
+    "example": "A customer service representative explained the refund.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "a service desk",
+    "meaning": "服务台",
+    "example": "I asked for directions at the service desk.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "ask someone for assistance",
+    "meaning": "向某人寻求帮助",
+    "example": "I asked a staff member for assistance.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "sort something out",
+    "meaning": "解决、处理好某件事",
+    "example": "The staff helped me sort everything out.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "point someone in the right direction",
+    "meaning": "为某人指路或提供正确方向",
+    "example": "Could you point me in the right direction?",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "a last-minute plan",
+    "meaning": "最后一刻才制定的计划",
+    "example": "I'm not a big fan of last-minute plans.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "make plans at the last minute",
+    "meaning": "临近时才做计划",
+    "example": "I don't like to make plans at the last minute.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "a spontaneous decision",
+    "meaning": "临时起意、自然产生的决定",
+    "example": "We made a spontaneous decision to go hiking.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "an impromptu trip",
+    "meaning": "即兴安排的旅行",
+    "example": "We took an impromptu trip to the coast.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "on a whim",
+    "meaning": "一时兴起",
+    "example": "I booked the trip on a whim.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "on the spur of the moment",
+    "meaning": "一时冲动、临时起意",
+    "example": "We decided to go hiking on the spur of the moment.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "out of the blue",
+    "meaning": "突如其来、毫无征兆地",
+    "example": "He called me out of the blue.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "plan ahead",
+    "meaning": "提前计划",
+    "example": "I prefer to plan ahead.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "stick to a plan",
+    "meaning": "坚持原计划",
+    "example": "I usually try to stick to a plan.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "play it by ear",
+    "meaning": "到时候看情况再决定",
+    "example": "We haven't decided yet; we'll play it by ear.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "go with the flow",
+    "meaning": "顺其自然、随机应变",
+    "example": "I like to go with the flow when I'm traveling.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "be up for something",
+    "meaning": "愿意参加、乐意做某事",
+    "example": "Are you up for a spontaneous weekend trip?",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "let the meat sit",
+    "meaning": "让肉静置一会儿",
+    "example": "Let the meat sit for ten minutes.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "let the meat rest",
+    "meaning": "让肉在烹饪后静置",
+    "example": "Let the meat rest before slicing it.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "let the sauce soak in",
+    "meaning": "让酱汁渗进去",
+    "example": "Let the sauce soak in for a while.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "soak into the meat",
+    "meaning": "渗入肉中",
+    "example": "Give the marinade time to soak into the meat.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "absorb the sauce",
+    "meaning": "吸收酱汁",
+    "example": "The meat will absorb some of the sauce.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "coat the meat evenly",
+    "meaning": "让酱汁均匀裹住肉",
+    "example": "Make sure to coat the meat evenly.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "let the flavors develop",
+    "meaning": "让风味逐渐形成",
+    "example": "Let the flavors develop over time.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "let the flavors meld",
+    "meaning": "让各种味道融合",
+    "example": "Give it time for the flavors to meld.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "marinate the meat",
+    "meaning": "腌制肉类",
+    "example": "Marinate the meat for at least two hours.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "let it marinate overnight",
+    "meaning": "腌制一整夜",
+    "example": "Let it marinate overnight in the fridge.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "redistribute the juices",
+    "meaning": "让肉汁重新分布",
+    "example": "Let the steak rest to redistribute the juices.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "tender and juicy",
+    "meaning": "鲜嫩多汁",
+    "example": "The chicken was tender and juicy.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "spread the sauce evenly",
+    "meaning": "均匀涂抹酱汁",
+    "example": "Spread the sauce evenly over the meat.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "season the meat",
+    "meaning": "给肉调味",
+    "example": "Season the meat with salt and pepper.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "taut",
+    "meaning": "绷紧的、拉紧的",
+    "example": "The rope was pulled taut.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "taught",
+    "meaning": "teach 的过去式和过去分词",
+    "example": "My teacher taught me that expression yesterday.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "tense",
+    "meaning": "紧张的、肌肉紧绷的",
+    "example": "I was really tense before the interview.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "on edge",
+    "meaning": "神经紧绷、焦躁不安",
+    "example": "I've been feeling on edge lately.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "uptight",
+    "meaning": "紧张拘谨、放松不下来",
+    "example": "He's too uptight to enjoy the party.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "worked up",
+    "meaning": "情绪激动、紧张焦虑",
+    "example": "Try not to get too worked up about it.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "wound up",
+    "meaning": "情绪紧绷、激动的",
+    "example": "I was all wound up after the argument.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "under a lot of stress",
+    "meaning": "承受很大压力",
+    "example": "I've been under a lot of stress this week.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "a bundle of nerves",
+    "meaning": "非常紧张的人",
+    "example": "I was a bundle of nerves before the interview.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "get on someone's nerves",
+    "meaning": "惹某人心烦",
+    "example": "The constant noise is getting on my nerves.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "word",
+    "front": "calm your nerves",
+    "meaning": "平复紧张情绪",
+    "example": "I need a moment to calm my nerves.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "pattern",
+    "front": "feel + object + doing",
+    "meaning": "亲身感受到某个动作正在发生",
+    "example": "I felt the wind blowing against my face.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "pattern",
+    "front": "be surprised by how + adjective / adverb",
+    "meaning": "对某事的程度或频率感到惊讶",
+    "example": "I'm surprised by how often this happens.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "pattern",
+    "front": "It takes time for something to happen",
+    "meaning": "某个过程需要时间",
+    "example": "It takes time for the flavors to develop.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "pattern",
+    "front": "end up + doing / adjective",
+    "meaning": "最终出现某种结果",
+    "example": "We ended up completely drenched.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "pattern",
+    "front": "It's not that..., it's that...",
+    "meaning": "不是……而是……",
+    "example": "It's not that I don't know the words, it's that they don't come naturally.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "pattern",
+    "front": "I find myself + doing",
+    "meaning": "发现自己不知不觉在做某事",
+    "example": "I find myself translating directly from Chinese.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "pattern",
+    "front": "I struggle to...",
+    "meaning": "我很难做到……",
+    "example": "I struggle to find the right words.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "pattern",
+    "front": "I tend to...",
+    "meaning": "我通常会、往往会……",
+    "example": "I tend to overcomplicate things.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "pattern",
+    "front": "I can barely make out...",
+    "meaning": "我几乎无法听清或辨认……",
+    "example": "I can barely make out what they're saying.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
+  },
+  {
+    "type": "pattern",
+    "front": "I'm not a big fan of...",
+    "meaning": "我不太喜欢……",
+    "example": "I'm not a big fan of last-minute plans.",
+    "weight": 3,
+    "topic": "speaking_expressions_v1"
   },
   {
     "type": "kana",
