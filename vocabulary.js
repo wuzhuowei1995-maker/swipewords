@@ -3645,6 +3645,278 @@ const VOCABULARY = [
     "example": "I checked on the slower hikers."
   },
   {
+    "type": "word",
+    "front": "Boil",
+    "meaning": "煮沸、水煮",
+    "example": "Boil the potatoes until they are tender.",
+    "weight": 3,
+    "topic": "cooking_methods"
+  },
+  {
+    "type": "word",
+    "front": "Simmer",
+    "meaning": "小火慢煮、微沸",
+    "example": "Let the sauce simmer gently for ten minutes.",
+    "weight": 3,
+    "topic": "cooking_methods"
+  },
+  {
+    "type": "word",
+    "front": "Poach",
+    "meaning": "低温水煮、浸煮",
+    "example": "Poach the eggs in gently simmering water.",
+    "weight": 3,
+    "topic": "cooking_methods"
+  },
+  {
+    "type": "word",
+    "front": "Blanch",
+    "meaning": "焯水",
+    "example": "Blanch the broccoli in boiling water for a minute.",
+    "weight": 3,
+    "topic": "cooking_methods"
+  },
+  {
+    "type": "word",
+    "front": "Stew",
+    "meaning": "炖煮",
+    "example": "Stew the beef slowly until it is tender.",
+    "weight": 3,
+    "topic": "cooking_methods"
+  },
+  {
+    "type": "word",
+    "front": "Braise",
+    "meaning": "焖炖、红烧",
+    "example": "Braise the meat in a little liquid over low heat.",
+    "weight": 3,
+    "topic": "cooking_methods"
+  },
+  {
+    "type": "word",
+    "front": "Steam",
+    "meaning": "蒸",
+    "example": "Steam the vegetables until they are cooked.",
+    "weight": 3,
+    "topic": "cooking_methods"
+  },
+  {
+    "type": "word",
+    "front": "Fry",
+    "meaning": "煎、炸",
+    "example": "Fry the eggs in a little oil.",
+    "weight": 3,
+    "topic": "cooking_methods"
+  },
+  {
+    "type": "word",
+    "front": "Stir-fry",
+    "meaning": "翻炒",
+    "example": "Stir-fry the vegetables over high heat.",
+    "weight": 3,
+    "topic": "cooking_methods"
+  },
+  {
+    "type": "word",
+    "front": "Pan-fry",
+    "meaning": "平底锅煎",
+    "example": "Pan-fry the fish until the skin is crisp.",
+    "weight": 3,
+    "topic": "cooking_methods"
+  },
+  {
+    "type": "word",
+    "front": "Deep-fry",
+    "meaning": "油炸",
+    "example": "Deep-fry the potatoes until golden brown.",
+    "weight": 3,
+    "topic": "cooking_methods"
+  },
+  {
+    "type": "word",
+    "front": "Shallow-fry",
+    "meaning": "浅油煎炸",
+    "example": "Shallow-fry the cutlets in a layer of oil.",
+    "weight": 3,
+    "topic": "cooking_methods"
+  },
+  {
+    "type": "word",
+    "front": "Sauté",
+    "meaning": "煸炒、少油炒",
+    "example": "Sauté the onions in a little butter.",
+    "weight": 3,
+    "topic": "cooking_methods"
+  },
+  {
+    "type": "word",
+    "front": "Sear",
+    "meaning": "高温煎至表面焦黄",
+    "example": "Sear the steak over high heat.",
+    "weight": 3,
+    "topic": "cooking_methods"
+  },
+  {
+    "type": "word",
+    "front": "Bake",
+    "meaning": "烘焙、烤",
+    "example": "Bake the bread in a preheated oven.",
+    "weight": 3,
+    "topic": "cooking_methods"
+  },
+  {
+    "type": "word",
+    "front": "Roast",
+    "meaning": "烘烤肉类或蔬菜",
+    "example": "Roast the chicken with potatoes.",
+    "weight": 3,
+    "topic": "cooking_methods"
+  },
+  {
+    "type": "word",
+    "front": "Grill",
+    "meaning": "烧烤、炙烤",
+    "example": "Grill the vegetables until lightly charred.",
+    "weight": 3,
+    "topic": "cooking_methods"
+  },
+  {
+    "type": "word",
+    "front": "Barbecue",
+    "meaning": "烧烤",
+    "example": "We barbecued chicken in the backyard.",
+    "weight": 3,
+    "topic": "cooking_methods"
+  },
+  {
+    "type": "word",
+    "front": "Toast",
+    "meaning": "烤脆、烘香",
+    "example": "Toast the bread until golden brown.",
+    "weight": 3,
+    "topic": "cooking_methods"
+  },
+  {
+    "type": "word",
+    "front": "Broil",
+    "meaning": "从上方高温炙烤（美式）",
+    "example": "Broil the fish for a few minutes to brown the top.",
+    "weight": 3,
+    "topic": "cooking_methods"
+  },
+  {
+    "type": "word",
+    "front": "Air-fry",
+    "meaning": "空气炸",
+    "example": "Air-fry the fries until crispy.",
+    "weight": 3,
+    "topic": "cooking_methods"
+  },
+  {
+    "type": "word",
+    "front": "Smoke",
+    "meaning": "烟熏",
+    "example": "Smoke the fish slowly over wood chips.",
+    "weight": 3,
+    "topic": "cooking_methods"
+  },
+  {
+    "type": "word",
+    "front": "Heat",
+    "meaning": "加热",
+    "example": "Heat the oil in a pan.",
+    "weight": 3,
+    "topic": "cooking_methods"
+  },
+  {
+    "type": "word",
+    "front": "Heat up",
+    "meaning": "加热、热一下",
+    "example": "Heat up the soup before serving.",
+    "weight": 3,
+    "topic": "cooking_methods"
+  },
+  {
+    "type": "word",
+    "front": "Reheat",
+    "meaning": "重新加热",
+    "example": "Reheat the leftovers thoroughly.",
+    "weight": 3,
+    "topic": "cooking_methods"
+  },
+  {
+    "type": "word",
+    "front": "Warm up",
+    "meaning": "加热、温热",
+    "example": "Warm up the milk gently.",
+    "weight": 3,
+    "topic": "cooking_methods"
+  },
+  {
+    "type": "word",
+    "front": "Microwave",
+    "meaning": "用微波炉加热",
+    "example": "Microwave the leftovers for two minutes.",
+    "weight": 3,
+    "topic": "cooking_methods"
+  },
+  {
+    "type": "word",
+    "front": "Melt",
+    "meaning": "加热融化",
+    "example": "Melt the butter over low heat.",
+    "weight": 3,
+    "topic": "cooking_methods"
+  },
+  {
+    "type": "word",
+    "front": "Bring to a boil",
+    "meaning": "煮至沸腾",
+    "example": "Bring the water to a boil, then reduce the heat.",
+    "weight": 3,
+    "topic": "cooking_methods"
+  },
+  {
+    "type": "word",
+    "front": "Turn up the heat",
+    "meaning": "调大火",
+    "example": "Turn up the heat to bring the sauce to a boil.",
+    "weight": 3,
+    "topic": "cooking_methods"
+  },
+  {
+    "type": "word",
+    "front": "Turn down the heat",
+    "meaning": "调小火",
+    "example": "Turn down the heat and let the soup simmer.",
+    "weight": 3,
+    "topic": "cooking_methods"
+  },
+  {
+    "type": "word",
+    "front": "Cook over low heat",
+    "meaning": "小火烹饪",
+    "example": "Cook the sauce over low heat.",
+    "weight": 3,
+    "topic": "cooking_methods"
+  },
+  {
+    "type": "word",
+    "front": "Cook over medium heat",
+    "meaning": "中火烹饪",
+    "example": "Cook the eggs over medium heat.",
+    "weight": 3,
+    "topic": "cooking_methods"
+  },
+  {
+    "type": "word",
+    "front": "Cook over high heat",
+    "meaning": "大火烹饪",
+    "example": "Cook the vegetables over high heat.",
+    "weight": 3,
+    "topic": "cooking_methods"
+  },
+  {
     "type": "kana",
     "front": "あ",
     "meaning": "ア",
