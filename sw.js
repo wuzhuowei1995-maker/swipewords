@@ -1,4 +1,4 @@
-const CACHE = "swipewords-v7";
+const CACHE = "swipewords-v8";
 const ASSETS = [
   "./",
   "./index.html",
