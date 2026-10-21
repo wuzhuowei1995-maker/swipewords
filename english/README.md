@@ -12,3 +12,7 @@ Independent iPhone PWA at `/swipewords/english/`, without changing the original 
 Data derived from the four supplied reviews of Oct 18–20, 2026, with cumulative duplicates removed. Includes suggested polished sentences and model paragraphs as study material, not literal conversation transcripts.
 
 To add new items, append objects to `vocabulary.js`, then bump the service-worker cache version.
+
+## 2026-10-21 update
+
+Imported 213 distinct cards from *English Conversation Review Part 2* and removed one prior duplicate (514 total). Includes seven full speaking paragraphs and revised natural sentences. Some originally unpracticed target groups were added with newly authored illustrative examples; this does not imply that they have been practiced.
