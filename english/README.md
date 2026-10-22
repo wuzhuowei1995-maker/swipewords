@@ -20,3 +20,7 @@ Imported 213 distinct cards from *English Conversation Review Part 2* and remove
 ## 2026-10-22 update
 
 Added 129 deduplicated study cards from *English Conversation Review* dated 2026-10-22 (81 source vocabulary groups, 37 corrections, 13 sentence patterns and 5 complete English paragraphs). The library now holds 643 cards. The notes are study content, not a record of mastered expressions.
+
+## 2026-10-22 market discussion continuation
+
+Imported 151 deduplicated English practice cards from the October 22 afternoon Market Discussion document (96 vocabulary groups, 37 natural spoken rewrites, 14 reusable sentence patterns and six English speaking paragraphs in the source). Total: 794 unique cards. Examples describe conversational hypotheses, not verified investment claims or completed mastery.
