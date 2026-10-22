@@ -16,3 +16,7 @@ To add new items, append objects to `vocabulary.js`, then bump the service-worke
 ## 2026-10-21 update
 
 Imported 213 distinct cards from *English Conversation Review Part 2* and removed one prior duplicate (514 total). Includes seven full speaking paragraphs and revised natural sentences. Some originally unpracticed target groups were added with newly authored illustrative examples; this does not imply that they have been practiced.
+
+## 2026-10-22 update
+
+Added 129 deduplicated study cards from *English Conversation Review* dated 2026-10-22 (81 source vocabulary groups, 37 corrections, 13 sentence patterns and 5 complete English paragraphs). The library now holds 643 cards. The notes are study content, not a record of mastered expressions.
