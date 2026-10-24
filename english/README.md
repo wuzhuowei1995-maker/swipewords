@@ -5,7 +5,7 @@ Independent iPhone PWA at `/swipewords/english/`, without changing the original 
 - Shuffle all cards, with no repetition until the deck is exhausted. The order/position persist locally.
 - Vocabulary and collocations: English, Chinese meaning, and a natural example.
 - Full sentences and paragraphs: display original full text only. Long paragraphs can scroll.
-- Tap or swipe left/up to advance (up-swipe on short cards). Swipe right/down for previous cards in the same shuffle round.
+- Tap or swipe in either horizontal direction to advance. On short cards, either vertical swipe advances too. Backward browsing is disabled to enforce the 80-swipe no-repeat requirement.
 - No login, tests, or external dependencies. Service Worker enables offline use after first successful load.
 - iPhone: open the published HTTPS URL in Safari → Share → Add to Home Screen.
 
@@ -24,3 +24,10 @@ Added 129 deduplicated study cards from *English Conversation Review* dated 2026
 ## 2026-10-22 market discussion continuation
 
 Imported 151 deduplicated English practice cards from the October 22 afternoon Market Discussion document (96 vocabulary groups, 37 natural spoken rewrites, 14 reusable sentence patterns and six English speaking paragraphs in the source). Total: 794 unique cards. Examples describe conversational hypotheses, not verified investment claims or completed mastery.
+
+
+## 2026-10-25 Word-based phrase library replacement
+
+The user-edited Word document `英语学习词库_单词搭配与句式_583条.docx` is the sole authority for the phrase/word/pattern pool. The 113 blank rows indicate deliberate deletions: they must **not** be refilled from older material. Exactly 470 nonempty Word entries are retained, with their English expression, Chinese meaning, and example unchanged. The 180 sentence and 31 paragraph cards are preserved byte-for-byte in content. Total: 681 cards.
+
+The app now records up to 80 recently displayed card indices in localStorage and defers them at the next full-deck shuffle boundary. All advances show a different card, with no card shown again in the following 80 swipes, including across shuffle rounds and reopening the app on the same device/browser. Right-swipe/back-navigation was changed to advance for consistent behavior. If the vocabulary's count/content/order changes in a future update, saved index order is invalidated and freshly randomized.
