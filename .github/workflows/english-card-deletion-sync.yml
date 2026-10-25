@@ -1,0 +1,90 @@
+name: Sync English card removals after 30 days
+
+on:
+  schedule:
+    - cron: '17 3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: english-card-deletion-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Apply owner-approved requests older than 30 days
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const { owner, repo } = context.repo;
+            const threshold = 30 * 24 * 60 * 60 * 1000;
+            const issues = await github.paginate(github.rest.issues.listForRepo, {
+              owner, repo, state: 'open', per_page: 100
+            });
+            const due = [];
+            for (const issue of issues) {
+              if (issue.pull_request || issue.user?.login !== owner ||
+                  !issue.title?.startsWith('[English card deletion] ')) continue;
+              if (Date.now() - Date.parse(issue.created_at) < threshold) continue;
+              const match = issue.body?.match(/^ENGLISH_DELETE_REQUEST_V1\s*\nkey=(\S+)/m);
+              if (!match) continue;
+              let key;
+              try { key = decodeURIComponent(match[1]); } catch { continue; }
+              const parts = key.split('\u241f');
+              if (parts.length !== 2 || !['phrase', 'sentence'].includes(parts[0]) ||
+                  !parts[1] || parts[1].length > 5000) continue;
+              due.push({ issue, kind: parts[0], front: parts[1] });
+            }
+            if (!due.length) {
+              core.info('No eligible owner-confirmed deletion requests.');
+              return;
+            }
+            const path = 'english/vocabulary.js';
+            const file = await github.rest.repos.getContent({ owner, repo, path });
+            if (Array.isArray(file.data)) throw Error('Expected vocabulary file.');
+            const original = Buffer.from(file.data.content, 'base64').toString('utf8');
+            const match = original.match(/^window\.ENGLISH_CARDS\s*=\s*(\[[\s\S]*\]);?\s*$/);
+            if (!match) throw Error('Unexpected vocabulary file format.');
+            const entries = JSON.parse(match[1]);
+            const removeKeys = new Set(due.map(d => d.kind + '\u241f' + d.front));
+            const remaining = entries.filter(entry =>
+              !(['phrase', 'sentence'].includes(entry.kind) &&
+                removeKeys.has(entry.kind + '\u241f' + entry.front)));
+            if (remaining.length !== entries.length) {
+              const updated = 'window.ENGLISH_CARDS = ' + JSON.stringify(remaining) + ';\n';
+              await github.rest.repos.createOrUpdateFileContents({
+                owner, repo, path,
+                sha: file.data.sha,
+                message: 'Apply English card deletions approved 30+ days ago',
+                content: Buffer.from(updated, 'utf8').toString('base64')
+              });
+              const swPath = 'english/sw.js';
+              const sw = await github.rest.repos.getContent({ owner, repo, path: swPath });
+              if (Array.isArray(sw.data)) throw Error('Expected service worker file.');
+              const swText = Buffer.from(sw.data.content, 'base64').toString('utf8');
+              const replacement = 'const CACHE="english-random-review-sync-' + Date.now() + '"';
+              const bumped = swText.replace(/const CACHE="[^"]+"/, replacement);
+              if (bumped === swText) throw Error('Could not update offline cache name.');
+              await github.rest.repos.createOrUpdateFileContents({
+                owner, repo, path: swPath,
+                sha: sw.data.sha,
+                message: 'Invalidate offline cache after synchronized deletions',
+                content: Buffer.from(bumped, 'utf8').toString('base64')
+              });
+              core.info('Removed ' + (entries.length - remaining.length) + ' card(s) from GitHub.');
+            }
+            for (const { issue, kind, front } of due) {
+              await github.rest.issues.createComment({
+                owner, repo, issue_number: issue.number,
+                body: '30-day review window completed. The requested ' + kind +
+                  ' card (' + front.slice(0, 80) + ') was synchronized or is already absent.'
+              });
+              await github.rest.issues.update({
+                owner, repo, issue_number: issue.number, state: 'closed'
+              });
+            }
