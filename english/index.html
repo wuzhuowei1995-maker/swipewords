@@ -60,6 +60,8 @@ scrollbar-width:none; -webkit-overflow-scrolling:touch;}
   border-bottom:1px solid #e1e2de;padding:10px 0}
 .review-removed-name{font-size:14px;line-height:1.4;overflow-wrap:anywhere;min-width:0}
 .review-removed-name small{display:block;color:var(--soft);font-size:12px;margin-top:4px}
+.review-row-actions{display:flex;gap:5px;flex-direction:column;align-items:stretch;flex-shrink:0}
+.review-github{font-size:12px;background:#eef2ed;border-color:#cad4c8}
 .review-restore{border:1px solid #c6c9c2;border-radius:9px;background:transparent;
   color:#323831;padding:9px 11px;white-space:nowrap;cursor:pointer;font-size:14px;flex-shrink:0}
 .review-empty{font-size:14px;color:var(--soft);margin:14px 0}
@@ -83,7 +85,7 @@ scrollbar-width:none; -webkit-overflow-scrolling:touch;}
       <summary id="review-manage-title">已移除（0）</summary>
       <div id="review-removed-list" class="review-removed-list"></div>
     </details>
-    <p class="review-footnote">只在这台设备的当前 App 中保存，不会修改 GitHub 词库。可随时恢复。句子和段落不支持移除。</p>
+    <p class="review-footnote">单词、搭配、句子可在本机移出并恢复；段落不变。若希望30天后永久同步到GitHub，需在“已移除”中点击申请按钮，登录GitHub并提交Issue。30天从Issue提交时起算，关闭Issue即可取消。只在App恢复不会自动取消GitHub申请。</p>
   </section>
 </div>
 
