@@ -257,8 +257,9 @@
           "\n30天内如要撤销，请在GitHub关闭此Issue；只在App恢复本机卡片不会取消GitHub申请。";
         const url = "https://github.com/wuzhuowei1995-maker/swipewords/issues/new?title=" +
           encodeURIComponent(title) + "&body=" + encodeURIComponent(issueBody);
-        const opened = window.open && window.open(url, "_blank", "noopener,noreferrer");
-        if (!opened && window.location && window.location.assign) window.location.assign(url);
+        // Opening a link with noopener may return null even if the tab opens.
+        // Do not navigate the PWA as a misleading fallback.
+        if (window.open) window.open(url, "_blank", "noopener,noreferrer");
       });
       const actions = document.createElement("div");
       actions.className = "review-row-actions";
