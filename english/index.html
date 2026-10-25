@@ -49,7 +49,8 @@ scrollbar-width:none; -webkit-overflow-scrolling:touch;}
 .review-head{display:flex;align-items:center;justify-content:space-between;gap:15px}
 .review-head h2{font-size:21px;letter-spacing:-.02em;margin:0;font-weight:680}
 .review-close{border:0;background:transparent;font-size:26px;color:#696a65;min-width:40px;min-height:40px;cursor:pointer}
-.review-current{font-size:15px;color:var(--soft);line-height:1.4;margin:14px 0 14px;overflow-wrap:anywhere}
+.review-current{font-size:15px;color:var(--soft);line-height:1.4;margin:14px 0 8px;overflow-wrap:anywhere}
+.review-progress{font-size:12px;color:#7c7e77;margin:0 0 15px}
 .review-hide{width:100%;font-size:16px;font-weight:620;background:#343b37;color:#fff;border:0;
   padding:16px;border-radius:12px;cursor:pointer}
 .review-hide:disabled{background:#dcded8;color:#767873;cursor:default}
@@ -84,16 +85,17 @@ scrollbar-width:none; -webkit-overflow-scrolling:touch;}
     <div class="review-head"><h2 id="review-title">词条管理</h2>
       <button id="review-close" class="review-close" type="button" aria-label="关闭">×</button></div>
     <p id="review-current" class="review-current"></p>
+    <p id="review-progress" class="review-progress"></p>
     <button id="review-hide" class="review-hide" type="button">将当前词条移出复习</button>
     <details id="review-manage" class="review-manage">
       <summary id="review-manage-title">已移除（0）</summary>
       <div class="review-batch-actions">
-        <button id="review-batch" class="review-batch" type="button">批量提交全部已移除词条（30天后删除）</button>
+        <button id="review-batch" class="review-batch" type="button">批量提交全部已移除词条（12小时后删除）</button>
         <p class="review-batch-note">将所有已移除的单词和句子合并成一份 GitHub 申请；还需在 GitHub 点击 Submit new issue。</p>
       </div>
       <div id="review-removed-list" class="review-removed-list"></div>
     </details>
-    <p class="review-footnote">本机移除立即生效，无须登录。永久删除需要你在 GitHub 提交一次申请，才会进入30天定时删除流程；本机不会自动上传记录。30天内关闭相应 Issue 即可取消；仅在本机恢复不会撤销已提交的申请。<a href="https://github.com/wuzhuowei1995-maker/swipewords/issues" target="_blank" rel="noopener noreferrer">查看／取消 GitHub 申请</a></p>
+    <p class="review-footnote">本机移除立即生效，无须登录。永久删除需要你在 GitHub 提交一次申请，才会进入12小时定时删除流程；本机不会自动上传记录。12小时内关闭相应 Issue 即可取消；仅在本机恢复不会撤销已提交的申请。<a href="https://github.com/wuzhuowei1995-maker/swipewords/issues" target="_blank" rel="noopener noreferrer">查看／取消 GitHub 申请</a></p>
   </section>
 </div>
 
