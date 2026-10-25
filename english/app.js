@@ -26,7 +26,7 @@
     return item.kind + "\u241f" + item.front.trim().toLowerCase().normalize("NFKC").replace(/\s+/g, " ");
   }
   const cardKeys = entries.map(cardKey);
-  const validRemovals = new Set(entries.filter(e => e.kind === "phrase").map(cardKey));
+  const validRemovals = new Set(entries.filter(e => e.kind === "phrase" || e.kind === "sentence").map(cardKey));
 
   function readRemoved() {
     try {
@@ -206,14 +206,15 @@
   }
 
   function refreshManagement() {
-    const canHide = active && active.kind === "phrase";
+    const canHide = active && (active.kind === "phrase" || active.kind === "sentence");
     currentLabel.textContent = active
-      ? (canHide ? "当前词条：" + active.front : "当前为完整句子或段落，不能移除。")
+      ? (canHide ? (active.kind === "sentence" ? "当前句子：" : "当前词条：") + active.front : "完整段落不会从复习中移除。")
       : "";
+    hideBtn.textContent = active && active.kind === "sentence" ? "将当前句子移出复习" : "将当前词条移出复习";
     hideBtn.disabled = !canHide;
     removedLabel.textContent = "已移除（" + removed.size + "）· 点击查看和恢复";
     removedList.textContent = "";
-    const items = entries.filter(e => e.kind === "phrase" && removed.has(cardKey(e)));
+    const items = entries.filter(e => (e.kind === "phrase" || e.kind === "sentence") && removed.has(cardKey(e)));
     if (!items.length) {
       const p = document.createElement("p");
       p.className = "review-empty";
@@ -235,13 +236,36 @@
       restore.textContent = "恢复";
       restore.setAttribute("aria-label", "恢复 " + item.front);
       restore.addEventListener("click", () => {
+        if (window.confirm && !window.confirm(
+          "恢复本机复习？如已在 GitHub 提交30天后删除申请，还必须去 GitHub 关闭该 Issue，否则到期仍会从主词库删除。"
+        )) return;
         removed.delete(cardKey(item));
         saveRemoved();
         reflowAfterRestore();
         refreshManagement();
       });
+      const githubBtn = document.createElement("button");
+      githubBtn.type = "button";
+      githubBtn.className = "review-restore review-github";
+      githubBtn.textContent = "申请 GitHub 30天同步";
+      githubBtn.setAttribute("aria-label", "为 " + item.front + " 申请30天后从GitHub永久删除");
+      githubBtn.addEventListener("click", () => {
+        const encodedKey = encodeURIComponent(item.kind + "\u241f" + item.front);
+        const title = "[English card deletion] " + item.front.slice(0, 80);
+        const issueBody = "ENGLISH_DELETE_REQUEST_V1\nkey=" + encodedKey +
+          "\n\n从此 Issue 正式提交之日起满30天，仓库定时任务将从GitHub词库永久移除这张卡片。" +
+          "\n30天内如要撤销，请在GitHub关闭此Issue；只在App恢复本机卡片不会取消GitHub申请。";
+        const url = "https://github.com/wuzhuowei1995-maker/swipewords/issues/new?title=" +
+          encodeURIComponent(title) + "&body=" + encodeURIComponent(issueBody);
+        const opened = window.open && window.open(url, "_blank", "noopener,noreferrer");
+        if (!opened && window.location && window.location.assign) window.location.assign(url);
+      });
+      const actions = document.createElement("div");
+      actions.className = "review-row-actions";
+      actions.appendChild(restore);
+      actions.appendChild(githubBtn);
       row.appendChild(label);
-      row.appendChild(restore);
+      row.appendChild(actions);
       removedList.appendChild(row);
     }
   }
@@ -258,7 +282,7 @@
     menuBtn.focus();
   }
   function removeCurrent() {
-    if (!active || active.kind !== "phrase") return;
+    if (!active || (active.kind !== "phrase" && active.kind !== "sentence")) return;
     removed.add(cardKey(active));
     saveRemoved();
     resetAfterRemoval();
