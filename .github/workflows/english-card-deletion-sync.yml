@@ -31,7 +31,17 @@ jobs:
             for (const issue of issues) {
               if (issue.pull_request || issue.user?.login !== owner ||
                   !issue.title?.startsWith('[English card deletion] ')) continue;
-              if (Date.now() - Date.parse(issue.created_at) < threshold) continue;
+              // Reopening a cancelled Issue restarts the 30-day grace period.
+              let openSince = Date.parse(issue.created_at);
+              const events = await github.paginate(github.rest.issues.listEvents, {
+                owner, repo, issue_number: issue.number, per_page: 100
+              });
+              for (const event of events) {
+                if (event.event === 'reopened') {
+                  openSince = Math.max(openSince, Date.parse(event.created_at));
+                }
+              }
+              if (Date.now() - openSince < threshold) continue;
               const match = issue.body?.match(/^ENGLISH_DELETE_REQUEST_V1\s*\nkey=(\S+)/m);
               if (!match) continue;
               let key;
