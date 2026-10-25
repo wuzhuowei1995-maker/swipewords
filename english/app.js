@@ -13,9 +13,11 @@
   const removedList = document.getElementById("review-removed-list");
   const managedDetails = document.getElementById("review-manage");
   const batchBtn = document.getElementById("review-batch");
+  const progressLabel = document.getElementById("review-progress");
 
-  const KEY = "english-random-review-v3-hidden";
-  const PREVIOUS_KEY = "english-random-review-v2-80";
+  const KEY = "english-random-review-v4-full-cycle";
+  const PREVIOUS_KEY = "english-random-review-v3-hidden";
+  const OLDER_KEY = "english-random-review-v2-80";
   const LEGACY_KEY = "english-random-review-v1";
   const REMOVED_KEY = "english-random-review-removed-v1";
   const NO_REPEAT = 80;
@@ -87,58 +89,113 @@
       new Set(order).size === order.length &&
       order.every(i => Number.isInteger(i) && expected.includes(i));
   }
+  function isValidDeck(order) {
+    return Array.isArray(order) && order.length > 0 &&
+      new Set(order).size === order.length &&
+      order.every(i => Number.isInteger(i) && i >= 0 && i < entries.length);
+  }
   function isRecent(ids) {
     return Array.isArray(ids) && ids.length >= 1 && ids.length <= NO_REPEAT &&
       ids.every(i => Number.isInteger(i) && i >= 0 && i < entries.length);
   }
 
+  // One round is a shuffled permutation of every currently eligible card.
+  // Hidden cards may stay in an existing deck, but are skipped in place.
+  // Across rounds, recent cards are scheduled after unrelated cards.
   function newDeck(history) {
-    const recentSet = new Set(history.slice(-NO_REPEAT));
+    const blocked = new Set(history.slice(-NO_REPEAT));
     const ready = [], deferred = [];
     for (const idx of allowedIndices()) {
-      (recentSet.has(idx) ? deferred : ready).push(idx);
+      (blocked.has(idx) ? deferred : ready).push(idx);
     }
     return shuffle(ready).concat(shuffle(deferred));
   }
   function save() {
     try {
       localStorage.setItem(KEY, JSON.stringify({
-        signature, removedSignature: removedSignature(), deck, cursor, recent
+        signature, removedSignature: removedSignature(), deck, cursor, recent,
+        orderKeys: deck.map(i => cardKeys[i]),
+        recentKeys: recent.map(i => cardKeys[i])
       }));
     } catch (_) {}
   }
-  function restore() {
-    const eligible = allowedIndices();
-    try {
-      const state = JSON.parse(localStorage.getItem(KEY) || "null");
-      if (state && state.signature === signature &&
-          state.removedSignature === removedSignature() &&
-          isValidOrder(state.deck, eligible) &&
-          Number.isInteger(state.cursor) && state.cursor >= 0 && state.cursor < state.deck.length &&
-          isRecent(state.recent) && state.recent[state.recent.length - 1] === state.deck[state.cursor]) {
-        deck = state.deck; cursor = state.cursor; recent = state.recent.slice(-NO_REPEAT);
-        return;
-      }
-    } catch (_) {}
 
-    // Preserve the previously saved random position for existing users.
-    if (!removed.size) {
-      for (const key of [PREVIOUS_KEY, LEGACY_KEY]) {
-        try {
-          const state = JSON.parse(localStorage.getItem(key) || "null");
-          if (state && (key !== PREVIOUS_KEY || state.signature === signature) &&
-              isValidOrder(state.deck, eligible) &&
-              Number.isInteger(state.cursor) && state.cursor >= 0 && state.cursor < state.deck.length) {
-            deck = state.deck; cursor = state.cursor;
-            recent = key === PREVIOUS_KEY && isRecent(state.recent) &&
-              state.recent.at(-1) === state.deck[state.cursor]
-              ? state.recent.slice(-NO_REPEAT)
-              : deck.slice(Math.max(0, cursor - NO_REPEAT + 1), cursor + 1);
-            save();
-            return;
-          }
-        } catch (_) {}
+  function restoreSameLibrary(state) {
+    if (!state || state.signature !== signature ||
+        state.removedSignature !== removedSignature() ||
+        !isValidDeck(state.deck) ||
+        !Number.isInteger(state.cursor) || state.cursor < 0 ||
+        state.cursor >= state.deck.length ||
+        removed.has(cardKeys[state.deck[state.cursor]])) return false;
+    deck = state.deck;
+    cursor = state.cursor;
+    recent = isRecent(state.recent) ? state.recent.slice(-NO_REPEAT) : [deck[cursor]];
+    if (recent[recent.length - 1] !== deck[cursor]) recent.push(deck[cursor]);
+    recent = recent.slice(-NO_REPEAT);
+    return true;
+  }
+
+  // Keep the unfinished round if a later GitHub vocabulary update reorders
+  // or removes cards, instead of accidentally resurfacing old cards.
+  function migrateByKeys(state) {
+    if (!state || !Array.isArray(state.orderKeys) || !state.orderKeys.length ||
+        !Number.isInteger(state.cursor) || state.cursor < 0 ||
+        state.cursor >= state.orderKeys.length) return false;
+    const idx = new Map(cardKeys.map((key, i) => [key, i]));
+    const used = new Set();
+    const known = [];
+    for (const key of state.orderKeys) {
+      const i = idx.get(key);
+      if (i !== undefined && !used.has(i) && !removed.has(cardKeys[i])) {
+        known.push({key, i});
+        used.add(i);
       }
+    }
+    const before = [];
+    const after = [];
+    for (let n = 0; n < state.orderKeys.length; n++) {
+      const i = idx.get(state.orderKeys[n]);
+      if (i === undefined || removed.has(cardKeys[i])) continue;
+      if (n <= state.cursor) before.push(i); else after.push(i);
+    }
+    // All old unseen cards stay ahead of the next round. Newly added cards
+    // join the unseen tail, and only then do we start another epoch.
+    const additions = shuffle(allowedIndices().filter(i => !used.has(i)));
+    const out = [...before, ...after, ...additions];
+    if (!out.length) return false;
+    deck = out;
+    cursor = before.length ? before.length - 1 : 0;
+    recent = [];
+    if (Array.isArray(state.recentKeys)) {
+      for (const key of state.recentKeys.slice(-NO_REPEAT)) {
+        const i = idx.get(key);
+        if (i !== undefined) recent.push(i);
+      }
+    }
+    if (!recent.length || recent[recent.length - 1] !== deck[cursor]) {
+      recent.push(deck[cursor]);
+    }
+    recent = recent.slice(-NO_REPEAT);
+    return true;
+  }
+
+  function restore() {
+    for (const key of [KEY, PREVIOUS_KEY, OLDER_KEY, LEGACY_KEY]) {
+      try {
+        const state = JSON.parse(localStorage.getItem(key) || "null");
+        if (!state) continue;
+        const applicable = (key === KEY && restoreSameLibrary(state)) ||
+          (key === KEY && migrateByKeys(state)) ||
+          (key !== KEY && state.signature === signature &&
+            state.removedSignature === removedSignature() &&
+            isValidOrder(state.deck, allowedIndices()) &&
+            Number.isInteger(state.cursor) && state.cursor >= 0 &&
+            state.cursor < state.deck.length && restoreSameLibrary({
+              ...state,
+              removedSignature: removedSignature()
+            }));
+        if (applicable) { save(); return; }
+      } catch (_) {}
     }
     deck = newDeck([]);
     cursor = 0;
@@ -179,34 +236,76 @@
     recent.push(i);
     if (recent.length > NO_REPEAT) recent.shift();
   }
-  function next() {
-    if (modal && !modal.hidden) return;
-    if (!deck.length) return;
-    if (cursor === deck.length - 1) {
-      deck = newDeck(recent); cursor = 0;
-    } else {
-      cursor++;
+  function hasMoreEligibleAfter(start) {
+    for (let i = start + 1; i < deck.length; i++) {
+      if (!removed.has(cardKeys[deck[i]])) return true;
     }
-    pushRecent(deck[cursor]);
-    render();
+    return false;
   }
-  function resetAfterRemoval() {
-    deck = newDeck(recent); cursor = 0;
+  function advance() {
+    // Never shuffle just because a card was removed or restored.
+    // Only start a new round after exhausting all unshown eligible cards.
+    for (let i = cursor + 1; i < deck.length; i++) {
+      if (!removed.has(cardKeys[deck[i]])) {
+        cursor = i; pushRecent(deck[cursor]); render(); return;
+      }
+    }
+    deck = newDeck(recent);
+    cursor = 0;
     if (deck.length) pushRecent(deck[0]);
     render();
   }
-  function reflowAfterRestore() {
-    if (!deck.length) {
-      resetAfterRemoval();
-      return;
+  function next() {
+    if (modal && !modal.hidden) return;
+    if (!deck.length) return;
+    advance();
+  }
+  function resetAfterRemoval() {
+    // The removed current card remains marked as seen in this round.
+    // Skipping it MUST NOT re-randomize the unseen cards.
+    advance();
+  }
+  function reflowAfterRestore(item) {
+    const restored = entries.indexOf(item);
+    if (restored >= 0 && !deck.includes(restored)) {
+      const remaining = deck.slice(cursor + 1).filter(i => !removed.has(cardKeys[i])).length;
+      const minSpacing = recent.includes(restored) ? NO_REPEAT : 0;
+      if (remaining >= minSpacing) {
+        // Insert exactly once among the as-yet-unseen cards.
+        const possible = [];
+        let futureEligible = 0;
+        for (let pos = cursor + 1; pos <= deck.length; pos++) {
+          if (futureEligible >= minSpacing) possible.push(pos);
+          if (pos < deck.length && !removed.has(cardKeys[deck[pos]])) futureEligible++;
+        }
+        if (possible.length) {
+          const p = possible[randomInt(possible.length)];
+          deck.splice(p, 0, restored);
+        }
+      }
+      // If too close to this round's end, the restored card will be included
+      // in the next full round, where spacing is preserved when feasible.
     }
-    const showing = deck[cursor];
-    deck = [showing, ...newDeck(recent).filter(i => i !== showing)];
-    cursor = 0;
-    render();
+    save();
+  }
+  function countRound() {
+    let total=0, done=0, wordsTotal=0, wordsDone=0;
+    for (let i=0;i<deck.length;i++) {
+      const card=entries[deck[i]];
+      if (removed.has(cardKeys[deck[i]])) continue;
+      total++;
+      if (card.kind==="phrase") wordsTotal++;
+      if (i<=cursor) {
+        done++;
+        if (card.kind==="phrase") wordsDone++;
+      }
+    }
+    progressLabel.textContent = "本轮卡片 " + done + "/" + total +
+      " · 词汇/搭配/句式 " + wordsDone + "/" + wordsTotal;
   }
 
   function refreshManagement() {
+    countRound();
     const canHide = active && (active.kind === "phrase" || active.kind === "sentence");
     currentLabel.textContent = active
       ? (canHide ? (active.kind === "sentence" ? "当前句子：" : "当前词条：") + active.front : "完整段落不会从复习中移除。")
@@ -215,7 +314,7 @@
     hideBtn.disabled = !canHide;
     removedLabel.textContent = "已移除（" + removed.size + "）· 点击查看和恢复";
     batchBtn.disabled = removed.size === 0;
-    batchBtn.textContent = removed.size ? "批量提交 " + removed.size + " 项至 GitHub（30天后删除）" : "没有待提交的移除内容";
+    batchBtn.textContent = removed.size ? "批量提交 " + removed.size + " 项至 GitHub（12小时后删除）" : "没有待提交的移除内容";
     removedList.textContent = "";
     const items = entries.filter(e => (e.kind === "phrase" || e.kind === "sentence") && removed.has(cardKey(e)));
     if (!items.length) {
@@ -240,24 +339,24 @@
       restore.setAttribute("aria-label", "恢复 " + item.front);
       restore.addEventListener("click", () => {
         if (window.confirm && !window.confirm(
-          "恢复本机复习？如已在 GitHub 提交30天后删除申请，还必须去 GitHub 关闭该 Issue，否则到期仍会从主词库删除。"
+          "恢复本机复习？如已在 GitHub 提交12小时后删除申请，还必须去 GitHub 关闭该 Issue，否则到期仍会从主词库删除。"
         )) return;
         removed.delete(cardKey(item));
         saveRemoved();
-        reflowAfterRestore();
+        reflowAfterRestore(item);
         refreshManagement();
       });
       const githubBtn = document.createElement("button");
       githubBtn.type = "button";
       githubBtn.className = "review-restore review-github";
-      githubBtn.textContent = "申请 GitHub 30天同步";
-      githubBtn.setAttribute("aria-label", "为 " + item.front + " 申请30天后从GitHub永久删除");
+      githubBtn.textContent = "申请 GitHub 12小时同步";
+      githubBtn.setAttribute("aria-label", "为 " + item.front + " 申请12小时后从GitHub永久删除");
       githubBtn.addEventListener("click", () => {
         const encodedKey = encodeURIComponent(item.kind + "\u241f" + item.front);
         const title = "[English card deletion] " + item.front.slice(0, 80);
         const issueBody = "ENGLISH_DELETE_REQUEST_V1\nkey=" + encodedKey +
-          "\n\n从此 Issue 正式提交之日起满30天，仓库定时任务将从GitHub词库永久移除这张卡片。" +
-          "\n30天内如要撤销，请在GitHub关闭此Issue；只在App恢复本机卡片不会取消GitHub申请。";
+          "\n\n从此 Issue 正式提交之日起满12小时，仓库定时任务将从GitHub词库永久移除这张卡片。" +
+          "\n12小时内如要撤销，请在GitHub关闭此Issue；只在App恢复本机卡片不会取消GitHub申请。";
         const url = "https://github.com/wuzhuowei1995-maker/swipewords/issues/new?title=" +
           encodeURIComponent(title) + "&body=" + encodeURIComponent(issueBody);
         // Opening a link with noopener may return null even if the tab opens.
@@ -283,8 +382,8 @@
     const lines = items.map(e => "key=" + encodeURIComponent(e.kind + "\u241f" + e.front));
     const body = "ENGLISH_DELETE_REQUEST_V2\n" + lines.join("\n") +
       "\n\n这是一份由英语 App 生成的批量删除申请，共 " + items.length + " 张卡片。" +
-      "\n只有在 GitHub 点击 Submit new issue 后，30天倒计时才开始。" +
-      "\n30天内关闭此 Issue 可以取消整批删除；本机恢复卡片不会自动撤销申请。";
+      "\n只有在 GitHub 点击 Submit new issue 后，12小时倒计时才开始。" +
+      "\n12小时内关闭此 Issue 可以取消整批删除；本机恢复卡片不会自动撤销申请。";
     const base = "https://github.com/wuzhuowei1995-maker/swipewords/issues/new?title=" +
       encodeURIComponent(issueTitle);
     const url = base + "&body=" + encodeURIComponent(body);
@@ -321,8 +420,8 @@
     if (!active || (active.kind !== "phrase" && active.kind !== "sentence")) return;
     removed.add(cardKey(active));
     saveRemoved();
-    resetAfterRemoval();
     closeManagement();
+    resetAfterRemoval();
   }
 
   restore();
