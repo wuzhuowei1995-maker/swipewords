@@ -8,6 +8,7 @@ on:
 permissions:
   contents: write
   issues: write
+  pages: write
 
 concurrency:
   group: english-card-deletion-sync
@@ -77,6 +78,14 @@ jobs:
                 content: Buffer.from(bumped, 'utf8').toString('base64')
               });
               core.info('Removed ' + (entries.length - remaining.length) + ' card(s) from GitHub.');
+              // GITHUB_TOKEN content commits do not themselves trigger Pages rebuilds.
+              // For branch-published Pages sites explicitly request a fresh build.
+              try {
+                await github.request('POST /repos/{owner}/{repo}/pages/builds', {owner, repo});
+                core.info('Requested GitHub Pages rebuild.');
+              } catch (err) {
+                core.warning('Pages rebuild could not be requested automatically: ' + err.message);
+              }
             }
             for (const { issue, kind, front } of due) {
               await github.rest.issues.createComment({
