@@ -33,10 +33,60 @@ scrollbar-width:none; -webkit-overflow-scrolling:touch;}
 #view.long .content {user-select:text;-webkit-user-select:text}
 @media (prefers-reduced-motion:no-preference){.content.fade-in{animation:in .15s ease-out}@keyframes in{from{opacity:.25;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}}
 @media (max-height:620px){.term{font-size:clamp(29px,8vw,48px)}.meaning{margin-top:19px}.example{margin-top:14px}.paragraph{font-size:16px}}
+
+/* Small opt-in management control; never obscures the vocabulary text. */
+#review-menu-btn{position:fixed;right:15px;bottom:calc(env(safe-area-inset-bottom) + 12px);
+  z-index:10;border:1px solid #e1e2dc;border-radius:50%;width:44px;height:44px;
+  background:rgba(247,247,244,.96);color:#787974;font-size:27px;line-height:1;
+  display:flex;align-items:center;justify-content:center;cursor:pointer}
+#review-menu-btn:focus-visible,.sheet button:focus-visible,.sheet summary:focus-visible{outline:2px solid #426451;outline-offset:3px}
+#review-modal[hidden]{display:none}
+#review-modal{position:fixed;inset:0;z-index:20;display:flex;align-items:flex-end;justify-content:center}
+.review-backdrop{position:absolute;inset:0;background:rgba(0,0,0,.32)}
+.review-sheet{position:relative;background:var(--bg);width:min(100%,620px);
+  border-radius:21px 21px 0 0;max-height:88dvh;overflow:auto;padding:23px 24px calc(env(safe-area-inset-bottom) + 28px);
+  box-shadow:0 -12px 42px rgba(0,0,0,.1);overscroll-behavior:contain}
+.review-head{display:flex;align-items:center;justify-content:space-between;gap:15px}
+.review-head h2{font-size:21px;letter-spacing:-.02em;margin:0;font-weight:680}
+.review-close{border:0;background:transparent;font-size:26px;color:#696a65;min-width:40px;min-height:40px;cursor:pointer}
+.review-current{font-size:15px;color:var(--soft);line-height:1.4;margin:14px 0 14px;overflow-wrap:anywhere}
+.review-hide{width:100%;font-size:16px;font-weight:620;background:#343b37;color:#fff;border:0;
+  padding:16px;border-radius:12px;cursor:pointer}
+.review-hide:disabled{background:#dcded8;color:#767873;cursor:default}
+.review-manage{margin-top:18px;border-top:1px solid #dedfd9;padding-top:17px}
+.review-manage summary{cursor:pointer;font-size:15px;font-weight:600;list-style:revert}
+.review-removed-list{max-height:37dvh;overflow-y:auto;margin-top:13px;border-top:1px solid #e1e2de}
+.review-removed-row{display:flex;gap:14px;align-items:center;justify-content:space-between;
+  border-bottom:1px solid #e1e2de;padding:10px 0}
+.review-removed-name{font-size:14px;line-height:1.4;overflow-wrap:anywhere;min-width:0}
+.review-removed-name small{display:block;color:var(--soft);font-size:12px;margin-top:4px}
+.review-restore{border:1px solid #c6c9c2;border-radius:9px;background:transparent;
+  color:#323831;padding:9px 11px;white-space:nowrap;cursor:pointer;font-size:14px;flex-shrink:0}
+.review-empty{font-size:14px;color:var(--soft);margin:14px 0}
+.review-footnote{font-size:12px;color:#777873;line-height:1.6;margin:20px 0 0}
+@media(min-width:620px){.review-sheet{border-radius:21px;margin-bottom:max(12px,env(safe-area-inset-bottom))}}
+
 </style>
 </head>
 <body>
 <main id="app" aria-label="Random English review"><article id="view" class="short"><div id="content" class="content" aria-live="polite"></div></article></main>
+
+<button id="review-menu-btn" type="button" aria-label="词条管理" aria-haspopup="dialog" aria-controls="review-sheet">⋯</button>
+<div id="review-modal" hidden>
+  <div id="review-backdrop" class="review-backdrop"></div>
+  <section id="review-sheet" class="review-sheet" role="dialog" aria-modal="true" aria-labelledby="review-title">
+    <div class="review-head"><h2 id="review-title">词条管理</h2>
+      <button id="review-close" class="review-close" type="button" aria-label="关闭">×</button></div>
+    <p id="review-current" class="review-current"></p>
+    <button id="review-hide" class="review-hide" type="button">将当前词条移出复习</button>
+    <details id="review-manage" class="review-manage">
+      <summary id="review-manage-title">已移除（0）</summary>
+      <div id="review-removed-list" class="review-removed-list"></div>
+    </details>
+    <p class="review-footnote">只在这台设备的当前 App 中保存，不会修改 GitHub 词库。可随时恢复。句子和段落不支持移除。</p>
+  </section>
+</div>
+
 <script src="./vocabulary.js"></script>
 <script src="./app.js"></script>
 </body>
