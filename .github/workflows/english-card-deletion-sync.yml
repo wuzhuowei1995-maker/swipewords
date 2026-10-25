@@ -42,14 +42,27 @@ jobs:
                 }
               }
               if (Date.now() - openSince < threshold) continue;
-              const match = issue.body?.match(/^ENGLISH_DELETE_REQUEST_V1\s*\nkey=(\S+)/m);
-              if (!match) continue;
-              let key;
-              try { key = decodeURIComponent(match[1]); } catch { continue; }
-              const parts = key.split('\u241f');
-              if (parts.length !== 2 || !['phrase', 'sentence'].includes(parts[0]) ||
-                  !parts[1] || parts[1].length > 5000) continue;
-              due.push({ issue, kind: parts[0], front: parts[1] });
+              const body = issue.body || '';
+              const header = body.split(/\r?\n/, 1)[0].trim();
+              if (!['ENGLISH_DELETE_REQUEST_V1', 'ENGLISH_DELETE_REQUEST_V2'].includes(header)) continue;
+              const lines = [...body.matchAll(/^key=(\S+)\s*$/gm)];
+              // V1 must contain exactly one key. Batch V2 supports multiple.
+              if (header === 'ENGLISH_DELETE_REQUEST_V1' && lines.length !== 1) continue;
+              if (!lines.length || lines.length > 1000) continue;
+              const parsed = [];
+              let invalid = false;
+              for (const line of lines) {
+                let key;
+                try { key = decodeURIComponent(line[1]); }
+                catch { invalid = true; break; }
+                const parts = key.split('\u241f');
+                if (parts.length !== 2 || !['phrase', 'sentence'].includes(parts[0]) ||
+                    !parts[1] || parts[1].length > 5000) {
+                  invalid = true; break;
+                }
+                parsed.push({ issue, kind: parts[0], front: parts[1] });
+              }
+              if (!invalid) due.push(...parsed);
             }
             if (!due.length) {
               core.info('No eligible owner-confirmed deletion requests.');
@@ -97,11 +110,16 @@ jobs:
                 core.warning('Pages rebuild could not be requested automatically: ' + err.message);
               }
             }
-            for (const { issue, kind, front } of due) {
+            // Every batch issue should be closed and commented on only once.
+            const handled = new Set();
+            for (const { issue } of due) {
+              if (handled.has(issue.number)) continue;
+              handled.add(issue.number);
+              const count = due.filter(d => d.issue.number === issue.number).length;
               await github.rest.issues.createComment({
                 owner, repo, issue_number: issue.number,
-                body: '30-day review window completed. The requested ' + kind +
-                  ' card (' + front.slice(0, 80) + ') was synchronized or is already absent.'
+                body: '30-day review window completed. Processed ' + count +
+                  ' requested card(s); existing matches were deleted or were already absent.'
               });
               await github.rest.issues.update({
                 owner, repo, issue_number: issue.number, state: 'closed'
