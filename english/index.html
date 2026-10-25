@@ -55,6 +55,10 @@ scrollbar-width:none; -webkit-overflow-scrolling:touch;}
 .review-hide:disabled{background:#dcded8;color:#767873;cursor:default}
 .review-manage{margin-top:18px;border-top:1px solid #dedfd9;padding-top:17px}
 .review-manage summary{cursor:pointer;font-size:15px;font-weight:600;list-style:revert}
+.review-batch-actions{padding:12px 0 3px}
+.review-batch{width:100%;border-radius:11px;border:1px solid #c1c8c0;background:#e6eee5;color:#293c2d;font-size:14px;font-weight:650;min-height:46px;padding:10px;cursor:pointer}
+.review-batch:disabled{opacity:.44;cursor:default}
+.review-batch-note{font-size:12px;color:#777873;line-height:1.5;margin:8px 0}
 .review-removed-list{max-height:37dvh;overflow-y:auto;margin-top:13px;border-top:1px solid #e1e2de}
 .review-removed-row{display:flex;gap:14px;align-items:center;justify-content:space-between;
   border-bottom:1px solid #e1e2de;padding:10px 0}
@@ -83,9 +87,13 @@ scrollbar-width:none; -webkit-overflow-scrolling:touch;}
     <button id="review-hide" class="review-hide" type="button">将当前词条移出复习</button>
     <details id="review-manage" class="review-manage">
       <summary id="review-manage-title">已移除（0）</summary>
+      <div class="review-batch-actions">
+        <button id="review-batch" class="review-batch" type="button">批量提交全部已移除词条（30天后删除）</button>
+        <p class="review-batch-note">将所有已移除的单词和句子合并成一份 GitHub 申请；还需在 GitHub 点击 Submit new issue。</p>
+      </div>
       <div id="review-removed-list" class="review-removed-list"></div>
     </details>
-    <p class="review-footnote">单词、搭配、句子可在本机移出并恢复；段落不变。若希望30天后永久同步到GitHub，需在“已移除”中点击申请按钮，登录GitHub并提交Issue。30天从Issue提交时起算，关闭Issue即可取消。只在App恢复不会自动取消GitHub申请。<a href="https://github.com/wuzhuowei1995-maker/swipewords/issues" target="_blank" rel="noopener noreferrer">查看／取消 GitHub 申请</a></p>
+    <p class="review-footnote">本机移除立即生效，无须登录。永久删除需要你在 GitHub 提交一次申请，才会进入30天定时删除流程；本机不会自动上传记录。30天内关闭相应 Issue 即可取消；仅在本机恢复不会撤销已提交的申请。<a href="https://github.com/wuzhuowei1995-maker/swipewords/issues" target="_blank" rel="noopener noreferrer">查看／取消 GitHub 申请</a></p>
   </section>
 </div>
 
