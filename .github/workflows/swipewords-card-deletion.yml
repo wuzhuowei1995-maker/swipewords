@@ -1,0 +1,145 @@
+name: SwipeWords permanent deletion after 10 hours
+
+on:
+  schedule:
+    - cron: "23 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+  pages: write
+
+concurrency:
+  group: swipewords-card-deletion
+  cancel-in-progress: false
+
+jobs:
+  remove:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Process open owner requests older than 10 hours
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const {owner, repo} = context.repo;
+            const MIN_AGE_MS = 10 * 60 * 60 * 1000;
+            const HEADER = "SWIPEWORDS_DELETE_REQUEST_V1";
+            const SCHEMA = "swipewords.delete.v1";
+            const titlePrefix = "[SwipeWords deletion] ";
+
+            const issues = await github.paginate(github.rest.issues.listForRepo, {
+              owner, repo, state: "open", per_page: 100
+            });
+
+            async function eligibleIssue(issue) {
+              if (issue.pull_request || issue.state !== "open") return null;
+              if (issue.user?.login?.toLowerCase() !== owner.toLowerCase()) return null;
+              if (!issue.title?.startsWith(titlePrefix)) return null;
+
+              const [header, jsonLine] = String(issue.body || "").split(/\r?\n/);
+              if (header !== HEADER || !jsonLine || jsonLine.length > 26000) return null;
+
+              let payload;
+              try { payload = JSON.parse(jsonLine); } catch (_) { return null; }
+              if (payload?.schema !== SCHEMA || !Array.isArray(payload.ids)) return null;
+              if (payload.ids.length < 1 || payload.ids.length > 2000) return null;
+              if (!payload.ids.every(id => typeof id === "string" &&
+                /^(sw-[0-9]{6}|legacy-[0-9a-f]{8})$/.test(id))) return null;
+
+              let graceStart = Date.parse(issue.created_at);
+              // If closed then reopened, grant a fresh 10-hour cancellation window.
+              const events = await github.paginate(github.rest.issues.listEvents, {
+                owner, repo, issue_number: issue.number, per_page: 100
+              });
+              for (const event of events) {
+                if (event.event === "reopened") {
+                  graceStart = Math.max(graceStart, Date.parse(event.created_at));
+                }
+              }
+              if (!Number.isFinite(graceStart) || Date.now() - graceStart < MIN_AGE_MS) return null;
+              return {issue, ids: [...new Set(payload.ids)]};
+            }
+
+            let due = [];
+            for (const issue of issues) {
+              const candidate = await eligibleIssue(issue);
+              if (candidate) due.push(candidate);
+            }
+            if (!due.length) {
+              core.info("No open owner requests older than 10 hours.");
+              return;
+            }
+
+            // Refetch issue state close to mutation time. A closed issue is excluded.
+            const ready = [];
+            for (const candidate of due) {
+              const {data: fresh} = await github.rest.issues.get({
+                owner, repo, issue_number: candidate.issue.number
+              });
+              const validated = await eligibleIssue(fresh);
+              if (validated) ready.push(validated);
+            }
+            if (!ready.length) return;
+
+            const path = "vocabulary.js";
+            const {data: file} = await github.rest.repos.getContent({owner, repo, path});
+            if (Array.isArray(file)) throw Error("Expected a single vocabulary.js file.");
+            const source = Buffer.from(file.content, "base64").toString("utf8");
+            const match = source.match(/^([\s\S]*?)const VOCABULARY\s*=\s*(\[[\s\S]*?\]);\s*window\.VOCABULARY\s*=\s*VOCABULARY\s*;\s*$/);
+            if (!match) throw Error("Unexpected vocabulary.js format; no deletions applied.");
+            const entries = JSON.parse(match[2]);
+            if (!Array.isArray(entries)) throw Error("Vocabulary is not an array.");
+
+            const deleteIDs = new Set(ready.flatMap(x => x.ids));
+            const remaining = entries.filter(entry =>
+              !deleteIDs.has(entry.id) ||
+              /paragraph|passage|article|long.text/i.test(String(entry.type || ""))
+            );
+            const removedCount = entries.length - remaining.length;
+
+            if (removedCount > 0) {
+              const updatedSource = match[1] +
+                "const VOCABULARY = " + JSON.stringify(remaining, null, 2) +
+                ";\n\nwindow.VOCABULARY = VOCABULARY;\n";
+              await github.rest.repos.createOrUpdateFileContents({
+                owner, repo, path, sha: file.sha,
+                message: "Remove " + removedCount + " SwipeWords cards after 10-hour Issue grace period",
+                content: Buffer.from(updatedSource, "utf8").toString("base64")
+              });
+
+              // Invalidate cached offline lexicons for installed PWAs.
+              const swPath = "sw.js";
+              const {data: swFile} = await github.rest.repos.getContent({owner, repo, path: swPath});
+              const oldSW = Buffer.from(swFile.content, "base64").toString("utf8");
+              const newSW = oldSW.replace(/const CACHE = "[^"]+";/,
+                'const CACHE = "swipewords-delete-' + Date.now() + '";');
+              if (oldSW === newSW) throw Error("Could not invalidate service worker cache.");
+              await github.rest.repos.createOrUpdateFileContents({
+                owner, repo, path: swPath, sha: swFile.sha,
+                message: "Invalidate SwipeWords cache after permanent card deletion",
+                content: Buffer.from(newSW, "utf8").toString("base64")
+              });
+
+              // GITHUB_TOKEN commits do not always trigger a Pages build themselves.
+              // On branch-published Pages sites, explicitly request a new build.
+              try {
+                await github.request("POST /repos/{owner}/{repo}/pages/builds", {owner, repo});
+                core.info("Requested GitHub Pages rebuild.");
+              } catch (err) {
+                core.warning("Could not request Pages rebuild: " + err.message);
+              }
+              core.info("Permanently removed " + removedCount + " card(s).");
+            }
+
+            for (const {issue, ids} of ready) {
+              await github.rest.issues.createComment({
+                owner, repo, issue_number: issue.number,
+                body: "The 10-hour grace period has passed. Processed " + ids.length +
+                  " requested ID(s); cards were removed or were already absent. " +
+                  "The GitHub vocabulary file is now authoritative."
+              });
+              await github.rest.issues.update({
+                owner, repo, issue_number: issue.number, state: "closed"
+              });
+            }
