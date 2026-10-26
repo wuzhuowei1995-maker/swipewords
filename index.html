@@ -149,6 +149,69 @@
         transition: none;
       }
     }
+
+    /* SwipeWords local removal and restoration panel */
+    #sw-menu-button {
+      position: fixed;
+      z-index: 100;
+      right: max(20px, env(safe-area-inset-right));
+      bottom: max(20px, env(safe-area-inset-bottom));
+      width: 50px; height: 50px;
+      border: 0; border-radius: 50%;
+      background: rgba(35,35,35,.08);
+      color: #222;
+      font-size: 33px; line-height: 35px;
+      display: grid; place-items: center;
+      cursor: pointer; touch-action: manipulation;
+    }
+    #sw-overlay {
+      position: fixed; inset: 0; z-index: 110;
+      display: flex; align-items: flex-end; justify-content: center;
+      background: rgba(0,0,0,.3);
+    }
+    #sw-overlay[hidden] {display: none !important;}
+    #sw-sheet {
+      width: 100%; max-width: 650px;
+      max-height: min(84dvh, 850px);
+      overflow-y: auto; overscroll-behavior: contain;
+      -webkit-overflow-scrolling: touch;
+      touch-action: pan-y;
+      background: #fff; color: #191919;
+      padding: 24px 22px max(26px,env(safe-area-inset-bottom));
+      border-radius: 23px 23px 0 0;
+      box-shadow: 0 -4px 28px rgba(0,0,0,.09);
+      text-align: left; user-select: text; -webkit-user-select: text;
+    }
+    .sw-heading {
+      display: flex; justify-content: space-between; align-items: center;
+      margin-bottom: 24px;
+    }
+    .sw-heading-title {font-size: 22px; font-weight: 700;}
+    #sw-sheet button {cursor: pointer; font-family: inherit; touch-action: manipulation;}
+    #sw-sheet button:disabled {opacity: .4; cursor: default;}
+    .sw-close {border: 0; background: transparent; font-size: 31px; line-height: 1;}
+    .sw-primary {
+      border: none; background: #222; color: white;
+      width: 100%; border-radius: 13px;
+      padding: 14px 16px; font-size: 16px; font-weight: 600;
+    }
+    .sw-submit {margin-top: 20px;}
+    .sw-help {color: #666; line-height: 1.5; font-size: 13px; margin: 10px 0 18px;}
+    .sw-title {font-weight: 700; font-size: 17px; margin: 22px 0 12px;}
+    .sw-removed-list {max-height: 34dvh; overflow-y: auto; touch-action: pan-y;}
+    .sw-removed-row {display:flex; gap: 12px; align-items: center; justify-content: space-between;
+      padding: 12px 0; border-bottom: 1px solid #eee;}
+    .sw-removed-group {flex:1; min-width: 0;}
+    .sw-removed-front {font-size: 16px; line-height: 1.45; overflow-wrap: anywhere;}
+    .sw-muted {color: #777; font-size: 12px; line-height: 1.4;}
+    .sw-small {background: #f4f4f4; border: 1px solid #ddd; border-radius: 10px;
+      padding: 8px 12px; font-size: 14px; flex-shrink: 0;}
+    .sw-link {color: #333; display: inline-block; font-size: 14px; margin: 6px 0 8px;}
+    #sw-toast {pointer-events:none; position:fixed; z-index:130; top:max(28px,env(safe-area-inset-top));
+      left: 50%; transform:translateX(-50%); max-width:90vw; text-align:center;
+      background:#333; color:white; border-radius:12px; padding:12px 18px;
+      font-size:13px; line-height:1.35; opacity:0; transition:opacity .15s;}
+    #sw-toast.visible {opacity:1;}
   </style>
 </head>
 
@@ -156,6 +219,6 @@
   <main id="app" aria-live="polite"></main>
 
   <script src="./vocabulary.js"></script>
-  <script src="./app.js"></script>
+  <script src="./review.js"></script>
 </body>
 </html>
