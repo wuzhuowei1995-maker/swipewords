@@ -2,6 +2,14 @@
   "use strict";
   const app = document.getElementById("app");
   const items = Array.isArray(window.VOCABULARY) ? window.VOCABULARY : [];
+  // Future imported cards without an explicit ID still support local and GitHub removal.
+  function fallbackID(x) {
+    const s=JSON.stringify([x.type||"",x.front||"",x.meaning||"",x.example||""]);
+    let h=2166136261;
+    for(let i=0;i<s.length;i++){h^=s.charCodeAt(i);h=Math.imul(h,16777619);}
+    return "legacy-"+(h>>>0).toString(16).padStart(8,"0");
+  }
+  for(const item of items) if(!item.id)item.id=fallbackID(item);
   const STORE = "swipewords_state_v2", REMOVED = "swipewords_removed_v1";
   const REPO = "https://github.com/wuzhuowei1995-maker/swipewords";
   const WINDOW = 100, THRESHOLD = 46;
