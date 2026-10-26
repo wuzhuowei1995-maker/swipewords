@@ -1,8 +1,9 @@
-const CACHE = "swipewords-v8";
+const CACHE = "swipewords-v9";
 const ASSETS = [
   "./",
   "./index.html",
   "./app.js",
+  "./review.js",
   "./vocabulary.js",
   "./manifest.json",
   "./icon-180.png",
