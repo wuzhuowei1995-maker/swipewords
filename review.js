@@ -127,7 +127,6 @@
       hint("请在 GitHub 确认创建 Issue。");
     } else {
       const compactURL=REPO+"/issues/new?title="+encodeURIComponent(title);
-      window.open(compactURL,"_blank","noopener,noreferrer");
       const fallback=()=>{
         const input=document.createElement("textarea");input.value=body;input.style.position="fixed";input.style.opacity="0";
         document.body.appendChild(input);input.focus();input.select();
@@ -137,6 +136,7 @@
       if(navigator.clipboard?.writeText)
         navigator.clipboard.writeText(body).then(()=>hint("已复制正文，请粘贴到 GitHub Issue。"),fallback);
       else fallback();
+      window.open(compactURL,"_blank","noopener,noreferrer");
     }
   }
   function updateSheet() {
@@ -162,7 +162,7 @@
     const submit=btn("批量提交 GitHub Issue",issue,"sw-primary sw-submit");
     submit.disabled=!removed.some(x=>knownIDs.has(x.id)&&removable(knownIDs.get(x.id)));
     sheet.append(submit,
-      el("在 GitHub 确认创建 Issue 后等待 10 小时，每小时检查并自动永久删除。","sw-help"),
+      el("请使用该仓库所有者的 GitHub 账号创建 Issue。创建后等待 10 小时，每小时检查并自动永久删除。","sw-help"),
       el("到期处理前关闭 Issue 可取消；在 App 恢复不会取消已提交 Issue。","sw-help"));
     const link=document.createElement("a");link.className="sw-link";link.href=REPO+"/issues";
     link.target="_blank";link.rel="noopener noreferrer";link.textContent="查看 GitHub Issues";
