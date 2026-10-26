@@ -91,9 +91,22 @@ jobs:
             const entries = JSON.parse(match[2]);
             if (!Array.isArray(entries)) throw Error("Vocabulary is not an array.");
 
+            // Match the same deterministic fallback IDs used by the client for
+            // future vocabulary imports which lack an explicit ID.
+            function cardID(entry) {
+              if (entry.id) return entry.id;
+              const s = JSON.stringify([entry.type || "", entry.front || "",
+                entry.meaning || "", entry.example || ""]);
+              let h = 2166136261;
+              for (let i = 0; i < s.length; i++) {
+                h ^= s.charCodeAt(i);
+                h = Math.imul(h, 16777619);
+              }
+              return "legacy-" + (h >>> 0).toString(16).padStart(8, "0");
+            }
             const deleteIDs = new Set(ready.flatMap(x => x.ids));
             const remaining = entries.filter(entry =>
-              !deleteIDs.has(entry.id) ||
+              !deleteIDs.has(cardID(entry)) ||
               /paragraph|passage|article|long.text/i.test(String(entry.type || ""))
             );
             const removedCount = entries.length - remaining.length;
