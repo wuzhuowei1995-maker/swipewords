@@ -1,4 +1,4 @@
-const CACHE = "swipewords-v9";
+const CACHE = "swipewords-v10";
 const ASSETS = [
   "./",
   "./index.html",
@@ -34,6 +34,7 @@ self.addEventListener("fetch", (event) => {
     url.pathname.endsWith("/index.html") ||
     url.pathname.endsWith("/vocabulary.js") ||
     url.pathname.endsWith("/app.js") ||
+    url.pathname.endsWith("/review.js") ||
     url.pathname.endsWith("/sw.js")
   ) {
     event.respondWith(
