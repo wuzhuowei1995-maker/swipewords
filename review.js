@@ -99,6 +99,16 @@
       if(!allowed.has(id)||unique.has(id))return false;
       unique.add(id);return true;
     });
+    // New imports must join the existing unfinished cycle immediately.
+    // Never reset its progress or revive an already shown card.
+    const recentSeen=new Set(state.recentKeys);
+    for(const card of activeCards()){
+      if(!unique.has(card.id)&&!recentSeen.has(key(card))){
+        state.remainingCycleIds.push(card.id);
+        unique.add(card.id);
+      }
+    }
+    state.cycleSize=activeCards().length;
   }
   function draw() {
     normalizeCycle();
