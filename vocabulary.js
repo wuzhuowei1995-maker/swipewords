@@ -15980,6 +15980,582 @@ const VOCABULARY = [
     "example": "",
     "weight": 3,
     "id": "sw-002039"
+  },
+  {
+    "type": "ladder",
+    "front": "slightly green / slightly crooked",
+    "meaning": "稍微发青 / 略微歪斜",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002040"
+  },
+  {
+    "type": "ladder",
+    "front": "fairly firm / fairly spacious",
+    "meaning": "比较结实 / 比较宽敞",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002041"
+  },
+  {
+    "type": "ladder",
+    "front": "unusually soft / unusually slow",
+    "meaning": "异常柔软 / 异常缓慢",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002042"
+  },
+  {
+    "type": "ladder",
+    "front": "surprisingly heavy / surprisingly well",
+    "meaning": "出人意料地重 / 效果意外地好",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002043"
+  },
+  {
+    "type": "ladder",
+    "front": "barely noticeable / barely visible",
+    "meaning": "几乎看不出来 / 几乎看不见",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002044"
+  },
+  {
+    "type": "ladder",
+    "front": "hardly any shade / hardly ever use",
+    "meaning": "几乎没阴凉处 / 几乎从不使用",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002045"
+  },
+  {
+    "type": "ladder",
+    "front": "genuinely worthwhile",
+    "meaning": "确实值得",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002046"
+  },
+  {
+    "type": "ladder",
+    "front": "absolutely exhausted",
+    "meaning": "精疲力竭",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002047"
+  },
+  {
+    "type": "ladder",
+    "front": "press gently / firmly",
+    "meaning": "轻轻按 / 稳稳按紧",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002048"
+  },
+  {
+    "type": "ladder",
+    "front": "squeeze lightly",
+    "meaning": "轻轻挤压",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002049"
+  },
+  {
+    "type": "ladder",
+    "front": "carefully set down",
+    "meaning": "小心放下",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002050"
+  },
+  {
+    "type": "ladder",
+    "front": "gradually improve",
+    "meaning": "逐渐改善",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002051"
+  },
+  {
+    "type": "ladder",
+    "front": "drop sharply",
+    "meaning": "急剧下降",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002052"
+  },
+  {
+    "type": "ladder",
+    "front": "damp / soaking wet / dry",
+    "meaning": "潮湿 / 湿透 / 干燥",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002053"
+  },
+  {
+    "type": "ladder",
+    "front": "wobbly / sturdy",
+    "meaning": "晃动不稳 / 牢固",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002054"
+  },
+  {
+    "type": "ladder",
+    "front": "crumpled / wrinkled / bruised",
+    "meaning": "揉皱 / 起皱 / 碰伤",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002055"
+  },
+  {
+    "type": "ladder",
+    "front": "stiff / sore / numb",
+    "meaning": "僵硬 / 酸痛 / 麻木",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002056"
+  },
+  {
+    "type": "ladder",
+    "front": "bulky / heavy / awkward",
+    "meaning": "体积大 / 重量大 / 难搬运",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002057"
+  },
+  {
+    "type": "ladder",
+    "front": "ripe / overripe / rotten",
+    "meaning": "成熟 / 过熟 / 腐烂",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002058"
+  },
+  {
+    "type": "ladder",
+    "front": "droop / perk up",
+    "meaning": "下垂 / 恢复生气",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002059"
+  },
+  {
+    "type": "ladder",
+    "front": "peel away / come off",
+    "meaning": "逐渐剥离 / 整块脱落",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002060"
+  },
+  {
+    "type": "ladder",
+    "front": "jam / freeze / lag",
+    "meaning": "卡住 / 程序无响应 / 延迟",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002061"
+  },
+  {
+    "type": "ladder",
+    "front": "drop out / break up / cut out",
+    "meaning": "网络断连 / 声音断续 / 声音暂失",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002062"
+  },
+  {
+    "type": "ladder",
+    "front": "turn up / go missing",
+    "meaning": "出现 / 不见了",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002063"
+  },
+  {
+    "type": "ladder",
+    "front": "turn down heat / warm up",
+    "meaning": "调小火 / 暖和起来",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002064"
+  },
+  {
+    "type": "ladder",
+    "front": "spring up / shut down",
+    "meaning": "兴起 / 关闭",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002065"
+  },
+  {
+    "type": "ladder",
+    "front": "roll in / die down",
+    "meaning": "涌来 / 渐渐平息",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002066"
+  },
+  {
+    "type": "ladder",
+    "front": "go past / go to",
+    "meaning": "经过并继续 / 前往",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002067"
+  },
+  {
+    "type": "ladder",
+    "front": "locate / trace / track",
+    "meaning": "确定位置 / 追查去向 / 持续追踪",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002068"
+  },
+  {
+    "type": "ladder",
+    "front": "restore / preserve",
+    "meaning": "修复 / 保护原有状态",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002069"
+  },
+  {
+    "type": "ladder",
+    "front": "split evenly / pay for what you had",
+    "meaning": "平均分摊 / 各付各的",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002070"
+  },
+  {
+    "type": "ladder",
+    "front": "restart / factory reset",
+    "meaning": "重新启动 / 恢复出厂设置",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002071"
+  },
+  {
+    "type": "ladder",
+    "front": "be due to / due to",
+    "meaning": "按计划即将 / 由于",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002072"
+  },
+  {
+    "type": "ladder",
+    "front": "run low on / run out of",
+    "meaning": "快耗尽 / 已耗尽",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002073"
+  },
+  {
+    "type": "ladder",
+    "front": "fully booked / sold out",
+    "meaning": "时段或床位订满 / 商品门票售罄",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002074"
+  },
+  {
+    "type": "ladder",
+    "front": "disruption / delay / cancellation",
+    "meaning": "服务中断 / 延误 / 取消",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002075"
+  },
+  {
+    "type": "word",
+    "front": "pick up",
+    "meaning": "顺便买",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002076"
+  },
+  {
+    "type": "word",
+    "front": "pick up",
+    "meaning": "接收信号",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002077"
+  },
+  {
+    "type": "word",
+    "front": "pick up",
+    "meaning": "风雨增强",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002078"
+  },
+  {
+    "type": "word",
+    "front": "pick up",
+    "meaning": "接上进度",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002079"
+  },
+  {
+    "type": "word",
+    "front": "go off",
+    "meaning": "报警器响",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002080"
+  },
+  {
+    "type": "word",
+    "front": "go off",
+    "meaning": "食物变质（英式）",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002081"
+  },
+  {
+    "type": "word",
+    "front": "come across",
+    "meaning": "偶然遇到",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002082"
+  },
+  {
+    "type": "word",
+    "front": "come across",
+    "meaning": "给人留下某种印象",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002083"
+  },
+  {
+    "type": "word",
+    "front": "turn out",
+    "meaning": "结果证明",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002084"
+  },
+  {
+    "type": "word",
+    "front": "turn out",
+    "meaning": "做出的效果",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002085"
+  },
+  {
+    "type": "ladder",
+    "front": "bring up",
+    "meaning": "提起话题",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002086"
+  },
+  {
+    "type": "ladder",
+    "front": "look into",
+    "meaning": "调查、查明",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002087"
+  },
+  {
+    "type": "ladder",
+    "front": "get back to",
+    "meaning": "稍后回复",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002088"
+  },
+  {
+    "type": "ladder",
+    "front": "hold up",
+    "meaning": "耽误进度、延迟",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002089"
+  },
+  {
+    "type": "word",
+    "front": "work out",
+    "meaning": "计算出",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002090"
+  },
+  {
+    "type": "word",
+    "front": "work out",
+    "meaning": "找到解决办法",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002091"
+  },
+  {
+    "type": "word",
+    "front": "work out",
+    "meaning": "锻炼",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002092"
+  },
+  {
+    "type": "word",
+    "front": "set off",
+    "meaning": "触发警报",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002093"
+  },
+  {
+    "type": "word",
+    "front": "set off",
+    "meaning": "出发",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002094"
+  },
+  {
+    "type": "word",
+    "front": "take off",
+    "meaning": "脱下一层衣服",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002095"
+  },
+  {
+    "type": "word",
+    "front": "take off",
+    "meaning": "飞机起飞",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002096"
+  },
+  {
+    "type": "word",
+    "front": "give way",
+    "meaning": "让行",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002097"
+  },
+  {
+    "type": "word",
+    "front": "give way",
+    "meaning": "突然失去支撑",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002098"
+  },
+  {
+    "type": "ladder",
+    "front": "flicker / dim / go out",
+    "meaning": "闪烁／逐渐变暗／彻底熄灭",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002099"
+  },
+  {
+    "type": "ladder",
+    "front": "faint / muffled / distorted / breaking up / cutting out",
+    "meaning": "声音弱／闷且模糊／失真／断断续续／中断",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002100"
+  },
+  {
+    "type": "ladder",
+    "front": "stumble / stagger / sway / wobble / shake",
+    "meaning": "绊得踉跄／站不稳／缓缓摇摆／不稳定地晃／震动",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002101"
+  },
+  {
+    "type": "ladder",
+    "front": "catch / make out / get through",
+    "meaning": "听到一部分／勉强辨清／成功接通",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002102"
+  },
+  {
+    "type": "ladder",
+    "front": "loose / snug / tight / taut / secure",
+    "meaning": "松／贴合适中／紧／绷紧／固定牢固",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002103"
+  },
+  {
+    "type": "ladder",
+    "front": "stuck / jammed / wedged / caught on / won't budge",
+    "meaning": "卡住／机械卡死／夹在狭小空间／被勾住／纹丝不动",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002104"
+  },
+  {
+    "type": "ladder",
+    "front": "sway / whip around / flap / sag",
+    "meaning": "摇摆／猛烈甩动／拍打／下垂",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002105"
+  },
+  {
+    "type": "ladder",
+    "front": "blot / dab / soak up / rinse / scrub / scrape off",
+    "meaning": "按压吸干／轻点涂抹／吸收／冲洗／用力刷／刮除",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002106"
+  },
+  {
+    "type": "ladder",
+    "front": "snap / fray / tear / crack / shatter",
+    "meaning": "突然断裂／纤维散线／撕裂／裂纹／碎成很多片",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002107"
+  },
+  {
+    "type": "ladder",
+    "front": "beep / hum / thump / rumble / howl / creak / crunch",
+    "meaning": "哔／嗡／咚／隆隆／呼啸／吱呀／嘎吱",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002108"
+  },
+  {
+    "type": "ladder",
+    "front": "drenched",
+    "meaning": "云积聚／云飘来；雨猛烈下；浑身湿透",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002109"
+  },
+  {
+    "type": "ladder",
+    "front": "wait up",
+    "meaning": "加快／放慢／掉队／追上／等等后面",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002110"
+  },
+  {
+    "type": "ladder",
+    "front": "headlamp / head torch; rainfly / flysheet; stake / peg",
+    "meaning": "头灯；外帐；地钉（美国／英国常用表达）",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002111"
   }
 ];
 
