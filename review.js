@@ -54,8 +54,10 @@
        remainingCycleIds:Array.isArray(old.remainingCycleIds)?old.remainingCycleIds.filter(x=>typeof x==="string"):null,
        draws:Number.isSafeInteger(old.draws)&&old.draws>=0?old.draws:0,
        appearances:old.appearances&&typeof old.appearances==="object"&&!Array.isArray(old.appearances)?old.appearances:{},
-       cycleSize:Number.isSafeInteger(old.cycleSize)?old.cycleSize:null}
-    : {currentKey:null,recentKeys:[],remainingCycleIds:null,draws:0,appearances:{},cycleSize:null};
+       cycleSize:Number.isSafeInteger(old.cycleSize)?old.cycleSize:null,
+       cycleSeenIds:Array.isArray(old.cycleSeenIds)?old.cycleSeenIds.filter(x=>typeof x==="string"):null,
+       cycleKnownIds:Array.isArray(old.cycleKnownIds)?old.cycleKnownIds.filter(x=>typeof x==="string"):null}
+    : {currentKey:null,recentKeys:[],remainingCycleIds:null,draws:0,appearances:{},cycleSize:null,cycleSeenIds:null,cycleKnownIds:null};
   let busy=false,menuOpen=false;
   function current() {return items.find(x=>key(x)===state.currentKey&&!removedIDs.has(x.id))||null;}
   function activeCards() {return items.filter(x=>!removedIDs.has(x.id)&&!paragraph(x));}
@@ -93,6 +95,18 @@
       state.remainingCycleIds=buildCycle().filter(id=>!seen.has(key(knownIDs.get(id))));
     }
     if(state.cycleSize===null)state.cycleSize=activeCards().length;
+    // Migration from v12: existing source catalog ended at sw-000832.
+    // Cards absent from the existing unfinished cycle have ALREADY been shown.
+    // Future imports (IDs above 832) are newly available, not old repeats.
+    if(!Array.isArray(state.cycleSeenIds)){
+      const waiting=new Set(state.remainingCycleIds);
+      state.cycleSeenIds=items.filter(x=>/^sw-\\d{6}$/.test(x.id) &&
+        Number(x.id.slice(3))<=832 && !waiting.has(x.id)).map(x=>x.id);
+    }
+    if(!Array.isArray(state.cycleKnownIds)){
+      state.cycleKnownIds=items.filter(x=>/^sw-\\d{6}$/.test(x.id) &&
+        Number(x.id.slice(3))<=832).map(x=>x.id);
+    }
     const allowed=new Set(activeCards().map(x=>x.id));
     const unique=new Set();
     state.remainingCycleIds=state.remainingCycleIds.filter(id=>{
@@ -101,13 +115,19 @@
     });
     // New imports must join the existing unfinished cycle immediately.
     // Never reset its progress or revive an already shown card.
+    const previouslyKnown=new Set(state.cycleKnownIds);
+    const seenCycle=new Set(state.cycleSeenIds);
     const recentSeen=new Set(state.recentKeys);
     for(const card of activeCards()){
-      if(!unique.has(card.id)&&!recentSeen.has(key(card))){
+      // Only FIRST-TIME imported cards can enter the unfinished cycle.
+      if(!previouslyKnown.has(card.id) && !seenCycle.has(card.id) &&
+         !unique.has(card.id) && !recentSeen.has(key(card))){
         state.remainingCycleIds.push(card.id);
         unique.add(card.id);
       }
+      previouslyKnown.add(card.id);
     }
+    state.cycleKnownIds=[...previouslyKnown];
     state.cycleSize=activeCards().length;
   }
   function draw() {
@@ -123,10 +143,13 @@
       if(selected)break;
       if(state.remainingCycleIds.length>0)break; // Can't violate 100-swipe cooldown.
       state.remainingCycleIds=buildCycle();
+      state.cycleSeenIds=[];
+      state.cycleKnownIds=activeCards().map(x=>x.id);
       state.cycleSize=activeCards().length;
     }
     if(!selected)return false;
     state.remainingCycleIds=state.remainingCycleIds.filter(id=>id!==selected.id);
+    if(!state.cycleSeenIds.includes(selected.id))state.cycleSeenIds.push(selected.id);
     state.currentKey=key(selected);
     state.recentKeys.push(state.currentKey);
     state.recentKeys=state.recentKeys.slice(-WINDOW);
@@ -205,6 +228,7 @@
     // A restored card rejoins the unfinished cycle without resetting it.
     // If it is in recent history, the 100-swipe rule still takes priority.
     if(knownIDs.has(id)&&!state.remainingCycleIds.includes(id)&&
+       !state.cycleSeenIds.includes(id)&&
        !state.recentKeys.includes(key(knownIDs.get(id))))state.remainingCycleIds.push(id);
     save(STORE,state);
     updateCounters();
