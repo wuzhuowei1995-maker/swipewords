@@ -30,10 +30,18 @@
     if(Number.isFinite(x.weight)&&x.weight>0)return x.weight;
     return ranks.get(key(x))>=split?3:1;
   }
+  function randomUnit() {
+    if (globalThis.crypto?.getRandomValues) {
+      const sample = new Uint32Array(1);
+      globalThis.crypto.getRandomValues(sample);
+      return sample[0] / 4294967296;
+    }
+    return Math.random();
+  }
   function pick(choices) {
     let total=0;for(const x of choices)total+=weight(x);
     if(total<=0)return null;
-    let n=Math.random()*total;
+    let n=randomUnit()*total;
     for(const x of choices){n-=weight(x);if(n<0)return x;}
     return choices[choices.length-1];
   }
@@ -43,8 +51,11 @@
   const state=old&&Array.isArray(old.recentKeys)
     ? {currentKey:typeof old.currentKey==="string"?old.currentKey:null,
        recentKeys:old.recentKeys.filter(x=>typeof x==="string").slice(-WINDOW),
-       remainingCycleIds:Array.isArray(old.remainingCycleIds)?old.remainingCycleIds.filter(x=>typeof x==="string"):null}
-    : {currentKey:null,recentKeys:[],remainingCycleIds:null};
+       remainingCycleIds:Array.isArray(old.remainingCycleIds)?old.remainingCycleIds.filter(x=>typeof x==="string"):null,
+       draws:Number.isSafeInteger(old.draws)&&old.draws>=0?old.draws:0,
+       appearances:old.appearances&&typeof old.appearances==="object"&&!Array.isArray(old.appearances)?old.appearances:{},
+       cycleSize:Number.isSafeInteger(old.cycleSize)?old.cycleSize:null}
+    : {currentKey:null,recentKeys:[],remainingCycleIds:null,draws:0,appearances:{},cycleSize:null};
   let busy=false,menuOpen=false;
   function current() {return items.find(x=>key(x)===state.currentKey&&!removedIDs.has(x.id))||null;}
   function activeCards() {return items.filter(x=>!removedIDs.has(x.id)&&!paragraph(x));}
@@ -61,6 +72,19 @@
     }
     return order;
   }
+  function shuffleRemaining() {
+    // Reshuffle ONLY undrawn IDs each time the app is opened. Previously
+    // shown IDs are never reintroduced by opening, deletion, or restoration.
+    const pool = state.remainingCycleIds.map(id=>knownIDs.get(id)).filter(Boolean);
+    const fresh=[];
+    while (pool.length) {
+      const chosen=pick(pool);
+      if (!chosen) break;
+      fresh.push(chosen.id);
+      pool.splice(pool.indexOf(chosen),1);
+    }
+    state.remainingCycleIds=fresh;
+  }
   function normalizeCycle() {
     if(!Array.isArray(state.remainingCycleIds)) {
       // Upgrading from an older version: do not reset the user's progress.
@@ -68,6 +92,7 @@
       const seen=new Set(state.recentKeys);
       state.remainingCycleIds=buildCycle().filter(id=>!seen.has(key(knownIDs.get(id))));
     }
+    if(state.cycleSize===null)state.cycleSize=activeCards().length;
     const allowed=new Set(activeCards().map(x=>x.id));
     const unique=new Set();
     state.remainingCycleIds=state.remainingCycleIds.filter(id=>{
@@ -88,13 +113,17 @@
       if(selected)break;
       if(state.remainingCycleIds.length>0)break; // Can't violate 100-swipe cooldown.
       state.remainingCycleIds=buildCycle();
+      state.cycleSize=activeCards().length;
     }
     if(!selected)return false;
     state.remainingCycleIds=state.remainingCycleIds.filter(id=>id!==selected.id);
     state.currentKey=key(selected);
     state.recentKeys.push(state.currentKey);
     state.recentKeys=state.recentKeys.slice(-WINDOW);
+    state.draws++;
+    state.appearances[selected.id]=(state.appearances[selected.id]||0)+1;
     save(STORE,state);
+    updateCounters();
     return true;
   }
   function el(text,cls="") {
@@ -118,7 +147,19 @@
     }
     return node;
   }
-  function render(){app.replaceChildren(card(current()));}
+  const counter=el("","sw-counters");
+  counter.id="sw-counters";
+  counter.setAttribute("aria-label","复习计数");
+  document.body.appendChild(counter);
+  function updateCounters(){
+    const x=current();
+    const active=activeCards().length;
+    const remaining=Array.isArray(state.remainingCycleIds)?state.remainingCycleIds.length:active;
+    const completed=Math.max(0,active-remaining);
+    const count=x?(state.appearances[x.id]||0):0;
+    counter.textContent="已滑 "+state.draws+" · 本轮 "+completed+"/"+active+" · 本词 "+count+" 次";
+  }
+  function render(){app.replaceChildren(card(current()));updateCounters();}
   const toast=el("","sw-toast");toast.id="sw-toast";toast.setAttribute("role","status");document.body.appendChild(toast);
   let toastTimer;
   function hint(s){toast.textContent=s;toast.classList.add("visible");clearTimeout(toastTimer);toastTimer=setTimeout(()=>toast.classList.remove("visible"),3300);}
@@ -156,6 +197,7 @@
     if(knownIDs.has(id)&&!state.remainingCycleIds.includes(id)&&
        !state.recentKeys.includes(key(knownIDs.get(id))))state.remainingCycleIds.push(id);
     save(STORE,state);
+    updateCounters();
     if(!current()){draw();render();}
     updateSheet();
   }
@@ -247,6 +289,11 @@
     if(menuOpen)return;
     if(["ArrowUp","ArrowRight"," ","PageDown"].includes(e.key)){e.preventDefault();next();}
   });
+  // Keep old history and the unfinished cycle, but use a NEW weighted
+  // random order on every app launch. This is not a cycle restart.
+  normalizeCycle();
+  shuffleRemaining();
+  save(STORE,state);
   if(!current()){if(!draw()){state.currentKey=null;save(STORE,state);}}
   else {
     if(state.recentKeys[state.recentKeys.length-1]!==state.currentKey){
