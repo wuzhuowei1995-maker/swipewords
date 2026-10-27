@@ -18172,6 +18172,846 @@ const VOCABULARY = [
     "example": "",
     "weight": 3,
     "id": "sw-002313"
+  },
+  {
+    "type": "sentence",
+    "front": "The lights are flickering.",
+    "meaning": "灯正在忽明忽暗。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002314"
+  },
+  {
+    "type": "sentence",
+    "front": "The lights went out and the room went dark.",
+    "meaning": "灯熄灭，房间变黑。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002315"
+  },
+  {
+    "type": "sentence",
+    "front": "There's been a power outage.",
+    "meaning": "发生了停电。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002316"
+  },
+  {
+    "type": "sentence",
+    "front": "The whole floor lost power.",
+    "meaning": "整层楼断电了。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002317"
+  },
+  {
+    "type": "sentence",
+    "front": "The circuit breaker tripped.",
+    "meaning": "断路器跳闸了。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002318"
+  },
+  {
+    "type": "sentence",
+    "front": "I need to go through security.",
+    "meaning": "我需要通过安检。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002319"
+  },
+  {
+    "type": "sentence",
+    "front": "Please empty your pockets.",
+    "meaning": "请把口袋里的东西都拿出来。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002320"
+  },
+  {
+    "type": "sentence",
+    "front": "Keep an eye on your belongings.",
+    "meaning": "留意你的随身物品。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002321"
+  },
+  {
+    "type": "sentence",
+    "front": "Put your keys in the tray.",
+    "meaning": "把钥匙放进托盘。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002322"
+  },
+  {
+    "type": "sentence",
+    "front": "The metal detector beeped.",
+    "meaning": "金属探测门响了。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002323"
+  },
+  {
+    "type": "sentence",
+    "front": "Two hikers were falling behind.",
+    "meaning": "两名徒步者正在掉队。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002324"
+  },
+  {
+    "type": "sentence",
+    "front": "The front group picked up the pace.",
+    "meaning": "前面的队伍加快了步速。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002325"
+  },
+  {
+    "type": "sentence",
+    "front": "Let's slow down and keep a steady pace.",
+    "meaning": "我们放慢一点，保持稳定速度。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002326"
+  },
+  {
+    "type": "sentence",
+    "front": "The gap between us was getting wider.",
+    "meaning": "我们之间的距离越来越大。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002327"
+  },
+  {
+    "type": "sentence",
+    "front": "I called out to the hikers up front.",
+    "meaning": "我向前面的徒步者喊话。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002328"
+  },
+  {
+    "type": "sentence",
+    "front": "Your voice is breaking up.",
+    "meaning": "你的声音断断续续。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002329"
+  },
+  {
+    "type": "sentence",
+    "front": "I could only catch every other word.",
+    "meaning": "我只能断断续续听清一些词。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002330"
+  },
+  {
+    "type": "sentence",
+    "front": "Sorry, I didn't catch the last part.",
+    "meaning": "抱歉，后半部分我没听清。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002331"
+  },
+  {
+    "type": "sentence",
+    "front": "The audio keeps cutting out.",
+    "meaning": "声音不断中断。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002332"
+  },
+  {
+    "type": "sentence",
+    "front": "The call suddenly dropped.",
+    "meaning": "电话突然掉线了。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002333"
+  },
+  {
+    "type": "sentence",
+    "front": "A notification popped up on my phone.",
+    "meaning": "手机上弹出一条通知。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002334"
+  },
+  {
+    "type": "sentence",
+    "front": "Your parcel is ready for pickup.",
+    "meaning": "你的包裹可以取件了。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002335"
+  },
+  {
+    "type": "sentence",
+    "front": "I picked it up from a parcel locker.",
+    "meaning": "我从快递柜取了它。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002336"
+  },
+  {
+    "type": "sentence",
+    "front": "Scan the QR code to open the locker.",
+    "meaning": "扫码开启柜门。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002337"
+  },
+  {
+    "type": "sentence",
+    "front": "Enter the pickup code manually.",
+    "meaning": "手动输入取件码。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002338"
+  },
+  {
+    "type": "sentence",
+    "front": "The ridge was very exposed.",
+    "meaning": "这条山脊很暴露。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002339"
+  },
+  {
+    "type": "sentence",
+    "front": "A strong gust hit me from the side.",
+    "meaning": "强阵风从侧面吹来。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002340"
+  },
+  {
+    "type": "sentence",
+    "front": "The loose strap was whipping against my arm.",
+    "meaning": "松带猛烈抽打我的手臂。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002341"
+  },
+  {
+    "type": "sentence",
+    "front": "The gust made me stagger.",
+    "meaning": "阵风吹得我踉跄。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002342"
+  },
+  {
+    "type": "sentence",
+    "front": "I braced myself against a rock.",
+    "meaning": "我靠岩石稳住身体。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002343"
+  },
+  {
+    "type": "sentence",
+    "front": "I stepped out of my apartment.",
+    "meaning": "我走出公寓。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002344"
+  },
+  {
+    "type": "sentence",
+    "front": "A gust blew the door shut.",
+    "meaning": "阵风把门吹关了。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002345"
+  },
+  {
+    "type": "sentence",
+    "front": "The door slammed shut behind me.",
+    "meaning": "门在我身后砰地关上。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002346"
+  },
+  {
+    "type": "sentence",
+    "front": "I got locked out of my apartment.",
+    "meaning": "我被锁在公寓外面了。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002347"
+  },
+  {
+    "type": "sentence",
+    "front": "I reached into my pocket.",
+    "meaning": "我把手伸进口袋。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002348"
+  },
+  {
+    "type": "sentence",
+    "front": "I need to get a haircut.",
+    "meaning": "我该去理发了。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002349"
+  },
+  {
+    "type": "sentence",
+    "front": "Just take a little off the top.",
+    "meaning": "头顶稍微剪一点。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002350"
+  },
+  {
+    "type": "sentence",
+    "front": "Could you trim the sides?",
+    "meaning": "能修一下两侧吗？",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002351"
+  },
+  {
+    "type": "sentence",
+    "front": "He combed through my hair.",
+    "meaning": "他梳了梳我的头发。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002352"
+  },
+  {
+    "type": "sentence",
+    "front": "She sprayed water onto my hair.",
+    "meaning": "她给我头发喷了些水。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002353"
+  },
+  {
+    "type": "sentence",
+    "front": "Dark clouds were building up.",
+    "meaning": "乌云正在积聚。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002354"
+  },
+  {
+    "type": "sentence",
+    "front": "Thunder rumbled in the distance.",
+    "meaning": "远处雷声隆隆。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002355"
+  },
+  {
+    "type": "sentence",
+    "front": "Lightning flashed across the sky.",
+    "meaning": "闪电划过天空。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002356"
+  },
+  {
+    "type": "sentence",
+    "front": "There was a loud crack of thunder.",
+    "meaning": "响起一声炸雷。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002357"
+  },
+  {
+    "type": "sentence",
+    "front": "The rain was pelting down.",
+    "meaning": "雨猛烈地下着。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002358"
+  },
+  {
+    "type": "sentence",
+    "front": "The bass was thumping through the wall.",
+    "meaning": "低音透墙咚咚作响。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002359"
+  },
+  {
+    "type": "sentence",
+    "front": "Sound carries through thin walls.",
+    "meaning": "声音很容易穿透薄墙。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002360"
+  },
+  {
+    "type": "sentence",
+    "front": "The noise kept me awake.",
+    "meaning": "噪音让我无法入睡。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002361"
+  },
+  {
+    "type": "sentence",
+    "front": "I put in my earplugs.",
+    "meaning": "我戴上了耳塞。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002362"
+  },
+  {
+    "type": "sentence",
+    "front": "I knocked on the neighbor's door.",
+    "meaning": "我敲邻居的门。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002363"
+  },
+  {
+    "type": "sentence",
+    "front": "An announcement came over the loudspeaker.",
+    "meaning": "扬声器里传来广播。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002364"
+  },
+  {
+    "type": "sentence",
+    "front": "The announcement sounded muffled.",
+    "meaning": "广播听起来模糊不清。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002365"
+  },
+  {
+    "type": "sentence",
+    "front": "The audio was muffled and cutting out.",
+    "meaning": "声音闷且不时中断。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002366"
+  },
+  {
+    "type": "sentence",
+    "front": "I couldn't make out the announcement.",
+    "meaning": "我听不清广播。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002367"
+  },
+  {
+    "type": "sentence",
+    "front": "I caught something about a delay.",
+    "meaning": "我隐约听到说有延误。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002368"
+  },
+  {
+    "type": "sentence",
+    "front": "Mosquitoes were buzzing around my head.",
+    "meaning": "蚊子在我头边嗡嗡飞。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002369"
+  },
+  {
+    "type": "sentence",
+    "front": "A mosquito hovered near my face.",
+    "meaning": "一只蚊子在我脸旁盘旋。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002370"
+  },
+  {
+    "type": "sentence",
+    "front": "Insects gathered around us.",
+    "meaning": "虫子聚到我们周围。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002371"
+  },
+  {
+    "type": "sentence",
+    "front": "I tried to swat the flies away.",
+    "meaning": "我试着挥赶苍蝇。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002372"
+  },
+  {
+    "type": "sentence",
+    "front": "A mosquito bit my neck.",
+    "meaning": "蚊子叮了我的脖子。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002373"
+  },
+  {
+    "type": "sentence",
+    "front": "My alarm went off at six.",
+    "meaning": "闹钟六点响了。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002374"
+  },
+  {
+    "type": "sentence",
+    "front": "I kept hitting snooze.",
+    "meaning": "我一直按稍后提醒。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002375"
+  },
+  {
+    "type": "sentence",
+    "front": "I slept through my alarm.",
+    "meaning": "闹钟响了我也没醒。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002376"
+  },
+  {
+    "type": "sentence",
+    "front": "I overslept this morning.",
+    "meaning": "我今天早上睡过头了。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002377"
+  },
+  {
+    "type": "sentence",
+    "front": "I was still half asleep.",
+    "meaning": "我还迷迷糊糊的。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002378"
+  },
+  {
+    "type": "sentence",
+    "front": "Take the lid off the jar.",
+    "meaning": "把罐子盖取下。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002379"
+  },
+  {
+    "type": "sentence",
+    "front": "The lid won't budge.",
+    "meaning": "盖子纹丝不动。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002380"
+  },
+  {
+    "type": "sentence",
+    "front": "Grip the jar firmly.",
+    "meaning": "把罐子牢牢握住。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002381"
+  },
+  {
+    "type": "sentence",
+    "front": "Twist the lid counterclockwise.",
+    "meaning": "逆时针拧盖子。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002382"
+  },
+  {
+    "type": "sentence",
+    "front": "Unscrew the lid slowly.",
+    "meaning": "慢慢拧开盖子。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002383"
+  },
+  {
+    "type": "sentence",
+    "front": "I carry a spare headlamp.",
+    "meaning": "我带一盏备用头灯。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002384"
+  },
+  {
+    "type": "sentence",
+    "front": "The headlamp lit up the trail.",
+    "meaning": "头灯照亮了路线。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002385"
+  },
+  {
+    "type": "sentence",
+    "front": "Point the beam at the trail.",
+    "meaning": "把光束对准小路。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002386"
+  },
+  {
+    "type": "sentence",
+    "front": "The beam was getting dimmer.",
+    "meaning": "光束越来越暗。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002387"
+  },
+  {
+    "type": "sentence",
+    "front": "The light flickered and went out.",
+    "meaning": "灯闪烁后熄灭。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002388"
+  },
+  {
+    "type": "sentence",
+    "front": "There's a coffee stain on my shirt.",
+    "meaning": "衬衫上有一块咖啡渍。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002389"
+  },
+  {
+    "type": "sentence",
+    "front": "It's a noticeable brown stain.",
+    "meaning": "这是明显的棕色污渍。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002390"
+  },
+  {
+    "type": "sentence",
+    "front": "Blot the stain with paper towels.",
+    "meaning": "用纸巾轻按吸去污渍。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002391"
+  },
+  {
+    "type": "sentence",
+    "front": "Coffee soaked into the fabric.",
+    "meaning": "咖啡渗进了布料。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002392"
+  },
+  {
+    "type": "sentence",
+    "front": "The towel soaked up the spill.",
+    "meaning": "毛巾吸掉了洒出的液体。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002393"
+  },
+  {
+    "type": "sentence",
+    "front": "I bought water from a vending machine.",
+    "meaning": "我从售货机买了水。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002394"
+  },
+  {
+    "type": "sentence",
+    "front": "Select a payment method.",
+    "meaning": "选择付款方式。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002395"
+  },
+  {
+    "type": "sentence",
+    "front": "They charged me twice.",
+    "meaning": "他们重复扣了我两次钱。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002396"
+  },
+  {
+    "type": "sentence",
+    "front": "The machine didn't dispense my drink.",
+    "meaning": "机器没有吐出饮料。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002397"
+  },
+  {
+    "type": "sentence",
+    "front": "The bottle got stuck halfway down.",
+    "meaning": "瓶子掉到一半卡住。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002398"
+  },
+  {
+    "type": "sentence",
+    "front": "We pitched our tents before dark.",
+    "meaning": "我们天黑前搭好帐篷。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002399"
+  },
+  {
+    "type": "sentence",
+    "front": "Let's take down the tent.",
+    "meaning": "我们把帐篷拆了吧。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002400"
+  },
+  {
+    "type": "sentence",
+    "front": "Spread out the groundsheet.",
+    "meaning": "把地布铺开。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002401"
+  },
+  {
+    "type": "sentence",
+    "front": "Assemble the poles first.",
+    "meaning": "先组装帐杆。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002402"
+  },
+  {
+    "type": "sentence",
+    "front": "One pole snapped in the wind.",
+    "meaning": "一根帐杆在风中折断。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002403"
+  },
+  {
+    "type": "sentence",
+    "front": "I flushed the toilet.",
+    "meaning": "我冲了马桶。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002404"
+  },
+  {
+    "type": "sentence",
+    "front": "The water isn't draining away.",
+    "meaning": "水排不出去。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002405"
+  },
+  {
+    "type": "sentence",
+    "front": "The water was rising toward the rim.",
+    "meaning": "水位向边缘上涨。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002406"
+  },
+  {
+    "type": "sentence",
+    "front": "The toilet is clogged.",
+    "meaning": "马桶堵住了。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002407"
+  },
+  {
+    "type": "sentence",
+    "front": "Turn off the water supply valve.",
+    "meaning": "关闭进水阀。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002408"
+  },
+  {
+    "type": "sentence",
+    "front": "Button up your shirt.",
+    "meaning": "把衬衫纽扣扣好。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002409"
+  },
+  {
+    "type": "sentence",
+    "front": "One of the buttons came off.",
+    "meaning": "一颗纽扣掉了。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002410"
+  },
+  {
+    "type": "sentence",
+    "front": "The thread snapped.",
+    "meaning": "线突然断了。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002411"
+  },
+  {
+    "type": "sentence",
+    "front": "I couldn't thread the needle.",
+    "meaning": "我穿不好针。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002412"
+  },
+  {
+    "type": "sentence",
+    "front": "I keep a small sewing kit.",
+    "meaning": "我放着一个小针线包。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002413"
+  },
+  {
+    "type": "sentence",
+    "front": "We crossed a suspension bridge.",
+    "meaning": "我们通过了一座吊桥。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002414"
+  },
+  {
+    "type": "sentence",
+    "front": "The bridge crossed a deep gorge.",
+    "meaning": "吊桥横跨深峡谷。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002415"
+  },
+  {
+    "type": "sentence",
+    "front": "The bridge stretches across the river.",
+    "meaning": "桥横跨河流。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002416"
+  },
+  {
+    "type": "sentence",
+    "front": "The wooden planks creaked.",
+    "meaning": "木板发出吱呀声。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002417"
+  },
+  {
+    "type": "sentence",
+    "front": "The bridge creaked underfoot.",
+    "meaning": "桥在脚下吱呀响。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002418"
   }
 ];
 
