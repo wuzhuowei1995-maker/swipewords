@@ -16724,6 +16724,1454 @@ const VOCABULARY = [
     "example": "",
     "weight": 3,
     "id": "sw-002132"
+  },
+  {
+    "type": "word",
+    "front": "try them on",
+    "meaning": "试穿",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002133"
+  },
+  {
+    "type": "word",
+    "front": "roll the cuffs up",
+    "meaning": "卷起裤脚",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002134"
+  },
+  {
+    "type": "word",
+    "front": "fit comfortably",
+    "meaning": "穿着舒适",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002135"
+  },
+  {
+    "type": "word",
+    "front": "renew the loan",
+    "meaning": "续借",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002136"
+  },
+  {
+    "type": "word",
+    "front": "another patron's hold",
+    "meaning": "其他读者的预约",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002137"
+  },
+  {
+    "type": "word",
+    "front": "due back",
+    "meaning": "应归还",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002138"
+  },
+  {
+    "type": "word",
+    "front": "return on time",
+    "meaning": "按时还书",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002139"
+  },
+  {
+    "type": "word",
+    "front": "muddy descent",
+    "meaning": "泥泞下坡",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002140"
+  },
+  {
+    "type": "word",
+    "front": "plant your poles",
+    "meaning": "撑稳登山杖",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002141"
+  },
+  {
+    "type": "word",
+    "front": "take a detour",
+    "meaning": "绕路",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002142"
+  },
+  {
+    "type": "word",
+    "front": "move in",
+    "meaning": "搬入",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002143"
+  },
+  {
+    "type": "word",
+    "front": "cold draft",
+    "meaning": "窗缝冷风",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002144"
+  },
+  {
+    "type": "word",
+    "front": "dripping tap",
+    "meaning": "滴水水龙头",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002145"
+  },
+  {
+    "type": "word",
+    "front": "look into the problem",
+    "meaning": "调查问题",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002146"
+  },
+  {
+    "type": "word",
+    "front": "get back to someone",
+    "meaning": "回复某人",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002147"
+  },
+  {
+    "type": "word",
+    "front": "proof-of-delivery photo",
+    "meaning": "投递凭证照片",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002148"
+  },
+  {
+    "type": "word",
+    "front": "drop off at wrong door",
+    "meaning": "送错门",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002149"
+  },
+  {
+    "type": "word",
+    "front": "hand the parcel over",
+    "meaning": "把包裹递交",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002150"
+  },
+  {
+    "type": "word",
+    "front": "mixed-up house numbers",
+    "meaning": "门牌号弄混",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002151"
+  },
+  {
+    "type": "word",
+    "front": "contour lines",
+    "meaning": "等高线",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002152"
+  },
+  {
+    "type": "word",
+    "front": "swollen stream",
+    "meaning": "上涨的溪流",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002153"
+  },
+  {
+    "type": "word",
+    "front": "washed-away trail",
+    "meaning": "被冲毁的路线",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002154"
+  },
+  {
+    "type": "word",
+    "front": "retrace your steps",
+    "meaning": "沿原路折返",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002155"
+  },
+  {
+    "type": "word",
+    "front": "cover the bill",
+    "meaning": "垫付",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002156"
+  },
+  {
+    "type": "word",
+    "front": "freeze repeatedly",
+    "meaning": "反复卡住",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002157"
+  },
+  {
+    "type": "word",
+    "front": "log back in",
+    "meaning": "重新登录",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002158"
+  },
+  {
+    "type": "word",
+    "front": "go through",
+    "meaning": "付款成功",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002159"
+  },
+  {
+    "type": "word",
+    "front": "run late",
+    "meaning": "快迟到",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002160"
+  },
+  {
+    "type": "word",
+    "front": "adjust margins",
+    "meaning": "调整页边距",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002161"
+  },
+  {
+    "type": "word",
+    "front": "jam",
+    "meaning": "卡纸",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002162"
+  },
+  {
+    "type": "word",
+    "front": "wrong direction",
+    "meaning": "错误方向",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002163"
+  },
+  {
+    "type": "word",
+    "front": "get off",
+    "meaning": "下车",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002164"
+  },
+  {
+    "type": "word",
+    "front": "overcharged",
+    "meaning": "被多收钱",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002165"
+  },
+  {
+    "type": "word",
+    "front": "double-check",
+    "meaning": "复核",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002166"
+  },
+  {
+    "type": "word",
+    "front": "process a refund",
+    "meaning": "处理退款",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002167"
+  },
+  {
+    "type": "word",
+    "front": "call a supervisor over",
+    "meaning": "叫主管过来",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002168"
+  },
+  {
+    "type": "word",
+    "front": "pull up a map",
+    "meaning": "调出地图",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002169"
+  },
+  {
+    "type": "word",
+    "front": "road closure",
+    "meaning": "封路",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002170"
+  },
+  {
+    "type": "word",
+    "front": "go around the block",
+    "meaning": "绕过街区",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002171"
+  },
+  {
+    "type": "word",
+    "front": "repeat back",
+    "meaning": "复述确认",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002172"
+  },
+  {
+    "type": "word",
+    "front": "easy to miss",
+    "meaning": "容易错过",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002173"
+  },
+  {
+    "type": "word",
+    "front": "layer up",
+    "meaning": "加衣",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002174"
+  },
+  {
+    "type": "word",
+    "front": "flicker",
+    "meaning": "闪烁",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002175"
+  },
+  {
+    "type": "word",
+    "front": "fumble around",
+    "meaning": "摸索",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002176"
+  },
+  {
+    "type": "word",
+    "front": "stiff fingers",
+    "meaning": "僵硬手指",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002177"
+  },
+  {
+    "type": "word",
+    "front": "fasten a strap",
+    "meaning": "扣紧带子",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002178"
+  },
+  {
+    "type": "word",
+    "front": "round a bend",
+    "meaning": "绕弯",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002179"
+  },
+  {
+    "type": "word",
+    "front": "give space",
+    "meaning": "保持距离",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002180"
+  },
+  {
+    "type": "word",
+    "front": "bound away",
+    "meaning": "跳跃跑开",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002181"
+  },
+  {
+    "type": "word",
+    "front": "catch up",
+    "meaning": "赶上",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002182"
+  },
+  {
+    "type": "word",
+    "front": "push back",
+    "meaning": "推迟",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002183"
+  },
+  {
+    "type": "word",
+    "front": "change a reservation",
+    "meaning": "修改预订",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002184"
+  },
+  {
+    "type": "word",
+    "front": "charged twice",
+    "meaning": "重复收费",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002185"
+  },
+  {
+    "type": "word",
+    "front": "simple mix-up",
+    "meaning": "小失误",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002186"
+  },
+  {
+    "type": "word",
+    "front": "running late",
+    "meaning": "快迟到",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002187"
+  },
+  {
+    "type": "word",
+    "front": "out of order",
+    "meaning": "故障或顺序错",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002188"
+  },
+  {
+    "type": "word",
+    "front": "staple together",
+    "meaning": "装订",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002189"
+  },
+  {
+    "type": "word",
+    "front": "wrong direction",
+    "meaning": "反方向",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002190"
+  },
+  {
+    "type": "word",
+    "front": "wait for a bus going the other way",
+    "meaning": "等反向公交",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002191"
+  },
+  {
+    "type": "word",
+    "front": "price tag",
+    "meaning": "价签",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002192"
+  },
+  {
+    "type": "word",
+    "front": "refund the difference",
+    "meaning": "退差价",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002193"
+  },
+  {
+    "type": "word",
+    "front": "call over a supervisor",
+    "meaning": "请主管过来",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002194"
+  },
+  {
+    "type": "word",
+    "front": "come across",
+    "meaning": "偶然发现",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002195"
+  },
+  {
+    "type": "word",
+    "front": "trace back to",
+    "meaning": "追溯",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002196"
+  },
+  {
+    "type": "word",
+    "front": "meeting point",
+    "meaning": "集合地点",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002197"
+  },
+  {
+    "type": "word",
+    "front": "ask for directions",
+    "meaning": "问路",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002198"
+  },
+  {
+    "type": "word",
+    "front": "guided tour",
+    "meaning": "导览",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002199"
+  },
+  {
+    "type": "word",
+    "front": "preserved in original condition",
+    "meaning": "保持原貌",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002200"
+  },
+  {
+    "type": "word",
+    "front": "closed for maintenance",
+    "meaning": "维护封闭",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002201"
+  },
+  {
+    "type": "word",
+    "front": "redirect through",
+    "meaning": "改走",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002202"
+  },
+  {
+    "type": "word",
+    "front": "worth it",
+    "meaning": "值得",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002203"
+  },
+  {
+    "type": "word",
+    "front": "outer edge drops away",
+    "meaning": "外缘陡降",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002204"
+  },
+  {
+    "type": "word",
+    "front": "unstable patch",
+    "meaning": "不稳的路面",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002205"
+  },
+  {
+    "type": "word",
+    "front": "headcount",
+    "meaning": "人数清点",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002206"
+  },
+  {
+    "type": "word",
+    "front": "take a message the wrong way",
+    "meaning": "误解短信",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002207"
+  },
+  {
+    "type": "word",
+    "front": "clear things up",
+    "meaning": "澄清",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002208"
+  },
+  {
+    "type": "word",
+    "front": "talk through",
+    "meaning": "谈透",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002209"
+  },
+  {
+    "type": "word",
+    "front": "stubborn creases",
+    "meaning": "顽固折痕",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002210"
+  },
+  {
+    "type": "word",
+    "front": "audio cuts out",
+    "meaning": "声音中断",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002211"
+  },
+  {
+    "type": "word",
+    "front": "unstable connection",
+    "meaning": "网络不稳",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002212"
+  },
+  {
+    "type": "word",
+    "front": "run more smoothly",
+    "meaning": "更流畅",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002213"
+  },
+  {
+    "type": "word",
+    "front": "get through to support",
+    "meaning": "联系上客服",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002214"
+  },
+  {
+    "type": "word",
+    "front": "outage in the area",
+    "meaning": "区域故障",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002215"
+  },
+  {
+    "type": "word",
+    "front": "get back to someone",
+    "meaning": "之后答复",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002216"
+  },
+  {
+    "type": "word",
+    "front": "utilities billed separately",
+    "meaning": "杂费另计",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002217"
+  },
+  {
+    "type": "word",
+    "front": "push up expenses",
+    "meaning": "推高支出",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002218"
+  },
+  {
+    "type": "word",
+    "front": "longer commute",
+    "meaning": "通勤更长",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002219"
+  },
+  {
+    "type": "word",
+    "front": "trade-off",
+    "meaning": "权衡",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002220"
+  },
+  {
+    "type": "word",
+    "front": "rough crossing",
+    "meaning": "颠簸海上航程",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002221"
+  },
+  {
+    "type": "word",
+    "front": "queasy",
+    "meaning": "反胃",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002222"
+  },
+  {
+    "type": "word",
+    "front": "uncover ancient remains",
+    "meaning": "发掘遗存",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002223"
+  },
+  {
+    "type": "word",
+    "front": "largely untouched",
+    "meaning": "基本原貌",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002224"
+  },
+  {
+    "type": "word",
+    "front": "beat down",
+    "meaning": "烈日暴晒",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002225"
+  },
+  {
+    "type": "word",
+    "front": "light-headed",
+    "meaning": "头昏",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002226"
+  },
+  {
+    "type": "word",
+    "front": "monitor condition",
+    "meaning": "监测状况",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002227"
+  },
+  {
+    "type": "word",
+    "front": "abandon plan",
+    "meaning": "放弃计划",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002228"
+  },
+  {
+    "type": "word",
+    "front": "startle awake",
+    "meaning": "惊醒",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002229"
+  },
+  {
+    "type": "word",
+    "front": "air out",
+    "meaning": "通风",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002230"
+  },
+  {
+    "type": "word",
+    "front": "retain a card",
+    "meaning": "吞卡",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002231"
+  },
+  {
+    "type": "word",
+    "front": "freeze",
+    "meaning": "卡死",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002232"
+  },
+  {
+    "type": "word",
+    "front": "get through",
+    "meaning": "联系上",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002233"
+  },
+  {
+    "type": "word",
+    "front": "replacement card",
+    "meaning": "补卡",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002234"
+  },
+  {
+    "type": "word",
+    "front": "unexpected charge",
+    "meaning": "异常扣款",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002235"
+  },
+  {
+    "type": "word",
+    "front": "make assumptions",
+    "meaning": "自己想当然",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002236"
+  },
+  {
+    "type": "word",
+    "front": "mark waypoints",
+    "meaning": "标记导航点",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002237"
+  },
+  {
+    "type": "word",
+    "front": "signal reception",
+    "meaning": "信号接收",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002238"
+  },
+  {
+    "type": "word",
+    "front": "landmarks",
+    "meaning": "地标",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002239"
+  },
+  {
+    "type": "word",
+    "front": "rely entirely on",
+    "meaning": "完全依赖",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002240"
+  },
+  {
+    "type": "word",
+    "front": "short connection",
+    "meaning": "短时间转机",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002241"
+  },
+  {
+    "type": "word",
+    "front": "barely make it",
+    "meaning": "勉强赶上",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002242"
+  },
+  {
+    "type": "word",
+    "front": "file a report",
+    "meaning": "登记",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002243"
+  },
+  {
+    "type": "word",
+    "front": "loose gravel",
+    "meaning": "松散碎石",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002244"
+  },
+  {
+    "type": "word",
+    "front": "stumble",
+    "meaning": "踉跄",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002245"
+  },
+  {
+    "type": "word",
+    "front": "repair tape",
+    "meaning": "修补胶带",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002246"
+  },
+  {
+    "type": "word",
+    "front": "less exposed route",
+    "meaning": "风险暴露较少的路线",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002247"
+  },
+  {
+    "type": "word",
+    "front": "slip out of",
+    "meaning": "滑出",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002248"
+  },
+  {
+    "type": "word",
+    "front": "protective case",
+    "meaning": "保护壳",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002249"
+  },
+  {
+    "type": "word",
+    "front": "come loose",
+    "meaning": "松开",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002250"
+  },
+  {
+    "type": "word",
+    "front": "double-bag",
+    "meaning": "套双层袋",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002251"
+  },
+  {
+    "type": "word",
+    "front": "switch to mobile data",
+    "meaning": "切换移动网络",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002252"
+  },
+  {
+    "type": "word",
+    "front": "hold up a meeting",
+    "meaning": "耽误会议",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002253"
+  },
+  {
+    "type": "word",
+    "front": "freeze again",
+    "meaning": "再次卡住",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002254"
+  },
+  {
+    "type": "word",
+    "front": "unrecognized transaction",
+    "meaning": "不认识的交易",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002255"
+  },
+  {
+    "type": "word",
+    "front": "official channel",
+    "meaning": "官方渠道",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002256"
+  },
+  {
+    "type": "word",
+    "front": "investigate the charge",
+    "meaning": "调查扣款",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002257"
+  },
+  {
+    "type": "word",
+    "front": "turn in",
+    "meaning": "上交",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002258"
+  },
+  {
+    "type": "word",
+    "front": "priced out",
+    "meaning": "被高价挤出",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002259"
+  },
+  {
+    "type": "word",
+    "front": "cheap rents",
+    "meaning": "低租金",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002260"
+  },
+  {
+    "type": "word",
+    "front": "creative atmosphere",
+    "meaning": "创意氛围",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002261"
+  },
+  {
+    "type": "word",
+    "front": "fully booked",
+    "meaning": "预订已满",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002262"
+  },
+  {
+    "type": "word",
+    "front": "take a rain check",
+    "meaning": "改天参加",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002263"
+  },
+  {
+    "type": "word",
+    "front": "the following day",
+    "meaning": "次日",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002264"
+  },
+  {
+    "type": "word",
+    "front": "replacement bus",
+    "meaning": "替代巴士",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002265"
+  },
+  {
+    "type": "word",
+    "front": "satellite signals",
+    "meaning": "卫星信号",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002266"
+  },
+  {
+    "type": "word",
+    "front": "manufacturer's instructions",
+    "meaning": "厂商说明",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002267"
+  },
+  {
+    "type": "word",
+    "front": "clogged",
+    "meaning": "堵塞",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002268"
+  },
+  {
+    "type": "word",
+    "front": "unscrew the lid",
+    "meaning": "拧开盖子",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002269"
+  },
+  {
+    "type": "word",
+    "front": "pour into",
+    "meaning": "倒入",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002270"
+  },
+  {
+    "type": "word",
+    "front": "turn down heat",
+    "meaning": "调小火",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002271"
+  },
+  {
+    "type": "word",
+    "front": "turn out better than expected",
+    "meaning": "比预期更好",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002272"
+  },
+  {
+    "type": "word",
+    "front": "puddle on the floor",
+    "meaning": "地面积水",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002273"
+  },
+  {
+    "type": "word",
+    "front": "soak up the water",
+    "meaning": "吸干水",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002274"
+  },
+  {
+    "type": "word",
+    "front": "air-dry",
+    "meaning": "自然晾干",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002275"
+  },
+  {
+    "type": "word",
+    "front": "spin again",
+    "meaning": "再次脱水",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002276"
+  },
+  {
+    "type": "word",
+    "front": "running low",
+    "meaning": "电量快耗尽",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002277"
+  },
+  {
+    "type": "word",
+    "front": "charging cable",
+    "meaning": "充电线",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002278"
+  },
+  {
+    "type": "word",
+    "front": "pick up where I left off",
+    "meaning": "从暂停的地方继续",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002279"
+  },
+  {
+    "type": "word",
+    "front": "shift bag aside",
+    "meaning": "把包挪开",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002280"
+  },
+  {
+    "type": "word",
+    "front": "mixed reviews",
+    "meaning": "褒贬不一",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002281"
+  },
+  {
+    "type": "word",
+    "front": "brush off criticism",
+    "meaning": "忽视批评",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002282"
+  },
+  {
+    "type": "word",
+    "front": "specific feedback",
+    "meaning": "具体反馈",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002283"
+  },
+  {
+    "type": "word",
+    "front": "sensible approach",
+    "meaning": "明智方法",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002284"
+  },
+  {
+    "type": "word",
+    "front": "zipper was jammed",
+    "meaning": "拉链卡住",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002285"
+  },
+  {
+    "type": "word",
+    "front": "wiggle the zipper pull",
+    "meaning": "来回晃动拉链头",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002286"
+  },
+  {
+    "type": "word",
+    "front": "approach a saddle",
+    "meaning": "接近鞍部",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002287"
+  },
+  {
+    "type": "word",
+    "front": "factor in delays",
+    "meaning": "考虑延误",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002288"
+  },
+  {
+    "type": "word",
+    "front": "within sight",
+    "meaning": "在视野内",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002289"
+  },
+  {
+    "type": "word",
+    "front": "kerb / curb",
+    "meaning": "路缘石",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002290"
+  },
+  {
+    "type": "word",
+    "front": "roll away",
+    "meaning": "滚开",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002291"
+  },
+  {
+    "type": "word",
+    "front": "retrieve",
+    "meaning": "找回",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002292"
+  },
+  {
+    "type": "word",
+    "front": "badly bruised",
+    "meaning": "严重碰伤",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002293"
+  },
+  {
+    "type": "word",
+    "front": "faint scratch",
+    "meaning": "很浅的划痕",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002294"
+  },
+  {
+    "type": "word",
+    "front": "barely noticeable",
+    "meaning": "几乎看不出",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002295"
+  },
+  {
+    "type": "word",
+    "front": "stubborn bubble",
+    "meaning": "顽固气泡",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002296"
+  },
+  {
+    "type": "word",
+    "front": "stick properly",
+    "meaning": "贴合正常",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002297"
+  },
+  {
+    "type": "word",
+    "front": "give me a hand",
+    "meaning": "帮我一把",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002298"
+  },
+  {
+    "type": "word",
+    "front": "surprisingly heavy",
+    "meaning": "异常重",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002299"
+  },
+  {
+    "type": "word",
+    "front": "adjust grip",
+    "meaning": "调整抓握",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002300"
+  },
+  {
+    "type": "word",
+    "front": "save effort",
+    "meaning": "节省力气",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002301"
+  },
+  {
+    "type": "word",
+    "front": "relatively cheap",
+    "meaning": "相对便宜",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002302"
+  },
+  {
+    "type": "word",
+    "front": "barely opened",
+    "meaning": "几乎没打开",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002303"
+  },
+  {
+    "type": "word",
+    "front": "genuinely worthwhile",
+    "meaning": "真正值得",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002304"
+  },
+  {
+    "type": "word",
+    "front": "auto-renew",
+    "meaning": "自动续费",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002305"
+  },
+  {
+    "type": "word",
+    "front": "open up a slot",
+    "meaning": "空出时段",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002306"
+  },
+  {
+    "type": "word",
+    "front": "earliest available",
+    "meaning": "最早可选",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002307"
+  },
+  {
+    "type": "word",
+    "front": "turn out to be a good decision",
+    "meaning": "结果是个好决定",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002308"
+  },
+  {
+    "type": "word",
+    "front": "otherwise have missed",
+    "meaning": "否则可能错过",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002309"
+  },
+  {
+    "type": "word",
+    "front": "steady progress",
+    "meaning": "稳定行进",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002310"
+  },
+  {
+    "type": "word",
+    "front": "barely visible",
+    "meaning": "几乎看不见",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002311"
+  },
+  {
+    "type": "word",
+    "front": "wind picks up",
+    "meaning": "风变大",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002312"
+  },
+  {
+    "type": "word",
+    "front": "blindly push on",
+    "meaning": "盲目前进",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002313"
   }
 ];
 
