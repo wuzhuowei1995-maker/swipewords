@@ -38,20 +38,60 @@
     return choices[choices.length-1];
   }
   const old=read(STORE);
+  // Keep the existing local history. A cycle queue is persisted separately from
+  // recentKeys so removing/restoring a card never starts a new shuffle.
   const state=old&&Array.isArray(old.recentKeys)
     ? {currentKey:typeof old.currentKey==="string"?old.currentKey:null,
-       recentKeys:old.recentKeys.filter(x=>typeof x==="string").slice(-WINDOW)}
-    : {currentKey:null,recentKeys:[]};
+       recentKeys:old.recentKeys.filter(x=>typeof x==="string").slice(-WINDOW),
+       remainingCycleIds:Array.isArray(old.remainingCycleIds)?old.remainingCycleIds.filter(x=>typeof x==="string"):null}
+    : {currentKey:null,recentKeys:[],remainingCycleIds:null};
   let busy=false,menuOpen=false;
   function current() {return items.find(x=>key(x)===state.currentKey&&!removedIDs.has(x.id))||null;}
-  function eligible() {
-    const blocked=new Set(state.recentKeys.slice(-WINDOW));
-    return items.filter(x=>!removedIDs.has(x.id)&&!blocked.has(key(x)));
+  function activeCards() {return items.filter(x=>!removedIDs.has(x.id)&&!paragraph(x));}
+  function buildCycle() {
+    const pool=activeCards().slice();
+    const order=[];
+    // Weighted sampling WITHOUT replacement: once a card appears it cannot
+    // be drawn again until the cycle has exhausted all other eligible cards.
+    while(pool.length) {
+      const selected=pick(pool);
+      if(!selected)break;
+      order.push(selected.id);
+      pool.splice(pool.indexOf(selected),1);
+    }
+    return order;
+  }
+  function normalizeCycle() {
+    if(!Array.isArray(state.remainingCycleIds)) {
+      // Upgrading from an older version: do not reset the user's progress.
+      // Treat unique recent cards as already seen in the current cycle.
+      const seen=new Set(state.recentKeys);
+      state.remainingCycleIds=buildCycle().filter(id=>!seen.has(key(knownIDs.get(id))));
+    }
+    const allowed=new Set(activeCards().map(x=>x.id));
+    const unique=new Set();
+    state.remainingCycleIds=state.remainingCycleIds.filter(id=>{
+      if(!allowed.has(id)||unique.has(id))return false;
+      unique.add(id);return true;
+    });
   }
   function draw() {
-    const x=pick(eligible());
-    if(!x)return false;
-    state.currentKey=key(x);
+    normalizeCycle();
+    const recent=new Set(state.recentKeys.slice(-WINDOW));
+    let selected=null;
+    // A cycle is only reshuffled once all its active cards have been consumed.
+    for(let pass=0;pass<2;pass++){
+      for(const id of state.remainingCycleIds){
+        const candidate=knownIDs.get(id);
+        if(candidate&&!recent.has(key(candidate))){selected=candidate;break;}
+      }
+      if(selected)break;
+      if(state.remainingCycleIds.length>0)break; // Can't violate 100-swipe cooldown.
+      state.remainingCycleIds=buildCycle();
+    }
+    if(!selected)return false;
+    state.remainingCycleIds=state.remainingCycleIds.filter(id=>id!==selected.id);
+    state.currentKey=key(selected);
     state.recentKeys.push(state.currentKey);
     state.recentKeys=state.recentKeys.slice(-WINDOW);
     save(STORE,state);
@@ -68,7 +108,7 @@
   function card(x,extra="") {
     const node=document.createElement("section");
     node.className=("card "+(x?.type==="kana"?"kana-card ":"")+extra).trim();
-    if(!x){node.classList.add("empty");node.textContent="暂时没有符合100次冷却的卡片。点右下角 ⋯ 可以恢复卡片。";return node;}
+    if(!x){node.classList.add("empty");node.textContent="当前剩余卡片都在100次冷却期内，暂时不能继续。点右下角 ⋯ 可以恢复卡片。";return node;}
     if(x.type==="kana") {
       const row=el("","kana-pair");
       row.append(el(x.hiragana||x.front,"kana-symbol"),el(x.katakana||x.meaning,"kana-symbol"));
@@ -85,7 +125,7 @@
   function next() {
     if(busy||menuOpen)return;
     const previous=app.querySelector(".card");
-    if(!draw()){hint("100次冷却期间没有可抽取的新卡片，不会强行重复。");return;}
+    if(!draw()){hint("本轮剩余卡片尚在100次冷却期内，不会提前重复。");return;}
     busy=true;
     const upcoming=card(current(),"enter-up");app.appendChild(upcoming);
     requestAnimationFrame(()=>{previous?.classList.add("exit-up");upcoming.classList.add("enter-active");});
@@ -104,11 +144,18 @@
     const x=current();if(!removable(x))return;
     removed.push({id:x.id,front:x.front,type:x.type,removedAt:new Date().toISOString()});
     removedIDs.add(x.id);save(REMOVED,removed);
+    // The removed card is skipped; the rest of the current cycle is kept.
     if(!draw()){state.currentKey=null;save(STORE,state);}
     busy=false;render();updateSheet();
   }
   function restore(id) {
     removed=removed.filter(x=>x.id!==id);removedIDs=new Set(removed.map(x=>x.id));save(REMOVED,removed);
+    normalizeCycle();
+    // A restored card rejoins the unfinished cycle without resetting it.
+    // If it is in recent history, the 100-swipe rule still takes priority.
+    if(knownIDs.has(id)&&!state.remainingCycleIds.includes(id)&&
+       !state.recentKeys.includes(key(knownIDs.get(id))))state.remainingCycleIds.push(id);
+    save(STORE,state);
     if(!current()){draw();render();}
     updateSheet();
   }
@@ -154,7 +201,7 @@
     sheet.appendChild(head);
     const remove=btn("移除当前卡片",removeCurrent,"sw-primary");
     remove.disabled=!removable(current());
-    sheet.append(remove,el("移除仅在本机生效，不会清空随机历史。","sw-help"),
+    sheet.append(remove,el("移除仅在本机生效，不会重置随机历史或当前轮次；一轮内不会重复。","sw-help"),
       el("已移除 · "+removed.length,"sw-title"));
     const list=el("","sw-removed-list");
     if(!removed.length)list.append(el("暂无移除记录","sw-muted"));
