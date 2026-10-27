@@ -15212,6 +15212,774 @@ const VOCABULARY = [
     "example": "",
     "weight": 3,
     "id": "sw-001943"
+  },
+  {
+    "type": "sentence",
+    "front": "Could I try these on? I'm not sure whether the waist will be too tight.",
+    "meaning": "我能试穿一下吗？不确定腰部会不会太紧。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001944"
+  },
+  {
+    "type": "sentence",
+    "front": "The legs fit well, but I'd prefer something a little less baggy.",
+    "meaning": "裤腿挺合适，但我更希望它稍微不要那么宽松。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001945"
+  },
+  {
+    "type": "sentence",
+    "front": "I tried to renew the book, but another patron has already placed a hold on it.",
+    "meaning": "我试着续借这本书，但另一位读者已经预约了。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001946"
+  },
+  {
+    "type": "sentence",
+    "front": "It's due back tomorrow, so I'll return it on time.",
+    "meaning": "它明天到期，因此我会按时归还。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001947"
+  },
+  {
+    "type": "sentence",
+    "front": "My boots kept sinking into the mud, so I planted my poles and shifted my weight carefully.",
+    "meaning": "我的靴子不断陷进泥里，所以我撑稳登山杖并小心转移重心。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001948"
+  },
+  {
+    "type": "sentence",
+    "front": "The path was too slippery, so we took a short detour around the puddle.",
+    "meaning": "路太滑，我们短暂绕路避开水坑。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001949"
+  },
+  {
+    "type": "sentence",
+    "front": "There seems to be a cold draft coming through the window. Will that be fixed before I move in?",
+    "meaning": "窗户似乎有冷风漏进来。我搬进来之前能修好吗？",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001950"
+  },
+  {
+    "type": "sentence",
+    "front": "Are utilities included in the rent, or are they billed separately?",
+    "meaning": "水电杂费包含在房租里，还是另行收费？",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001951"
+  },
+  {
+    "type": "sentence",
+    "front": "The courier attempted delivery while I was out, so I redirected the parcel to a pickup point.",
+    "meaning": "我外出时快递员尝试配送，于是我把包裹改投到了自提点。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001952"
+  },
+  {
+    "type": "sentence",
+    "front": "The tracking page says the parcel is ready for collection, but I haven't received the code yet.",
+    "meaning": "物流页面显示包裹可领取，但我还没收到取件码。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001953"
+  },
+  {
+    "type": "sentence",
+    "front": "Closely packed contour lines usually indicate a steep slope, while widely spaced lines suggest gentler terrain.",
+    "meaning": "密集的等高线通常表示陡坡，间隔较大的线表示地势较缓。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001954"
+  },
+  {
+    "type": "sentence",
+    "front": "We'll follow the switchbacks, cross the saddle and then crest the ridge.",
+    "meaning": "我们沿之字形路线向上，经过鞍部后翻上山脊。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001955"
+  },
+  {
+    "type": "sentence",
+    "front": "Shall we split the bill evenly, or just pay for what we had?",
+    "meaning": "我们平均 AA，还是各付各的？",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001956"
+  },
+  {
+    "type": "sentence",
+    "front": "How much do I owe you? I'll transfer my share tonight.",
+    "meaning": "我应该给你多少？今晚把我的部分转给你。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001957"
+  },
+  {
+    "type": "sentence",
+    "front": "Could you print two double-sided copies and staple the pages together?",
+    "meaning": "能双面打印两份，再把纸张分别订起来吗？",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001958"
+  },
+  {
+    "type": "sentence",
+    "front": "The printer jammed halfway through, and some of the text got cut off.",
+    "meaning": "打印到一半卡纸了，还有部分文字被裁掉了。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001959"
+  },
+  {
+    "type": "sentence",
+    "front": "I think this item rang up at the wrong price. Could you double-check it?",
+    "meaning": "我觉得这件商品结账价格不对，能核对一下吗？",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001960"
+  },
+  {
+    "type": "sentence",
+    "front": "It turned out the system hadn't been updated, so they refunded the difference.",
+    "meaning": "结果发现系统没更新，所以他们退还了差价。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001961"
+  },
+  {
+    "type": "sentence",
+    "front": "Go past the pharmacy and turn right at the traffic lights.",
+    "meaning": "经过药店，在红绿灯处右转。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001962"
+  },
+  {
+    "type": "sentence",
+    "front": "If you reach the bridge, you've gone too far. The entrance is easy to miss.",
+    "meaning": "如果到桥那里就走过头了。入口很容易错过。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001963"
+  },
+  {
+    "type": "sentence",
+    "front": "I worked up a sweat on the climb, and now the wind is cutting through my damp shirt.",
+    "meaning": "刚才爬坡出了一身汗，现在冷风正透过湿衣服吹进来。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001964"
+  },
+  {
+    "type": "sentence",
+    "front": "I'm starting to shiver. Let's find a sheltered spot and put on dry layers.",
+    "meaning": "我开始发抖了。我们找个避风处换上干燥衣物吧。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001965"
+  },
+  {
+    "type": "sentence",
+    "front": "Something was rustling in the bushes, and a deer suddenly stepped onto the trail.",
+    "meaning": "灌木里有沙沙声，一只鹿突然走到路上。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001966"
+  },
+  {
+    "type": "sentence",
+    "front": "Keep your distance and give the animal plenty of space.",
+    "meaning": "保持距离，给动物留足空间。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001967"
+  },
+  {
+    "type": "sentence",
+    "front": "Something's come up at work. Could we push the meeting back by an hour?",
+    "meaning": "工作上临时有事，能把见面时间推迟一小时吗？",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001968"
+  },
+  {
+    "type": "sentence",
+    "front": "If you can't make it, we can take a rain check and pencil it in for next week.",
+    "meaning": "如果你来不了，我们可以改天约，先暂定下周。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001969"
+  },
+  {
+    "type": "sentence",
+    "front": "The bus is packed. Could you move over a little so I can squeeze past?",
+    "meaning": "公交车太挤了，能稍微挪一下让我过去吗？",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001970"
+  },
+  {
+    "type": "sentence",
+    "front": "Here, you can have my seat. Let me move my bag out of the way.",
+    "meaning": "您坐我的位置吧。我先把包挪开。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001971"
+  },
+  {
+    "type": "sentence",
+    "front": "The holes don't line up, so I need to loosen the screws and adjust the panel.",
+    "meaning": "孔位对不齐，我得松开螺丝调整木板。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001972"
+  },
+  {
+    "type": "sentence",
+    "front": "One screw went in at an angle, and the bookshelf is still wobbling.",
+    "meaning": "有一颗螺丝拧歪了，书架还在晃。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001973"
+  },
+  {
+    "type": "sentence",
+    "front": "Many European town squares can be traced back to the Middle Ages.",
+    "meaning": "许多欧洲城镇广场可以追溯到中世纪。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001974"
+  },
+  {
+    "type": "sentence",
+    "front": "Over time, shops and inns sprang up around the marketplace, turning it into a trading hub.",
+    "meaning": "随着时间推移，商店与旅馆围绕集市出现，使其成为贸易枢纽。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001975"
+  },
+  {
+    "type": "sentence",
+    "front": "Are these ancient walls original, or have they been restored?",
+    "meaning": "这些古墙是原来的，还是修复过的？",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001976"
+  },
+  {
+    "type": "sentence",
+    "front": "It's hard to imagine what this city would have looked like two thousand years ago.",
+    "meaning": "很难想象两千年前这座城市是什么样子。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001977"
+  },
+  {
+    "type": "sentence",
+    "front": "There isn't enough room for both groups to pass at once.",
+    "meaning": "这里空间不够两支队伍同时通过。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001978"
+  },
+  {
+    "type": "sentence",
+    "front": "Let's stop on stable ground and let the oncoming hikers through.",
+    "meaning": "我们停在稳固的地面，让迎面队伍先通过。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001979"
+  },
+  {
+    "type": "sentence",
+    "front": "I didn't mean to come across as rude. What I meant was that we could try another plan.",
+    "meaning": "我并不是想显得无礼，我真正的意思是我们可以换个方案。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001980"
+  },
+  {
+    "type": "sentence",
+    "front": "Looking back, I could have worded it better. I'm glad we talked it through.",
+    "meaning": "回头想想，我本可以表达得更好。很高兴我们把事情谈开了。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001981"
+  },
+  {
+    "type": "sentence",
+    "front": "The shirt is badly wrinkled. I'll smooth out the creases before I put it on.",
+    "meaning": "这件衬衫皱得很厉害，我穿之前要把折痕熨平。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001982"
+  },
+  {
+    "type": "sentence",
+    "front": "I nearly pressed the hot iron onto a plastic button, but I caught myself just in time.",
+    "meaning": "我差点把热熨斗压到塑料纽扣上，但及时停住了。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001983"
+  },
+  {
+    "type": "sentence",
+    "front": "My Wi-Fi keeps dropping out, and the video takes forever to load.",
+    "meaning": "我的 Wi-Fi 不断掉线，视频加载特别慢。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001984"
+  },
+  {
+    "type": "sentence",
+    "front": "I restarted the router, reconnected my laptop and the video finally played smoothly.",
+    "meaning": "我重启路由器、重新连接电脑后，视频终于播放流畅了。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001985"
+  },
+  {
+    "type": "sentence",
+    "front": "When demand is high and housing supply is limited, rents tend to rise.",
+    "meaning": "需求高而住房供给有限时，租金往往上涨。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001986"
+  },
+  {
+    "type": "sentence",
+    "front": "Moving farther out may be cheaper, but there's a trade-off between rent and commuting time.",
+    "meaning": "住得远一些可能便宜，但需要权衡房租与通勤时间。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001987"
+  },
+  {
+    "type": "sentence",
+    "front": "The sea was getting choppy, and the ferry started rocking from side to side.",
+    "meaning": "海面开始波涛杂乱，渡轮左右摇晃。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001988"
+  },
+  {
+    "type": "sentence",
+    "front": "I felt a little queasy during the crossing, but the sea eventually calmed down.",
+    "meaning": "横渡时我有点反胃，但海面最终平静下来。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001989"
+  },
+  {
+    "type": "sentence",
+    "front": "The sun is beating down on us, and there's hardly any shade on this hillside.",
+    "meaning": "太阳火辣辣地晒着我们，这片山坡几乎没有阴凉处。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001990"
+  },
+  {
+    "type": "sentence",
+    "front": "He looks unsteady and feels light-headed. We should stop and get help rather than push on.",
+    "meaning": "他站得不稳、头晕。我们应该停下寻求援助，而不是继续往前。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001991"
+  },
+  {
+    "type": "sentence",
+    "front": "The smoke alarm went off because I'd accidentally burnt the toast.",
+    "meaning": "我不小心烤焦了面包，导致烟雾报警器响起。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001992"
+  },
+  {
+    "type": "sentence",
+    "front": "After making sure there was no fire, we aired out the kitchen, but the smell lingered.",
+    "meaning": "确认没着火后，我们给厨房通风，但味道久久没散。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001993"
+  },
+  {
+    "type": "sentence",
+    "front": "The ATM retained my card instead of ejecting it, and the transaction couldn't be completed.",
+    "meaning": "没退卡却把卡吞了，交易也未能完成。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001994"
+  },
+  {
+    "type": "sentence",
+    "front": "I'd like to block the card and request a replacement. Could you also check for any unexpected charge?",
+    "meaning": "我想停用卡并申请补卡。还能帮我核对是否有异常扣款吗？",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001995"
+  },
+  {
+    "type": "sentence",
+    "front": "The leaves are drooping even though the soil is soaking wet. I may have overwatered it.",
+    "meaning": "土壤已湿透，叶子却在下垂。我可能浇水过多了。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001996"
+  },
+  {
+    "type": "sentence",
+    "front": "I emptied the saucer, checked the drainage holes and let the soil dry out gradually.",
+    "meaning": "我倒掉托盘积水、检查排水孔，让土壤逐渐变干。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001997"
+  },
+  {
+    "type": "sentence",
+    "front": "GPS picks up satellite signals and uses their travel times to work out your position.",
+    "meaning": "接收卫星信号，利用传播时间计算你的位置。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001998"
+  },
+  {
+    "type": "sentence",
+    "front": "Tall buildings can block or reflect the signals, which makes the reading less accurate.",
+    "meaning": "高楼可能阻挡或反射信号，使定位不那么准确。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001999"
+  },
+  {
+    "type": "sentence",
+    "front": "My checked bag hasn't turned up. Where can I file a missing baggage report?",
+    "meaning": "我的托运行李一直没出现。我在哪里登记行李未到达？",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002000"
+  },
+  {
+    "type": "sentence",
+    "front": "Could the suitcase be delivered to my accommodation if the airline locates it later?",
+    "meaning": "如果航空公司之后找到箱子，能送到我的住处吗？",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002001"
+  },
+  {
+    "type": "sentence",
+    "front": "The sole of my boot is peeling away and keeps catching on rocks.",
+    "meaning": "我的靴子鞋底开胶，还不断勾住石头。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002002"
+  },
+  {
+    "type": "sentence",
+    "front": "This is only a temporary fix. We need to reassess the route rather than risk a fall.",
+    "meaning": "这只是临时修补。我们需要重新评估路线，而不是冒险摔倒。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002003"
+  },
+  {
+    "type": "sentence",
+    "front": "The bag handle suddenly snapped, and all the groceries spilled onto the pavement.",
+    "meaning": "购物袋提手突然断了，东西洒落在人行道上。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002004"
+  },
+  {
+    "type": "sentence",
+    "front": "An apple rolled under a parked car, but a passer-by helped me retrieve it.",
+    "meaning": "一个苹果滚到停着的车下，但一位路人帮我取回了。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002005"
+  },
+  {
+    "type": "sentence",
+    "front": "Sorry, I didn't realize my mic was still on. Let me mute myself.",
+    "meaning": "抱歉，我没意识到麦克风还开着。我先静音。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002006"
+  },
+  {
+    "type": "sentence",
+    "front": "I accidentally shared the wrong window, and now my voice is breaking up.",
+    "meaning": "我不小心共享了错误窗口，现在声音又断断续续了。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002007"
+  },
+  {
+    "type": "sentence",
+    "front": "Has anyone handed in a black wallet? I think I left mine here earlier.",
+    "meaning": "有人上交黑色钱包吗？我觉得自己早些时候落在这儿了。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002008"
+  },
+  {
+    "type": "sentence",
+    "front": "I retraced my steps, described the wallet and finally got it back from lost and found.",
+    "meaning": "我原路寻找、描述钱包外观，终于从失物招领处取回。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002009"
+  },
+  {
+    "type": "sentence",
+    "front": "Cheap rents initially attracted artists, and the neighbourhood gained a reputation for its creativity.",
+    "meaning": "低廉租金起初吸引艺术家，街区逐渐以创意氛围闻名。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002010"
+  },
+  {
+    "type": "sentence",
+    "front": "As property values rose, some long-time residents were priced out of the area.",
+    "meaning": "随着房价上涨，一些老居民已难以负担当地生活成本。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002011"
+  },
+  {
+    "type": "sentence",
+    "front": "I reached the station, only to find that my train had been cancelled.",
+    "meaning": "我赶到车站，结果却发现火车取消了。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002012"
+  },
+  {
+    "type": "sentence",
+    "front": "Is my original ticket still valid on the next service, or do I need to rebook?",
+    "meaning": "我的原票仍能用于下一班车吗，还是需要改签？",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002013"
+  },
+  {
+    "type": "sentence",
+    "front": "The water looks clear, but that doesn't necessarily mean it's safe to drink.",
+    "meaning": "水看起来清澈，但不一定意味着能安全饮用。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002014"
+  },
+  {
+    "type": "sentence",
+    "front": "Keep untreated water separate from your clean bottle to avoid cross-contamination.",
+    "meaning": "把未经处理的水与干净水瓶分开，避免交叉污染。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002015"
+  },
+  {
+    "type": "sentence",
+    "front": "I was halfway through cooking when I realized I'd run out of onions.",
+    "meaning": "做饭做到一半时，我发现洋葱用完了。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002016"
+  },
+  {
+    "type": "sentence",
+    "front": "The recipe called for two onions, so I improvised and substituted leek instead.",
+    "meaning": "食谱要两个洋葱，所以我临时想办法用韭葱替代。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002017"
+  },
+  {
+    "type": "sentence",
+    "front": "The clothes came out soaking wet because the machine hadn't completed the spin cycle.",
+    "meaning": "洗出来的衣服湿透了，因为机器没完成脱水程序。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002018"
+  },
+  {
+    "type": "sentence",
+    "front": "I took out a few towels, redistributed the rest and ran another spin cycle.",
+    "meaning": "我拿出几条毛巾，把其余衣物分布均匀，再运行一次脱水。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002019"
+  },
+  {
+    "type": "sentence",
+    "front": "Is this seat taken, or could I sit here?",
+    "meaning": "这个座位有人吗？我能坐这里吗？",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002020"
+  },
+  {
+    "type": "sentence",
+    "front": "Would you mind moving your bag a little so I can use the power outlet?",
+    "meaning": "你介意把包挪一下让我用插座吗？",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002021"
+  },
+  {
+    "type": "sentence",
+    "front": "I received several compliments, but I kept dwelling on one harsh remark.",
+    "meaning": "我收到了不少赞美，却一直纠结一句刻薄评价。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002022"
+  },
+  {
+    "type": "sentence",
+    "front": "Stepping back can help us look at the bigger picture and put criticism into perspective.",
+    "meaning": "跳出当下有助于我们看到整体情况、客观看待批评。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002023"
+  },
+  {
+    "type": "sentence",
+    "front": "I think there's been a mix-up. Someone else's belongings are already on my assigned bed.",
+    "meaning": "我觉得安排弄错了。分配给我的床上已有别人的东西。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002024"
+  },
+  {
+    "type": "sentence",
+    "front": "Could I move to another available bunk and get some fresh bedding?",
+    "meaning": "我能换到别的空床位并领取干净床品吗？",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002025"
+  },
+  {
+    "type": "sentence",
+    "front": "We need to factor in the descent, and we're running out of daylight.",
+    "meaning": "我们得考虑下山时间，天黑前剩余时间不多了。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002026"
+  },
+  {
+    "type": "sentence",
+    "front": "We've reached our turnaround time, so let's cut the hike short rather than push on.",
+    "meaning": "已经到了预定折返时间，我们提前结束徒步吧，别继续向前。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002027"
+  },
+  {
+    "type": "sentence",
+    "front": "They look fine on the outside, but they feel unusually soft when I press them gently.",
+    "meaning": "它们外观看着正常，但轻轻按压时软得异常。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002028"
+  },
+  {
+    "type": "sentence",
+    "front": "I picked out firmer peaches and separated the bruised fruit from the rest.",
+    "meaning": "我挑了较结实的桃子，并把碰伤水果与其他水果分开。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002029"
+  },
+  {
+    "type": "sentence",
+    "front": "There's a tiny speck of dust trapped underneath, and the bubble won't budge.",
+    "meaning": "下面卡了一粒小灰尘，气泡怎么都推不动。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002030"
+  },
+  {
+    "type": "sentence",
+    "front": "I lifted the corner, removed the dust and smoothed the protector out carefully.",
+    "meaning": "我掀起边角清灰，并小心把保护膜抚平。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002031"
+  },
+  {
+    "type": "sentence",
+    "front": "The lift is out of order, and this suitcase is too bulky to carry comfortably.",
+    "meaning": "电梯坏了，这箱子体积太大不好搬。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002032"
+  },
+  {
+    "type": "sentence",
+    "front": "I hauled it up the stairs, stopped to catch my breath and switched hands halfway up.",
+    "meaning": "我费力搬上楼，途中停下喘口气，爬到一半还换了只手。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002033"
+  },
+  {
+    "type": "sentence",
+    "front": "Small recurring fees can add up over time, especially if you barely use the services.",
+    "meaning": "小额定期费用会长期累积，尤其在几乎不用服务时。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002034"
+  },
+  {
+    "type": "sentence",
+    "front": "There's a catch: the subscriptions renew automatically, and you might end up paying for something you never use.",
+    "meaning": "但有个问题：订阅会自动续费，你可能最后一直为从不用的东西付",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002035"
+  },
+  {
+    "type": "sentence",
+    "front": "Is there any chance an earlier slot might open up if someone cancels?",
+    "meaning": "如果有人取消预约，可能有更早的时段空出来吗？",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002036"
+  },
+  {
+    "type": "sentence",
+    "front": "Rather than wait around, I booked the afternoon slot and explored the market in the meantime.",
+    "meaning": "与其干等，我订了下午的时段，期间先去逛了集市。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002037"
+  },
+  {
+    "type": "sentence",
+    "front": "Visibility is dropping sharply, and I can barely make out the next trail marker.",
+    "meaning": "能见度正在急剧下降，我几乎辨认不出下一个路标。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002038"
+  },
+  {
+    "type": "sentence",
+    "front": "Let's stay close together, confirm our position and reassess the route rather than blindly press on.",
+    "meaning": "大家保持靠近、确认位置、重新评估路线，不要盲目前进。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002039"
   }
 ];
 
