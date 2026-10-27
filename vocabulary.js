@@ -16556,6 +16556,174 @@ const VOCABULARY = [
     "example": "",
     "weight": 3,
     "id": "sw-002111"
+  },
+  {
+    "type": "ladder",
+    "front": "lights flicker → power goes out → breaker trips → reset → power comes back on",
+    "meaning": "灯闪烁 → 停电 → 跳闸 → 复位 → 恢复供电",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002112"
+  },
+  {
+    "type": "ladder",
+    "front": "empty pockets → tray → detector beeps → step aside → check → repack",
+    "meaning": "掏空口袋 → 托盘 → 警报 → 站一边 → 检查 → 重新收拾",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002113"
+  },
+  {
+    "type": "ladder",
+    "front": "pick up pace → fall behind → gap widens → wait up → catch up → headcount",
+    "meaning": "加速 → 掉队 → 间距扩大 → 等待 → 赶上 → 清点人数",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002114"
+  },
+  {
+    "type": "ladder",
+    "front": "bad reception → break up → cut out → call drops → call back → get through",
+    "meaning": "信号差 → 声音断续 → 中断 → 掉线 → 回拨 → 接通",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002115"
+  },
+  {
+    "type": "ladder",
+    "front": "notification → scan QR → manual code → pop open → wedged → pull out",
+    "meaning": "收到通知 → 扫码 → 手动输入 → 弹开 → 卡住拉出",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002116"
+  },
+  {
+    "type": "ladder",
+    "front": "wind picks up → straps whip → stagger → brace → lull → reassess",
+    "meaning": "风增大 → 背带甩动 → 踉跄 → 稳住 → 风暂缓重新评估",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002117"
+  },
+  {
+    "type": "ladder",
+    "front": "step out → door slams shut → keys left behind → locked out → spare key → let in",
+    "meaning": "出门 → 门猛关 → 钥匙落下 → 被锁 → 备用钥匙 → 开门",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002118"
+  },
+  {
+    "type": "ladder",
+    "front": "comb through → spray → snip/trim → blow-dry → even out → tidy up",
+    "meaning": "梳开 → 喷水 → 修剪 → 吹干 → 修匀 → 整理",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002119"
+  },
+  {
+    "type": "ladder",
+    "front": "clouds build → thunder rumbles → lightning flashes → rain pelts → drenched",
+    "meaning": "云聚集 → 雷声隆隆 → 闪电 → 暴雨 → 浑身湿透",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002120"
+  },
+  {
+    "type": "ladder",
+    "front": "bass thumps → keeps awake → knock → keep it down → quiet down",
+    "meaning": "低音咚咚 → 无法睡 → 敲门 → 请求降低音量 → 安静",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002121"
+  },
+  {
+    "type": "ladder",
+    "front": "announcement → muffled → check board → platform change → head for → board",
+    "meaning": "广播 → 模糊 → 查信息屏 → 更换站台 → 直奔登车",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002122"
+  },
+  {
+    "type": "ladder",
+    "front": "buzz → hover → gather → swat → bite → itch → repellent",
+    "meaning": "嗡嗡飞 → 盘旋 → 聚集 → 挥赶 → 叮咬 → 发痒驱虫",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002123"
+  },
+  {
+    "type": "ladder",
+    "front": "alarm goes off → hit snooze → oversleep → spring out → throw on → rush out",
+    "meaning": "闹钟响 → 贪睡 → 睡过头 → 猛起 → 套衣服 → 冲出门",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002124"
+  },
+  {
+    "type": "ladder",
+    "front": "grip → twist → won't budge → wrap towel → unscrew → tip → scrape out",
+    "meaning": "握紧 → 拧 → 不动 → 裹毛巾 → 拧开 → 倾斜 → 刮出",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002125"
+  },
+  {
+    "type": "ladder",
+    "front": "light up → dim → flicker → go out → fumble → switch on → point beam",
+    "meaning": "照亮 → 变暗 → 闪烁 → 熄灭 → 摸索 → 开启 → 对准",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002126"
+  },
+  {
+    "type": "ladder",
+    "front": "spill → soak into → blot → dab detergent → let sit → rinse → come out",
+    "meaning": "洒出 → 渗进 → 轻按吸干 → 点涂 → 静置 → 冲洗 → 洗掉",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002127"
+  },
+  {
+    "type": "ladder",
+    "front": "select → tap → charged → stuck → not dispense → contact support → refund",
+    "meaning": "选择 → 刷卡 → 扣款 → 卡住 → 不出货 → 联系客服 → 退款",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002128"
+  },
+  {
+    "type": "ladder",
+    "front": "spread → assemble → clip → stake down → pull taut → tighten → take apart → pack",
+    "meaning": "铺开 → 组装 → 扣上 → 固定 → 绷紧 → 收紧 → 拆开 → 收纳",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002129"
+  },
+  {
+    "type": "ladder",
+    "front": "flush → fails to drain → rises → close valve → plunger → clear → mop",
+    "meaning": "冲水 → 不排水 → 上涨 → 关阀 → 疏通 → 排走拖净",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002130"
+  },
+  {
+    "type": "ladder",
+    "front": "button comes off → snap → thread needle → line up → stitch → knot → snip",
+    "meaning": "纽扣脱落 → 线断 → 穿针 → 对齐 → 缝回 → 打结 → 剪线",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002131"
+  },
+  {
+    "type": "ladder",
+    "front": "step onto → planks creak → bridge sways → grip → cross → step off",
+    "meaning": "踏上 → 木板吱呀 → 桥摇摆 → 握紧 → 通过 → 走下",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002132"
   }
 ];
 
