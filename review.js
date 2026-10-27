@@ -100,11 +100,11 @@
     // Future imports (IDs above 832) are newly available, not old repeats.
     if(!Array.isArray(state.cycleSeenIds)){
       const waiting=new Set(state.remainingCycleIds);
-      state.cycleSeenIds=items.filter(x=>/^sw-\\d{6}$/.test(x.id) &&
+      state.cycleSeenIds=items.filter(x=>/^sw-\d{6}$/.test(x.id) &&
         Number(x.id.slice(3))<=832 && !waiting.has(x.id)).map(x=>x.id);
     }
     if(!Array.isArray(state.cycleKnownIds)){
-      state.cycleKnownIds=items.filter(x=>/^sw-\\d{6}$/.test(x.id) &&
+      state.cycleKnownIds=items.filter(x=>/^sw-\d{6}$/.test(x.id) &&
         Number(x.id.slice(3))<=832).map(x=>x.id);
     }
     const allowed=new Set(activeCards().map(x=>x.id));
