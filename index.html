@@ -151,6 +151,20 @@
       }
     }
 
+    #sw-counters {
+      position: fixed;
+      z-index: 80;
+      left: max(20px, env(safe-area-inset-left));
+      top: max(16px, env(safe-area-inset-top));
+      max-width: calc(100vw - 40px);
+      font-size: 12px;
+      font-weight: 500;
+      color: #777;
+      letter-spacing: .01em;
+      line-height: 1.4;
+      pointer-events: none;
+      font-variant-numeric: tabular-nums;
+    }
     /* SwipeWords local removal and restoration panel */
     #sw-menu-button {
       position: fixed;
