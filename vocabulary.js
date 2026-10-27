@@ -14564,6 +14564,654 @@ const VOCABULARY = [
     "example": "Keep an eye on the weather and the group.",
     "weight": 3,
     "id": "sw-001862"
+  },
+  {
+    "type": "pattern",
+    "front": "be supposed to + verb",
+    "meaning": "原本应该做某事；常暗示实际安排变化",
+    "example": "We were supposed to meet at three.",
+    "weight": 3,
+    "id": "sw-001863"
+  },
+  {
+    "type": "pattern",
+    "front": "be due to + verb",
+    "meaning": "按计划、时间表即将发生",
+    "example": "The train is due to depart at ten.",
+    "weight": 3,
+    "id": "sw-001864"
+  },
+  {
+    "type": "pattern",
+    "front": "be expected to + verb",
+    "meaning": "根据当前信息预计；不是保证",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001865"
+  },
+  {
+    "type": "pattern",
+    "front": "push something back by + duration",
+    "meaning": "将时间延后指定时长",
+    "example": "Could we push it back by an hour?",
+    "weight": 3,
+    "id": "sw-001866"
+  },
+  {
+    "type": "pattern",
+    "front": "push something back to + time",
+    "meaning": "将安排改到指定时间点",
+    "example": "They pushed the meeting back to four.",
+    "weight": 3,
+    "id": "sw-001867"
+  },
+  {
+    "type": "pattern",
+    "front": "pencil something in for + time",
+    "meaning": "暂定到日程，尚未最终确认",
+    "example": "Let's pencil it in for Friday.",
+    "weight": 3,
+    "id": "sw-001868"
+  },
+  {
+    "type": "pattern",
+    "front": "by the time + past clause",
+    "meaning": "等到……时；强调先前变化",
+    "example": "By the time I looked up, the bread had burnt.",
+    "weight": 3,
+    "id": "sw-001869"
+  },
+  {
+    "type": "pattern",
+    "front": "halfway through + activity",
+    "meaning": "正在进行的活动做到一半",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001870"
+  },
+  {
+    "type": "pattern",
+    "front": "once + clause, ...",
+    "meaning": "一旦/在……之后；引出后续动作",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001871"
+  },
+  {
+    "type": "pattern",
+    "front": "in the meantime, ...",
+    "meaning": "与此同时、等待期间做别的事",
+    "example": "I'll explore the square in the meantime.",
+    "weight": 3,
+    "id": "sw-001872"
+  },
+  {
+    "type": "pattern",
+    "front": "only to find that + clause",
+    "meaning": "结果却发现；常带意外或失望",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001873"
+  },
+  {
+    "type": "pattern",
+    "front": "it turned out that + clause",
+    "meaning": "最后发现事实与原以为不同",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001874"
+  },
+  {
+    "type": "pattern",
+    "front": "turn out + adverb/adjective",
+    "meaning": "某件事最终效果如何",
+    "example": "The meal turned out surprisingly well.",
+    "weight": 3,
+    "id": "sw-001875"
+  },
+  {
+    "type": "pattern",
+    "front": "end up + -ing",
+    "meaning": "最后却做了某事；常偏离最初计划",
+    "example": "We ended up taking a taxi.",
+    "weight": 3,
+    "id": "sw-001876"
+  },
+  {
+    "type": "pattern",
+    "front": "not realize + (that) clause",
+    "meaning": "当时没意识到某件事",
+    "example": "I didn't realize everyone could hear me.",
+    "weight": 3,
+    "id": "sw-001877"
+  },
+  {
+    "type": "pattern",
+    "front": "something came up",
+    "meaning": "临时发生了某件事",
+    "example": "Sorry, something came up at work.",
+    "weight": 3,
+    "id": "sw-001878"
+  },
+  {
+    "type": "pattern",
+    "front": "there's a catch",
+    "meaning": "表面很好但存在隐藏条件或问题",
+    "example": "The offer sounds great, but there's a catch.",
+    "weight": 3,
+    "id": "sw-001879"
+  },
+  {
+    "type": "pattern",
+    "front": "Would you mind + -ing?",
+    "meaning": "礼貌请求对方完成动作",
+    "example": "Would you mind moving your bag a little?",
+    "weight": 3,
+    "id": "sw-001880"
+  },
+  {
+    "type": "pattern",
+    "front": "Would you mind if I + past verb?",
+    "meaning": "委婉询问自己能否做某事",
+    "example": "Would you mind if I sat here?",
+    "weight": 3,
+    "id": "sw-001881"
+  },
+  {
+    "type": "pattern",
+    "front": "Could you double-check + noun?",
+    "meaning": "礼貌要求再次确认信息",
+    "example": "Could you double-check the price?",
+    "weight": 3,
+    "id": "sw-001882"
+  },
+  {
+    "type": "pattern",
+    "front": "Is there any chance + clause?",
+    "meaning": "委婉询问某种可能性",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001883"
+  },
+  {
+    "type": "pattern",
+    "front": "I was wondering if + clause",
+    "meaning": "语气柔和地提出请求",
+    "example": "I was wondering if I could renew the loan.",
+    "weight": 3,
+    "id": "sw-001884"
+  },
+  {
+    "type": "pattern",
+    "front": "I'd rather + verb + than + verb",
+    "meaning": "表达宁可选择 A 而非 B",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001885"
+  },
+  {
+    "type": "pattern",
+    "front": "Would it be possible to + verb?",
+    "meaning": "礼貌问某事能否安排",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001886"
+  },
+  {
+    "type": "pattern",
+    "front": "I didn't mean to + verb",
+    "meaning": "解释自己并非有意产生某种影响",
+    "example": "I didn't mean to criticize you.",
+    "weight": 3,
+    "id": "sw-001887"
+  },
+  {
+    "type": "pattern",
+    "front": "What I meant was that + clause",
+    "meaning": "重新清晰表述本意",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001888"
+  },
+  {
+    "type": "pattern",
+    "front": "come across as + adjective",
+    "meaning": "给人的印象或听起来如何",
+    "example": "My comment came across as harsh.",
+    "weight": 3,
+    "id": "sw-001889"
+  },
+  {
+    "type": "pattern",
+    "front": "take something the wrong way",
+    "meaning": "把别人的话往负面方向理解",
+    "example": "He took my joke the wrong way.",
+    "weight": 3,
+    "id": "sw-001890"
+  },
+  {
+    "type": "pattern",
+    "front": "looking back, ...",
+    "meaning": "事后回顾，反思当时发生的事",
+    "example": "Looking back, I could have worded it better.",
+    "weight": 3,
+    "id": "sw-001891"
+  },
+  {
+    "type": "pattern",
+    "front": "I can see why + clause",
+    "meaning": "表示理解原因或对方反应",
+    "example": "I can see why that upset you.",
+    "weight": 3,
+    "id": "sw-001892"
+  },
+  {
+    "type": "pattern",
+    "front": "talk something through",
+    "meaning": "仔细讨论一个问题",
+    "example": "Let's talk through the options.",
+    "weight": 3,
+    "id": "sw-001893"
+  },
+  {
+    "type": "pattern",
+    "front": "put something into perspective",
+    "meaning": "放在更完整背景里理性看待",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001894"
+  },
+  {
+    "type": "pattern",
+    "front": "tend to + verb",
+    "meaning": "表示一般趋势而非绝对规律",
+    "example": "City-centre apartments tend to cost more.",
+    "weight": 3,
+    "id": "sw-001895"
+  },
+  {
+    "type": "pattern",
+    "front": "comparative + than expected",
+    "meaning": "实际与预期形成比较",
+    "example": "The climb was steeper than expected.",
+    "weight": 3,
+    "id": "sw-001896"
+  },
+  {
+    "type": "pattern",
+    "front": "too + adjective + for + person + to + verb",
+    "meaning": "过于……以至于某人无法做",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001897"
+  },
+  {
+    "type": "pattern",
+    "front": "so + adjective + that + clause",
+    "meaning": "如此……以至于",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001898"
+  },
+  {
+    "type": "pattern",
+    "front": "not so + adjective + that + clause",
+    "meaning": "没有到……的程度；不至于",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001899"
+  },
+  {
+    "type": "pattern",
+    "front": "slightly / fairly / unusually + adjective",
+    "meaning": "副词修饰状态，表达细微程度",
+    "example": "The peaches felt unusually soft.",
+    "weight": 3,
+    "id": "sw-001900"
+  },
+  {
+    "type": "pattern",
+    "front": "barely / hardly + verb",
+    "meaning": "几乎不能完成动作",
+    "example": "I could barely make out the trail marker.",
+    "weight": 3,
+    "id": "sw-001901"
+  },
+  {
+    "type": "pattern",
+    "front": "absolutely + extreme adjective",
+    "meaning": "与表示极端状态的形容词搭配",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001902"
+  },
+  {
+    "type": "pattern",
+    "front": "increasingly + adjective",
+    "meaning": "状态逐渐更强、更明显",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001903"
+  },
+  {
+    "type": "pattern",
+    "front": "there's a trade-off between A and B",
+    "meaning": "表达两方面利益的取舍",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001904"
+  },
+  {
+    "type": "pattern",
+    "front": "because / since + clause",
+    "meaning": "说明发生原因",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001905"
+  },
+  {
+    "type": "pattern",
+    "front": "as + clause, clause",
+    "meaning": "随着某种变化，另一变化同时发生",
+    "example": "As rents rose, some residents moved away.",
+    "weight": 3,
+    "id": "sw-001906"
+  },
+  {
+    "type": "pattern",
+    "front": "when A..., B tends to...",
+    "meaning": "给出条件与一般趋势",
+    "example": "When demand is high, rents tend to rise.",
+    "weight": 3,
+    "id": "sw-001907"
+  },
+  {
+    "type": "pattern",
+    "front": "leave someone with + quantity",
+    "meaning": "使某人最终只剩下资源或时间",
+    "example": "The delay left us with one hour to explore.",
+    "weight": 3,
+    "id": "sw-001908"
+  },
+  {
+    "type": "pattern",
+    "front": "make something + adjective",
+    "meaning": "造成某个状态",
+    "example": "The strong wind made the ridge feel colder.",
+    "weight": 3,
+    "id": "sw-001909"
+  },
+  {
+    "type": "pattern",
+    "front": "drive up / drive down + prices",
+    "meaning": "表达推高或压低价格的因果作用",
+    "example": "Limited supply can drive up rents.",
+    "weight": 3,
+    "id": "sw-001910"
+  },
+  {
+    "type": "pattern",
+    "front": "price someone out of + place",
+    "meaning": "因价格上涨导致某人负担不起某地",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001911"
+  },
+  {
+    "type": "pattern",
+    "front": "even though + clause, ...",
+    "meaning": "承认事实仍强调相反结果",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001912"
+  },
+  {
+    "type": "pattern",
+    "front": "although + clause, ...",
+    "meaning": "正式或中性地表达虽然",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001913"
+  },
+  {
+    "type": "pattern",
+    "front": "even if + clause, ...",
+    "meaning": "即使假定某事发生，结果仍成立",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001914"
+  },
+  {
+    "type": "pattern",
+    "front": "rather than + -ing / verb",
+    "meaning": "选择某行动，避免另一个行动",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001915"
+  },
+  {
+    "type": "pattern",
+    "front": "instead of + -ing / noun",
+    "meaning": "使用 A 而非 B，或做 A 而非做 B",
+    "example": "I used leek instead of onion.",
+    "weight": 3,
+    "id": "sw-001916"
+  },
+  {
+    "type": "pattern",
+    "front": "without + -ing",
+    "meaning": "表示没有做某动作",
+    "example": "He left without checking the receipt.",
+    "weight": 3,
+    "id": "sw-001917"
+  },
+  {
+    "type": "pattern",
+    "front": "decide to A rather than B",
+    "meaning": "在两种方案中明确选择",
+    "example": "We decided to turn back rather than push on.",
+    "weight": 3,
+    "id": "sw-001918"
+  },
+  {
+    "type": "pattern",
+    "front": "Have you ever wondered why + clause?",
+    "meaning": "自然引出知识和现象",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001919"
+  },
+  {
+    "type": "pattern",
+    "front": "One major reason is that + clause",
+    "meaning": "解释现象的主要原因",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001920"
+  },
+  {
+    "type": "pattern",
+    "front": "One possible explanation is that + clause",
+    "meaning": "在不完全确定时提出解释",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001921"
+  },
+  {
+    "type": "pattern",
+    "front": "This doesn't necessarily mean that + clause",
+    "meaning": "防止将一般趋势误解成绝对事实",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001922"
+  },
+  {
+    "type": "pattern",
+    "front": "It helps explain why + clause",
+    "meaning": "从前述事实推出解释",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001923"
+  },
+  {
+    "type": "pattern",
+    "front": "can be traced back to + period",
+    "meaning": "追溯某种现象或制度的历史根源",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001924"
+  },
+  {
+    "type": "pattern",
+    "front": "some..., while others...",
+    "meaning": "对照不同部分或类别",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001925"
+  },
+  {
+    "type": "pattern",
+    "front": "serve as + noun",
+    "meaning": "充当某用途或功能",
+    "example": "The square still serves as a gathering place.",
+    "weight": 3,
+    "id": "sw-001926"
+  },
+  {
+    "type": "pattern",
+    "front": "whether A or B",
+    "meaning": "表达两种互斥或待判断选择",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001927"
+  },
+  {
+    "type": "pattern",
+    "front": "ask whether + clause",
+    "meaning": "询问是否具备某种可能或条件",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001928"
+  },
+  {
+    "type": "pattern",
+    "front": "I'm not sure whether + clause",
+    "meaning": "说明尚未确定的判断",
+    "example": "I'm not sure whether I'll make it on time.",
+    "weight": 3,
+    "id": "sw-001929"
+  },
+  {
+    "type": "pattern",
+    "front": "no guarantee that + clause",
+    "meaning": "明确表达不能保证",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001930"
+  },
+  {
+    "type": "pattern",
+    "front": "check whether + clause",
+    "meaning": "核对事实是否成立",
+    "example": "Check whether the booking includes bedding.",
+    "weight": 3,
+    "id": "sw-001931"
+  },
+  {
+    "type": "pattern",
+    "front": "have no choice but to + verb",
+    "meaning": "客观限制下别无选择",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001932"
+  },
+  {
+    "type": "pattern",
+    "front": "struggle to + verb",
+    "meaning": "做某事非常吃力",
+    "example": "He was struggling to keep up with the group.",
+    "weight": 3,
+    "id": "sw-001933"
+  },
+  {
+    "type": "pattern",
+    "front": "keep up with + noun",
+    "meaning": "在节奏、数量或进展上跟得上",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001934"
+  },
+  {
+    "type": "pattern",
+    "front": "factor in + noun",
+    "meaning": "将因素计入评估或计划",
+    "example": "We need to factor in time for the descent.",
+    "weight": 3,
+    "id": "sw-001935"
+  },
+  {
+    "type": "pattern",
+    "front": "leave a buffer for + noun",
+    "meaning": "为意外情况留出余量",
+    "example": "Leave a buffer for unexpected delays.",
+    "weight": 3,
+    "id": "sw-001936"
+  },
+  {
+    "type": "pattern",
+    "front": "make sure + clause",
+    "meaning": "确保某事成立",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001937"
+  },
+  {
+    "type": "pattern",
+    "front": "choose a route you can reliably follow",
+    "meaning": "谨慎选择可确认、可持续辨认的路线",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001938"
+  },
+  {
+    "type": "pattern",
+    "front": "could have + past participle",
+    "meaning": "事后表示本来可以做得不同",
+    "example": "I could have worded it better.",
+    "weight": 3,
+    "id": "sw-001939"
+  },
+  {
+    "type": "pattern",
+    "front": "should have + past participle",
+    "meaning": "事后判断本应做某事",
+    "example": "I should have booked the ticket earlier.",
+    "weight": 3,
+    "id": "sw-001940"
+  },
+  {
+    "type": "pattern",
+    "front": "had been + -ing when + clause",
+    "meaning": "表达过去某动作进行中发生新事件",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001941"
+  },
+  {
+    "type": "pattern",
+    "front": "would have + past participle",
+    "meaning": "表达过去假设结果",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001942"
+  },
+  {
+    "type": "pattern",
+    "front": "what something would have looked like",
+    "meaning": "想象过去某物可能呈现的状态",
+    "example": "",
+    "weight": 3,
+    "id": "sw-001943"
   }
 ];
 
