@@ -27,13 +27,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "steep / get pretty steep",
-    "meaning": "陡的；逐渐变陡",
-    "example": "The trail gets pretty steep after the junction.",
-    "id": "sw-000004"
-  },
-  {
-    "type": "word",
     "front": "muddy / slippery / rocky / uneven",
     "meaning": "泥泞 / 湿滑 / 多石 / 凹凸不平",
     "example": "The trail is muddy, slippery and uneven.",
@@ -62,24 +55,10 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "nothing too crazy / nothing too bad",
-    "meaning": "没有特别夸张 / 没那么糟",
-    "example": "The next section is steep, but nothing too crazy.",
-    "id": "sw-000009"
-  },
-  {
-    "type": "word",
     "front": "watch your footing / watch your step",
     "meaning": "注意脚下",
     "example": "Watch your footing on the wet rocks.",
     "id": "sw-000010"
-  },
-  {
-    "type": "word",
-    "front": "push on / keep going",
-    "meaning": "继续向前 / 继续走",
-    "example": "We decided to push on for another hour.",
-    "id": "sw-000011"
   },
   {
     "type": "word",
@@ -129,13 +108,6 @@ const VOCABULARY = [
     "meaning": "相当有信心能……",
     "example": "I’m pretty confident I can finish the route today.",
     "id": "sw-000018"
-  },
-  {
-    "type": "word",
-    "front": "adjust to the altitude",
-    "meaning": "适应海拔",
-    "example": "I needed some time to adjust to the altitude.",
-    "id": "sw-000019"
   },
   {
     "type": "word",
@@ -209,24 +181,10 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "visibility / poor visibility",
-    "meaning": "能见度 / 能见度差",
-    "example": "Fog rolled in and visibility became poor.",
-    "id": "sw-000030"
-  },
-  {
-    "type": "word",
     "front": "have time to myself",
     "meaning": "有自己的独处时间",
     "example": "I enjoy having time to myself.",
     "id": "sw-000031"
-  },
-  {
-    "type": "word",
-    "front": "whenever I want",
-    "meaning": "想什么时候就什么时候",
-    "example": "I can stop whenever I want.",
-    "id": "sw-000032"
   },
   {
     "type": "word",
@@ -244,21 +202,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "be supposed to",
-    "meaning": "按计划/规定本来应该",
-    "example": "We were supposed to meet at seven.",
-    "id": "sw-000035"
-  },
-  {
-    "type": "word",
-    "front": "at the last minute",
-    "meaning": "临到最后一刻",
-    "example": "He cancelled at the last minute.",
-    "weight": 3,
-    "id": "sw-000036"
-  },
-  {
-    "type": "word",
     "front": "something came up",
     "meaning": "突然有事",
     "example": "Sorry, something came up.",
@@ -270,13 +213,6 @@ const VOCABULARY = [
     "meaning": "把安排往后推",
     "example": "Can we push dinner back by half an hour?",
     "id": "sw-000038"
-  },
-  {
-    "type": "word",
-    "front": "wait around",
-    "meaning": "在那儿干等",
-    "example": "I don’t want to wait around for two hours.",
-    "id": "sw-000039"
   },
   {
     "type": "word",
@@ -305,13 +241,6 @@ const VOCABULARY = [
     "meaning": "自己待着、不太主动社交",
     "example": "I usually keep to myself on long trips.",
     "id": "sw-000043"
-  },
-  {
-    "type": "word",
-    "front": "strike up a conversation",
-    "meaning": "主动聊起来",
-    "example": "I struck up a conversation with another hiker.",
-    "id": "sw-000044"
   },
   {
     "type": "word",
@@ -455,13 +384,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "get something fixed",
-    "meaning": "找人把某物修好",
-    "example": "I need to get the sink fixed.",
-    "id": "sw-000065"
-  },
-  {
-    "type": "word",
     "front": "fit / suit",
     "meaning": "尺寸合身 / 风格颜色适合",
     "example": "The jacket fits well, and the color suits you.",
@@ -553,24 +475,10 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "juicy / dry",
-    "meaning": "多汁 / 干柴",
-    "example": "The chicken is juicy inside, not dry.",
-    "id": "sw-000079"
-  },
-  {
-    "type": "word",
     "front": "crispy / soggy",
     "meaning": "酥脆 / 湿软",
     "example": "The fries were crispy at first but turned soggy later.",
     "id": "sw-000080"
-  },
-  {
-    "type": "word",
-    "front": "greasy",
-    "meaning": "油腻的",
-    "example": "The burger was too greasy.",
-    "id": "sw-000081"
   },
   {
     "type": "word",
@@ -725,13 +633,6 @@ const VOCABULARY = [
     "meaning": "响应 / 没反应",
     "example": "The touchscreen stopped responding.",
     "id": "sw-000103"
-  },
-  {
-    "type": "word",
-    "front": "restart / turn it off and back on",
-    "meaning": "重启 / 关掉再打开",
-    "example": "Try restarting it or turning it off and back on.",
-    "id": "sw-000104"
   },
   {
     "type": "word",
@@ -1036,13 +937,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "wait in line / queue / cut in line",
-    "meaning": "排队 / 排队 / 插队",
-    "example": "Someone cut in line while we were waiting.",
-    "id": "sw-000148"
-  },
-  {
-    "type": "word",
     "front": "tap someone on the shoulder",
     "meaning": "轻拍肩膀",
     "example": "I tapped him on the shoulder.",
@@ -1176,13 +1070,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "puncture",
-    "meaning": "扎破的小孔、爆胎破损",
-    "example": "I found a small puncture in the tube.",
-    "id": "sw-000168"
-  },
-  {
-    "type": "word",
     "front": "pump up / let the air out",
     "meaning": "打气 / 放气",
     "example": "Pump the tire up, then let a little air out if it feels too hard.",
@@ -1299,20 +1186,6 @@ const VOCABULARY = [
     "meaning": "找人/设法把某物处理好",
     "example": "I need to get my bike fixed properly.",
     "id": "sw-000185"
-  },
-  {
-    "type": "pattern",
-    "front": "It’s worth / not worth + noun or -ing",
-    "meaning": "值得 / 不值得",
-    "example": "The view is worth the climb, but the summit isn’t worth the risk today.",
-    "id": "sw-000186"
-  },
-  {
-    "type": "pattern",
-    "front": "I’ve still got ... to go",
-    "meaning": "还剩……",
-    "example": "I’ve still got another five kilometers to go.",
-    "id": "sw-000187"
   },
   {
     "type": "pattern",
@@ -1519,13 +1392,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "stable / unstable",
-    "meaning": "稳定的 / 不稳定的",
-    "example": "The ground feels unstable near the edge.",
-    "id": "sw-000219"
-  },
-  {
-    "type": "word",
     "front": "stumble forward",
     "meaning": "向前踉跄",
     "example": "I stumbled forward but didn’t fall.",
@@ -1572,13 +1438,6 @@ const VOCABULARY = [
     "meaning": "扭到 / 扭伤脚踝",
     "example": "I twisted my ankle slightly, but luckily I didn’t sprain it.",
     "id": "sw-000226"
-  },
-  {
-    "type": "word",
-    "front": "turn on / turn off",
-    "meaning": "打开 / 关闭",
-    "example": "Turn the shower on and let it run.",
-    "id": "sw-000227"
   },
   {
     "type": "word",
@@ -1701,13 +1560,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "tie / untie",
-    "meaning": "系上 / 解开",
-    "example": "I tied my shoelaces before leaving.",
-    "id": "sw-000245"
-  },
-  {
-    "type": "word",
     "front": "come undone",
     "meaning": "自己松开、散开",
     "example": "My shoelaces came undone halfway down the trail.",
@@ -1740,13 +1592,6 @@ const VOCABULARY = [
     "meaning": "沸腾 / 小火慢煮",
     "example": "Once it boils, turn the heat down and let it simmer.",
     "id": "sw-000250"
-  },
-  {
-    "type": "word",
-    "front": "turn the heat up / down",
-    "meaning": "把火调大 / 调小",
-    "example": "Turn the heat down before the sauce burns.",
-    "id": "sw-000251"
   },
   {
     "type": "word",
@@ -1785,13 +1630,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "be about to do",
-    "meaning": "正要、马上要做",
-    "example": "I was about to cross the street when a car appeared.",
-    "id": "sw-000257"
-  },
-  {
-    "type": "word",
     "front": "come speeding around the corner",
     "meaning": "高速从拐角冲出来",
     "example": "A cyclist came speeding around the corner.",
@@ -1827,13 +1665,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "avoid / avoid doing",
-    "meaning": "避开 / 避免做",
-    "example": "We took a detour to avoid walking through the mud.",
-    "id": "sw-000263"
-  },
-  {
-    "type": "word",
     "front": "nearly / almost",
     "meaning": "差一点、几乎",
     "example": "I nearly lost my balance.",
@@ -1859,13 +1690,6 @@ const VOCABULARY = [
     "meaning": "勒进、压进身体",
     "example": "The shoulder straps are digging into me.",
     "id": "sw-000267"
-  },
-  {
-    "type": "word",
-    "front": "fasten / unfasten",
-    "meaning": "扣好固定 / 解开",
-    "example": "Fasten the waist belt before climbing.",
-    "id": "sw-000268"
   },
   {
     "type": "word",
@@ -2233,20 +2057,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "bank",
-    "meaning": "河岸、溪岸",
-    "example": "The water was shallow near the bank.",
-    "id": "sw-000321"
-  },
-  {
-    "type": "word",
-    "front": "shallow ↔ deep",
-    "meaning": "浅 ↔ 深",
-    "example": "The stream gets deeper toward the middle.",
-    "id": "sw-000322"
-  },
-  {
-    "type": "word",
     "front": "current",
     "meaning": "水流",
     "example": "The current was stronger than it looked.",
@@ -2261,24 +2071,10 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "stepping stone",
-    "meaning": "踏脚石",
-    "example": "The stepping stones were wet and slippery.",
-    "id": "sw-000325"
-  },
-  {
-    "type": "word",
     "front": "wobble / wobbly",
     "meaning": "摇晃 / 摇晃不稳的",
     "example": "One stone wobbled under my foot.",
     "id": "sw-000326"
-  },
-  {
-    "type": "word",
-    "front": "risk it",
-    "meaning": "冒这个险",
-    "example": "The current looked too strong, so I decided not to risk it.",
-    "id": "sw-000327"
   },
   {
     "type": "word",
@@ -2349,13 +2145,6 @@ const VOCABULARY = [
     "meaning": "把某物放置、铺放",
     "example": "I laid the folded blanket across the end of the bed.",
     "id": "sw-000337"
-  },
-  {
-    "type": "word",
-    "front": "lie down",
-    "meaning": "自己躺下",
-    "example": "I lay down for a few minutes.",
-    "id": "sw-000338"
   },
   {
     "type": "word",
@@ -2433,13 +2222,6 @@ const VOCABULARY = [
     "meaning": "飘入 / 缓慢飘过",
     "example": "Fog drifted across the ridge.",
     "id": "sw-000349"
-  },
-  {
-    "type": "word",
-    "front": "visibility drops / improves",
-    "meaning": "能见度下降 / 改善",
-    "example": "Visibility dropped dramatically.",
-    "id": "sw-000350"
   },
   {
     "type": "word",
@@ -2660,13 +2442,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "heavy vs bulky",
-    "meaning": "重量重 vs 体积大笨重",
-    "example": "It is bulky but not very heavy.",
-    "id": "sw-000382"
-  },
-  {
-    "type": "word",
     "front": "tilt something toward / slightly",
     "meaning": "朝某方向倾斜／微倾",
     "example": "Tilt the cabinet toward me.",
@@ -2709,13 +2484,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "the rest of the way",
-    "meaning": "剩下的路程",
-    "example": "We carried it the rest of the way.",
-    "id": "sw-000389"
-  },
-  {
-    "type": "word",
     "front": "checkout / line at checkout",
     "meaning": "结账处／结账队伍",
     "example": "The line at the checkout moved quickly.",
@@ -2737,59 +2505,10 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "one by one",
-    "meaning": "一个接一个",
-    "example": "Cross the slippery section one by one.",
-    "id": "sw-000393"
-  },
-  {
-    "type": "word",
-    "front": "tap your card / contactless payment",
-    "meaning": "感应刷卡／非接触支付",
-    "example": "I tapped my card on the terminal.",
-    "id": "sw-000394"
-  },
-  {
-    "type": "word",
-    "front": "card terminal",
-    "meaning": "刷卡终端",
-    "example": "Tap your card on the terminal.",
-    "id": "sw-000395"
-  },
-  {
-    "type": "word",
-    "front": "be declined",
-    "meaning": "支付被拒绝",
-    "example": "My card was declined.",
-    "id": "sw-000396"
-  },
-  {
-    "type": "word",
     "front": "payment go through / would not go through",
     "meaning": "支付完成／就是不成功",
     "example": "The payment would not go through.",
     "id": "sw-000397"
-  },
-  {
-    "type": "word",
-    "front": "insert card / enter PIN",
-    "meaning": "插卡／输入密码",
-    "example": "I inserted my card and entered my PIN.",
-    "id": "sw-000398"
-  },
-  {
-    "type": "word",
-    "front": "receipt / digital receipt",
-    "meaning": "小票／电子收据",
-    "example": "Do you need a receipt?",
-    "id": "sw-000399"
-  },
-  {
-    "type": "word",
-    "front": "step aside / move aside",
-    "meaning": "让到一旁",
-    "example": "I packed my groceries and moved aside.",
-    "id": "sw-000400"
   },
   {
     "type": "word",
@@ -2884,20 +2603,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "press the stop button",
-    "meaning": "按停车按钮",
-    "example": "Press the stop button before your stop.",
-    "id": "sw-000414"
-  },
-  {
-    "type": "word",
-    "front": "miss the bus vs miss my stop",
-    "meaning": "错 过 公 交vs车坐过站",
-    "example": "I missed my stop and got off at the next one.",
-    "id": "sw-000415"
-  },
-  {
-    "type": "word",
     "front": "get off at the next stop",
     "meaning": "下一站下车",
     "example": "I got off at the next stop.",
@@ -2982,13 +2687,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "stop A from doing B",
-    "meaning": "阻止 A 做 B",
-    "example": "I adjusted the boots to stop my heel from sliding around.",
-    "id": "sw-000428"
-  },
-  {
-    "type": "word",
     "front": "keep going vs push on",
     "meaning": "正常继续 vs 克服困难坚持前进",
     "example": "My foot feels fine, so I can keep going.",
@@ -3028,13 +2726,6 @@ const VOCABULARY = [
     "meaning": "边缘变褐",
     "example": "The lettuce was turning brown around the edges.",
     "id": "sw-000434"
-  },
-  {
-    "type": "word",
-    "front": "leftover chicken / leftovers",
-    "meaning": "剩下的鸡肉／剩菜",
-    "example": "Heat up the leftovers.",
-    "id": "sw-000435"
   },
   {
     "type": "word",
@@ -3276,24 +2967,10 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "check-in counter",
-    "meaning": "值机柜台",
-    "example": "I arrived at the check-in counter.",
-    "id": "sw-000470"
-  },
-  {
-    "type": "word",
     "front": "scale / put suitcase on scale",
     "meaning": "秤／把箱子放秤上",
     "example": "Put your suitcase on the scale.",
     "id": "sw-000471"
-  },
-  {
-    "type": "word",
-    "front": "three kilos overweight",
-    "meaning": "超重三公斤",
-    "example": "The suitcase is three kilos overweight.",
-    "id": "sw-000472"
   },
   {
     "type": "word",
@@ -3406,13 +3083,6 @@ const VOCABULARY = [
     "meaning": "确认位置和方位",
     "example": "Give me a minute to get my bearings.",
     "id": "sw-000488"
-  },
-  {
-    "type": "word",
-    "front": "rather than push on",
-    "meaning": "而不是硬往前走",
-    "example": "I turned back rather than pushing on.",
-    "id": "sw-000489"
   },
   {
     "type": "word",
@@ -3661,13 +3331,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "receipt / proof of purchase",
-    "meaning": "收据／购买凭证",
-    "example": "Do you have proof of purchase?",
-    "id": "sw-000525"
-  },
-  {
-    "type": "word",
     "front": "exchange A for B",
     "meaning": "用A换B",
     "example": "Can I exchange it for a new one?",
@@ -3766,13 +3429,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "test ride / test drive",
-    "meaning": "试骑／试驾",
-    "example": "I took the bike for a short test ride.",
-    "id": "sw-000540"
-  },
-  {
-    "type": "word",
     "front": "run smoothly",
     "meaning": "运转顺畅",
     "example": "Everything was running smoothly.",
@@ -3808,13 +3464,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "collapse / collapsed bridge",
-    "meaning": "坍塌／坍塌的桥 突然支撑不住／地面塌",
-    "example": "Part of the bridge collapsed.",
-    "id": "sw-000546"
-  },
-  {
-    "type": "word",
     "front": "give way / ground gives way",
     "meaning": "突然支撑不住／地面塌陷",
     "example": "The bridge gave way under the load.",
@@ -3840,13 +3489,6 @@ const VOCABULARY = [
     "meaning": "退到足够远的距离",
     "example": "Stay well back from the edge.",
     "id": "sw-000550"
-  },
-  {
-    "type": "word",
-    "front": "higher ground",
-    "meaning": "地势更高的地方",
-    "example": "Move to higher ground.",
-    "id": "sw-000551"
   },
   {
     "type": "word",
@@ -3966,13 +3608,6 @@ const VOCABULARY = [
     "meaning": "查看订单进度／看看某人状况",
     "example": "Could you check on my order?",
     "id": "sw-000568"
-  },
-  {
-    "type": "word",
-    "front": "on the house",
-    "meaning": "店家免费赠送",
-    "example": "Dessert is on the house.",
-    "id": "sw-000569"
   },
   {
     "type": "word",
@@ -4242,15 +3877,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "Boil",
-    "meaning": "煮沸、水煮",
-    "example": "Boil the potatoes until they are tender.",
-    "weight": 3,
-    "topic": "cooking_methods",
-    "id": "sw-000608"
-  },
-  {
-    "type": "word",
     "front": "Simmer",
     "meaning": "小火慢煮、微沸",
     "example": "Let the sauce simmer gently for ten minutes.",
@@ -4314,30 +3940,12 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "Stir-fry",
-    "meaning": "翻炒",
-    "example": "Stir-fry the vegetables over high heat.",
-    "weight": 3,
-    "topic": "cooking_methods",
-    "id": "sw-000616"
-  },
-  {
-    "type": "word",
     "front": "Pan-fry",
     "meaning": "平底锅煎",
     "example": "Pan-fry the fish until the skin is crisp.",
     "weight": 3,
     "topic": "cooking_methods",
     "id": "sw-000617"
-  },
-  {
-    "type": "word",
-    "front": "Deep-fry",
-    "meaning": "油炸",
-    "example": "Deep-fry the potatoes until golden brown.",
-    "weight": 3,
-    "topic": "cooking_methods",
-    "id": "sw-000618"
   },
   {
     "type": "word",
@@ -4368,39 +3976,12 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "Bake",
-    "meaning": "烘焙、烤",
-    "example": "Bake the bread in a preheated oven.",
-    "weight": 3,
-    "topic": "cooking_methods",
-    "id": "sw-000622"
-  },
-  {
-    "type": "word",
     "front": "Roast",
     "meaning": "烘烤肉类或蔬菜",
     "example": "Roast the chicken with potatoes.",
     "weight": 3,
     "topic": "cooking_methods",
     "id": "sw-000623"
-  },
-  {
-    "type": "word",
-    "front": "Grill",
-    "meaning": "烧烤、炙烤",
-    "example": "Grill the vegetables until lightly charred.",
-    "weight": 3,
-    "topic": "cooking_methods",
-    "id": "sw-000624"
-  },
-  {
-    "type": "word",
-    "front": "Barbecue",
-    "meaning": "烧烤",
-    "example": "We barbecued chicken in the backyard.",
-    "weight": 3,
-    "topic": "cooking_methods",
-    "id": "sw-000625"
   },
   {
     "type": "word",
@@ -4431,42 +4012,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "Smoke",
-    "meaning": "烟熏",
-    "example": "Smoke the fish slowly over wood chips.",
-    "weight": 3,
-    "topic": "cooking_methods",
-    "id": "sw-000629"
-  },
-  {
-    "type": "word",
-    "front": "Heat",
-    "meaning": "加热",
-    "example": "Heat the oil in a pan.",
-    "weight": 3,
-    "topic": "cooking_methods",
-    "id": "sw-000630"
-  },
-  {
-    "type": "word",
-    "front": "Heat up",
-    "meaning": "加热、热一下",
-    "example": "Heat up the soup before serving.",
-    "weight": 3,
-    "topic": "cooking_methods",
-    "id": "sw-000631"
-  },
-  {
-    "type": "word",
-    "front": "Reheat",
-    "meaning": "重新加热",
-    "example": "Reheat the leftovers thoroughly.",
-    "weight": 3,
-    "topic": "cooking_methods",
-    "id": "sw-000632"
-  },
-  {
-    "type": "word",
     "front": "Warm up",
     "meaning": "加热、温热",
     "example": "Warm up the milk gently.",
@@ -4476,48 +4021,12 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "Microwave",
-    "meaning": "用微波炉加热",
-    "example": "Microwave the leftovers for two minutes.",
-    "weight": 3,
-    "topic": "cooking_methods",
-    "id": "sw-000634"
-  },
-  {
-    "type": "word",
-    "front": "Melt",
-    "meaning": "加热融化",
-    "example": "Melt the butter over low heat.",
-    "weight": 3,
-    "topic": "cooking_methods",
-    "id": "sw-000635"
-  },
-  {
-    "type": "word",
     "front": "Bring to a boil",
     "meaning": "煮至沸腾",
     "example": "Bring the water to a boil, then reduce the heat.",
     "weight": 3,
     "topic": "cooking_methods",
     "id": "sw-000636"
-  },
-  {
-    "type": "word",
-    "front": "Turn up the heat",
-    "meaning": "调大火",
-    "example": "Turn up the heat to bring the sauce to a boil.",
-    "weight": 3,
-    "topic": "cooking_methods",
-    "id": "sw-000637"
-  },
-  {
-    "type": "word",
-    "front": "Turn down the heat",
-    "meaning": "调小火",
-    "example": "Turn down the heat and let the soup simmer.",
-    "weight": 3,
-    "topic": "cooking_methods",
-    "id": "sw-000638"
   },
   {
     "type": "word",
@@ -4548,51 +4057,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "a spare phone",
-    "meaning": "一部备用手机",
-    "example": "I keep a spare phone for emergencies.",
-    "weight": 3,
-    "topic": "speaking_expressions_v1",
-    "id": "sw-000642"
-  },
-  {
-    "type": "word",
-    "front": "a backup phone",
-    "meaning": "以防万一使用的备用手机",
-    "example": "I always carry a backup phone when I travel.",
-    "weight": 3,
-    "topic": "speaking_expressions_v1",
-    "id": "sw-000643"
-  },
-  {
-    "type": "word",
-    "front": "my main phone",
-    "meaning": "我的主力手机",
-    "example": "This isn't my main phone; it's a spare.",
-    "weight": 3,
-    "topic": "speaking_expressions_v1",
-    "id": "sw-000644"
-  },
-  {
-    "type": "word",
-    "front": "my primary phone",
-    "meaning": "我的主要手机",
-    "example": "My primary phone is running out of battery.",
-    "weight": 3,
-    "topic": "speaking_expressions_v1",
-    "id": "sw-000645"
-  },
-  {
-    "type": "word",
-    "front": "my second phone",
-    "meaning": "我的第二部手机",
-    "example": "I use my second phone when I travel.",
-    "weight": 3,
-    "topic": "speaking_expressions_v1",
-    "id": "sw-000646"
-  },
-  {
-    "type": "word",
     "front": "my daily driver",
     "meaning": "我日常主要使用的设备（科技口语）",
     "example": "This phone has been my daily driver for two years.",
@@ -4608,24 +4072,6 @@ const VOCABULARY = [
     "weight": 3,
     "topic": "speaking_expressions_v1",
     "id": "sw-000648"
-  },
-  {
-    "type": "word",
-    "front": "in case my phone dies",
-    "meaning": "以防手机没电",
-    "example": "I brought a charger in case my phone dies.",
-    "weight": 3,
-    "topic": "speaking_expressions_v1",
-    "id": "sw-000649"
-  },
-  {
-    "type": "word",
-    "front": "switch to another phone",
-    "meaning": "换用另一部手机",
-    "example": "I'll switch to another phone if this one stops working.",
-    "weight": 3,
-    "topic": "speaking_expressions_v1",
-    "id": "sw-000650"
   },
   {
     "type": "word",
@@ -4818,15 +4264,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "pouring rain",
-    "meaning": "倾盆大雨",
-    "example": "I had to walk through the pouring rain.",
-    "weight": 3,
-    "topic": "speaking_expressions_v1",
-    "id": "sw-000672"
-  },
-  {
-    "type": "word",
     "front": "soaking wet",
     "meaning": "湿透了",
     "example": "My clothes were soaking wet.",
@@ -4845,57 +4282,12 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "slippery roads",
-    "meaning": "湿滑的道路",
-    "example": "Be careful on slippery roads after the rain.",
-    "weight": 3,
-    "topic": "speaking_expressions_v1",
-    "id": "sw-000675"
-  },
-  {
-    "type": "word",
-    "front": "outdoor activities",
-    "meaning": "户外活动",
-    "example": "Strong gusts can make outdoor activities risky.",
-    "weight": 3,
-    "topic": "speaking_expressions_v1",
-    "id": "sw-000676"
-  },
-  {
-    "type": "word",
-    "front": "get delayed",
-    "meaning": "被延误",
-    "example": "My train got delayed again.",
-    "weight": 3,
-    "topic": "speaking_expressions_v1",
-    "id": "sw-000677"
-  },
-  {
-    "type": "word",
-    "front": "be running late",
-    "meaning": "运行晚点",
-    "example": "The train is running late this morning.",
-    "weight": 3,
-    "topic": "speaking_expressions_v1",
-    "id": "sw-000678"
-  },
-  {
-    "type": "word",
     "front": "be delayed by 20 minutes",
     "meaning": "晚点20分钟",
     "example": "Our train was delayed by 20 minutes.",
     "weight": 3,
     "topic": "speaking_expressions_v1",
     "id": "sw-000679"
-  },
-  {
-    "type": "word",
-    "front": "change platforms",
-    "meaning": "更换站台",
-    "example": "We had to change platforms at the station.",
-    "weight": 3,
-    "topic": "speaking_expressions_v1",
-    "id": "sw-000680"
   },
   {
     "type": "word",
@@ -4935,33 +4327,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "It happens a lot.",
-    "meaning": "这种事经常发生",
-    "example": "It happens a lot on this route.",
-    "weight": 3,
-    "topic": "speaking_expressions_v1",
-    "id": "sw-000685"
-  },
-  {
-    "type": "word",
-    "front": "catch a train",
-    "meaning": "赶上、乘坐火车",
-    "example": "I need to catch a train to Vilnius.",
-    "weight": 3,
-    "topic": "speaking_expressions_v1",
-    "id": "sw-000686"
-  },
-  {
-    "type": "word",
-    "front": "miss a train",
-    "meaning": "错过火车",
-    "example": "I don't want to miss my train.",
-    "weight": 3,
-    "topic": "speaking_expressions_v1",
-    "id": "sw-000687"
-  },
-  {
-    "type": "word",
     "front": "rush to the platform",
     "meaning": "匆忙赶往站台",
     "example": "We had to rush to the platform.",
@@ -4977,15 +4342,6 @@ const VOCABULARY = [
     "weight": 3,
     "topic": "speaking_expressions_v1",
     "id": "sw-000689"
-  },
-  {
-    "type": "word",
-    "front": "public-address system (PA system)",
-    "meaning": "公共广播系统",
-    "example": "The PA system was hard to hear.",
-    "weight": 3,
-    "topic": "speaking_expressions_v1",
-    "id": "sw-000690"
   },
   {
     "type": "word",
@@ -5160,24 +4516,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "recognize a word",
-    "meaning": "认出一个单词",
-    "example": "I can recognize a word without knowing how to use it.",
-    "weight": 3,
-    "topic": "speaking_expressions_v1",
-    "id": "sw-000710"
-  },
-  {
-    "type": "word",
-    "front": "actively use a word",
-    "meaning": "主动使用一个单词",
-    "example": "Try to actively use a word in a conversation.",
-    "weight": 3,
-    "topic": "speaking_expressions_v1",
-    "id": "sw-000711"
-  },
-  {
-    "type": "word",
     "front": "retrieve a word",
     "meaning": "从记忆中提取单词",
     "example": "Sometimes I can't retrieve a word quickly enough.",
@@ -5259,15 +4597,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "use abstract language",
-    "meaning": "使用抽象的语言",
-    "example": "Try not to use abstract language for everyday things.",
-    "weight": 3,
-    "topic": "speaking_expressions_v1",
-    "id": "sw-000721"
-  },
-  {
-    "type": "word",
     "front": "get your point across",
     "meaning": "把自己的意思表达清楚",
     "example": "I can get my point across, but I don't always sound natural.",
@@ -5295,15 +4624,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "under pressure",
-    "meaning": "在压力下",
-    "example": "I struggle to respond under pressure.",
-    "weight": 3,
-    "topic": "speaking_expressions_v1",
-    "id": "sw-000725"
-  },
-  {
-    "type": "word",
     "front": "a sarcastic remark",
     "meaning": "讽刺性评论",
     "example": "That sounded more like a sarcastic remark.",
@@ -5319,42 +4639,6 @@ const VOCABULARY = [
     "weight": 3,
     "topic": "speaking_expressions_v1",
     "id": "sw-000727"
-  },
-  {
-    "type": "word",
-    "front": "sound like Shakespeare",
-    "meaning": "听起来像莎士比亚（夸张或调侃）",
-    "example": "That sentence makes me sound like Shakespeare.",
-    "weight": 3,
-    "topic": "speaking_expressions_v1",
-    "id": "sw-000728"
-  },
-  {
-    "type": "word",
-    "front": "a staff member",
-    "meaning": "一名工作人员",
-    "example": "A staff member helped me find the right platform.",
-    "weight": 3,
-    "topic": "speaking_expressions_v1",
-    "id": "sw-000729"
-  },
-  {
-    "type": "word",
-    "front": "a member of staff",
-    "meaning": "一名工作人员（英式英语常见）",
-    "example": "I asked a member of staff for help.",
-    "weight": 3,
-    "topic": "speaking_expressions_v1",
-    "id": "sw-000730"
-  },
-  {
-    "type": "word",
-    "front": "station staff",
-    "meaning": "车站工作人员",
-    "example": "The station staff announced another delay.",
-    "weight": 3,
-    "topic": "speaking_expressions_v1",
-    "id": "sw-000731"
   },
   {
     "type": "word",
@@ -5394,24 +4678,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "a service desk",
-    "meaning": "服务台",
-    "example": "I asked for directions at the service desk.",
-    "weight": 3,
-    "topic": "speaking_expressions_v1",
-    "id": "sw-000736"
-  },
-  {
-    "type": "word",
-    "front": "ask someone for assistance",
-    "meaning": "向某人寻求帮助",
-    "example": "I asked a staff member for assistance.",
-    "weight": 3,
-    "topic": "speaking_expressions_v1",
-    "id": "sw-000737"
-  },
-  {
-    "type": "word",
     "front": "sort something out",
     "meaning": "解决、处理好某件事",
     "example": "The staff helped me sort everything out.",
@@ -5427,24 +4693,6 @@ const VOCABULARY = [
     "weight": 3,
     "topic": "speaking_expressions_v1",
     "id": "sw-000739"
-  },
-  {
-    "type": "word",
-    "front": "a last-minute plan",
-    "meaning": "最后一刻才制定的计划",
-    "example": "I'm not a big fan of last-minute plans.",
-    "weight": 3,
-    "topic": "speaking_expressions_v1",
-    "id": "sw-000740"
-  },
-  {
-    "type": "word",
-    "front": "make plans at the last minute",
-    "meaning": "临近时才做计划",
-    "example": "I don't like to make plans at the last minute.",
-    "weight": 3,
-    "topic": "speaking_expressions_v1",
-    "id": "sw-000741"
   },
   {
     "type": "word",
@@ -5826,30 +5074,12 @@ const VOCABULARY = [
   },
   {
     "type": "pattern",
-    "front": "I tend to...",
-    "meaning": "我通常会、往往会……",
-    "example": "I tend to overcomplicate things.",
-    "weight": 3,
-    "topic": "speaking_expressions_v1",
-    "id": "sw-000784"
-  },
-  {
-    "type": "pattern",
     "front": "I can barely make out...",
     "meaning": "我几乎无法听清或辨认……",
     "example": "I can barely make out what they're saying.",
     "weight": 3,
     "topic": "speaking_expressions_v1",
     "id": "sw-000785"
-  },
-  {
-    "type": "pattern",
-    "front": "I'm not a big fan of...",
-    "meaning": "我不太喜欢……",
-    "example": "I'm not a big fan of last-minute plans.",
-    "weight": 3,
-    "topic": "speaking_expressions_v1",
-    "id": "sw-000786"
   },
   {
     "type": "kana",
@@ -5863,36 +5093,6 @@ const VOCABULARY = [
   },
   {
     "type": "kana",
-    "front": "い",
-    "meaning": "イ",
-    "example": "i",
-    "hiragana": "い",
-    "katakana": "イ",
-    "romaji": "i",
-    "id": "sw-000788"
-  },
-  {
-    "type": "kana",
-    "front": "う",
-    "meaning": "ウ",
-    "example": "u",
-    "hiragana": "う",
-    "katakana": "ウ",
-    "romaji": "u",
-    "id": "sw-000789"
-  },
-  {
-    "type": "kana",
-    "front": "え",
-    "meaning": "エ",
-    "example": "e",
-    "hiragana": "え",
-    "katakana": "エ",
-    "romaji": "e",
-    "id": "sw-000790"
-  },
-  {
-    "type": "kana",
     "front": "お",
     "meaning": "オ",
     "example": "o",
@@ -5900,16 +5100,6 @@ const VOCABULARY = [
     "katakana": "オ",
     "romaji": "o",
     "id": "sw-000791"
-  },
-  {
-    "type": "kana",
-    "front": "か",
-    "meaning": "カ",
-    "example": "ka",
-    "hiragana": "か",
-    "katakana": "カ",
-    "romaji": "ka",
-    "id": "sw-000792"
   },
   {
     "type": "kana",
@@ -5980,16 +5170,6 @@ const VOCABULARY = [
     "katakana": "ス",
     "romaji": "su",
     "id": "sw-000799"
-  },
-  {
-    "type": "kana",
-    "front": "せ",
-    "meaning": "セ",
-    "example": "se",
-    "hiragana": "せ",
-    "katakana": "セ",
-    "romaji": "se",
-    "id": "sw-000800"
   },
   {
     "type": "kana",
