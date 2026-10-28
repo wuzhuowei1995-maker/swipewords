@@ -13,6 +13,9 @@
   const removedList = document.getElementById("review-removed-list");
   const managedDetails = document.getElementById("review-manage");
   const batchBtn = document.getElementById("review-batch");
+  const batchDraft = document.getElementById("review-batch-draft");
+  const batchText = document.getElementById("review-batch-text");
+  const copyBtn = document.getElementById("review-copy-batch");
   const progressLabel = document.getElementById("review-progress");
 
   const KEY = "english-random-review-v4-full-cycle";
@@ -314,6 +317,7 @@
     hideBtn.disabled = !canHide;
     removedLabel.textContent = "已移除（" + removed.size + "）· 点击查看和恢复";
     batchBtn.disabled = removed.size === 0;
+    batchDraft.hidden = true;
     batchBtn.textContent = removed.size ? "批量提交 " + removed.size + " 项至 GitHub（12小时后删除）" : "没有待提交的移除内容";
     removedList.textContent = "";
     const items = entries.filter(e => (e.kind === "phrase" || e.kind === "sentence") && removed.has(cardKey(e)));
@@ -372,36 +376,42 @@
       removedList.appendChild(row);
     }
   }
-  // GitHub Pages has no secure write access to GitHub. A single batch Issue
-  // is user-authorized; the repository workflow later processes it on schedule.
+  // Keep the entire deletion manifest visible and selectable in the App.
+  // Never open an empty Issue silently: GitHub will ignore an Issue with no keys.
   function submitBatch() {
     const items = entries.filter(e =>
       (e.kind === "phrase" || e.kind === "sentence") && removed.has(cardKey(e)));
     if (!items.length) return;
-    const issueTitle = "[English card deletion] Batch " + items.length + " cards";
-    const lines = items.map(e => "key=" + encodeURIComponent(e.kind + "\u241f" + e.front));
-    const body = "ENGLISH_DELETE_REQUEST_V2\n" + lines.join("\n") +
-      "\n\n这是一份由英语 App 生成的批量删除申请，共 " + items.length + " 张卡片。" +
-      "\n只有在 GitHub 点击 Submit new issue 后，12小时倒计时才开始。" +
-      "\n12小时内关闭此 Issue 可以取消整批删除；本机恢复卡片不会自动撤销申请。";
+    const title = "[English card deletion] Batch " + items.length + " cards";
+    const manifest = "ENGLISH_DELETE_REQUEST_V2\n" +
+      items.map(e => "key=" + encodeURIComponent(e.kind + "\u241f" + e.front)).join("\n") +
+      "\n\n请确认以上全部删除项目。提交GitHub Issue后满12小时才进入自动删除流程。";
+    batchDraft.hidden = false;
+    batchText.value = manifest;
+    batchDraft.scrollIntoView && batchDraft.scrollIntoView({block:"nearest"});
+    // Short issues can be opened with body prefilled. Long URLs are unreliable on iOS.
     const base = "https://github.com/wuzhuowei1995-maker/swipewords/issues/new?title=" +
-      encodeURIComponent(issueTitle);
-    const url = base + "&body=" + encodeURIComponent(body);
-    // GitHub limits URL lengths in practice; large batches use clipboard instead.
-    if (url.length > 6500) {
-      if (window.open) window.open(base, "_blank", "noopener,noreferrer");
-      if (navigator.clipboard && navigator.clipboard.writeText) {
-        navigator.clipboard.writeText(body).then(() => {
-          window.alert && window.alert("批量清单已复制。请到刚打开的 GitHub 页面，把内容粘贴到正文框，点击 Submit new issue。");
-        }).catch(() => {
-          window.prompt && window.prompt("请复制以下全部内容并粘贴到 GitHub Issue 正文，再点击 Submit new issue：", body);
-        });
-      } else {
-        window.prompt && window.prompt("请复制以下全部内容并粘贴到 GitHub Issue 正文，再点击 Submit new issue：", body);
-      }
-      return;
+      encodeURIComponent(title);
+    const link = base + "&body=" + encodeURIComponent(manifest);
+    const destination = link.length <= 4500 ? link : base;
+    const openLink = document.getElementById("review-open-batch");
+    openLink.href = destination;
+    openLink.textContent = link.length <= 4500
+      ? "打开 GitHub（描述已预填）" : "打开 GitHub（请粘贴上方删除清单）";
+  }
+  function copyBatch() {
+    batchText.focus();
+    batchText.select();
+    batchText.setSelectionRange && batchText.setSelectionRange(0, batchText.value.length);
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(batchText.value).then(() => {
+        copyBtn.textContent = "✓ 已复制，请粘贴到 GitHub 描述栏";
+      }).catch(() => {
+        copyBtn.textContent = "长按清单并选择复制";
+      });
+    } else {
+      copyBtn.textContent = "请长按清单并选择复制";
     }
-    if (window.open) window.open(url, "_blank", "noopener,noreferrer");
   }
 
   function openManagement() {
@@ -431,6 +441,7 @@
   backdrop.addEventListener("click", closeManagement);
   hideBtn.addEventListener("click", removeCurrent);
   batchBtn.addEventListener("click", submitBatch);
+  copyBtn.addEventListener("click", copyBatch);
 
   view.addEventListener("pointerdown", e => {
     if (e.button !== 0) return;
