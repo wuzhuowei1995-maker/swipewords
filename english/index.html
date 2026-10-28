@@ -60,6 +60,10 @@ scrollbar-width:none; -webkit-overflow-scrolling:touch;}
 .review-batch{width:100%;border-radius:11px;border:1px solid #c1c8c0;background:#e6eee5;color:#293c2d;font-size:14px;font-weight:650;min-height:46px;padding:10px;cursor:pointer}
 .review-batch:disabled{opacity:.44;cursor:default}
 .review-batch-note{font-size:12px;color:#777873;line-height:1.5;margin:8px 0}
+.review-batch-draft[hidden]{display:none}
+.review-batch-draft{padding:14px 0;font-size:13px;line-height:1.6;overflow-wrap:anywhere}
+.review-batch-draft textarea{width:100%;min-height:170px;resize:vertical;box-sizing:border-box;border-radius:9px;border:1px solid #abb5a9;padding:9px;font-size:12px;background:#fff;color:#222}
+.review-batch-draft a{display:block;color:#2f604c;font-weight:bold;margin:12px 0}
 .review-removed-list{max-height:37dvh;overflow-y:auto;margin-top:13px;border-top:1px solid #e1e2de}
 .review-removed-row{display:flex;gap:14px;align-items:center;justify-content:space-between;
   border-bottom:1px solid #e1e2de;padding:10px 0}
@@ -92,6 +96,14 @@ scrollbar-width:none; -webkit-overflow-scrolling:touch;}
       <div class="review-batch-actions">
         <button id="review-batch" class="review-batch" type="button">批量提交全部已移除词条（12小时后删除）</button>
         <p class="review-batch-note">将所有已移除的单词和句子合并成一份 GitHub 申请；还需在 GitHub 点击 Submit new issue。</p>
+      </div>
+      <div id="review-batch-draft" class="review-batch-draft" hidden>
+        <p><strong>① 复制下面完整的删除清单</strong>（不能只提交标题）</p>
+        <textarea id="review-batch-text" readonly spellcheck="false" aria-label="GitHub批量删除完整清单"></textarea>
+        <button id="review-copy-batch" class="review-batch" type="button">复制完整清单</button>
+        <p><strong>② 打开 GitHub，把清单粘贴到 Add a description，③ 点击 Create。</strong> 创建后再次打开 Issue，确认描述含有 ENGLISH_DELETE_REQUEST_V2 和 key= 行；描述为空不会被定时删除。</p>
+        <a id="review-open-batch" href="https://github.com/wuzhuowei1995-maker/swipewords/issues/new" target="_blank" rel="noopener noreferrer">打开 GitHub 提交申请</a>
+        <p>若已创建“Batch 114 cards”等空描述 Issue，请直接编辑那个 Issue 的描述、粘贴此清单并保存，不要重复创建。</p>
       </div>
       <div id="review-removed-list" class="review-removed-list"></div>
     </details>
