@@ -318,7 +318,7 @@
     removedLabel.textContent = "已移除（" + removed.size + "）· 点击查看和恢复";
     batchBtn.disabled = removed.size === 0;
     batchDraft.hidden = true;
-    batchBtn.textContent = removed.size ? "批量提交 " + removed.size + " 项至 GitHub（12小时后删除）" : "没有待提交的移除内容";
+    batchBtn.textContent = removed.size ? "批量提交 " + removed.size + " 项至 GitHub（2小时后删除）" : "没有待提交的移除内容";
     removedList.textContent = "";
     const items = entries.filter(e => (e.kind === "phrase" || e.kind === "sentence") && removed.has(cardKey(e)));
     if (!items.length) {
@@ -343,7 +343,7 @@
       restore.setAttribute("aria-label", "恢复 " + item.front);
       restore.addEventListener("click", () => {
         if (window.confirm && !window.confirm(
-          "恢复本机复习？如已在 GitHub 提交12小时后删除申请，还必须去 GitHub 关闭该 Issue，否则到期仍会从主词库删除。"
+          "恢复本机复习？如已在 GitHub 提交2小时后删除申请，还必须去 GitHub 关闭该 Issue，否则到期仍会从主词库删除。"
         )) return;
         removed.delete(cardKey(item));
         saveRemoved();
@@ -353,14 +353,14 @@
       const githubBtn = document.createElement("button");
       githubBtn.type = "button";
       githubBtn.className = "review-restore review-github";
-      githubBtn.textContent = "申请 GitHub 12小时同步";
-      githubBtn.setAttribute("aria-label", "为 " + item.front + " 申请12小时后从GitHub永久删除");
+      githubBtn.textContent = "申请 GitHub 2小时同步";
+      githubBtn.setAttribute("aria-label", "为 " + item.front + " 申请2小时后从GitHub永久删除");
       githubBtn.addEventListener("click", () => {
         const encodedKey = encodeURIComponent(item.kind + "\u241f" + item.front);
         const title = "[English card deletion] " + item.front.slice(0, 80);
         const issueBody = "ENGLISH_DELETE_REQUEST_V1\nkey=" + encodedKey +
-          "\n\n从此 Issue 正式提交之日起满12小时，仓库定时任务将从GitHub词库永久移除这张卡片。" +
-          "\n12小时内如要撤销，请在GitHub关闭此Issue；只在App恢复本机卡片不会取消GitHub申请。";
+          "\n\n从此 Issue 正式提交之日起满2小时，仓库定时任务将从GitHub词库永久移除这张卡片。" +
+          "\n2小时内如要撤销，请在GitHub关闭此Issue；只在App恢复本机卡片不会取消GitHub申请。";
         const url = "https://github.com/wuzhuowei1995-maker/swipewords/issues/new?title=" +
           encodeURIComponent(title) + "&body=" + encodeURIComponent(issueBody);
         // Opening a link with noopener may return null even if the tab opens.
@@ -385,7 +385,7 @@
     const title = "[English card deletion] Batch " + items.length + " cards";
     const manifest = "ENGLISH_DELETE_REQUEST_V2\n" +
       items.map(e => "key=" + encodeURIComponent(e.kind + "\u241f" + e.front)).join("\n") +
-      "\n\n请确认以上全部删除项目。提交GitHub Issue后满12小时才进入自动删除流程。";
+      "\n\n请确认以上全部删除项目。提交GitHub Issue后满2小时才进入自动删除流程。";
     batchDraft.hidden = false;
     batchText.value = manifest;
     batchDraft.scrollIntoView && batchDraft.scrollIntoView({block:"nearest"});
