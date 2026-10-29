@@ -20713,6 +20713,14 @@ const VOCABULARY = [
     "example": "",
     "weight": 3,
     "id": "sw-002918"
+  },
+  {
+    "type": "sentence",
+    "front": "I have gone off on a tangent; let me get straight to the point.",
+    "meaning": "我说偏题了；让我直接说重点。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-002919"
   }
 ];
 
