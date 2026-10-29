@@ -38,7 +38,15 @@
     try {
       const stored = JSON.parse(localStorage.getItem(REMOVED_KEY) || "[]");
       if (Array.isArray(stored)) {
-        return new Set(stored.filter(x => typeof x === "string" && validRemovals.has(x)));
+        // The GitHub sync permanently removes cards from vocabulary.js.
+        // Prune obsolete local keys so they disappear from the "removed"
+        // list AND the next batch Issue, without affecting active removals.
+        const retained = [...new Set(stored.filter(x =>
+          typeof x === "string" && validRemovals.has(x)))];
+        if (JSON.stringify(retained) !== JSON.stringify(stored)) {
+          localStorage.setItem(REMOVED_KEY, JSON.stringify(retained));
+        }
+        return new Set(retained);
       }
     } catch (_) {}
     return new Set();
@@ -380,7 +388,8 @@
   // Never open an empty Issue silently: GitHub will ignore an Issue with no keys.
   function submitBatch() {
     const items = entries.filter(e =>
-      (e.kind === "phrase" || e.kind === "sentence") && removed.has(cardKey(e)));
+      (e.kind === "phrase" || e.kind === "sentence") &&
+      validRemovals.has(cardKey(e)) && removed.has(cardKey(e)));
     if (!items.length) return;
     const title = "[English card deletion] Batch " + items.length + " cards";
     const manifest = "ENGLISH_DELETE_REQUEST_V2\n" +
