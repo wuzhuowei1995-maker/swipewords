@@ -181,13 +181,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "something came up",
-    "meaning": "突然有事",
-    "example": "Sorry, something came up.",
-    "id": "sw-000037"
-  },
-  {
-    "type": "word",
     "front": "push something back",
     "meaning": "把安排往后推",
     "example": "Can we push dinner back by half an hour?",
@@ -234,13 +227,6 @@ const VOCABULARY = [
     "meaning": "浮现在脑海",
     "example": "Sometimes an old song comes to mind.",
     "id": "sw-000051"
-  },
-  {
-    "type": "word",
-    "front": "stuffy / fresh air",
-    "meaning": "闷、不通风 / 新鲜空气",
-    "example": "The room was stuffy, so I opened the window to let some fresh air in.",
-    "id": "sw-000052"
   },
   {
     "type": "word",
@@ -559,13 +545,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "respond / stop responding",
-    "meaning": "响应 / 没反应",
-    "example": "The touchscreen stopped responding.",
-    "id": "sw-000103"
-  },
-  {
-    "type": "word",
     "front": "wiggle the cable",
     "meaning": "来回晃动线缆",
     "example": "I have to wiggle the cable to make it charge.",
@@ -703,13 +682,6 @@ const VOCABULARY = [
     "meaning": "撕开",
     "example": "I tore the package open.",
     "id": "sw-000126"
-  },
-  {
-    "type": "word",
-    "front": "scratch / scratched",
-    "meaning": "划痕 / 被划伤",
-    "example": "The case is scratched but not cracked.",
-    "id": "sw-000127"
   },
   {
     "type": "word",
@@ -1021,13 +993,6 @@ const VOCABULARY = [
   },
   {
     "type": "pattern",
-    "front": "get + adjective",
-    "meaning": "逐渐进入某种状态",
-    "example": "The trail gets steep; the room gets stuffy; the food gets soggy.",
-    "id": "sw-000178"
-  },
-  {
-    "type": "pattern",
     "front": "go + state adjective",
     "meaning": "变成某种状态",
     "example": "Bread goes stale, milk goes bad, and fingers go numb.",
@@ -1067,13 +1032,6 @@ const VOCABULARY = [
     "meaning": "找人/设法把某物处理好",
     "example": "I need to get my bike fixed properly.",
     "id": "sw-000185"
-  },
-  {
-    "type": "pattern",
-    "front": "as ... as I can",
-    "meaning": "尽可能……",
-    "example": "I stretched my arm as far as I could.",
-    "id": "sw-000188"
   },
   {
     "type": "pattern",
@@ -1308,13 +1266,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "let the water run",
-    "meaning": "让水流一会儿",
-    "example": "Let the water run until it gets warm.",
-    "id": "sw-000228"
-  },
-  {
-    "type": "word",
     "front": "turn up / turn down",
     "meaning": "调高 / 调低",
     "example": "Turn the heat down if the water is too hot.",
@@ -1448,13 +1399,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "brown",
-    "meaning": "煎至表面变褐",
-    "example": "Let the chicken brown before flipping it.",
-    "id": "sw-000253"
-  },
-  {
-    "type": "word",
     "front": "flip / flip over",
     "meaning": "翻面、快速翻转",
     "example": "Flip the pancake over carefully.",
@@ -1508,13 +1452,6 @@ const VOCABULARY = [
     "meaning": "车流散去 / 人群散去",
     "example": "Wait until the traffic clears.",
     "id": "sw-000265"
-  },
-  {
-    "type": "word",
-    "front": "adjust the straps",
-    "meaning": "调整背包带",
-    "example": "Take the pack off and adjust the straps.",
-    "id": "sw-000266"
   },
   {
     "type": "word",
@@ -2091,25 +2028,11 @@ const VOCABULARY = [
     "id": "sw-000355"
   },
   {
-    "type": "word",
-    "front": "disappear from view",
-    "meaning": "从视野中消失",
-    "example": "The summit disappeared from view as the fog thickened.",
-    "id": "sw-000356"
-  },
-  {
     "type": "ladder",
     "front": "wipe → scrub → scrape off",
     "meaning": "擦 → 用力刷 → 刮掉",
     "example": "The stain wouldn't come off when I wiped it, so I scrubbed it and finally scraped off the dried bits.",
     "id": "sw-000357"
-  },
-  {
-    "type": "ladder",
-    "front": "brake hard → jerk forward → be thrown off balance → grab → hold on → steady yourself",
-    "meaning": "急刹 → 猛地前顿 → 失去平衡 → 抓住 → 抓紧 → 稳住",
-    "example": "The bus jerked forward and threw me off balance, so I grabbed the rail and held on tightly.",
-    "id": "sw-000358"
   },
   {
     "type": "ladder",
@@ -3156,13 +3079,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "exchange A for B",
-    "meaning": "用A换B",
-    "example": "Can I exchange it for a new one?",
-    "id": "sw-000526"
-  },
-  {
-    "type": "word",
     "front": "ask for / get / issue a refund",
     "meaning": "要求／获得／办理退款",
     "example": "I asked for a refund instead.",
@@ -3695,15 +3611,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "Simmer",
-    "meaning": "小火慢煮、微沸",
-    "example": "Let the sauce simmer gently for ten minutes.",
-    "weight": 3,
-    "topic": "cooking_methods",
-    "id": "sw-000609"
-  },
-  {
-    "type": "word",
     "front": "Poach",
     "meaning": "低温水煮、浸煮",
     "example": "Poach the eggs in gently simmering water.",
@@ -4019,15 +3926,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "strong gusts",
-    "meaning": "强阵风",
-    "example": "Strong gusts made cycling difficult.",
-    "weight": 3,
-    "topic": "speaking_expressions_v1",
-    "id": "sw-000667"
-  },
-  {
-    "type": "word",
     "front": "howling wind",
     "meaning": "呼啸的风",
     "example": "We could hear the howling wind outside.",
@@ -4079,15 +3977,6 @@ const VOCABULARY = [
     "weight": 3,
     "topic": "speaking_expressions_v1",
     "id": "sw-000674"
-  },
-  {
-    "type": "word",
-    "front": "be delayed by 20 minutes",
-    "meaning": "晚点20分钟",
-    "example": "Our train was delayed by 20 minutes.",
-    "weight": 3,
-    "topic": "speaking_expressions_v1",
-    "id": "sw-000679"
   },
   {
     "type": "word",
@@ -4271,15 +4160,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "passive vocabulary",
-    "meaning": "被动词汇（认识但未必会用）",
-    "example": "I recognize the word, but it's still part of my passive vocabulary.",
-    "weight": 3,
-    "topic": "speaking_expressions_v1",
-    "id": "sw-000708"
-  },
-  {
-    "type": "word",
     "front": "retrieve a word",
     "meaning": "从记忆中提取单词",
     "example": "Sometimes I can't retrieve a word quickly enough.",
@@ -4349,15 +4229,6 @@ const VOCABULARY = [
     "weight": 3,
     "topic": "speaking_expressions_v1",
     "id": "sw-000719"
-  },
-  {
-    "type": "word",
-    "front": "make something sound complicated",
-    "meaning": "把某事说得很复杂",
-    "example": "I sometimes make simple ideas sound complicated.",
-    "weight": 3,
-    "topic": "speaking_expressions_v1",
-    "id": "sw-000720"
   },
   {
     "type": "word",
@@ -4775,15 +4646,6 @@ const VOCABULARY = [
   },
   {
     "type": "pattern",
-    "front": "be surprised by how + adjective / adverb",
-    "meaning": "对某事的程度或频率感到惊讶",
-    "example": "I'm surprised by how often this happens.",
-    "weight": 3,
-    "topic": "speaking_expressions_v1",
-    "id": "sw-000778"
-  },
-  {
-    "type": "pattern",
     "front": "It takes time for something to happen",
     "meaning": "某个过程需要时间",
     "example": "It takes time for the flavors to develop.",
@@ -5005,16 +4867,6 @@ const VOCABULARY = [
     "katakana": "ネ",
     "romaji": "ne",
     "id": "sw-000810"
-  },
-  {
-    "type": "kana",
-    "front": "の",
-    "meaning": "ノ",
-    "example": "no",
-    "hiragana": "の",
-    "katakana": "ノ",
-    "romaji": "no",
-    "id": "sw-000811"
   },
   {
     "type": "kana",
@@ -5308,14 +5160,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "feel restrictive",
-    "meaning": "感觉活动受限",
-    "example": "",
-    "weight": 3,
-    "id": "sw-000843"
-  },
-  {
-    "type": "word",
     "front": "go up a size",
     "meaning": "选大一码",
     "example": "",
@@ -5516,27 +5360,11 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "make a detour",
-    "meaning": "绕路",
-    "example": "",
-    "weight": 3,
-    "id": "sw-000871"
-  },
-  {
-    "type": "word",
     "front": "walk around the puddle",
     "meaning": "绕开水坑",
     "example": "",
     "weight": 3,
     "id": "sw-000872"
-  },
-  {
-    "type": "word",
-    "front": "the ground is slippery",
-    "meaning": "地面很滑",
-    "example": "",
-    "weight": 3,
-    "id": "sw-000873"
   },
   {
     "type": "word",
@@ -5612,14 +5440,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "water pressure",
-    "meaning": "水压",
-    "example": "",
-    "weight": 3,
-    "id": "sw-000884"
-  },
-  {
-    "type": "word",
     "front": "utilities included",
     "meaning": "杂费已包含",
     "example": "",
@@ -5641,14 +5461,6 @@ const VOCABULARY = [
     "example": "",
     "weight": 3,
     "id": "sw-000887"
-  },
-  {
-    "type": "word",
-    "front": "move in / move out",
-    "meaning": "搬入/搬出",
-    "example": "",
-    "weight": 3,
-    "id": "sw-000888"
   },
   {
     "type": "word",
@@ -5948,27 +5760,11 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "I've got this",
-    "meaning": "这次我来付",
-    "example": "",
-    "weight": 3,
-    "id": "sw-000928"
-  },
-  {
-    "type": "word",
     "front": "pay someone back",
     "meaning": "还钱给某人",
     "example": "",
     "weight": 3,
     "id": "sw-000929"
-  },
-  {
-    "type": "word",
-    "front": "How much do I owe you?",
-    "meaning": "我该给你多少钱",
-    "example": "",
-    "weight": 3,
-    "id": "sw-000931"
   },
   {
     "type": "word",
@@ -6108,14 +5904,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "put the pages in order",
-    "meaning": "按顺序排列纸张",
-    "example": "",
-    "weight": 3,
-    "id": "sw-000951"
-  },
-  {
-    "type": "word",
     "front": "out of order",
     "meaning": "次序混乱或设备故障",
     "example": "",
@@ -6137,14 +5925,6 @@ const VOCABULARY = [
     "example": "",
     "weight": 3,
     "id": "sw-000954"
-  },
-  {
-    "type": "word",
-    "front": "price tag",
-    "meaning": "商品价签",
-    "example": "",
-    "weight": 3,
-    "id": "sw-000955"
   },
   {
     "type": "word",
@@ -6340,14 +6120,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "temperature drops sharply",
-    "meaning": "气温急剧下降",
-    "example": "",
-    "weight": 3,
-    "id": "sw-000983"
-  },
-  {
-    "type": "word",
     "front": "work up a sweat",
     "meaning": "活动出一身汗",
     "example": "",
@@ -6497,14 +6269,6 @@ const VOCABULARY = [
     "example": "",
     "weight": 3,
     "id": "sw-001003"
-  },
-  {
-    "type": "word",
-    "front": "glance at",
-    "meaning": "瞥一眼",
-    "example": "",
-    "weight": 3,
-    "id": "sw-001004"
   },
   {
     "type": "word",
@@ -6713,14 +6477,6 @@ const VOCABULARY = [
     "example": "",
     "weight": 3,
     "id": "sw-001034"
-  },
-  {
-    "type": "word",
-    "front": "make room",
-    "meaning": "腾出空间",
-    "example": "",
-    "weight": 3,
-    "id": "sw-001035"
   },
   {
     "type": "word",
@@ -6964,14 +6720,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "exchange news",
-    "meaning": "交流消息",
-    "example": "",
-    "weight": 3,
-    "id": "sw-001067"
-  },
-  {
-    "type": "word",
     "front": "set up stalls",
     "meaning": "摆设摊位",
     "example": "",
@@ -7180,14 +6928,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "one at a time",
-    "meaning": "一次一个",
-    "example": "",
-    "weight": 3,
-    "id": "sw-001095"
-  },
-  {
-    "type": "word",
     "front": "the ground drops away steeply",
     "meaning": "地形突然陡降",
     "example": "",
@@ -7201,14 +6941,6 @@ const VOCABULARY = [
     "example": "",
     "weight": 3,
     "id": "sw-001099"
-  },
-  {
-    "type": "word",
-    "front": "in single file",
-    "meaning": "排成单列",
-    "example": "",
-    "weight": 3,
-    "id": "sw-001100"
   },
   {
     "type": "word",
@@ -7345,22 +7077,6 @@ const VOCABULARY = [
     "example": "",
     "weight": 3,
     "id": "sw-001117"
-  },
-  {
-    "type": "word",
-    "front": "sound critical",
-    "meaning": "听起来像批评",
-    "example": "",
-    "weight": 3,
-    "id": "sw-001118"
-  },
-  {
-    "type": "word",
-    "front": "upset someone",
-    "meaning": "使某人不高兴",
-    "example": "",
-    "weight": 3,
-    "id": "sw-001119"
   },
   {
     "type": "word",
@@ -7540,22 +7256,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "restart the router",
-    "meaning": "重启路由器",
-    "example": "",
-    "weight": 3,
-    "id": "sw-001145"
-  },
-  {
-    "type": "word",
-    "front": "factory reset",
-    "meaning": "恢复出厂设置",
-    "example": "",
-    "weight": 3,
-    "id": "sw-001146"
-  },
-  {
-    "type": "word",
     "front": "reconnect to Wi-Fi",
     "meaning": "重新连接 Wi-Fi",
     "example": "",
@@ -7569,14 +7269,6 @@ const VOCABULARY = [
     "example": "",
     "weight": 3,
     "id": "sw-001148"
-  },
-  {
-    "type": "word",
-    "front": "unstable connection",
-    "meaning": "不稳定的网络",
-    "example": "",
-    "weight": 3,
-    "id": "sw-001149"
   },
   {
     "type": "word",
@@ -7700,27 +7392,11 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "cabin",
-    "meaning": "客舱",
-    "example": "",
-    "weight": 3,
-    "id": "sw-001168"
-  },
-  {
-    "type": "word",
     "front": "berth",
     "meaning": "卧铺",
     "example": "",
     "weight": 3,
     "id": "sw-001169"
-  },
-  {
-    "type": "word",
-    "front": "boarding pass",
-    "meaning": "登船凭证",
-    "example": "",
-    "weight": 3,
-    "id": "sw-001170"
   },
   {
     "type": "word",
@@ -7868,14 +7544,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "fall behind",
-    "meaning": "掉队",
-    "example": "",
-    "weight": 3,
-    "id": "sw-001190"
-  },
-  {
-    "type": "word",
     "front": "cool someone down",
     "meaning": "帮助某人降温",
     "example": "",
@@ -7905,14 +7573,6 @@ const VOCABULARY = [
     "example": "",
     "weight": 3,
     "id": "sw-001194"
-  },
-  {
-    "type": "word",
-    "front": "arrange for assistance",
-    "meaning": "安排援助",
-    "example": "",
-    "weight": 3,
-    "id": "sw-001195"
   },
   {
     "type": "word",
@@ -8084,14 +7744,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "transaction couldn't be completed",
-    "meaning": "交易未完成",
-    "example": "",
-    "weight": 3,
-    "id": "sw-001217"
-  },
-  {
-    "type": "word",
     "front": "ATM retained my card",
     "meaning": "ATM 吞卡了",
     "example": "",
@@ -8121,14 +7773,6 @@ const VOCABULARY = [
     "example": "",
     "weight": 3,
     "id": "sw-001222"
-  },
-  {
-    "type": "word",
-    "front": "block a card",
-    "meaning": "停用银行卡",
-    "example": "",
-    "weight": 3,
-    "id": "sw-001223"
   },
   {
     "type": "word",
@@ -8169,14 +7813,6 @@ const VOCABULARY = [
     "example": "",
     "weight": 3,
     "id": "sw-001229"
-  },
-  {
-    "type": "word",
-    "front": "while someone is away",
-    "meaning": "某人不在期间",
-    "example": "",
-    "weight": 3,
-    "id": "sw-001230"
   },
   {
     "type": "word",
@@ -8300,14 +7936,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "orbit the Earth",
-    "meaning": "环绕地球运行",
-    "example": "",
-    "weight": 3,
-    "id": "sw-001247"
-  },
-  {
-    "type": "word",
     "front": "transmit a signal",
     "meaning": "发送信号",
     "example": "",
@@ -8380,14 +8008,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "offline map",
-    "meaning": "离线地图",
-    "example": "",
-    "weight": 3,
-    "id": "sw-001257"
-  },
-  {
-    "type": "word",
     "front": "mobile data",
     "meaning": "移动数据",
     "example": "",
@@ -8401,14 +8021,6 @@ const VOCABULARY = [
     "example": "",
     "weight": 3,
     "id": "sw-001259"
-  },
-  {
-    "type": "word",
-    "front": "GNSS receiver",
-    "meaning": "全球导航卫星系统接收器",
-    "example": "",
-    "weight": 3,
-    "id": "sw-001260"
   },
   {
     "type": "word",
@@ -8489,14 +8101,6 @@ const VOCABULARY = [
     "example": "",
     "weight": 3,
     "id": "sw-001270"
-  },
-  {
-    "type": "word",
-    "front": "locate the suitcase",
-    "meaning": "找到行李箱",
-    "example": "",
-    "weight": 3,
-    "id": "sw-001271"
   },
   {
     "type": "word",
@@ -8620,14 +8224,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "temporary fix",
-    "meaning": "临时补救",
-    "example": "",
-    "weight": 3,
-    "id": "sw-001288"
-  },
-  {
-    "type": "word",
     "front": "permanent fix",
     "meaning": "永久解决办法",
     "example": "",
@@ -8649,14 +8245,6 @@ const VOCABULARY = [
     "example": "",
     "weight": 3,
     "id": "sw-001291"
-  },
-  {
-    "type": "word",
-    "front": "reassess the route",
-    "meaning": "重新评估路线",
-    "example": "",
-    "weight": 3,
-    "id": "sw-001292"
   },
   {
     "type": "word",
@@ -8772,14 +8360,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "join an online meeting",
-    "meaning": "加入线上会议",
-    "example": "",
-    "weight": 3,
-    "id": "sw-001307"
-  },
-  {
-    "type": "word",
     "front": "attend a meeting",
     "meaning": "参加会议",
     "example": "",
@@ -8796,14 +8376,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "I didn't realize...",
-    "meaning": "我没意识到……",
-    "example": "",
-    "weight": 3,
-    "id": "sw-001311"
-  },
-  {
-    "type": "word",
     "front": "point out a problem",
     "meaning": "指出问题",
     "example": "",
@@ -8812,27 +8384,11 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "share your screen",
-    "meaning": "共享屏幕",
-    "example": "",
-    "weight": 3,
-    "id": "sw-001313"
-  },
-  {
-    "type": "word",
     "front": "stop sharing",
     "meaning": "停止共享",
     "example": "",
     "weight": 3,
     "id": "sw-001315"
-  },
-  {
-    "type": "word",
-    "front": "switch to the correct document",
-    "meaning": "切换到正确文件",
-    "example": "",
-    "weight": 3,
-    "id": "sw-001316"
   },
   {
     "type": "word",
@@ -8876,22 +8432,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "put on headphones",
-    "meaning": "戴上耳机",
-    "example": "",
-    "weight": 3,
-    "id": "sw-001322"
-  },
-  {
-    "type": "word",
-    "front": "check microphone settings",
-    "meaning": "检查麦克风设置",
-    "example": "",
-    "weight": 3,
-    "id": "sw-001323"
-  },
-  {
-    "type": "word",
     "front": "reach into your pocket",
     "meaning": "伸手进口袋",
     "example": "",
@@ -8921,14 +8461,6 @@ const VOCABULARY = [
     "example": "",
     "weight": 3,
     "id": "sw-001327"
-  },
-  {
-    "type": "word",
-    "front": "nowhere to be found",
-    "meaning": "怎么也找不到",
-    "example": "",
-    "weight": 3,
-    "id": "sw-001328"
   },
   {
     "type": "word",
@@ -8985,14 +8517,6 @@ const VOCABULARY = [
     "example": "",
     "weight": 3,
     "id": "sw-001335"
-  },
-  {
-    "type": "word",
-    "front": "identify the wallet",
-    "meaning": "辨认钱包",
-    "example": "",
-    "weight": 3,
-    "id": "sw-001336"
   },
   {
     "type": "word",
@@ -9196,22 +8720,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "replacement bus service",
-    "meaning": "铁路接驳巴士",
-    "example": "",
-    "weight": 3,
-    "id": "sw-001363"
-  },
-  {
-    "type": "word",
-    "front": "be expected to leave",
-    "meaning": "预计出发",
-    "example": "",
-    "weight": 3,
-    "id": "sw-001364"
-  },
-  {
-    "type": "word",
     "front": "ticket still valid",
     "meaning": "车票仍然有效",
     "example": "",
@@ -9236,14 +8744,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "claim a refund",
-    "meaning": "申请退款",
-    "example": "",
-    "weight": 3,
-    "id": "sw-001371"
-  },
-  {
-    "type": "word",
     "front": "ticket conditions",
     "meaning": "票务条款",
     "example": "",
@@ -9265,14 +8765,6 @@ const VOCABULARY = [
     "example": "",
     "weight": 3,
     "id": "sw-001374"
-  },
-  {
-    "type": "word",
-    "front": "run out of water",
-    "meaning": "水已经用完",
-    "example": "",
-    "weight": 3,
-    "id": "sw-001375"
   },
   {
     "type": "word",
@@ -9308,27 +8800,11 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "clear water",
-    "meaning": "看起来清澈的水",
-    "example": "",
-    "weight": 3,
-    "id": "sw-001380"
-  },
-  {
-    "type": "word",
     "front": "cloudy / murky water",
     "meaning": "浑浊的水",
     "example": "",
     "weight": 3,
     "id": "sw-001381"
-  },
-  {
-    "type": "word",
-    "front": "contamination",
-    "meaning": "污染",
-    "example": "",
-    "weight": 3,
-    "id": "sw-001382"
   },
   {
     "type": "word",
@@ -9460,14 +8936,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "use A instead of B",
-    "meaning": "用 A 而不用 B",
-    "example": "",
-    "weight": 3,
-    "id": "sw-001399"
-  },
-  {
-    "type": "word",
     "front": "add for extra flavour",
     "meaning": "为了增加风味而添加",
     "example": "",
@@ -9481,14 +8949,6 @@ const VOCABULARY = [
     "example": "",
     "weight": 3,
     "id": "sw-001401"
-  },
-  {
-    "type": "word",
-    "front": "taste the sauce",
-    "meaning": "品尝酱汁",
-    "example": "",
-    "weight": 3,
-    "id": "sw-001402"
   },
   {
     "type": "word",
@@ -9748,27 +9208,11 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "Would you mind moving...?",
-    "meaning": "你介意挪一下……吗",
-    "example": "",
-    "weight": 3,
-    "id": "sw-001436"
-  },
-  {
-    "type": "word",
     "front": "Would you mind if I sat here?",
     "meaning": "你介意我坐这里吗",
     "example": "",
     "weight": 3,
     "id": "sw-001437"
-  },
-  {
-    "type": "word",
-    "front": "move the bag out of the way",
-    "meaning": "把包移开",
-    "example": "",
-    "weight": 3,
-    "id": "sw-001438"
   },
   {
     "type": "word",
@@ -9828,14 +9272,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "tendency to",
-    "meaning": "……的倾向",
-    "example": "",
-    "weight": 3,
-    "id": "sw-001446"
-  },
-  {
-    "type": "word",
     "front": "negativity bias",
     "meaning": "负面偏向",
     "example": "",
@@ -9889,14 +9325,6 @@ const VOCABULARY = [
     "example": "",
     "weight": 3,
     "id": "sw-001453"
-  },
-  {
-    "type": "word",
-    "front": "look at the bigger picture",
-    "meaning": "看整体情况",
-    "example": "",
-    "weight": 3,
-    "id": "sw-001454"
   },
   {
     "type": "word",
@@ -10044,22 +9472,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "check in at reception",
-    "meaning": "在前台办理入住",
-    "example": "",
-    "weight": 3,
-    "id": "sw-001474"
-  },
-  {
-    "type": "word",
-    "front": "make slower progress",
-    "meaning": "行进进度较慢",
-    "example": "",
-    "weight": 3,
-    "id": "sw-001476"
-  },
-  {
-    "type": "word",
     "front": "rougher than it looked",
     "meaning": "比看起来更崎岖",
     "example": "",
@@ -10076,27 +9488,11 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "according to our plan",
-    "meaning": "按照原计划",
-    "example": "",
-    "weight": 3,
-    "id": "sw-001479"
-  },
-  {
-    "type": "word",
     "front": "estimated time remaining",
     "meaning": "预计剩余时间",
     "example": "",
     "weight": 3,
     "id": "sw-001480"
-  },
-  {
-    "type": "word",
-    "front": "daylight left",
-    "meaning": "剩余日照时间",
-    "example": "",
-    "weight": 3,
-    "id": "sw-001481"
   },
   {
     "type": "word",
@@ -10316,14 +9712,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "barely noticeable",
-    "meaning": "几乎看不出来",
-    "example": "",
-    "weight": 3,
-    "id": "sw-001510"
-  },
-  {
-    "type": "word",
     "front": "badly scratched",
     "meaning": "刮花得厉害",
     "example": "",
@@ -10353,14 +9741,6 @@ const VOCABULARY = [
     "example": "",
     "weight": 3,
     "id": "sw-001514"
-  },
-  {
-    "type": "word",
-    "front": "remove dust",
-    "meaning": "清除灰尘",
-    "example": "",
-    "weight": 3,
-    "id": "sw-001515"
   },
   {
     "type": "word",
@@ -10596,22 +9976,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "lean against the wall",
-    "meaning": "靠在墙上",
-    "example": "",
-    "weight": 3,
-    "id": "sw-001549"
-  },
-  {
-    "type": "word",
-    "front": "recover",
-    "meaning": "缓过来",
-    "example": "",
-    "weight": 3,
-    "id": "sw-001550"
-  },
-  {
-    "type": "word",
     "front": "give someone a hand",
     "meaning": "帮某人一把",
     "example": "",
@@ -10633,14 +9997,6 @@ const VOCABULARY = [
     "example": "",
     "weight": 3,
     "id": "sw-001553"
-  },
-  {
-    "type": "word",
-    "front": "offer A in exchange for B",
-    "meaning": "提供 A 换取 B",
-    "example": "",
-    "weight": 3,
-    "id": "sw-001554"
   },
   {
     "type": "word",
@@ -10676,38 +10032,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "repeat purchases",
-    "meaning": "重复购买",
-    "example": "",
-    "weight": 3,
-    "id": "sw-001559"
-  },
-  {
-    "type": "word",
-    "front": "loyal customers",
-    "meaning": "忠实顾客",
-    "example": "",
-    "weight": 3,
-    "id": "sw-001560"
-  },
-  {
-    "type": "word",
-    "front": "regularly / repeatedly",
-    "meaning": "定期地/反复地",
-    "example": "",
-    "weight": 3,
-    "id": "sw-001561"
-  },
-  {
-    "type": "word",
-    "front": "worthwhile / worth it",
-    "meaning": "值得的/值得",
-    "example": "",
-    "weight": 3,
-    "id": "sw-001562"
-  },
-  {
-    "type": "word",
     "front": "there's a catch",
     "meaning": "不过有个问题",
     "example": "",
@@ -10729,14 +10053,6 @@ const VOCABULARY = [
     "example": "",
     "weight": 3,
     "id": "sw-001565"
-  },
-  {
-    "type": "word",
-    "front": "end up paying",
-    "meaning": "结果却付费",
-    "example": "",
-    "weight": 3,
-    "id": "sw-001566"
   },
   {
     "type": "word",
@@ -10820,22 +10136,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "time slot",
-    "meaning": "预定时段",
-    "example": "",
-    "weight": 3,
-    "id": "sw-001577"
-  },
-  {
-    "type": "word",
-    "front": "book in advance",
-    "meaning": "提前预约",
-    "example": "",
-    "weight": 3,
-    "id": "sw-001578"
-  },
-  {
-    "type": "word",
     "front": "book ahead",
     "meaning": "提前预订",
     "example": "",
@@ -10908,14 +10208,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "late in the afternoon",
-    "meaning": "下午较晚的时候",
-    "example": "",
-    "weight": 3,
-    "id": "sw-001590"
-  },
-  {
-    "type": "word",
     "front": "fog rolls in",
     "meaning": "雾涌来",
     "example": "",
@@ -10985,14 +10277,6 @@ const VOCABULARY = [
     "example": "",
     "weight": 3,
     "id": "sw-001599"
-  },
-  {
-    "type": "word",
-    "front": "stay close together",
-    "meaning": "保持队伍靠近",
-    "example": "",
-    "weight": 3,
-    "id": "sw-001600"
   },
   {
     "type": "word",
@@ -11121,14 +10405,6 @@ const VOCABULARY = [
     "example": "The power finally came back on.",
     "weight": 3,
     "id": "sw-001617"
-  },
-  {
-    "type": "word",
-    "front": "battery left",
-    "meaning": "剩余电量",
-    "example": "I've still got 20% battery left.",
-    "weight": 3,
-    "id": "sw-001618"
   },
   {
     "type": "word",
@@ -11356,22 +10632,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "scan a QR code",
-    "meaning": "扫描二维码",
-    "example": "Scan the QR code to open the locker.",
-    "weight": 3,
-    "id": "sw-001654"
-  },
-  {
-    "type": "word",
-    "front": "enter manually",
-    "meaning": "手动输入",
-    "example": "Enter the pickup code manually.",
-    "weight": 3,
-    "id": "sw-001655"
-  },
-  {
-    "type": "word",
     "front": "compartment",
     "meaning": "隔间、储物格",
     "example": "One compartment popped open.",
@@ -11393,14 +10653,6 @@ const VOCABULARY = [
     "example": "The package was wedged inside.",
     "weight": 3,
     "id": "sw-001658"
-  },
-  {
-    "type": "word",
-    "front": "gust / gusty",
-    "meaning": "阵风／阵风明显的",
-    "example": "A strong gust hit me from the side.",
-    "weight": 3,
-    "id": "sw-001661"
   },
   {
     "type": "word",
@@ -11497,14 +10749,6 @@ const VOCABULARY = [
     "example": "I might need to call a locksmith.",
     "weight": 3,
     "id": "sw-001677"
-  },
-  {
-    "type": "word",
-    "front": "get a haircut",
-    "meaning": "去理发、让别人剪头发",
-    "example": "I need to get a haircut.",
-    "weight": 3,
-    "id": "sw-001679"
   },
   {
     "type": "word",
@@ -11684,14 +10928,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "quiet down",
-    "meaning": "逐渐安静",
-    "example": "Things finally quieted down.",
-    "weight": 3,
-    "id": "sw-001706"
-  },
-  {
-    "type": "word",
     "front": "go on for hours",
     "meaning": "持续几个小时",
     "example": "The noise went on for hours.",
@@ -11756,27 +10992,11 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "gather around",
-    "meaning": "聚集在周围",
-    "example": "Insects gathered around us.",
-    "weight": 3,
-    "id": "sw-001722"
-  },
-  {
-    "type": "word",
     "front": "swat away / swat at",
     "meaning": "挥赶／挥手拍打",
     "example": "I tried to swat the flies away.",
     "weight": 3,
     "id": "sw-001723"
-  },
-  {
-    "type": "word",
-    "front": "bite – bit – bitten",
-    "meaning": "叮咬（动词变化）",
-    "example": "A mosquito bit my neck.",
-    "weight": 3,
-    "id": "sw-001724"
   },
   {
     "type": "word",
@@ -12668,14 +11888,6 @@ const VOCABULARY = [
   },
   {
     "type": "pattern",
-    "front": "rather than + -ing / verb",
-    "meaning": "与其……不如……",
-    "example": "We turned back rather than pushing on.",
-    "weight": 3,
-    "id": "sw-001845"
-  },
-  {
-    "type": "pattern",
     "front": "so...that...",
     "meaning": "如此……以至于……",
     "example": "The gust was so strong that I staggered.",
@@ -12740,14 +11952,6 @@ const VOCABULARY = [
   },
   {
     "type": "pattern",
-    "front": "keep something + adjective / state",
-    "meaning": "让某事物保持某种状态",
-    "example": "Let's keep the group together.",
-    "weight": 3,
-    "id": "sw-001857"
-  },
-  {
-    "type": "pattern",
     "front": "be tempted to + verb",
     "meaning": "忍不住想做某事",
     "example": "I was tempted to keep going, but I turned back.",
@@ -12769,14 +11973,6 @@ const VOCABULARY = [
     "example": "I was halfway across the bridge.",
     "weight": 3,
     "id": "sw-001860"
-  },
-  {
-    "type": "pattern",
-    "front": "be supposed to + verb",
-    "meaning": "原本应该做某事；常暗示实际安排变化",
-    "example": "We were supposed to meet at three.",
-    "weight": 3,
-    "id": "sw-001863"
   },
   {
     "type": "pattern",
@@ -12892,22 +12088,6 @@ const VOCABULARY = [
   },
   {
     "type": "pattern",
-    "front": "Would you mind if I + past verb?",
-    "meaning": "委婉询问自己能否做某事",
-    "example": "Would you mind if I sat here?",
-    "weight": 3,
-    "id": "sw-001881"
-  },
-  {
-    "type": "pattern",
-    "front": "Could you double-check + noun?",
-    "meaning": "礼貌要求再次确认信息",
-    "example": "Could you double-check the price?",
-    "weight": 3,
-    "id": "sw-001882"
-  },
-  {
-    "type": "pattern",
     "front": "Is there any chance + clause?",
     "meaning": "委婉询问某种可能性",
     "example": "",
@@ -12921,14 +12101,6 @@ const VOCABULARY = [
     "example": "I was wondering if I could renew the loan.",
     "weight": 3,
     "id": "sw-001884"
-  },
-  {
-    "type": "pattern",
-    "front": "Would it be possible to + verb?",
-    "meaning": "礼貌问某事能否安排",
-    "example": "",
-    "weight": 3,
-    "id": "sw-001886"
   },
   {
     "type": "pattern",
@@ -13036,27 +12208,11 @@ const VOCABULARY = [
   },
   {
     "type": "pattern",
-    "front": "absolutely + extreme adjective",
-    "meaning": "与表示极端状态的形容词搭配",
-    "example": "",
-    "weight": 3,
-    "id": "sw-001902"
-  },
-  {
-    "type": "pattern",
     "front": "increasingly + adjective",
     "meaning": "状态逐渐更强、更明显",
     "example": "",
     "weight": 3,
     "id": "sw-001903"
-  },
-  {
-    "type": "pattern",
-    "front": "there's a trade-off between A and B",
-    "meaning": "表达两方面利益的取舍",
-    "example": "",
-    "weight": 3,
-    "id": "sw-001904"
   },
   {
     "type": "pattern",
@@ -13073,14 +12229,6 @@ const VOCABULARY = [
     "example": "As rents rose, some residents moved away.",
     "weight": 3,
     "id": "sw-001906"
-  },
-  {
-    "type": "pattern",
-    "front": "when A..., B tends to...",
-    "meaning": "给出条件与一般趋势",
-    "example": "When demand is high, rents tend to rise.",
-    "weight": 3,
-    "id": "sw-001907"
   },
   {
     "type": "pattern",
@@ -13172,22 +12320,6 @@ const VOCABULARY = [
   },
   {
     "type": "pattern",
-    "front": "One major reason is that + clause",
-    "meaning": "解释现象的主要原因",
-    "example": "",
-    "weight": 3,
-    "id": "sw-001920"
-  },
-  {
-    "type": "pattern",
-    "front": "One possible explanation is that + clause",
-    "meaning": "在不完全确定时提出解释",
-    "example": "",
-    "weight": 3,
-    "id": "sw-001921"
-  },
-  {
-    "type": "pattern",
     "front": "This doesn't necessarily mean that + clause",
     "meaning": "防止将一般趋势误解成绝对事实",
     "example": "",
@@ -13260,14 +12392,6 @@ const VOCABULARY = [
   },
   {
     "type": "pattern",
-    "front": "have no choice but to + verb",
-    "meaning": "客观限制下别无选择",
-    "example": "",
-    "weight": 3,
-    "id": "sw-001932"
-  },
-  {
-    "type": "pattern",
     "front": "struggle to + verb",
     "meaning": "做某事非常吃力",
     "example": "He was struggling to keep up with the group.",
@@ -13321,14 +12445,6 @@ const VOCABULARY = [
     "example": "I could have worded it better.",
     "weight": 3,
     "id": "sw-001939"
-  },
-  {
-    "type": "pattern",
-    "front": "should have + past participle",
-    "meaning": "事后判断本应做某事",
-    "example": "I should have booked the ticket earlier.",
-    "weight": 3,
-    "id": "sw-001940"
   },
   {
     "type": "pattern",
@@ -13481,14 +12597,6 @@ const VOCABULARY = [
     "example": "",
     "weight": 3,
     "id": "sw-001960"
-  },
-  {
-    "type": "sentence",
-    "front": "It turned out the system hadn't been updated, so they refunded the difference.",
-    "meaning": "结果发现系统没更新，所以他们退还了差价。",
-    "example": "",
-    "weight": 3,
-    "id": "sw-001961"
   },
   {
     "type": "sentence",
@@ -13956,14 +13064,6 @@ const VOCABULARY = [
   },
   {
     "type": "sentence",
-    "front": "Is this seat taken, or could I sit here?",
-    "meaning": "这个座位有人吗？我能坐这里吗？",
-    "example": "",
-    "weight": 3,
-    "id": "sw-002020"
-  },
-  {
-    "type": "sentence",
     "front": "Would you mind moving your bag a little so I can use the power outlet?",
     "meaning": "你介意把包挪一下让我用插座吗？",
     "example": "",
@@ -14180,22 +13280,6 @@ const VOCABULARY = [
   },
   {
     "type": "ladder",
-    "front": "gradually improve",
-    "meaning": "逐渐改善",
-    "example": "",
-    "weight": 3,
-    "id": "sw-002051"
-  },
-  {
-    "type": "ladder",
-    "front": "drop sharply",
-    "meaning": "急剧下降",
-    "example": "",
-    "weight": 3,
-    "id": "sw-002052"
-  },
-  {
-    "type": "ladder",
     "front": "damp / soaking wet / dry",
     "meaning": "潮湿 / 湿透 / 干燥",
     "example": "",
@@ -14281,14 +13365,6 @@ const VOCABULARY = [
     "example": "",
     "weight": 3,
     "id": "sw-002063"
-  },
-  {
-    "type": "ladder",
-    "front": "turn down heat / warm up",
-    "meaning": "调小火 / 暖和起来",
-    "example": "",
-    "weight": 3,
-    "id": "sw-002064"
   },
   {
     "type": "ladder",
@@ -14852,14 +13928,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "return on time",
-    "meaning": "按时还书",
-    "example": "",
-    "weight": 3,
-    "id": "sw-002139"
-  },
-  {
-    "type": "word",
     "front": "muddy descent",
     "meaning": "泥泞下坡",
     "example": "",
@@ -14873,22 +13941,6 @@ const VOCABULARY = [
     "example": "",
     "weight": 3,
     "id": "sw-002141"
-  },
-  {
-    "type": "word",
-    "front": "take a detour",
-    "meaning": "绕路",
-    "example": "",
-    "weight": 3,
-    "id": "sw-002142"
-  },
-  {
-    "type": "word",
-    "front": "move in",
-    "meaning": "搬入",
-    "example": "",
-    "weight": 3,
-    "id": "sw-002143"
   },
   {
     "type": "word",
@@ -14913,14 +13965,6 @@ const VOCABULARY = [
     "example": "",
     "weight": 3,
     "id": "sw-002146"
-  },
-  {
-    "type": "word",
-    "front": "proof-of-delivery photo",
-    "meaning": "投递凭证照片",
-    "example": "",
-    "weight": 3,
-    "id": "sw-002148"
   },
   {
     "type": "word",
@@ -15020,14 +14064,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "wrong direction",
-    "meaning": "错误方向",
-    "example": "",
-    "weight": 3,
-    "id": "sw-002163"
-  },
-  {
-    "type": "word",
     "front": "get off",
     "meaning": "下车",
     "example": "",
@@ -15097,14 +14133,6 @@ const VOCABULARY = [
     "example": "",
     "weight": 3,
     "id": "sw-002176"
-  },
-  {
-    "type": "word",
-    "front": "fasten a strap",
-    "meaning": "扣紧带子",
-    "example": "",
-    "weight": 3,
-    "id": "sw-002178"
   },
   {
     "type": "word",
@@ -15180,14 +14208,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "wait for a bus going the other way",
-    "meaning": "等反向公交",
-    "example": "",
-    "weight": 3,
-    "id": "sw-002191"
-  },
-  {
-    "type": "word",
     "front": "call over a supervisor",
     "meaning": "请主管过来",
     "example": "",
@@ -15201,14 +14221,6 @@ const VOCABULARY = [
     "example": "",
     "weight": 3,
     "id": "sw-002195"
-  },
-  {
-    "type": "word",
-    "front": "meeting point",
-    "meaning": "集合地点",
-    "example": "",
-    "weight": 3,
-    "id": "sw-002197"
   },
   {
     "type": "word",
@@ -15372,14 +14384,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "monitor condition",
-    "meaning": "监测状况",
-    "example": "",
-    "weight": 3,
-    "id": "sw-002227"
-  },
-  {
-    "type": "word",
     "front": "startle awake",
     "meaning": "惊醒",
     "example": "",
@@ -15468,14 +14472,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "file a report",
-    "meaning": "登记",
-    "example": "",
-    "weight": 3,
-    "id": "sw-002243"
-  },
-  {
-    "type": "word",
     "front": "loose gravel",
     "meaning": "松散碎石",
     "example": "",
@@ -15553,22 +14549,6 @@ const VOCABULARY = [
     "example": "",
     "weight": 3,
     "id": "sw-002255"
-  },
-  {
-    "type": "word",
-    "front": "official channel",
-    "meaning": "官方渠道",
-    "example": "",
-    "weight": 3,
-    "id": "sw-002256"
-  },
-  {
-    "type": "word",
-    "front": "investigate the charge",
-    "meaning": "调查扣款",
-    "example": "",
-    "weight": 3,
-    "id": "sw-002257"
   },
   {
     "type": "word",
@@ -15692,14 +14672,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "specific feedback",
-    "meaning": "具体反馈",
-    "example": "",
-    "weight": 3,
-    "id": "sw-002283"
-  },
-  {
-    "type": "word",
     "front": "sensible approach",
     "meaning": "明智方法",
     "example": "",
@@ -15780,14 +14752,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "give me a hand",
-    "meaning": "帮我一把",
-    "example": "",
-    "weight": 3,
-    "id": "sw-002298"
-  },
-  {
-    "type": "word",
     "front": "surprisingly heavy",
     "meaning": "异常重",
     "example": "",
@@ -15812,14 +14776,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "relatively cheap",
-    "meaning": "相对便宜",
-    "example": "",
-    "weight": 3,
-    "id": "sw-002302"
-  },
-  {
-    "type": "word",
     "front": "barely opened",
     "meaning": "几乎没打开",
     "example": "",
@@ -15828,35 +14784,11 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "auto-renew",
-    "meaning": "自动续费",
-    "example": "",
-    "weight": 3,
-    "id": "sw-002305"
-  },
-  {
-    "type": "word",
     "front": "open up a slot",
     "meaning": "空出时段",
     "example": "",
     "weight": 3,
     "id": "sw-002306"
-  },
-  {
-    "type": "word",
-    "front": "earliest available",
-    "meaning": "最早可选",
-    "example": "",
-    "weight": 3,
-    "id": "sw-002307"
-  },
-  {
-    "type": "word",
-    "front": "turn out to be a good decision",
-    "meaning": "结果是个好决定",
-    "example": "",
-    "weight": 3,
-    "id": "sw-002308"
   },
   {
     "type": "word",
@@ -15964,14 +14896,6 @@ const VOCABULARY = [
   },
   {
     "type": "sentence",
-    "front": "Two hikers were falling behind.",
-    "meaning": "两名徒步者正在掉队。",
-    "example": "",
-    "weight": 3,
-    "id": "sw-002324"
-  },
-  {
-    "type": "sentence",
     "front": "The front group picked up the pace.",
     "meaning": "前面的队伍加快了步速。",
     "example": "",
@@ -15985,14 +14909,6 @@ const VOCABULARY = [
     "example": "",
     "weight": 3,
     "id": "sw-002326"
-  },
-  {
-    "type": "sentence",
-    "front": "The gap between us was getting wider.",
-    "meaning": "我们之间的距离越来越大。",
-    "example": "",
-    "weight": 3,
-    "id": "sw-002327"
   },
   {
     "type": "sentence",
@@ -16052,14 +14968,6 @@ const VOCABULARY = [
   },
   {
     "type": "sentence",
-    "front": "Your parcel is ready for pickup.",
-    "meaning": "你的包裹可以取件了。",
-    "example": "",
-    "weight": 3,
-    "id": "sw-002335"
-  },
-  {
-    "type": "sentence",
     "front": "I picked it up from a parcel locker.",
     "meaning": "我从快递柜取了它。",
     "example": "",
@@ -16068,27 +14976,11 @@ const VOCABULARY = [
   },
   {
     "type": "sentence",
-    "front": "Scan the QR code to open the locker.",
-    "meaning": "扫码开启柜门。",
-    "example": "",
-    "weight": 3,
-    "id": "sw-002337"
-  },
-  {
-    "type": "sentence",
     "front": "Enter the pickup code manually.",
     "meaning": "手动输入取件码。",
     "example": "",
     "weight": 3,
     "id": "sw-002338"
-  },
-  {
-    "type": "sentence",
-    "front": "The ridge was very exposed.",
-    "meaning": "这条山脊很暴露。",
-    "example": "",
-    "weight": 3,
-    "id": "sw-002339"
   },
   {
     "type": "sentence",
@@ -16121,14 +15013,6 @@ const VOCABULARY = [
     "example": "",
     "weight": 3,
     "id": "sw-002343"
-  },
-  {
-    "type": "sentence",
-    "front": "I stepped out of my apartment.",
-    "meaning": "我走出公寓。",
-    "example": "",
-    "weight": 3,
-    "id": "sw-002344"
   },
   {
     "type": "sentence",
@@ -16364,14 +15248,6 @@ const VOCABULARY = [
   },
   {
     "type": "sentence",
-    "front": "My alarm went off at six.",
-    "meaning": "闹钟六点响了。",
-    "example": "",
-    "weight": 3,
-    "id": "sw-002374"
-  },
-  {
-    "type": "sentence",
     "front": "I kept hitting snooze.",
     "meaning": "我一直按稍后提醒。",
     "example": "",
@@ -16532,14 +15408,6 @@ const VOCABULARY = [
   },
   {
     "type": "sentence",
-    "front": "They charged me twice.",
-    "meaning": "他们重复扣了我两次钱。",
-    "example": "",
-    "weight": 3,
-    "id": "sw-002396"
-  },
-  {
-    "type": "sentence",
     "front": "The machine didn't dispense my drink.",
     "meaning": "机器没有吐出饮料。",
     "example": "",
@@ -16593,14 +15461,6 @@ const VOCABULARY = [
     "example": "",
     "weight": 3,
     "id": "sw-002403"
-  },
-  {
-    "type": "sentence",
-    "front": "I flushed the toilet.",
-    "meaning": "我冲了马桶。",
-    "example": "",
-    "weight": 3,
-    "id": "sw-002404"
   },
   {
     "type": "sentence",
@@ -16784,14 +15644,6 @@ const VOCABULARY = [
     "front": "keep someone awake / keep someone up",
     "meaning": "让某人睡不着",
     "example": "The noise kept me awake.",
-    "weight": 3
-  },
-  {
-    "id": "sw-002428",
-    "type": "word",
-    "front": "earplugs / earbuds / headphones",
-    "meaning": "隔音耳塞／入耳耳机／头戴耳机",
-    "example": "I put in my earplugs.",
     "weight": 3
   },
   {
@@ -17004,14 +15856,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "apply for a certificate",
-    "meaning": "申请证明",
-    "example": "",
-    "weight": 3,
-    "id": "sw-002455"
-  },
-  {
-    "type": "word",
     "front": "supporting document",
     "meaning": "支持性材料",
     "example": "",
@@ -17052,14 +15896,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "required or optional",
-    "meaning": "必填还是选填",
-    "example": "",
-    "weight": 3,
-    "id": "sw-002461"
-  },
-  {
-    "type": "word",
     "front": "digital copy",
     "meaning": "电子版",
     "example": "",
@@ -17073,14 +15909,6 @@ const VOCABULARY = [
     "example": "",
     "weight": 3,
     "id": "sw-002463"
-  },
-  {
-    "type": "word",
-    "front": "incomplete application",
-    "meaning": "材料不完整的申请",
-    "example": "",
-    "weight": 3,
-    "id": "sw-002464"
   },
   {
     "type": "word",
@@ -17129,14 +15957,6 @@ const VOCABULARY = [
     "example": "",
     "weight": 3,
     "id": "sw-002470"
-  },
-  {
-    "type": "word",
-    "front": "store and release energy",
-    "meaning": "储存和释放能量",
-    "example": "",
-    "weight": 3,
-    "id": "sw-002471"
   },
   {
     "type": "word",
@@ -17236,14 +16056,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "full-to-full",
-    "meaning": "满油取还",
-    "example": "",
-    "weight": 3,
-    "id": "sw-002484"
-  },
-  {
-    "type": "word",
     "front": "walkaround inspection",
     "meaning": "绕车检查",
     "example": "",
@@ -17265,14 +16077,6 @@ const VOCABULARY = [
     "example": "",
     "weight": 3,
     "id": "sw-002487"
-  },
-  {
-    "type": "word",
-    "front": "update the report",
-    "meaning": "更新报告",
-    "example": "",
-    "weight": 3,
-    "id": "sw-002488"
   },
   {
     "type": "word",
@@ -17372,27 +16176,11 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "meet a deadline",
-    "meaning": "按时完成",
-    "example": "",
-    "weight": 3,
-    "id": "sw-002501"
-  },
-  {
-    "type": "word",
     "front": "take ownership of",
     "meaning": "主动承担完整责任",
     "example": "",
     "weight": 3,
     "id": "sw-002502"
-  },
-  {
-    "type": "word",
-    "front": "upload to shared folder",
-    "meaning": "上传共享文件夹",
-    "example": "",
-    "weight": 3,
-    "id": "sw-002503"
   },
   {
     "type": "word",
@@ -17409,14 +16197,6 @@ const VOCABULARY = [
     "example": "",
     "weight": 3,
     "id": "sw-002505"
-  },
-  {
-    "type": "word",
-    "front": "inaccurate figures",
-    "meaning": "不准确的数据",
-    "example": "",
-    "weight": 3,
-    "id": "sw-002506"
   },
   {
     "type": "word",
@@ -17449,14 +16229,6 @@ const VOCABULARY = [
     "example": "",
     "weight": 3,
     "id": "sw-002510"
-  },
-  {
-    "type": "word",
-    "front": "have strong opinions",
-    "meaning": "有强烈观点",
-    "example": "",
-    "weight": 3,
-    "id": "sw-002511"
   },
   {
     "type": "word",
@@ -17532,14 +16304,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "heating is on",
-    "meaning": "暖气开着",
-    "example": "",
-    "weight": 3,
-    "id": "sw-002521"
-  },
-  {
-    "type": "word",
     "front": "run your hand along",
     "meaning": "用手沿着……摸",
     "example": "",
@@ -17593,14 +16357,6 @@ const VOCABULARY = [
     "example": "",
     "weight": 3,
     "id": "sw-002528"
-  },
-  {
-    "type": "word",
-    "front": "vague instruction",
-    "meaning": "含糊的要求",
-    "example": "",
-    "weight": 3,
-    "id": "sw-002529"
   },
   {
     "type": "word",
@@ -17676,14 +16432,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "remain locked",
-    "meaning": "仍然锁着",
-    "example": "",
-    "weight": 3,
-    "id": "sw-002539"
-  },
-  {
-    "type": "word",
     "front": "stiff cover",
     "meaning": "很紧的盖子",
     "example": "",
@@ -17740,14 +16488,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "strong current",
-    "meaning": "强水流",
-    "example": "",
-    "weight": 3,
-    "id": "sw-002547"
-  },
-  {
-    "type": "word",
     "front": "stepping stones",
     "meaning": "过溪踏脚石",
     "example": "",
@@ -17769,14 +16509,6 @@ const VOCABULARY = [
     "example": "",
     "weight": 3,
     "id": "sw-002550"
-  },
-  {
-    "type": "word",
-    "front": "riverbank",
-    "meaning": "河岸",
-    "example": "",
-    "weight": 3,
-    "id": "sw-002551"
   },
   {
     "type": "word",
@@ -18025,14 +16757,6 @@ const VOCABULARY = [
     "example": "",
     "weight": 3,
     "id": "sw-002582"
-  },
-  {
-    "type": "word",
-    "front": "written confirmation",
-    "meaning": "书面确认",
-    "example": "",
-    "weight": 3,
-    "id": "sw-002583"
   },
   {
     "type": "word",
@@ -18361,14 +17085,6 @@ const VOCABULARY = [
     "example": "",
     "weight": 3,
     "id": "sw-002624"
-  },
-  {
-    "type": "word",
-    "front": "fragile",
-    "meaning": "易碎的",
-    "example": "",
-    "weight": 3,
-    "id": "sw-002625"
   },
   {
     "type": "word",
@@ -18772,14 +17488,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "dispute a charge",
-    "meaning": "对扣款正式提出争议",
-    "example": "",
-    "weight": 3,
-    "id": "sw-002676"
-  },
-  {
-    "type": "word",
     "front": "reverse a transaction",
     "meaning": "撤销或冲回交易",
     "example": "",
@@ -18844,14 +17552,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "credible source",
-    "meaning": "可信的信息来源",
-    "example": "",
-    "weight": 3,
-    "id": "sw-002685"
-  },
-  {
-    "type": "word",
     "front": "be sceptical of",
     "meaning": "对……持怀疑态度",
     "example": "",
@@ -18905,14 +17605,6 @@ const VOCABULARY = [
     "example": "",
     "weight": 3,
     "id": "sw-002692"
-  },
-  {
-    "type": "word",
-    "front": "reserved seat",
-    "meaning": "已预订的座位",
-    "example": "",
-    "weight": 3,
-    "id": "sw-002693"
   },
   {
     "type": "word",
@@ -19308,14 +18000,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "set a boundary",
-    "meaning": "设立个人界限",
-    "example": "",
-    "weight": 3,
-    "id": "sw-002743"
-  },
-  {
-    "type": "word",
     "front": "make excuses",
     "meaning": "编造借口",
     "example": "",
@@ -19337,14 +18021,6 @@ const VOCABULARY = [
     "example": "",
     "weight": 3,
     "id": "sw-002746"
-  },
-  {
-    "type": "word",
-    "front": "pump up tyre",
-    "meaning": "给轮胎打气",
-    "example": "",
-    "weight": 3,
-    "id": "sw-002747"
   },
   {
     "type": "word",
@@ -19636,14 +18312,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "rockfall",
-    "meaning": "落石事件或风险",
-    "example": "",
-    "weight": 3,
-    "id": "sw-002784"
-  },
-  {
-    "type": "word",
     "front": "scree",
     "meaning": "山坡松散碎石",
     "example": "",
@@ -19724,14 +18392,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "reroute",
-    "meaning": "重新规划路线",
-    "example": "",
-    "weight": 3,
-    "id": "sw-002795"
-  },
-  {
-    "type": "word",
     "front": "bypass",
     "meaning": "绕过障碍",
     "example": "",
@@ -19796,14 +18456,6 @@ const VOCABULARY = [
   },
   {
     "type": "pattern",
-    "front": "Would + 文件类型 + be acceptable?",
-    "meaning": "委婉核实材料是否符合要求",
-    "example": "",
-    "weight": 3,
-    "id": "sw-002804"
-  },
-  {
-    "type": "pattern",
     "front": "What is the estimated + 时间?",
     "meaning": "询问预计周期",
     "example": "",
@@ -19852,14 +18504,6 @@ const VOCABULARY = [
   },
   {
     "type": "pattern",
-    "front": "so + 形容词 + that ...",
-    "meaning": "说明强烈程度和后果",
-    "example": "",
-    "weight": 3,
-    "id": "sw-002811"
-  },
-  {
-    "type": "pattern",
     "front": "rather than assuming +",
     "meaning": "从句 表达不先入为主的行为",
     "example": "",
@@ -19873,22 +18517,6 @@ const VOCABULARY = [
     "example": "",
     "weight": 3,
     "id": "sw-002813"
-  },
-  {
-    "type": "pattern",
-    "front": "Could I just + 动词原形?",
-    "meaning": "保持礼貌同时维护表达机会",
-    "example": "",
-    "weight": 3,
-    "id": "sw-002814"
-  },
-  {
-    "type": "pattern",
-    "front": "I see your point, but ...",
-    "meaning": "认可部分合理性后提出不同看法",
-    "example": "",
-    "weight": 3,
-    "id": "sw-002815"
   },
   {
     "type": "pattern",
@@ -20052,22 +18680,6 @@ const VOCABULARY = [
   },
   {
     "type": "pattern",
-    "front": "keep + V-ing",
-    "meaning": "描述床单不断滑脱",
-    "example": "",
-    "weight": 3,
-    "id": "sw-002836"
-  },
-  {
-    "type": "pattern",
-    "front": "after + V-ing, +",
-    "meaning": "主句 交代动作先后",
-    "example": "",
-    "weight": 3,
-    "id": "sw-002837"
-  },
-  {
-    "type": "pattern",
     "front": "have + 物品 +",
     "meaning": "过去分词 安排专业人员提供服务",
     "example": "",
@@ -20156,14 +18768,6 @@ const VOCABULARY = [
   },
   {
     "type": "pattern",
-    "front": "Let me + V and + V",
-    "meaning": "自主纠正并回到重点",
-    "example": "",
-    "weight": 3,
-    "id": "sw-002849"
-  },
-  {
-    "type": "pattern",
     "front": "at such short notice",
     "meaning": "表示通知太临时",
     "example": "",
@@ -20201,14 +18805,6 @@ const VOCABULARY = [
     "example": "",
     "weight": 3,
     "id": "sw-002854"
-  },
-  {
-    "type": "pattern",
-    "front": "not + 名词 + but +",
-    "meaning": "名词 区分未经核实的信息与事实",
-    "example": "",
-    "weight": 3,
-    "id": "sw-002855"
   },
   {
     "type": "pattern",
@@ -20561,14 +19157,6 @@ const VOCABULARY = [
     "example": "",
     "weight": 3,
     "id": "sw-002899"
-  },
-  {
-    "type": "sentence",
-    "front": "One transaction is posted, but the other is still pending.",
-    "meaning": "一笔交易已经入账，另一笔还在待处理。",
-    "example": "",
-    "weight": 3,
-    "id": "sw-002900"
   },
   {
     "type": "sentence",
