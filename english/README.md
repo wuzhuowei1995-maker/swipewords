@@ -76,3 +76,7 @@ Imported the user-provided Oct 28 Word document: 48 vocabulary/collocation cards
 ## 2026-10-28: 2-hour GitHub removal eligibility
 
 English deletion issues with a valid V1/V2 card-key manifest are eligible after 2 hours from Issue creation (or last reopening). The GitHub Actions schedule remains hourly and may experience delays. Empty-body issues cannot be processed: a title alone never identifies the cards. Existing #2 and #5 currently have empty descriptions and must be supplied a manifest before automated deletion can occur.
+
+## 2026-11-09 The Land Trap chapter four (Shaky Ground)
+
+Imported 85 bolded vocabulary/phrase entries from the user's Chapter 4 Word document, deduplicated with the live GitHub deck and completed GitHub deletion Issues. Skipped the two expressions already present, `smother` and `animate`, and appended 83 cards. Each card includes the source Chinese explanation, usage/collocation note, and two illustrative sentences with Chinese translations on the same card. These are study examples authored in the supplied document, not literary quotations from the book. Previous 951 cards left untouched; total is 1034. Full-cycle shuffle and local removal/2-hour GitHub synchronization unchanged.
