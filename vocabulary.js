@@ -24439,6 +24439,897 @@ const VOCABULARY = [
     "weight": 3,
     "id": "sw-003489",
     "source": "Review10 Contrasts"
+  },
+  {
+    "type": "word",
+    "front": "utility bill",
+    "meaning": "水电、燃气等公用事业账单",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003490",
+    "source": "Review11 Scene 196"
+  },
+  {
+    "type": "word",
+    "front": "billing period",
+    "meaning": "计费周期",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003491",
+    "source": "Review11 Scene 196"
+  },
+  {
+    "type": "word",
+    "front": "meter reading",
+    "meaning": "电表或其他计量表读数",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003492",
+    "source": "Review11 Scene 196"
+  },
+  {
+    "type": "word",
+    "front": "estimated reading",
+    "meaning": "估算的抄表读数",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003493",
+    "source": "Review11 Scene 196"
+  },
+  {
+    "type": "word",
+    "front": "actual reading",
+    "meaning": "实际抄表读数",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003494",
+    "source": "Review11 Scene 196"
+  },
+  {
+    "type": "word",
+    "front": "electricity consumption",
+    "meaning": "用电量",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003495",
+    "source": "Review11 Scene 196"
+  },
+  {
+    "type": "word",
+    "front": "kilowatt-hour (kWh)",
+    "meaning": "千瓦时，电能单位",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003496",
+    "source": "Review11 Scene 196"
+  },
+  {
+    "type": "word",
+    "front": "unit rate",
+    "meaning": "单位收费价格；每千瓦时电价",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003497",
+    "source": "Review11 Scene 196"
+  },
+  {
+    "type": "word",
+    "front": "standing charge",
+    "meaning": "固定日费或固定服务费",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003498",
+    "source": "Review11 Scene 196"
+  },
+  {
+    "type": "word",
+    "front": "tariff",
+    "meaning": "收费方案；资费标准",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003499",
+    "source": "Review11 Scene 196"
+  },
+  {
+    "type": "word",
+    "front": "smart meter",
+    "meaning": "智能电表",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003500",
+    "source": "Review11 Scene 196"
+  },
+  {
+    "type": "word",
+    "front": "catch-up bill",
+    "meaning": "对之前少收费用的补收账单",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003501",
+    "source": "Review11 Scene 196"
+  },
+  {
+    "type": "word",
+    "front": "direct debit",
+    "meaning": "银行授权自动扣款",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003502",
+    "source": "Review11 Scene 196"
+  },
+  {
+    "type": "word",
+    "front": "credit balance",
+    "meaning": "账户的多付余额、贷方余额",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003503",
+    "source": "Review11 Scene 196"
+  },
+  {
+    "type": "word",
+    "front": "billing adjustment",
+    "meaning": "账单调整",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003504",
+    "source": "Review11 Scene 196"
+  },
+  {
+    "type": "sentence",
+    "front": "Could you check whether this bill is based on an estimated reading or an actual one?",
+    "meaning": "你能查一下这份账单依据的是估算读数还是实际读数吗？",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003505",
+    "source": "Review11 Scene 196"
+  },
+  {
+    "type": "sentence",
+    "front": "Has the unit rate changed, or is this simply a catch-up bill?",
+    "meaning": "是每单位电价变了，还是这只是补收之前少计的费用？",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003506",
+    "source": "Review11 Scene 196"
+  },
+  {
+    "type": "word",
+    "front": "second-hand listing",
+    "meaning": "二手商品出售信息",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003507",
+    "source": "Review11 Scene 197"
+  },
+  {
+    "type": "word",
+    "front": "asking price",
+    "meaning": "卖家要价",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003508",
+    "source": "Review11 Scene 197"
+  },
+  {
+    "type": "word",
+    "front": "negotiable",
+    "meaning": "可协商的；价格可商量",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003509",
+    "source": "Review11 Scene 197"
+  },
+  {
+    "type": "word",
+    "front": "open to offers",
+    "meaning": "愿意考虑买家提出的报价",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003510",
+    "source": "Review11 Scene 197"
+  },
+  {
+    "type": "word",
+    "front": "firm on price",
+    "meaning": "价格不再商量",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003511",
+    "source": "Review11 Scene 197"
+  },
+  {
+    "type": "word",
+    "front": "wear and tear",
+    "meaning": "正常使用产生的磨损",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003512",
+    "source": "Review11 Scene 197"
+  },
+  {
+    "type": "word",
+    "front": "cosmetic damage",
+    "meaning": "仅影响外观的损伤",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003513",
+    "source": "Review11 Scene 197"
+  },
+  {
+    "type": "word",
+    "front": "scuffed",
+    "meaning": "表面被擦花、擦伤的",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003514",
+    "source": "Review11 Scene 197"
+  },
+  {
+    "type": "word",
+    "front": "wobbly",
+    "meaning": "摇晃不稳的",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003515",
+    "source": "Review11 Scene 197"
+  },
+  {
+    "type": "word",
+    "front": "dismantle",
+    "meaning": "拆卸成多个部分",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003516",
+    "source": "Review11 Scene 197"
+  },
+  {
+    "type": "word",
+    "front": "dimensions",
+    "meaning": "长宽高等尺寸",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003517",
+    "source": "Review11 Scene 197"
+  },
+  {
+    "type": "word",
+    "front": "collection only",
+    "meaning": "仅支持买家自取",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003518",
+    "source": "Review11 Scene 197"
+  },
+  {
+    "type": "word",
+    "front": "pay a deposit",
+    "meaning": "支付定金或预付款",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003519",
+    "source": "Review11 Scene 197"
+  },
+  {
+    "type": "word",
+    "front": "hold something for someone",
+    "meaning": "暂时为某人保留商品",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003520",
+    "source": "Review11 Scene 197"
+  },
+  {
+    "type": "sentence",
+    "front": "Would you be open to a slightly lower offer if I collected it myself?",
+    "meaning": "如果我亲自来取，你愿意考虑稍低一点的报价吗？",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003521",
+    "source": "Review11 Scene 197"
+  },
+  {
+    "type": "sentence",
+    "front": "The desk looks sturdy, but could you confirm whether the legs can be dismantled?",
+    "meaning": "桌子看起来很结实，但你能确认桌腿能否拆卸吗？",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003522",
+    "source": "Review11 Scene 197"
+  },
+  {
+    "type": "word",
+    "front": "midterm elections",
+    "meaning": "中期选举",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003523",
+    "source": "Review11 Scene 198"
+  },
+  {
+    "type": "word",
+    "front": "win control of",
+    "meaning": "赢得对机构的控制权",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003524",
+    "source": "Review11 Scene 198"
+  },
+  {
+    "type": "word",
+    "front": "a political shake-up",
+    "meaning": "重大的政治格局变化",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003525",
+    "source": "Review11 Scene 198"
+  },
+  {
+    "type": "word",
+    "front": "divided government",
+    "meaning": "行政权和立法权由不同党派掌握的分立政府",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003526",
+    "source": "Review11 Scene 198"
+  },
+  {
+    "type": "word",
+    "front": "gridlock",
+    "meaning": "政治或组织层面的僵局",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003527",
+    "source": "Review11 Scene 198"
+  },
+  {
+    "type": "word",
+    "front": "take a hit",
+    "meaning": "遭受冲击、损失",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003528",
+    "source": "Review11 Scene 198"
+  },
+  {
+    "type": "word",
+    "front": "bounce back",
+    "meaning": "从下跌中反弹、恢复",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003529",
+    "source": "Review11 Scene 198"
+  },
+  {
+    "type": "word",
+    "front": "a knee-jerk reaction",
+    "meaning": "未经充分思考的本能反应",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003530",
+    "source": "Review11 Scene 198"
+  },
+  {
+    "type": "word",
+    "front": "a mixed bag",
+    "meaning": "好坏兼有、有利有弊的情况",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003531",
+    "source": "Review11 Scene 198"
+  },
+  {
+    "type": "word",
+    "front": "pin something on",
+    "meaning": "将某事归因于；将责任归咎于",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003532",
+    "source": "Review11 Scene 198"
+  },
+  {
+    "type": "word",
+    "front": "regulatory scrutiny",
+    "meaning": "监管部门的严格审查或密切关注",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003533",
+    "source": "Review11 Scene 198"
+  },
+  {
+    "type": "word",
+    "front": "weigh on",
+    "meaning": "给市场、情绪或业绩带来压力",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003534",
+    "source": "Review11 Scene 198"
+  },
+  {
+    "type": "word",
+    "front": "price something in",
+    "meaning": "提前将预期反映到资产价格中",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003535",
+    "source": "Review11 Scene 198"
+  },
+  {
+    "type": "word",
+    "front": "buy the dip",
+    "meaning": "趁价格下跌买入",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003536",
+    "source": "Review11 Scene 198"
+  },
+  {
+    "type": "word",
+    "front": "once the dust settles",
+    "meaning": "等局势稳定、尘埃落定之后",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003537",
+    "source": "Review11 Scene 198"
+  },
+  {
+    "type": "sentence",
+    "front": "I wouldn't pin the whole market move on the election.",
+    "meaning": "我不会把全部市场波动都归因于选举。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003538",
+    "source": "Review11 Scene 198"
+  },
+  {
+    "type": "sentence",
+    "front": "A divided government could be a mixed bag for investors.",
+    "meaning": "分立政府对投资者来说可能有利有弊。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003539",
+    "source": "Review11 Scene 198"
+  },
+  {
+    "type": "word",
+    "front": "LED fixture",
+    "meaning": "LED灯具（完整的灯具设备）",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003540",
+    "source": "Review11 Scene 199"
+  },
+  {
+    "type": "word",
+    "front": "pulse-width modulation (PWM)",
+    "meaning": "脉宽调制，常用于控制LED亮度",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003541",
+    "source": "Review11 Scene 199"
+  },
+  {
+    "type": "word",
+    "front": "flicker frequency",
+    "meaning": "闪烁频率",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003542",
+    "source": "Review11 Scene 199"
+  },
+  {
+    "type": "word",
+    "front": "invisible to the naked eye",
+    "meaning": "肉眼无法察觉的",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003543",
+    "source": "Review11 Scene 199"
+  },
+  {
+    "type": "word",
+    "front": "rolling shutter",
+    "meaning": "滚动快门",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003544",
+    "source": "Review11 Scene 199"
+  },
+  {
+    "type": "word",
+    "front": "frame rate",
+    "meaning": "帧率，每秒拍摄帧数",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003545",
+    "source": "Review11 Scene 199"
+  },
+  {
+    "type": "word",
+    "front": "shutter speed",
+    "meaning": "快门速度",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003546",
+    "source": "Review11 Scene 199"
+  },
+  {
+    "type": "word",
+    "front": "exposure time",
+    "meaning": "曝光时间",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003547",
+    "source": "Review11 Scene 199"
+  },
+  {
+    "type": "word",
+    "front": "banding",
+    "meaning": "画面出现明暗条纹的现象",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003548",
+    "source": "Review11 Scene 199"
+  },
+  {
+    "type": "word",
+    "front": "light fluctuation",
+    "meaning": "光线亮度波动",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003549",
+    "source": "Review11 Scene 199"
+  },
+  {
+    "type": "word",
+    "front": "anti-flicker setting",
+    "meaning": "相机防闪烁设置",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003550",
+    "source": "Review11 Scene 199"
+  },
+  {
+    "type": "word",
+    "front": "mains frequency",
+    "meaning": "交流电网频率",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003551",
+    "source": "Review11 Scene 199"
+  },
+  {
+    "type": "word",
+    "front": "test footage",
+    "meaning": "测试拍摄的素材",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003552",
+    "source": "Review11 Scene 199"
+  },
+  {
+    "type": "word",
+    "front": "play back a clip",
+    "meaning": "回放一段视频",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003553",
+    "source": "Review11 Scene 199"
+  },
+  {
+    "type": "word",
+    "front": "smooth out",
+    "meaning": "使波动、过渡变得平稳",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003554",
+    "source": "Review11 Scene 199"
+  },
+  {
+    "type": "sentence",
+    "front": "The lights look steady to the naked eye, but the camera is picking up fluctuations.",
+    "meaning": "肉眼看灯光很稳定，但相机捕捉到了亮度波动。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003555",
+    "source": "Review11 Scene 199"
+  },
+  {
+    "type": "sentence",
+    "front": "I'll adjust the shutter speed and record a short test clip.",
+    "meaning": "我会调整快门速度，再录一小段测试素材。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003556",
+    "source": "Review11 Scene 199"
+  },
+  {
+    "type": "word",
+    "front": "timed-entry ticket",
+    "meaning": "指定时段入场门票",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003557",
+    "source": "Review11 Scene 200"
+  },
+  {
+    "type": "word",
+    "front": "entry slot",
+    "meaning": "预订入场时间段",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003558",
+    "source": "Review11 Scene 200"
+  },
+  {
+    "type": "word",
+    "front": "grace period",
+    "meaning": "宽限期",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003559",
+    "source": "Review11 Scene 200"
+  },
+  {
+    "type": "word",
+    "front": "admission desk",
+    "meaning": "入场服务台",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003560",
+    "source": "Review11 Scene 200"
+  },
+  {
+    "type": "word",
+    "front": "confirmation email",
+    "meaning": "确认邮件",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003561",
+    "source": "Review11 Scene 200"
+  },
+  {
+    "type": "word",
+    "front": "subject to availability",
+    "meaning": "视剩余名额而定",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003562",
+    "source": "Review11 Scene 200"
+  },
+  {
+    "type": "word",
+    "front": "non-refundable",
+    "meaning": "不可退款的",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003563",
+    "source": "Review11 Scene 200"
+  },
+  {
+    "type": "word",
+    "front": "non-transferable",
+    "meaning": "不可转让的",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003564",
+    "source": "Review11 Scene 200"
+  },
+  {
+    "type": "word",
+    "front": "late-arrival policy",
+    "meaning": "迟到处理规则",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003565",
+    "source": "Review11 Scene 200"
+  },
+  {
+    "type": "word",
+    "front": "last admission",
+    "meaning": "最后允许入场的时间",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003566",
+    "source": "Review11 Scene 200"
+  },
+  {
+    "type": "word",
+    "front": "cloakroom",
+    "meaning": "衣帽间、行李寄存处",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003567",
+    "source": "Review11 Scene 200"
+  },
+  {
+    "type": "word",
+    "front": "audio guide",
+    "meaning": "语音导览设备或服务",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003568",
+    "source": "Review11 Scene 200"
+  },
+  {
+    "type": "word",
+    "front": "permanent collection",
+    "meaning": "常设馆藏",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003569",
+    "source": "Review11 Scene 200"
+  },
+  {
+    "type": "word",
+    "front": "temporary exhibition",
+    "meaning": "临时展览、限期展览",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003570",
+    "source": "Review11 Scene 200"
+  },
+  {
+    "type": "sentence",
+    "front": "I've missed my entry slot. Is there a grace period, or is late admission subject to availability?",
+    "meaning": "我错过预约入场时段了。有宽限期吗，还是必须视剩余名额而定？",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003571",
+    "source": "Review11 Scene 200"
+  },
+  {
+    "type": "sentence",
+    "front": "Could I leave my backpack in the cloakroom before entering the exhibition?",
+    "meaning": "进入展览前，我能把背包寄存在衣帽间吗？",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003572",
+    "source": "Review11 Scene 200"
+  },
+  {
+    "type": "word",
+    "front": "dusk",
+    "meaning": "黄昏",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003573",
+    "source": "Review11 Scene 201"
+  },
+  {
+    "type": "word",
+    "front": "nightfall",
+    "meaning": "夜幕降临",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003574",
+    "source": "Review11 Scene 201"
+  },
+  {
+    "type": "word",
+    "front": "beam",
+    "meaning": "光束",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003575",
+    "source": "Review11 Scene 201"
+  },
+  {
+    "type": "word",
+    "front": "lumens",
+    "meaning": "流明，光通量单位",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003576",
+    "source": "Review11 Scene 201"
+  },
+  {
+    "type": "word",
+    "front": "brightness setting",
+    "meaning": "亮度挡位",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003577",
+    "source": "Review11 Scene 201"
+  },
+  {
+    "type": "word",
+    "front": "battery indicator",
+    "meaning": "电量指示灯",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003578",
+    "source": "Review11 Scene 201"
+  },
+  {
+    "type": "word",
+    "front": "battery compartment",
+    "meaning": "电池仓",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003579",
+    "source": "Review11 Scene 201"
+  },
+  {
+    "type": "word",
+    "front": "corroded contacts",
+    "meaning": "被腐蚀的电池接触点",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003580",
+    "source": "Review11 Scene 201"
+  },
+  {
+    "type": "word",
+    "front": "spare batteries",
+    "meaning": "备用电池",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003581",
+    "source": "Review11 Scene 201"
+  },
+  {
+    "type": "word",
+    "front": "red-light mode",
+    "meaning": "头灯红光模式",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003582",
+    "source": "Review11 Scene 201"
+  },
+  {
+    "type": "word",
+    "front": "backup light source",
+    "meaning": "备用照明来源",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003583",
+    "source": "Review11 Scene 201"
+  },
+  {
+    "type": "word",
+    "front": "trip hazard",
+    "meaning": "容易绊倒人的障碍物",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003584",
+    "source": "Review11 Scene 201"
+  },
+  {
+    "type": "word",
+    "front": "pick your way",
+    "meaning": "小心选择落脚点前进",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003585",
+    "source": "Review11 Scene 201"
+  },
+  {
+    "type": "word",
+    "front": "reflective trail marker",
+    "meaning": "反光步道标记",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003586",
+    "source": "Review11 Scene 201"
+  },
+  {
+    "type": "sentence",
+    "front": "The headlamp keeps cutting out, so I'll switch to my backup light before we continue.",
+    "meaning": "头灯一直突然熄灭，我会在继续前进前改用备用照明。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003587",
+    "source": "Review11 Scene 201"
+  },
+  {
+    "type": "sentence",
+    "front": "We should slow down and carefully pick our way around the loose stones.",
+    "meaning": "我们应该放慢脚步，小心选择落脚点绕过松动的石头。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003588",
+    "source": "Review11 Scene 201"
   }
 ];
 
