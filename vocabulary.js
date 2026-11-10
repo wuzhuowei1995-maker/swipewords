@@ -27274,6 +27274,1032 @@ const VOCABULARY = [
     "weight": 3,
     "id": "sw-003804",
     "source": "Review11 Scene 213"
+  },
+  {
+    "type": "word",
+    "front": "print job",
+    "meaning": "发送给打印机的任务",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003805",
+    "source": "Review11 Scene 214"
+  },
+  {
+    "type": "word",
+    "front": "print queue",
+    "meaning": "等待打印的任务队列",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003806",
+    "source": "Review11 Scene 214"
+  },
+  {
+    "type": "word",
+    "front": "double-sided printing",
+    "meaning": "双面打印",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003807",
+    "source": "Review11 Scene 214"
+  },
+  {
+    "type": "word",
+    "front": "single-sided printing",
+    "meaning": "单面打印",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003808",
+    "source": "Review11 Scene 214"
+  },
+  {
+    "type": "word",
+    "front": "page orientation",
+    "meaning": "页面横向或纵向设置",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003809",
+    "source": "Review11 Scene 214"
+  },
+  {
+    "type": "word",
+    "front": "page range",
+    "meaning": "打印页码范围",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003810",
+    "source": "Review11 Scene 214"
+  },
+  {
+    "type": "word",
+    "front": "paper tray",
+    "meaning": "打印机纸盒、进纸托盘",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003811",
+    "source": "Review11 Scene 214"
+  },
+  {
+    "type": "word",
+    "front": "misfeed",
+    "meaning": "进纸错误",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003812",
+    "source": "Review11 Scene 214"
+  },
+  {
+    "type": "word",
+    "front": "clear a jam",
+    "meaning": "清除卡纸等内部堵塞",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003813",
+    "source": "Review11 Scene 214"
+  },
+  {
+    "type": "word",
+    "front": "test page",
+    "meaning": "测试打印页",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003814",
+    "source": "Review11 Scene 214"
+  },
+  {
+    "type": "word",
+    "front": "collate",
+    "meaning": "逐份按页码正确顺序排列打印件",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003815",
+    "source": "Review11 Scene 214"
+  },
+  {
+    "type": "word",
+    "front": "scaling",
+    "meaning": "打印时对内容进行缩放",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003816",
+    "source": "Review11 Scene 214"
+  },
+  {
+    "type": "word",
+    "front": "misaligned",
+    "meaning": "未正确对齐、位置偏移的",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003817",
+    "source": "Review11 Scene 214"
+  },
+  {
+    "type": "word",
+    "front": "ink smudge",
+    "meaning": "油墨被蹭开的污迹",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003818",
+    "source": "Review11 Scene 214"
+  },
+  {
+    "type": "word",
+    "front": "staple together",
+    "meaning": "用订书钉订在一起",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003819",
+    "source": "Review11 Scene 214"
+  },
+  {
+    "type": "word",
+    "front": "spiral binding",
+    "meaning": "螺旋装订",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003820",
+    "source": "Review11 Scene 214"
+  },
+  {
+    "type": "sentence",
+    "front": "My print job got stuck in the queue, and I had to clear a paper jam before printing again.",
+    "meaning": "我的打印任务卡在队列里，重新打印前还得清除卡纸。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003821",
+    "source": "Review11 Scene 214"
+  },
+  {
+    "type": "sentence",
+    "front": "Make sure you enable collation when printing several copies of the report.",
+    "meaning": "打印多份报告时，记得启用逐份打印。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003822",
+    "source": "Review11 Scene 214"
+  },
+  {
+    "type": "word",
+    "front": "be locked out",
+    "meaning": "被锁在门外或无法进入账户",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003823",
+    "source": "Review11 Scene 215"
+  },
+  {
+    "type": "word",
+    "front": "automatic locking",
+    "meaning": "自动上锁机制",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003824",
+    "source": "Review11 Scene 215"
+  },
+  {
+    "type": "word",
+    "front": "keyring",
+    "meaning": "钥匙圈、钥匙串",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003825",
+    "source": "Review11 Scene 215"
+  },
+  {
+    "type": "word",
+    "front": "spare key",
+    "meaning": "备用钥匙",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003826",
+    "source": "Review11 Scene 215"
+  },
+  {
+    "type": "word",
+    "front": "spare set",
+    "meaning": "备用的一整套钥匙或物品",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003827",
+    "source": "Review11 Scene 215"
+  },
+  {
+    "type": "word",
+    "front": "key fob",
+    "meaning": "电子门禁钥匙扣",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003828",
+    "source": "Review11 Scene 215"
+  },
+  {
+    "type": "word",
+    "front": "access badge",
+    "meaning": "门禁卡、身份识别卡",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003829",
+    "source": "Review11 Scene 215"
+  },
+  {
+    "type": "word",
+    "front": "caretaker",
+    "meaning": "楼宇照看、管理或维修人员",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003830",
+    "source": "Review11 Scene 215"
+  },
+  {
+    "type": "word",
+    "front": "identity verification",
+    "meaning": "身份核实",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003831",
+    "source": "Review11 Scene 215"
+  },
+  {
+    "type": "word",
+    "front": "let someone in",
+    "meaning": "开门让某人进入",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003832",
+    "source": "Review11 Scene 215"
+  },
+  {
+    "type": "word",
+    "front": "after-hours service",
+    "meaning": "非正常营业时间提供的服务",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003833",
+    "source": "Review11 Scene 215"
+  },
+  {
+    "type": "word",
+    "front": "call-out fee",
+    "meaning": "维修人员专程上门的服务费",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003834",
+    "source": "Review11 Scene 215"
+  },
+  {
+    "type": "word",
+    "front": "lock cylinder",
+    "meaning": "锁芯",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003835",
+    "source": "Review11 Scene 215"
+  },
+  {
+    "type": "word",
+    "front": "rekey a lock",
+    "meaning": "重新配置锁芯使旧钥匙失效",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003836",
+    "source": "Review11 Scene 215"
+  },
+  {
+    "type": "word",
+    "front": "replacement key",
+    "meaning": "补办的钥匙",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003837",
+    "source": "Review11 Scene 215"
+  },
+  {
+    "type": "word",
+    "front": "key cutting",
+    "meaning": "配钥匙、复制钥匙服务",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003838",
+    "source": "Review11 Scene 215"
+  },
+  {
+    "type": "word",
+    "front": "authorise access",
+    "meaning": "批准某人进入的权限",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003839",
+    "source": "Review11 Scene 215"
+  },
+  {
+    "type": "sentence",
+    "front": "I've accidentally locked myself out. Could someone let me in after verifying my identity?",
+    "meaning": "我不小心把自己锁在门外了。核实身份后有人能帮我开门吗？",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003840",
+    "source": "Review11 Scene 215"
+  },
+  {
+    "type": "sentence",
+    "front": "Is there an after-hours call-out fee, or can the caretaker use a spare key?",
+    "meaning": "非营业时间会收取上门费吗，还是管理员能用备用钥匙开门？",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003841",
+    "source": "Review11 Scene 215"
+  },
+  {
+    "type": "word",
+    "front": "geopolitical risk premium",
+    "meaning": "地缘政治风险溢价",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003842",
+    "source": "Review11 Scene 216"
+  },
+  {
+    "type": "word",
+    "front": "de-escalation",
+    "meaning": "局势缓和、冲突降级",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003843",
+    "source": "Review11 Scene 216"
+  },
+  {
+    "type": "word",
+    "front": "peace talks",
+    "meaning": "和平谈判",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003844",
+    "source": "Review11 Scene 216"
+  },
+  {
+    "type": "word",
+    "front": "supply disruption",
+    "meaning": "供应中断",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003845",
+    "source": "Review11 Scene 216"
+  },
+  {
+    "type": "word",
+    "front": "shipping route",
+    "meaning": "航运路线",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003846",
+    "source": "Review11 Scene 216"
+  },
+  {
+    "type": "word",
+    "front": "energy market",
+    "meaning": "能源市场",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003847",
+    "source": "Review11 Scene 216"
+  },
+  {
+    "type": "word",
+    "front": "oil benchmark",
+    "meaning": "油价基准",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003848",
+    "source": "Review11 Scene 216"
+  },
+  {
+    "type": "word",
+    "front": "Brent crude",
+    "meaning": "布伦特原油",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003849",
+    "source": "Review11 Scene 216"
+  },
+  {
+    "type": "word",
+    "front": "risk appetite",
+    "meaning": "投资者风险偏好",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003850",
+    "source": "Review11 Scene 216"
+  },
+  {
+    "type": "word",
+    "front": "risk-off sentiment",
+    "meaning": "市场避险情绪",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003851",
+    "source": "Review11 Scene 216"
+  },
+  {
+    "type": "word",
+    "front": "relief rally",
+    "meaning": "担忧缓解后的短暂反弹",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003852",
+    "source": "Review11 Scene 216"
+  },
+  {
+    "type": "word",
+    "front": "broad-based rebound",
+    "meaning": "多个板块共同参与的广泛反弹",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003853",
+    "source": "Review11 Scene 216"
+  },
+  {
+    "type": "word",
+    "front": "energy-intensive",
+    "meaning": "高耗能的",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003854",
+    "source": "Review11 Scene 216"
+  },
+  {
+    "type": "word",
+    "front": "input costs",
+    "meaning": "生产或服务投入成本",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003855",
+    "source": "Review11 Scene 216"
+  },
+  {
+    "type": "word",
+    "front": "margin pressure",
+    "meaning": "利润率受到挤压的压力",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003856",
+    "source": "Review11 Scene 216"
+  },
+  {
+    "type": "word",
+    "front": "earnings catalyst",
+    "meaning": "可能引发股价重估的业绩事件",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003857",
+    "source": "Review11 Scene 216"
+  },
+  {
+    "type": "word",
+    "front": "staying power",
+    "meaning": "某个趋势持续下去的能力",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003858",
+    "source": "Review11 Scene 216"
+  },
+  {
+    "type": "word",
+    "front": "headline risk",
+    "meaning": "突发新闻引发市场波动的风险",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003859",
+    "source": "Review11 Scene 216"
+  },
+  {
+    "type": "sentence",
+    "front": "A fall in oil prices doesn't automatically mean stronger stock returns; the reason behind the decline matters.",
+    "meaning": "油价下降不一定意味着股票回报更高；关键在于油价为什么下降。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003860",
+    "source": "Review11 Scene 216"
+  },
+  {
+    "type": "sentence",
+    "front": "I would distinguish a temporary relief rally from a lasting improvement in fundamentals.",
+    "meaning": "我会区分暂时性的情绪反弹与基本面的持久改善。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003861",
+    "source": "Review11 Scene 216"
+  },
+  {
+    "type": "word",
+    "front": "probability of precipitation",
+    "meaning": "降水概率",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003862",
+    "source": "Review11 Scene 217"
+  },
+  {
+    "type": "word",
+    "front": "forecast horizon",
+    "meaning": "天气预报向未来预测的时间跨度",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003863",
+    "source": "Review11 Scene 217"
+  },
+  {
+    "type": "word",
+    "front": "forecast confidence",
+    "meaning": "天气预测的可信度",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003864",
+    "source": "Review11 Scene 217"
+  },
+  {
+    "type": "word",
+    "front": "weather model",
+    "meaning": "天气模拟模型",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003865",
+    "source": "Review11 Scene 217"
+  },
+  {
+    "type": "word",
+    "front": "model run",
+    "meaning": "模型的一次计算运行及结果",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003866",
+    "source": "Review11 Scene 217"
+  },
+  {
+    "type": "word",
+    "front": "ensemble forecast",
+    "meaning": "集合预报，运行多组模拟",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003867",
+    "source": "Review11 Scene 217"
+  },
+  {
+    "type": "word",
+    "front": "ensemble spread",
+    "meaning": "集合预测结果的分散程度",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003868",
+    "source": "Review11 Scene 217"
+  },
+  {
+    "type": "word",
+    "front": "initial conditions",
+    "meaning": "模型计算的初始条件",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003869",
+    "source": "Review11 Scene 217"
+  },
+  {
+    "type": "word",
+    "front": "atmospheric conditions",
+    "meaning": "温度、气压、湿度等大气条件",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003870",
+    "source": "Review11 Scene 217"
+  },
+  {
+    "type": "word",
+    "front": "nowcasting",
+    "meaning": "临近预报，针对很短时间内的天气",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003871",
+    "source": "Review11 Scene 217"
+  },
+  {
+    "type": "word",
+    "front": "localised shower",
+    "meaning": "局部阵雨",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003872",
+    "source": "Review11 Scene 217"
+  },
+  {
+    "type": "word",
+    "front": "rain band",
+    "meaning": "带状降雨区域",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003873",
+    "source": "Review11 Scene 217"
+  },
+  {
+    "type": "word",
+    "front": "model resolution",
+    "meaning": "天气模型的空间分辨率",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003874",
+    "source": "Review11 Scene 217"
+  },
+  {
+    "type": "word",
+    "front": "microclimate",
+    "meaning": "局部小气候",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003875",
+    "source": "Review11 Scene 217"
+  },
+  {
+    "type": "word",
+    "front": "rain gauge",
+    "meaning": "雨量计",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003876",
+    "source": "Review11 Scene 217"
+  },
+  {
+    "type": "word",
+    "front": "observation network",
+    "meaning": "多个观测站点构成的观测网络",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003877",
+    "source": "Review11 Scene 217"
+  },
+  {
+    "type": "word",
+    "front": "forecast update cycle",
+    "meaning": "预报或模型定期更新的周期",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003878",
+    "source": "Review11 Scene 217"
+  },
+  {
+    "type": "word",
+    "front": "forecast uncertainty",
+    "meaning": "天气预报的不确定性",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003879",
+    "source": "Review11 Scene 217"
+  },
+  {
+    "type": "sentence",
+    "front": "A forty-percent chance of rain doesn't mean it will rain for forty percent of the day.",
+    "meaning": "40%的降雨概率不意味着当天40%的时间都会下雨。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003880",
+    "source": "Review11 Scene 217"
+  },
+  {
+    "type": "sentence",
+    "front": "The ensemble spread is wide, so we should allow for greater forecast uncertainty.",
+    "meaning": "集合预报结果分散较大，因此我们应考虑更高的预测不确定性。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003881",
+    "source": "Review11 Scene 217"
+  },
+  {
+    "type": "word",
+    "front": "self-check-in",
+    "meaning": "自助办理入住",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003882",
+    "source": "Review11 Scene 218"
+  },
+  {
+    "type": "word",
+    "front": "entry instructions",
+    "meaning": "进入住宿设施的具体说明",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003883",
+    "source": "Review11 Scene 218"
+  },
+  {
+    "type": "word",
+    "front": "access code",
+    "meaning": "门禁密码",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003884",
+    "source": "Review11 Scene 218"
+  },
+  {
+    "type": "word",
+    "front": "keypad",
+    "meaning": "数字键盘",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003885",
+    "source": "Review11 Scene 218"
+  },
+  {
+    "type": "word",
+    "front": "keyless entry",
+    "meaning": "无钥匙进入系统",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003886",
+    "source": "Review11 Scene 218"
+  },
+  {
+    "type": "word",
+    "front": "activate a code",
+    "meaning": "使密码开始有效",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003887",
+    "source": "Review11 Scene 218"
+  },
+  {
+    "type": "word",
+    "front": "code expiry",
+    "meaning": "密码过期或失效时间",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003888",
+    "source": "Review11 Scene 218"
+  },
+  {
+    "type": "word",
+    "front": "emergency helpline",
+    "meaning": "紧急服务热线",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003889",
+    "source": "Review11 Scene 218"
+  },
+  {
+    "type": "word",
+    "front": "booking reference",
+    "meaning": "预订识别编号",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003890",
+    "source": "Review11 Scene 218"
+  },
+  {
+    "type": "word",
+    "front": "temporary access code",
+    "meaning": "临时门禁密码",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003891",
+    "source": "Review11 Scene 218"
+  },
+  {
+    "type": "word",
+    "front": "synchronise",
+    "meaning": "使设备、系统或数据同步",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003892",
+    "source": "Review11 Scene 218"
+  },
+  {
+    "type": "word",
+    "front": "override code",
+    "meaning": "授权情况下覆盖普通设置的管理密码",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003893",
+    "source": "Review11 Scene 218"
+  },
+  {
+    "type": "word",
+    "front": "lobby",
+    "meaning": "入口大厅",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003894",
+    "source": "Review11 Scene 218"
+  },
+  {
+    "type": "word",
+    "front": "lockbox",
+    "meaning": "上锁的钥匙盒或保管盒",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003895",
+    "source": "Review11 Scene 218"
+  },
+  {
+    "type": "word",
+    "front": "room assignment",
+    "meaning": "分配给旅客的具体房间",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003896",
+    "source": "Review11 Scene 218"
+  },
+  {
+    "type": "word",
+    "front": "check-out time",
+    "meaning": "退房时间",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003897",
+    "source": "Review11 Scene 218"
+  },
+  {
+    "type": "word",
+    "front": "late-arrival arrangement",
+    "meaning": "深夜抵达的入住安排",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003898",
+    "source": "Review11 Scene 218"
+  },
+  {
+    "type": "sentence",
+    "front": "The access code isn't working, and the reception desk is unattended.",
+    "meaning": "门禁密码无法使用，而且接待处没有工作人员。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003899",
+    "source": "Review11 Scene 218"
+  },
+  {
+    "type": "sentence",
+    "front": "Could you issue a temporary access code and confirm my room assignment?",
+    "meaning": "你能提供临时门禁密码，并确认我分配到的房间吗？",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003900",
+    "source": "Review11 Scene 218"
+  },
+  {
+    "type": "word",
+    "front": "alpine pasture",
+    "meaning": "高山牧场",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003901",
+    "source": "Review11 Scene 219"
+  },
+  {
+    "type": "word",
+    "front": "livestock guardian dog",
+    "meaning": "牲畜护卫犬",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003902",
+    "source": "Review11 Scene 219"
+  },
+  {
+    "type": "word",
+    "front": "working dog",
+    "meaning": "工作犬",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003903",
+    "source": "Review11 Scene 219"
+  },
+  {
+    "type": "word",
+    "front": "flock",
+    "meaning": "一群绵羊或鸟",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003904",
+    "source": "Review11 Scene 219"
+  },
+  {
+    "type": "word",
+    "front": "herd",
+    "meaning": "一群牛、鹿或其他牲畜",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003905",
+    "source": "Review11 Scene 219"
+  },
+  {
+    "type": "word",
+    "front": "grazing",
+    "meaning": "吃草、放牧",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003906",
+    "source": "Review11 Scene 219"
+  },
+  {
+    "type": "word",
+    "front": "pasture warning sign",
+    "meaning": "牧场警示牌",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003907",
+    "source": "Review11 Scene 219"
+  },
+  {
+    "type": "word",
+    "front": "territorial behaviour",
+    "meaning": "领地性行为",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003908",
+    "source": "Review11 Scene 219"
+  },
+  {
+    "type": "word",
+    "front": "defensive posture",
+    "meaning": "防御性姿态",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003909",
+    "source": "Review11 Scene 219"
+  },
+  {
+    "type": "word",
+    "front": "bark at someone",
+    "meaning": "朝某人吠叫",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003910",
+    "source": "Review11 Scene 219"
+  },
+  {
+    "type": "word",
+    "front": "approach cautiously",
+    "meaning": "谨慎接近",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003911",
+    "source": "Review11 Scene 219"
+  },
+  {
+    "type": "word",
+    "front": "give something a wide berth",
+    "meaning": "远远绕开、与某物保持距离",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003912",
+    "source": "Review11 Scene 219"
+  },
+  {
+    "type": "word",
+    "front": "avoid direct eye contact",
+    "meaning": "避免持续直接盯着眼睛",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003913",
+    "source": "Review11 Scene 219"
+  },
+  {
+    "type": "word",
+    "front": "provoke an animal",
+    "meaning": "刺激、激怒动物",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003914",
+    "source": "Review11 Scene 219"
+  },
+  {
+    "type": "word",
+    "front": "pasture gate",
+    "meaning": "牧场栅栏门",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003915",
+    "source": "Review11 Scene 219"
+  },
+  {
+    "type": "word",
+    "front": "shepherd",
+    "meaning": "牧羊人",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003916",
+    "source": "Review11 Scene 219"
+  },
+  {
+    "type": "sentence",
+    "front": "We decided to give the flock a wide berth rather than risk provoking the guardian dog.",
+    "meaning": "我们决定远远绕开羊群，而不是冒险刺激护卫犬。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003917",
+    "source": "Review11 Scene 219"
+  },
+  {
+    "type": "sentence",
+    "front": "We couldn't find a safe route around the pasture, so we retraced our steps.",
+    "meaning": "我们找不到安全绕开牧场的路线，所以原路返回。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003918",
+    "source": "Review11 Scene 219"
   }
 ];
 
