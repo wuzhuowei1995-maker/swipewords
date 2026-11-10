@@ -25330,6 +25330,897 @@ const VOCABULARY = [
     "weight": 3,
     "id": "sw-003588",
     "source": "Review11 Scene 201"
+  },
+  {
+    "type": "word",
+    "front": "slow-draining",
+    "meaning": "排水缓慢的",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003589",
+    "source": "Review11 Scene 202"
+  },
+  {
+    "type": "word",
+    "front": "back up",
+    "meaning": "因堵塞使水倒积",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003590",
+    "source": "Review11 Scene 202"
+  },
+  {
+    "type": "word",
+    "front": "standing water",
+    "meaning": "积水",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003591",
+    "source": "Review11 Scene 202"
+  },
+  {
+    "type": "word",
+    "front": "gurgling sound",
+    "meaning": "水管咕噜声",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003592",
+    "source": "Review11 Scene 202"
+  },
+  {
+    "type": "word",
+    "front": "drain strainer",
+    "meaning": "排水滤网",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003593",
+    "source": "Review11 Scene 202"
+  },
+  {
+    "type": "word",
+    "front": "food particles",
+    "meaning": "食物颗粒、碎屑",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003594",
+    "source": "Review11 Scene 202"
+  },
+  {
+    "type": "word",
+    "front": "grease buildup",
+    "meaning": "油脂积累形成的污垢",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003595",
+    "source": "Review11 Scene 202"
+  },
+  {
+    "type": "word",
+    "front": "blockage",
+    "meaning": "堵塞；堵塞物",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003596",
+    "source": "Review11 Scene 202"
+  },
+  {
+    "type": "word",
+    "front": "plunger",
+    "meaning": "皮搋子，疏通工具",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003597",
+    "source": "Review11 Scene 202"
+  },
+  {
+    "type": "word",
+    "front": "suction",
+    "meaning": "吸力",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003598",
+    "source": "Review11 Scene 202"
+  },
+  {
+    "type": "word",
+    "front": "drain snake",
+    "meaning": "管道疏通软轴",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003599",
+    "source": "Review11 Scene 202"
+  },
+  {
+    "type": "word",
+    "front": "P-trap",
+    "meaning": "P形存水弯",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003600",
+    "source": "Review11 Scene 202"
+  },
+  {
+    "type": "word",
+    "front": "pipe joint",
+    "meaning": "管道接头",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003601",
+    "source": "Review11 Scene 202"
+  },
+  {
+    "type": "word",
+    "front": "watertight",
+    "meaning": "不漏水的、水密的",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003602",
+    "source": "Review11 Scene 202"
+  },
+  {
+    "type": "word",
+    "front": "plumber",
+    "meaning": "水管工",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003603",
+    "source": "Review11 Scene 202"
+  },
+  {
+    "type": "sentence",
+    "front": "Water keeps backing up in the kitchen sink even after I've cleaned the drain strainer.",
+    "meaning": "即使清理了排水滤网，厨房水槽还是不断积水。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003604",
+    "source": "Review11 Scene 202"
+  },
+  {
+    "type": "sentence",
+    "front": "Could you arrange for a plumber to inspect the blockage?",
+    "meaning": "能安排水管工检查堵塞问题吗？",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003605",
+    "source": "Review11 Scene 202"
+  },
+  {
+    "type": "word",
+    "front": "dietary requirements",
+    "meaning": "饮食要求或限制",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003606",
+    "source": "Review11 Scene 203"
+  },
+  {
+    "type": "word",
+    "front": "food allergy",
+    "meaning": "食物过敏",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003607",
+    "source": "Review11 Scene 203"
+  },
+  {
+    "type": "word",
+    "front": "food intolerance",
+    "meaning": "食物不耐受",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003608",
+    "source": "Review11 Scene 203"
+  },
+  {
+    "type": "word",
+    "front": "allergen",
+    "meaning": "过敏原",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003609",
+    "source": "Review11 Scene 203"
+  },
+  {
+    "type": "word",
+    "front": "ingredient list",
+    "meaning": "配料清单",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003610",
+    "source": "Review11 Scene 203"
+  },
+  {
+    "type": "word",
+    "front": "nut-based",
+    "meaning": "以坚果为主要成分的",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003611",
+    "source": "Review11 Scene 203"
+  },
+  {
+    "type": "word",
+    "front": "cross-contact",
+    "meaning": "过敏原交叉接触",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003612",
+    "source": "Review11 Scene 203"
+  },
+  {
+    "type": "word",
+    "front": "traces of",
+    "meaning": "微量、痕量的",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003613",
+    "source": "Review11 Scene 203"
+  },
+  {
+    "type": "word",
+    "front": "made to order",
+    "meaning": "接到订单后才制作的",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003614",
+    "source": "Review11 Scene 203"
+  },
+  {
+    "type": "word",
+    "front": "leave something off",
+    "meaning": "制作时不加入某种配料",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003615",
+    "source": "Review11 Scene 203"
+  },
+  {
+    "type": "word",
+    "front": "garnish",
+    "meaning": "菜肴表面装饰性配料",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003616",
+    "source": "Review11 Scene 203"
+  },
+  {
+    "type": "word",
+    "front": "dressing",
+    "meaning": "沙拉酱、调味汁",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003617",
+    "source": "Review11 Scene 203"
+  },
+  {
+    "type": "word",
+    "front": "on the side",
+    "meaning": "调味酱另放一边",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003618",
+    "source": "Review11 Scene 203"
+  },
+  {
+    "type": "word",
+    "front": "separate utensils",
+    "meaning": "单独使用的厨具",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003619",
+    "source": "Review11 Scene 203"
+  },
+  {
+    "type": "word",
+    "front": "accommodate a request",
+    "meaning": "满足、配合具体请求",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003620",
+    "source": "Review11 Scene 203"
+  },
+  {
+    "type": "sentence",
+    "front": "Could you check with the chef whether there's any risk of cross-contact?",
+    "meaning": "可以帮我向厨师确认是否存在过敏原交叉接触风险吗？",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003621",
+    "source": "Review11 Scene 203"
+  },
+  {
+    "type": "sentence",
+    "front": "I'd like the dressing on the side, and please leave the garnish off.",
+    "meaning": "我希望沙拉酱单独放一边，而且请不要加表面装饰配料。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003622",
+    "source": "Review11 Scene 203"
+  },
+  {
+    "type": "word",
+    "front": "divergence",
+    "meaning": "不同公司或板块表现的分化",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003623",
+    "source": "Review11 Scene 204"
+  },
+  {
+    "type": "word",
+    "front": "hyperscaler",
+    "meaning": "超大规模云计算服务商",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003624",
+    "source": "Review11 Scene 204"
+  },
+  {
+    "type": "word",
+    "front": "neocloud",
+    "meaning": "专注AI算力等的新型云服务商",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003625",
+    "source": "Review11 Scene 204"
+  },
+  {
+    "type": "word",
+    "front": "moratorium",
+    "meaning": "暂停令；暂缓实施某项活动",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003626",
+    "source": "Review11 Scene 204"
+  },
+  {
+    "type": "word",
+    "front": "permitting",
+    "meaning": "许可证审批流程",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003627",
+    "source": "Review11 Scene 204"
+  },
+  {
+    "type": "word",
+    "front": "grid connection",
+    "meaning": "电网接入",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003628",
+    "source": "Review11 Scene 204"
+  },
+  {
+    "type": "word",
+    "front": "capital expenditure (capex)",
+    "meaning": "资本性支出",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003629",
+    "source": "Review11 Scene 204"
+  },
+  {
+    "type": "word",
+    "front": "return on investment (ROI)",
+    "meaning": "投资回报率",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003630",
+    "source": "Review11 Scene 204"
+  },
+  {
+    "type": "word",
+    "front": "cash-rich",
+    "meaning": "现金储备充足的",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003631",
+    "source": "Review11 Scene 204"
+  },
+  {
+    "type": "word",
+    "front": "funding squeeze",
+    "meaning": "融资压力、融资渠道收紧",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003632",
+    "source": "Review11 Scene 204"
+  },
+  {
+    "type": "word",
+    "front": "capacity constraint",
+    "meaning": "资源、生产或计算容量限制",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003633",
+    "source": "Review11 Scene 204"
+  },
+  {
+    "type": "word",
+    "front": "competitive edge",
+    "meaning": "竞争优势",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003634",
+    "source": "Review11 Scene 204"
+  },
+  {
+    "type": "word",
+    "front": "policy headwind",
+    "meaning": "政策带来的阻力",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003635",
+    "source": "Review11 Scene 204"
+  },
+  {
+    "type": "word",
+    "front": "knock-on effect",
+    "meaning": "连锁反应、间接影响",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003636",
+    "source": "Review11 Scene 204"
+  },
+  {
+    "type": "word",
+    "front": "earnings miss",
+    "meaning": "企业公布业绩低于市场预期",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003637",
+    "source": "Review11 Scene 204"
+  },
+  {
+    "type": "sentence",
+    "front": "The same policy could put smaller developers under pressure while giving established firms a competitive edge.",
+    "meaning": "同一项政策可能给小型开发商带来压力，却让成熟企业获得竞争优势。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003638",
+    "source": "Review11 Scene 204"
+  },
+  {
+    "type": "sentence",
+    "front": "A slowdown in data-centre construction could have a knock-on effect on chip suppliers.",
+    "meaning": "数据中心建设放缓可能对芯片供应商产生连锁影响。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003639",
+    "source": "Review11 Scene 204"
+  },
+  {
+    "type": "word",
+    "front": "induced demand",
+    "meaning": "诱导需求",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003640",
+    "source": "Review11 Scene 205"
+  },
+  {
+    "type": "word",
+    "front": "lane expansion",
+    "meaning": "增加车道、道路扩建",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003641",
+    "source": "Review11 Scene 205"
+  },
+  {
+    "type": "word",
+    "front": "road capacity",
+    "meaning": "道路通行容量",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003642",
+    "source": "Review11 Scene 205"
+  },
+  {
+    "type": "word",
+    "front": "traffic congestion",
+    "meaning": "交通拥堵",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003643",
+    "source": "Review11 Scene 205"
+  },
+  {
+    "type": "word",
+    "front": "congestion relief",
+    "meaning": "缓解交通拥堵",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003644",
+    "source": "Review11 Scene 205"
+  },
+  {
+    "type": "word",
+    "front": "travel time savings",
+    "meaning": "节省的出行时间",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003645",
+    "source": "Review11 Scene 205"
+  },
+  {
+    "type": "word",
+    "front": "latent demand",
+    "meaning": "潜在而未充分释放的需求",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003646",
+    "source": "Review11 Scene 205"
+  },
+  {
+    "type": "word",
+    "front": "mode shift",
+    "meaning": "交通出行方式转变",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003647",
+    "source": "Review11 Scene 205"
+  },
+  {
+    "type": "word",
+    "front": "trip frequency",
+    "meaning": "出行频率",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003648",
+    "source": "Review11 Scene 205"
+  },
+  {
+    "type": "word",
+    "front": "vehicle miles travelled (VMT)",
+    "meaning": "机动车总行驶里程",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003649",
+    "source": "Review11 Scene 205"
+  },
+  {
+    "type": "word",
+    "front": "urban sprawl",
+    "meaning": "城市向外围低密度蔓延",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003650",
+    "source": "Review11 Scene 205"
+  },
+  {
+    "type": "word",
+    "front": "land-use pattern",
+    "meaning": "土地利用格局",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003651",
+    "source": "Review11 Scene 205"
+  },
+  {
+    "type": "word",
+    "front": "travel demand",
+    "meaning": "出行需求",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003652",
+    "source": "Review11 Scene 205"
+  },
+  {
+    "type": "word",
+    "front": "congestion pricing",
+    "meaning": "拥堵收费",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003653",
+    "source": "Review11 Scene 205"
+  },
+  {
+    "type": "word",
+    "front": "counterproductive",
+    "meaning": "适得其反的",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003654",
+    "source": "Review11 Scene 205"
+  },
+  {
+    "type": "sentence",
+    "front": "Adding more lanes may reduce congestion at first, but it can also create induced demand.",
+    "meaning": "增加车道最初可能缓解拥堵，但也可能诱发更多开车需求。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003655",
+    "source": "Review11 Scene 205"
+  },
+  {
+    "type": "sentence",
+    "front": "The long-term outcome depends on how travel demand responds.",
+    "meaning": "长期效果取决于出行需求会作出怎样的反应。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003656",
+    "source": "Review11 Scene 205"
+  },
+  {
+    "type": "word",
+    "front": "full-to-full fuel policy",
+    "meaning": "满油取车、满油还车政策",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003657",
+    "source": "Review11 Scene 206"
+  },
+  {
+    "type": "word",
+    "front": "top up the tank",
+    "meaning": "把油箱补加到规定油量",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003658",
+    "source": "Review11 Scene 206"
+  },
+  {
+    "type": "word",
+    "front": "fuel receipt",
+    "meaning": "加油收据",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003659",
+    "source": "Review11 Scene 206"
+  },
+  {
+    "type": "word",
+    "front": "return bay",
+    "meaning": "指定还车停车位",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003660",
+    "source": "Review11 Scene 206"
+  },
+  {
+    "type": "word",
+    "front": "drop-off deadline",
+    "meaning": "归还车辆截止时间",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003661",
+    "source": "Review11 Scene 206"
+  },
+  {
+    "type": "word",
+    "front": "late-return fee",
+    "meaning": "延迟还车费",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003662",
+    "source": "Review11 Scene 206"
+  },
+  {
+    "type": "word",
+    "front": "mileage allowance",
+    "meaning": "允许行驶里程额度",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003663",
+    "source": "Review11 Scene 206"
+  },
+  {
+    "type": "word",
+    "front": "excess mileage charge",
+    "meaning": "超里程费用",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003664",
+    "source": "Review11 Scene 206"
+  },
+  {
+    "type": "word",
+    "front": "odometer reading",
+    "meaning": "累计里程表读数",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003665",
+    "source": "Review11 Scene 206"
+  },
+  {
+    "type": "word",
+    "front": "walk-around inspection",
+    "meaning": "绕车外观检查",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003666",
+    "source": "Review11 Scene 206"
+  },
+  {
+    "type": "word",
+    "front": "vehicle condition report",
+    "meaning": "车辆状况记录",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003667",
+    "source": "Review11 Scene 206"
+  },
+  {
+    "type": "word",
+    "front": "after-hours return",
+    "meaning": "营业时间之外还车",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003668",
+    "source": "Review11 Scene 206"
+  },
+  {
+    "type": "word",
+    "front": "key drop",
+    "meaning": "自助还钥匙箱或投放点",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003669",
+    "source": "Review11 Scene 206"
+  },
+  {
+    "type": "sentence",
+    "front": "I've topped up the tank and kept the receipt. Could you confirm the final charges?",
+    "meaning": "我已经把油箱加满并保留收据。可以确认最终费用吗？",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003670",
+    "source": "Review11 Scene 206"
+  },
+  {
+    "type": "sentence",
+    "front": "Please compare the odometer reading with my mileage allowance.",
+    "meaning": "请把里程表读数与合同规定的行驶里程额度核对一下。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003671",
+    "source": "Review11 Scene 206"
+  },
+  {
+    "type": "word",
+    "front": "boardwalk",
+    "meaning": "木栈道",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003672",
+    "source": "Review11 Scene 207"
+  },
+  {
+    "type": "word",
+    "front": "boggy ground",
+    "meaning": "含水量很高、泥泞松软的地面",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003673",
+    "source": "Review11 Scene 207"
+  },
+  {
+    "type": "word",
+    "front": "peat bog",
+    "meaning": "泥炭沼泽",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003674",
+    "source": "Review11 Scene 207"
+  },
+  {
+    "type": "word",
+    "front": "saturated soil",
+    "meaning": "被水浸透的土壤",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003675",
+    "source": "Review11 Scene 207"
+  },
+  {
+    "type": "word",
+    "front": "rotting timber",
+    "meaning": "正在腐朽的木材",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003676",
+    "source": "Review11 Scene 207"
+  },
+  {
+    "type": "word",
+    "front": "loose plank",
+    "meaning": "松动的长木板",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003677",
+    "source": "Review11 Scene 207"
+  },
+  {
+    "type": "word",
+    "front": "handrail",
+    "meaning": "扶手",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003678",
+    "source": "Review11 Scene 207"
+  },
+  {
+    "type": "word",
+    "front": "gap between the boards",
+    "meaning": "木板之间的缝隙",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003679",
+    "source": "Review11 Scene 207"
+  },
+  {
+    "type": "word",
+    "front": "ankle-deep",
+    "meaning": "深及脚踝的",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003680",
+    "source": "Review11 Scene 207"
+  },
+  {
+    "type": "word",
+    "front": "gaiters",
+    "meaning": "雪套、绑腿",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003681",
+    "source": "Review11 Scene 207"
+  },
+  {
+    "type": "word",
+    "front": "boot tread",
+    "meaning": "鞋底防滑花纹",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003682",
+    "source": "Review11 Scene 207"
+  },
+  {
+    "type": "word",
+    "front": "caked in mud",
+    "meaning": "厚厚沾满泥巴的",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003683",
+    "source": "Review11 Scene 207"
+  },
+  {
+    "type": "word",
+    "front": "treacherous underfoot",
+    "meaning": "脚下危险、难以安全行走的",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003684",
+    "source": "Review11 Scene 207"
+  },
+  {
+    "type": "word",
+    "front": "trail erosion",
+    "meaning": "步道土壤侵蚀",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003685",
+    "source": "Review11 Scene 207"
+  },
+  {
+    "type": "sentence",
+    "front": "The boardwalk is damaged, and the ground around it is too boggy to cross safely.",
+    "meaning": "木栈道已经损坏，周围地面太泥泞松软，无法安全通过。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003686",
+    "source": "Review11 Scene 207"
+  },
+  {
+    "type": "sentence",
+    "front": "We should retrace our steps rather than follow an unmarked path through the wetland.",
+    "meaning": "我们应该原路返回，而不是沿未经标记的小路穿过湿地。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003687",
+    "source": "Review11 Scene 207"
   }
 ];
 
