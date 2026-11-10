@@ -29371,6 +29371,1032 @@ const VOCABULARY = [
     "weight": 3,
     "id": "sw-004037",
     "source": "Review11 Scene 225"
+  },
+  {
+    "type": "word",
+    "front": "high-pitched",
+    "meaning": "高音调、尖锐的",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004038",
+    "source": "Review11 Scene 226"
+  },
+  {
+    "type": "word",
+    "front": "squealing brakes",
+    "meaning": "发出尖锐声的刹车",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004039",
+    "source": "Review11 Scene 226"
+  },
+  {
+    "type": "word",
+    "front": "brake pad",
+    "meaning": "刹车片",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004040",
+    "source": "Review11 Scene 226"
+  },
+  {
+    "type": "word",
+    "front": "brake rotor",
+    "meaning": "碟刹刹车盘",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004041",
+    "source": "Review11 Scene 226"
+  },
+  {
+    "type": "word",
+    "front": "brake caliper",
+    "meaning": "刹车卡钳",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004042",
+    "source": "Review11 Scene 226"
+  },
+  {
+    "type": "word",
+    "front": "caliper alignment",
+    "meaning": "卡钳对齐状态",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004043",
+    "source": "Review11 Scene 226"
+  },
+  {
+    "type": "word",
+    "front": "worn down",
+    "meaning": "磨薄、磨损严重的",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004044",
+    "source": "Review11 Scene 226"
+  },
+  {
+    "type": "word",
+    "front": "uneven wear",
+    "meaning": "不均匀磨损",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004045",
+    "source": "Review11 Scene 226"
+  },
+  {
+    "type": "word",
+    "front": "rubbing noise",
+    "meaning": "持续摩擦产生的声音",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004046",
+    "source": "Review11 Scene 226"
+  },
+  {
+    "type": "word",
+    "front": "spin the wheel",
+    "meaning": "转动车轮",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004047",
+    "source": "Review11 Scene 226"
+  },
+  {
+    "type": "word",
+    "front": "brake lever travel",
+    "meaning": "刹车手柄移动行程",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004048",
+    "source": "Review11 Scene 226"
+  },
+  {
+    "type": "word",
+    "front": "spongy brake lever",
+    "meaning": "手感软、缺乏明确反馈的刹车手柄",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004049",
+    "source": "Review11 Scene 226"
+  },
+  {
+    "type": "word",
+    "front": "engage the brakes",
+    "meaning": "使制动装置发挥作用",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004050",
+    "source": "Review11 Scene 226"
+  },
+  {
+    "type": "word",
+    "front": "responsive",
+    "meaning": "反应灵敏的",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004051",
+    "source": "Review11 Scene 226"
+  },
+  {
+    "type": "word",
+    "front": "bed in new pads",
+    "meaning": "磨合新刹车片",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004052",
+    "source": "Review11 Scene 226"
+  },
+  {
+    "type": "word",
+    "front": "stopping distance",
+    "meaning": "制动距离",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004053",
+    "source": "Review11 Scene 226"
+  },
+  {
+    "type": "word",
+    "front": "test ride",
+    "meaning": "试骑",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004054",
+    "source": "Review11 Scene 226"
+  },
+  {
+    "type": "word",
+    "front": "get something checked out",
+    "meaning": "请专业人员检查问题",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004055",
+    "source": "Review11 Scene 226"
+  },
+  {
+    "type": "sentence",
+    "front": "My brakes keep squealing, and I can hear a rubbing noise even when I'm not braking.",
+    "meaning": "我的刹车一直尖叫，而且不刹车时也能听到摩擦声。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004056",
+    "source": "Review11 Scene 226"
+  },
+  {
+    "type": "sentence",
+    "front": "After replacing the pads, the mechanic took the bike for a test ride.",
+    "meaning": "更换刹车片后，维修师傅骑车做了试骑检查。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004057",
+    "source": "Review11 Scene 226"
+  },
+  {
+    "type": "word",
+    "front": "screening",
+    "meaning": "电影放映场次",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004058",
+    "source": "Review11 Scene 227"
+  },
+  {
+    "type": "word",
+    "front": "seat availability",
+    "meaning": "座位剩余情况",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004059",
+    "source": "Review11 Scene 227"
+  },
+  {
+    "type": "word",
+    "front": "front row",
+    "meaning": "第一排、前排",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004060",
+    "source": "Review11 Scene 227"
+  },
+  {
+    "type": "word",
+    "front": "dubbed version",
+    "meaning": "配音版",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004061",
+    "source": "Review11 Scene 227"
+  },
+  {
+    "type": "word",
+    "front": "original-language screening",
+    "meaning": "原声语言放映",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004062",
+    "source": "Review11 Scene 227"
+  },
+  {
+    "type": "word",
+    "front": "English subtitles",
+    "meaning": "英文字幕",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004063",
+    "source": "Review11 Scene 227"
+  },
+  {
+    "type": "word",
+    "front": "spoiler",
+    "meaning": "剧透信息",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004064",
+    "source": "Review11 Scene 227"
+  },
+  {
+    "type": "word",
+    "front": "plot twist",
+    "meaning": "剧情反转",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004065",
+    "source": "Review11 Scene 227"
+  },
+  {
+    "type": "word",
+    "front": "slow burner",
+    "meaning": "慢热型作品",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004066",
+    "source": "Review11 Scene 227"
+  },
+  {
+    "type": "word",
+    "front": "build up tension",
+    "meaning": "逐渐营造紧张感",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004067",
+    "source": "Review11 Scene 227"
+  },
+  {
+    "type": "word",
+    "front": "gripping",
+    "meaning": "扣人心弦的",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004068",
+    "source": "Review11 Scene 227"
+  },
+  {
+    "type": "word",
+    "front": "pacing",
+    "meaning": "叙事节奏",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004069",
+    "source": "Review11 Scene 227"
+  },
+  {
+    "type": "word",
+    "front": "restrained",
+    "meaning": "克制的、不夸张的",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004070",
+    "source": "Review11 Scene 227"
+  },
+  {
+    "type": "word",
+    "front": "final act",
+    "meaning": "影片最后一个主要叙事阶段",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004071",
+    "source": "Review11 Scene 227"
+  },
+  {
+    "type": "word",
+    "front": "end credits",
+    "meaning": "片尾演职员表",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004072",
+    "source": "Review11 Scene 227"
+  },
+  {
+    "type": "word",
+    "front": "post-credit scene",
+    "meaning": "片尾彩蛋",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004073",
+    "source": "Review11 Scene 227"
+  },
+  {
+    "type": "sentence",
+    "front": "The film was a slow burner, but the final act was surprisingly gripping.",
+    "meaning": "电影比较慢热，但最后一幕出人意料地精彩。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004074",
+    "source": "Review11 Scene 227"
+  },
+  {
+    "type": "sentence",
+    "front": "I liked the restrained storytelling, although my friend thought the pacing was too slow.",
+    "meaning": "我喜欢克制的叙事方式，虽然朋友觉得节奏太慢。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004075",
+    "source": "Review11 Scene 227"
+  },
+  {
+    "type": "word",
+    "front": "customs data",
+    "meaning": "海关统计数据",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004076",
+    "source": "Review11 Scene 228"
+  },
+  {
+    "type": "word",
+    "front": "trade surplus",
+    "meaning": "贸易顺差",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004077",
+    "source": "Review11 Scene 228"
+  },
+  {
+    "type": "word",
+    "front": "export surge",
+    "meaning": "出口激增",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004078",
+    "source": "Review11 Scene 228"
+  },
+  {
+    "type": "word",
+    "front": "headline figure",
+    "meaning": "最引人注目的核心数据",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004079",
+    "source": "Review11 Scene 228"
+  },
+  {
+    "type": "word",
+    "front": "high-tech shipments",
+    "meaning": "高技术产品的出货和交付",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004080",
+    "source": "Review11 Scene 228"
+  },
+  {
+    "type": "word",
+    "front": "semiconductor exports",
+    "meaning": "半导体产品出口",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004081",
+    "source": "Review11 Scene 228"
+  },
+  {
+    "type": "word",
+    "front": "domestic consumption",
+    "meaning": "国内消费",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004082",
+    "source": "Review11 Scene 228"
+  },
+  {
+    "type": "word",
+    "front": "property slump",
+    "meaning": "房地产市场持续低迷",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004083",
+    "source": "Review11 Scene 228"
+  },
+  {
+    "type": "word",
+    "front": "export-led growth",
+    "meaning": "出口带动型增长",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004084",
+    "source": "Review11 Scene 228"
+  },
+  {
+    "type": "word",
+    "front": "trade truce",
+    "meaning": "贸易争端中的暂时休战安排",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004085",
+    "source": "Review11 Scene 228"
+  },
+  {
+    "type": "word",
+    "front": "tariff reduction",
+    "meaning": "关税下调",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004086",
+    "source": "Review11 Scene 228"
+  },
+  {
+    "type": "word",
+    "front": "protectionist measures",
+    "meaning": "保护主义措施",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004087",
+    "source": "Review11 Scene 228"
+  },
+  {
+    "type": "word",
+    "front": "bring forward shipments",
+    "meaning": "把出货时间提前",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004088",
+    "source": "Review11 Scene 228"
+  },
+  {
+    "type": "word",
+    "front": "trade imbalance",
+    "meaning": "贸易不平衡",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004089",
+    "source": "Review11 Scene 228"
+  },
+  {
+    "type": "word",
+    "front": "trading partner",
+    "meaning": "贸易伙伴",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004090",
+    "source": "Review11 Scene 228"
+  },
+  {
+    "type": "word",
+    "front": "reliance on overseas demand",
+    "meaning": "对海外需求的依赖",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004091",
+    "source": "Review11 Scene 228"
+  },
+  {
+    "type": "word",
+    "front": "underlying weakness",
+    "meaning": "表面强势之下潜藏的疲弱",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004092",
+    "source": "Review11 Scene 228"
+  },
+  {
+    "type": "word",
+    "front": "shrug off",
+    "meaning": "对新闻或冲击反应不大、未受到明显影响",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004093",
+    "source": "Review11 Scene 228"
+  },
+  {
+    "type": "sentence",
+    "front": "Strong export growth doesn't necessarily mean domestic demand is recovering or corporate profits are improving.",
+    "meaning": "出口强劲增长不一定意味着国内需求正在恢复或企业利润正在改善。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004094",
+    "source": "Review11 Scene 228"
+  },
+  {
+    "type": "sentence",
+    "front": "A rise in the trade surplus doesn't automatically translate into higher share prices.",
+    "meaning": "贸易顺差扩大不会自动转化为股价上涨。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004095",
+    "source": "Review11 Scene 228"
+  },
+  {
+    "type": "word",
+    "front": "thermal mass",
+    "meaning": "材料的储存和释放热量的能力",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004096",
+    "source": "Review11 Scene 229"
+  },
+  {
+    "type": "word",
+    "front": "thermal inertia",
+    "meaning": "热惯性",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004097",
+    "source": "Review11 Scene 229"
+  },
+  {
+    "type": "word",
+    "front": "absorb heat",
+    "meaning": "吸收热量",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004098",
+    "source": "Review11 Scene 229"
+  },
+  {
+    "type": "word",
+    "front": "release heat",
+    "meaning": "释放热量",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004099",
+    "source": "Review11 Scene 229"
+  },
+  {
+    "type": "word",
+    "front": "heat transfer",
+    "meaning": "热传递",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004100",
+    "source": "Review11 Scene 229"
+  },
+  {
+    "type": "word",
+    "front": "insulation",
+    "meaning": "隔热、保温材料与措施",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004101",
+    "source": "Review11 Scene 229"
+  },
+  {
+    "type": "word",
+    "front": "masonry",
+    "meaning": "砖石砌体结构或砌筑工艺",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004102",
+    "source": "Review11 Scene 229"
+  },
+  {
+    "type": "word",
+    "front": "temperature swing",
+    "meaning": "温度波动幅度",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004103",
+    "source": "Review11 Scene 229"
+  },
+  {
+    "type": "word",
+    "front": "time lag",
+    "meaning": "变化出现的时间滞后",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004104",
+    "source": "Review11 Scene 229"
+  },
+  {
+    "type": "word",
+    "front": "shaded courtyard",
+    "meaning": "有遮阴的庭院",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004105",
+    "source": "Review11 Scene 229"
+  },
+  {
+    "type": "word",
+    "front": "cross-ventilation",
+    "meaning": "穿堂通风",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004106",
+    "source": "Review11 Scene 229"
+  },
+  {
+    "type": "word",
+    "front": "passive cooling",
+    "meaning": "被动降温措施",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004107",
+    "source": "Review11 Scene 229"
+  },
+  {
+    "type": "word",
+    "front": "stack effect",
+    "meaning": "烟囱效应",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004108",
+    "source": "Review11 Scene 229"
+  },
+  {
+    "type": "word",
+    "front": "night ventilation",
+    "meaning": "夜间利用凉爽空气通风",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004109",
+    "source": "Review11 Scene 229"
+  },
+  {
+    "type": "word",
+    "front": "accumulated heat",
+    "meaning": "积累的热量",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004110",
+    "source": "Review11 Scene 229"
+  },
+  {
+    "type": "word",
+    "front": "beat down on",
+    "meaning": "太阳猛烈地照射",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004111",
+    "source": "Review11 Scene 229"
+  },
+  {
+    "type": "sentence",
+    "front": "The building's thermal mass helps keep the indoor temperature relatively stable.",
+    "meaning": "建筑的蓄热能力有助于维持相对稳定的室内温度。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004112",
+    "source": "Review11 Scene 229"
+  },
+  {
+    "type": "sentence",
+    "front": "Thick masonry walls absorb heat during the day and release it gradually.",
+    "meaning": "厚重的砖石墙体在白天吸收热量，再缓慢释放。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004113",
+    "source": "Review11 Scene 229"
+  },
+  {
+    "type": "word",
+    "front": "towering spires",
+    "meaning": "高耸的尖塔",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004114",
+    "source": "Review11 Scene 230"
+  },
+  {
+    "type": "word",
+    "front": "sculpted façade",
+    "meaning": "带有丰富雕塑装饰的外立面",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004115",
+    "source": "Review11 Scene 230"
+  },
+  {
+    "type": "word",
+    "front": "stained-glass windows",
+    "meaning": "彩色玻璃窗",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004116",
+    "source": "Review11 Scene 230"
+  },
+  {
+    "type": "word",
+    "front": "shafts of sunlight",
+    "meaning": "一束束阳光",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004117",
+    "source": "Review11 Scene 230"
+  },
+  {
+    "type": "word",
+    "front": "wash over",
+    "meaning": "光线或情绪缓缓覆盖、涌过",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004118",
+    "source": "Review11 Scene 230"
+  },
+  {
+    "type": "word",
+    "front": "be bathed in light",
+    "meaning": "沐浴在光线中",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004119",
+    "source": "Review11 Scene 230"
+  },
+  {
+    "type": "word",
+    "front": "branching columns",
+    "meaning": "向上分叉、仿树枝形态的柱子",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004120",
+    "source": "Review11 Scene 230"
+  },
+  {
+    "type": "word",
+    "front": "vaulted ceiling",
+    "meaning": "拱形天花板、穹窿顶部",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004121",
+    "source": "Review11 Scene 230"
+  },
+  {
+    "type": "word",
+    "front": "stone canopy",
+    "meaning": "像树冠的石质顶部结构",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004122",
+    "source": "Review11 Scene 230"
+  },
+  {
+    "type": "word",
+    "front": "otherworldly",
+    "meaning": "仿佛超越现实世界的",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004123",
+    "source": "Review11 Scene 230"
+  },
+  {
+    "type": "word",
+    "front": "hushed atmosphere",
+    "meaning": "低声安静、近乎肃穆的氛围",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004124",
+    "source": "Review11 Scene 230"
+  },
+  {
+    "type": "word",
+    "front": "awe-struck",
+    "meaning": "因震撼而说不出话的",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004125",
+    "source": "Review11 Scene 230"
+  },
+  {
+    "type": "word",
+    "front": "crane your neck",
+    "meaning": "使劲仰起脖子看高处",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004126",
+    "source": "Review11 Scene 230"
+  },
+  {
+    "type": "word",
+    "front": "take your breath away",
+    "meaning": "美得令人屏息、震撼人心",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004127",
+    "source": "Review11 Scene 230"
+  },
+  {
+    "type": "word",
+    "front": "striking contrast",
+    "meaning": "鲜明对比",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004128",
+    "source": "Review11 Scene 230"
+  },
+  {
+    "type": "word",
+    "front": "cathedral fatigue",
+    "meaning": "连续看教堂产生的审美疲劳（描述性说法）",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004129",
+    "source": "Review11 Scene 230"
+  },
+  {
+    "type": "word",
+    "front": "linger on",
+    "meaning": "目光或注意力长时间停留于",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004130",
+    "source": "Review11 Scene 230"
+  },
+  {
+    "type": "word",
+    "front": "hard to put into words",
+    "meaning": "难以用语言表达",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004131",
+    "source": "Review11 Scene 230"
+  },
+  {
+    "type": "sentence",
+    "front": "What impressed me most wasn't the size of the church, but the way light transformed the entire space.",
+    "meaning": "最打动我的不是教堂规模，而是光线改变整个空间感受的方式。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004132",
+    "source": "Review11 Scene 230"
+  },
+  {
+    "type": "sentence",
+    "front": "The coloured light was so beautiful that it was hard to put the experience into words.",
+    "meaning": "彩色光线美得令人难以用语言表达那种体验。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004133",
+    "source": "Review11 Scene 230"
+  },
+  {
+    "type": "word",
+    "front": "jagged peaks",
+    "meaning": "轮廓如锯齿的山峰",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004134",
+    "source": "Review11 Scene 231"
+  },
+  {
+    "type": "word",
+    "front": "sheer rock face",
+    "meaning": "几乎垂直的巨大岩壁",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004135",
+    "source": "Review11 Scene 231"
+  },
+  {
+    "type": "word",
+    "front": "limestone tower",
+    "meaning": "塔状石灰岩山峰",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004136",
+    "source": "Review11 Scene 231"
+  },
+  {
+    "type": "word",
+    "front": "scree slope",
+    "meaning": "松散岩石构成的碎石坡",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004137",
+    "source": "Review11 Scene 231"
+  },
+  {
+    "type": "word",
+    "front": "rocky saddle",
+    "meaning": "两个高处之间的岩石山鞍",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004138",
+    "source": "Review11 Scene 231"
+  },
+  {
+    "type": "word",
+    "front": "gravel trail",
+    "meaning": "碎石路面步道",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004139",
+    "source": "Review11 Scene 231"
+  },
+  {
+    "type": "word",
+    "front": "crunch underfoot",
+    "meaning": "碎石、雪或落叶在脚下咯吱作响",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004140",
+    "source": "Review11 Scene 231"
+  },
+  {
+    "type": "word",
+    "front": "dominate the horizon",
+    "meaning": "成为远方最醒目的景物",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004141",
+    "source": "Review11 Scene 231"
+  },
+  {
+    "type": "word",
+    "front": "a sweeping panorama",
+    "meaning": "宽广壮丽、几乎一览无余的全景",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004142",
+    "source": "Review11 Scene 231"
+  },
+  {
+    "type": "word",
+    "front": "the view opens up",
+    "meaning": "视野突然开阔起来",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004143",
+    "source": "Review11 Scene 231"
+  },
+  {
+    "type": "word",
+    "front": "sharply defined silhouette",
+    "meaning": "轮廓边缘非常清晰的剪影",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004144",
+    "source": "Review11 Scene 231"
+  },
+  {
+    "type": "word",
+    "front": "undulating terrain",
+    "meaning": "连绵起伏的地形",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004145",
+    "source": "Review11 Scene 231"
+  },
+  {
+    "type": "word",
+    "front": "be dotted with",
+    "meaning": "某一区域零星点缀着",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004146",
+    "source": "Review11 Scene 231"
+  },
+  {
+    "type": "word",
+    "front": "feel dwarfed by",
+    "meaning": "在巨大事物面前感到自己渺小",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004147",
+    "source": "Review11 Scene 231"
+  },
+  {
+    "type": "word",
+    "front": "savour the moment",
+    "meaning": "细细品味、享受当下",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004148",
+    "source": "Review11 Scene 231"
+  },
+  {
+    "type": "word",
+    "front": "the final stretch",
+    "meaning": "路程、任务最后一段",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004149",
+    "source": "Review11 Scene 231"
+  },
+  {
+    "type": "sentence",
+    "front": "When we rounded the bend, the view suddenly opened up, and I felt dwarfed by the enormous rock towers.",
+    "meaning": "转过弯后，视野突然开阔，巨大的岩石山塔让我感到自己无比渺小。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004150",
+    "source": "Review11 Scene 231"
+  },
+  {
+    "type": "sentence",
+    "front": "We kept stopping to savour the moment rather than rush towards the next mountain hut.",
+    "meaning": "我们不断停下细细欣赏，而不是急着赶往下一座山屋。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004151",
+    "source": "Review11 Scene 231"
   }
 ];
 
