@@ -28300,6 +28300,1077 @@ const VOCABULARY = [
     "weight": 3,
     "id": "sw-003918",
     "source": "Review11 Scene 219"
+  },
+  {
+    "type": "word",
+    "front": "job opening",
+    "meaning": "招聘职位、岗位空缺",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003919",
+    "source": "Review11 Scene 220"
+  },
+  {
+    "type": "word",
+    "front": "be shortlisted",
+    "meaning": "通过初筛、进入候选名单",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003920",
+    "source": "Review11 Scene 220"
+  },
+  {
+    "type": "word",
+    "front": "relevant experience",
+    "meaning": "相关工作经验",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003921",
+    "source": "Review11 Scene 220"
+  },
+  {
+    "type": "word",
+    "front": "transferable skills",
+    "meaning": "可迁移到其他岗位的技能",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003922",
+    "source": "Review11 Scene 220"
+  },
+  {
+    "type": "word",
+    "front": "physically demanding",
+    "meaning": "体力要求高的",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003923",
+    "source": "Review11 Scene 220"
+  },
+  {
+    "type": "word",
+    "front": "work under pressure",
+    "meaning": "在压力下完成工作",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003924",
+    "source": "Review11 Scene 220"
+  },
+  {
+    "type": "word",
+    "front": "walk someone through",
+    "meaning": "逐步向某人说明流程",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003925",
+    "source": "Review11 Scene 220"
+  },
+  {
+    "type": "word",
+    "front": "day-to-day responsibilities",
+    "meaning": "日常工作职责",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003926",
+    "source": "Review11 Scene 220"
+  },
+  {
+    "type": "word",
+    "front": "gross pay",
+    "meaning": "税前工资",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003927",
+    "source": "Review11 Scene 220"
+  },
+  {
+    "type": "word",
+    "front": "take-home pay",
+    "meaning": "税后实际到手工资",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003928",
+    "source": "Review11 Scene 220"
+  },
+  {
+    "type": "word",
+    "front": "paid training",
+    "meaning": "带薪培训",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003929",
+    "source": "Review11 Scene 220"
+  },
+  {
+    "type": "word",
+    "front": "compulsory",
+    "meaning": "强制参加的、必须的",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003930",
+    "source": "Review11 Scene 220"
+  },
+  {
+    "type": "word",
+    "front": "probationary period",
+    "meaning": "试用期",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003931",
+    "source": "Review11 Scene 220"
+  },
+  {
+    "type": "word",
+    "front": "notice period",
+    "meaning": "辞职或终止合同前的提前通知期",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003932",
+    "source": "Review11 Scene 220"
+  },
+  {
+    "type": "word",
+    "front": "reference check",
+    "meaning": "向推荐人核实情况",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003933",
+    "source": "Review11 Scene 220"
+  },
+  {
+    "type": "word",
+    "front": "onboarding",
+    "meaning": "新员工入职与岗位熟悉流程",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003934",
+    "source": "Review11 Scene 220"
+  },
+  {
+    "type": "sentence",
+    "front": "I don't have direct experience in this role, but I have transferable skills that would be useful.",
+    "meaning": "我没有该岗位的直接工作经验，但有一些能派上用场的可迁移技能。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003935",
+    "source": "Review11 Scene 220"
+  },
+  {
+    "type": "sentence",
+    "front": "Could you walk me through the day-to-day responsibilities and clarify whether the training is paid?",
+    "meaning": "你能介绍日常职责，并说明培训是否带薪吗？",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003936",
+    "source": "Review11 Scene 220"
+  },
+  {
+    "type": "word",
+    "front": "loose dog",
+    "meaning": "没有被拴住、控制住的狗",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003937",
+    "source": "Review11 Scene 221"
+  },
+  {
+    "type": "word",
+    "front": "lunge at someone",
+    "meaning": "突然朝某人扑过去",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003938",
+    "source": "Review11 Scene 221"
+  },
+  {
+    "type": "word",
+    "front": "bite wound",
+    "meaning": "咬伤形成的伤口",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003939",
+    "source": "Review11 Scene 221"
+  },
+  {
+    "type": "word",
+    "front": "break the skin",
+    "meaning": "咬破或弄破皮肤",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003940",
+    "source": "Review11 Scene 221"
+  },
+  {
+    "type": "word",
+    "front": "apply pressure",
+    "meaning": "按压伤口帮助控制出血",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003941",
+    "source": "Review11 Scene 221"
+  },
+  {
+    "type": "word",
+    "front": "emergency dispatcher",
+    "meaning": "紧急救助调度员",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003942",
+    "source": "Review11 Scene 221"
+  },
+  {
+    "type": "word",
+    "front": "report an incident",
+    "meaning": "报告一起事件、事故",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003943",
+    "source": "Review11 Scene 221"
+  },
+  {
+    "type": "word",
+    "front": "dispatch an ambulance",
+    "meaning": "派遣救护车",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003944",
+    "source": "Review11 Scene 221"
+  },
+  {
+    "type": "word",
+    "front": "attend the scene",
+    "meaning": "警员、急救人员等到现场处理",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003945",
+    "source": "Review11 Scene 221"
+  },
+  {
+    "type": "word",
+    "front": "paramedic",
+    "meaning": "院前急救人员",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003946",
+    "source": "Review11 Scene 221"
+  },
+  {
+    "type": "word",
+    "front": "emergency department (ED)",
+    "meaning": "医院急诊科",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003947",
+    "source": "Review11 Scene 221"
+  },
+  {
+    "type": "word",
+    "front": "triage",
+    "meaning": "预检分诊、按伤情紧急程度分类",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003948",
+    "source": "Review11 Scene 221"
+  },
+  {
+    "type": "word",
+    "front": "waiting area",
+    "meaning": "候诊区",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003949",
+    "source": "Review11 Scene 221"
+  },
+  {
+    "type": "word",
+    "front": "tetanus booster",
+    "meaning": "破伤风加强针",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003950",
+    "source": "Review11 Scene 221"
+  },
+  {
+    "type": "word",
+    "front": "rabies exposure assessment",
+    "meaning": "狂犬病暴露风险评估",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003951",
+    "source": "Review11 Scene 221"
+  },
+  {
+    "type": "word",
+    "front": "post-exposure prophylaxis (PEP)",
+    "meaning": "暴露后预防处置",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003952",
+    "source": "Review11 Scene 221"
+  },
+  {
+    "type": "word",
+    "front": "discharge instructions",
+    "meaning": "书面的出院医嘱",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003953",
+    "source": "Review11 Scene 221"
+  },
+  {
+    "type": "word",
+    "front": "register with a family doctor",
+    "meaning": "登记、注册家庭医生",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003954",
+    "source": "Review11 Scene 221"
+  },
+  {
+    "type": "word",
+    "front": "primary care clinic",
+    "meaning": "基层医疗诊所",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003955",
+    "source": "Review11 Scene 221"
+  },
+  {
+    "type": "word",
+    "front": "follow-up appointment",
+    "meaning": "后续复诊预约",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003956",
+    "source": "Review11 Scene 221"
+  },
+  {
+    "type": "sentence",
+    "front": "I've been bitten by a dog, and the wound is bleeding. I need medical help.",
+    "meaning": "我被狗咬伤了，伤口正在流血。我需要医疗救助。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003957",
+    "source": "Review11 Scene 221"
+  },
+  {
+    "type": "sentence",
+    "front": "Could you assess whether I need a tetanus booster or rabies post-exposure prophylaxis?",
+    "meaning": "能评估我是否需要破伤风加强针或狂犬病暴露后预防处置吗？",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003958",
+    "source": "Review11 Scene 221"
+  },
+  {
+    "type": "word",
+    "front": "market breadth",
+    "meaning": "市场上涨或下跌的参与广度",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003959",
+    "source": "Review11 Scene 222"
+  },
+  {
+    "type": "word",
+    "front": "headline index",
+    "meaning": "媒体常引用的主要市场指数",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003960",
+    "source": "Review11 Scene 222"
+  },
+  {
+    "type": "word",
+    "front": "market-cap weighted",
+    "meaning": "按市值加权的",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003961",
+    "source": "Review11 Scene 222"
+  },
+  {
+    "type": "word",
+    "front": "equal-weighted index",
+    "meaning": "等权重指数",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003962",
+    "source": "Review11 Scene 222"
+  },
+  {
+    "type": "word",
+    "front": "heavyweight stock",
+    "meaning": "大型权重股",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003963",
+    "source": "Review11 Scene 222"
+  },
+  {
+    "type": "word",
+    "front": "disproportionate influence",
+    "meaning": "不成比例的影响力",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003964",
+    "source": "Review11 Scene 222"
+  },
+  {
+    "type": "word",
+    "front": "sector rotation",
+    "meaning": "行业之间的资金轮换",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003965",
+    "source": "Review11 Scene 222"
+  },
+  {
+    "type": "word",
+    "front": "dispersion",
+    "meaning": "行业内或资产之间的表现分散度",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003966",
+    "source": "Review11 Scene 222"
+  },
+  {
+    "type": "word",
+    "front": "stock-specific risk",
+    "meaning": "个股特有风险",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003967",
+    "source": "Review11 Scene 222"
+  },
+  {
+    "type": "word",
+    "front": "company-specific headline",
+    "meaning": "某家特定公司的新闻事件",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003968",
+    "source": "Review11 Scene 222"
+  },
+  {
+    "type": "word",
+    "front": "outperform",
+    "meaning": "表现优于比较基准",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003969",
+    "source": "Review11 Scene 222"
+  },
+  {
+    "type": "word",
+    "front": "underperform",
+    "meaning": "表现逊于比较基准",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003970",
+    "source": "Review11 Scene 222"
+  },
+  {
+    "type": "word",
+    "front": "broad rally",
+    "meaning": "多个板块参与的市场上涨",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003971",
+    "source": "Review11 Scene 222"
+  },
+  {
+    "type": "word",
+    "front": "concentration risk",
+    "meaning": "集中持有少数资产的风险",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003972",
+    "source": "Review11 Scene 222"
+  },
+  {
+    "type": "word",
+    "front": "valuation reset",
+    "meaning": "市场重新调整资产估值",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003973",
+    "source": "Review11 Scene 222"
+  },
+  {
+    "type": "word",
+    "front": "on a stock-by-stock basis",
+    "meaning": "逐只股票分别分析",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003974",
+    "source": "Review11 Scene 222"
+  },
+  {
+    "type": "word",
+    "front": "paint with a broad brush",
+    "meaning": "以过于笼统的方式概括",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003975",
+    "source": "Review11 Scene 222"
+  },
+  {
+    "type": "word",
+    "front": "not a monolith",
+    "meaning": "不是内部完全同质的整体",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003976",
+    "source": "Review11 Scene 222"
+  },
+  {
+    "type": "sentence",
+    "front": "The market may be up overall, but that doesn't mean every company in the sector is performing well.",
+    "meaning": "市场整体可能上涨，但不意味着行业内每家公司都表现良好。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003977",
+    "source": "Review11 Scene 222"
+  },
+  {
+    "type": "sentence",
+    "front": "We need to separate the broader market trend from company-specific developments.",
+    "meaning": "我们需要区分整体市场趋势与公司自身事件。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003978",
+    "source": "Review11 Scene 222"
+  },
+  {
+    "type": "word",
+    "front": "pluralistic ignorance",
+    "meaning": "多元无知，误判其他人的真实想法",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003979",
+    "source": "Review11 Scene 223"
+  },
+  {
+    "type": "word",
+    "front": "privately disagree",
+    "meaning": "私下持不同意见",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003980",
+    "source": "Review11 Scene 223"
+  },
+  {
+    "type": "word",
+    "front": "nod along",
+    "meaning": "跟着点头、表面附和",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003981",
+    "source": "Review11 Scene 223"
+  },
+  {
+    "type": "word",
+    "front": "speak up",
+    "meaning": "主动发言，尤其表示意见",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003982",
+    "source": "Review11 Scene 223"
+  },
+  {
+    "type": "word",
+    "front": "voice a concern",
+    "meaning": "明确说出一项担忧",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003983",
+    "source": "Review11 Scene 223"
+  },
+  {
+    "type": "word",
+    "front": "dissenting opinion",
+    "meaning": "不同于主流看法的意见",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003984",
+    "source": "Review11 Scene 223"
+  },
+  {
+    "type": "word",
+    "front": "unanimous agreement",
+    "meaning": "全体一致同意",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003985",
+    "source": "Review11 Scene 223"
+  },
+  {
+    "type": "word",
+    "front": "false impression",
+    "meaning": "错误印象",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003986",
+    "source": "Review11 Scene 223"
+  },
+  {
+    "type": "word",
+    "front": "misinterpret someone's behaviour",
+    "meaning": "误解他人的行为",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003987",
+    "source": "Review11 Scene 223"
+  },
+  {
+    "type": "word",
+    "front": "peer pressure",
+    "meaning": "同伴或群体压力",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003988",
+    "source": "Review11 Scene 223"
+  },
+  {
+    "type": "word",
+    "front": "fear of embarrassment",
+    "meaning": "害怕出丑或尴尬",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003989",
+    "source": "Review11 Scene 223"
+  },
+  {
+    "type": "word",
+    "front": "go against the grain",
+    "meaning": "违背常规或多数人的做法",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003990",
+    "source": "Review11 Scene 223"
+  },
+  {
+    "type": "word",
+    "front": "open-ended question",
+    "meaning": "开放式问题",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003991",
+    "source": "Review11 Scene 223"
+  },
+  {
+    "type": "word",
+    "front": "invite feedback",
+    "meaning": "主动邀请反馈",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003992",
+    "source": "Review11 Scene 223"
+  },
+  {
+    "type": "word",
+    "front": "constructive disagreement",
+    "meaning": "建设性的不同意见",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003993",
+    "source": "Review11 Scene 223"
+  },
+  {
+    "type": "word",
+    "front": "psychological safety",
+    "meaning": "表达不同意见时不担心羞辱的心理安全感",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003994",
+    "source": "Review11 Scene 223"
+  },
+  {
+    "type": "word",
+    "front": "keep your reservations to yourself",
+    "meaning": "把保留意见藏在心里",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003995",
+    "source": "Review11 Scene 223"
+  },
+  {
+    "type": "word",
+    "front": "challenge an assumption",
+    "meaning": "质疑未经充分验证的假设",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003996",
+    "source": "Review11 Scene 223"
+  },
+  {
+    "type": "sentence",
+    "front": "Just because nobody speaks up doesn't mean everyone agrees.",
+    "meaning": "不能因为没人提出反对，就认定所有人都同意。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003997",
+    "source": "Review11 Scene 223"
+  },
+  {
+    "type": "sentence",
+    "front": "Instead of assuming unanimous agreement, we should invite constructive disagreement.",
+    "meaning": "我们不该直接假设大家一致同意，而应主动邀请建设性的不同意见。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003998",
+    "source": "Review11 Scene 223"
+  },
+  {
+    "type": "word",
+    "front": "intricate",
+    "meaning": "包含大量精细细节的、复杂精美的",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003999",
+    "source": "Review11 Scene 224"
+  },
+  {
+    "type": "word",
+    "front": "craftsmanship",
+    "meaning": "工艺水准、手工技艺",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004000",
+    "source": "Review11 Scene 224"
+  },
+  {
+    "type": "word",
+    "front": "ornate",
+    "meaning": "装饰丰富、华丽繁复的",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004001",
+    "source": "Review11 Scene 224"
+  },
+  {
+    "type": "word",
+    "front": "archway",
+    "meaning": "拱门通道、拱形门洞",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004002",
+    "source": "Review11 Scene 224"
+  },
+  {
+    "type": "word",
+    "front": "geometric pattern",
+    "meaning": "几何纹样",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004003",
+    "source": "Review11 Scene 224"
+  },
+  {
+    "type": "word",
+    "front": "calligraphy",
+    "meaning": "书法、装饰性文字艺术",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004004",
+    "source": "Review11 Scene 224"
+  },
+  {
+    "type": "word",
+    "front": "slender columns",
+    "meaning": "纤细修长的柱子",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004005",
+    "source": "Review11 Scene 224"
+  },
+  {
+    "type": "word",
+    "front": "courtyard",
+    "meaning": "庭院",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004006",
+    "source": "Review11 Scene 224"
+  },
+  {
+    "type": "word",
+    "front": "interplay of light and shadow",
+    "meaning": "光与影交织的视觉效果",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004007",
+    "source": "Review11 Scene 224"
+  },
+  {
+    "type": "word",
+    "front": "intimate atmosphere",
+    "meaning": "亲近、细腻的空间氛围",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004008",
+    "source": "Review11 Scene 224"
+  },
+  {
+    "type": "word",
+    "front": "stop in your tracks",
+    "meaning": "因惊讶或震撼突然停下脚步",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004009",
+    "source": "Review11 Scene 224"
+  },
+  {
+    "type": "word",
+    "front": "take it all in",
+    "meaning": "尽情欣赏、细细感受眼前一切",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004010",
+    "source": "Review11 Scene 224"
+  },
+  {
+    "type": "word",
+    "front": "feel transported back in time",
+    "meaning": "感觉仿佛回到过去的时代",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004011",
+    "source": "Review11 Scene 224"
+  },
+  {
+    "type": "word",
+    "front": "soak up the atmosphere",
+    "meaning": "尽情感受周围的氛围",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004012",
+    "source": "Review11 Scene 224"
+  },
+  {
+    "type": "word",
+    "front": "leave a lasting impression",
+    "meaning": "留下持久而深刻的印象",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004013",
+    "source": "Review11 Scene 224"
+  },
+  {
+    "type": "word",
+    "front": "words don't do it justice",
+    "meaning": "语言无法充分表达其美或震撼",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004014",
+    "source": "Review11 Scene 224"
+  },
+  {
+    "type": "word",
+    "front": "underwhelming",
+    "meaning": "实际体验低于期待的",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004015",
+    "source": "Review11 Scene 224"
+  },
+  {
+    "type": "word",
+    "front": "live up to the hype",
+    "meaning": "实际体验符合宣传和期待",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004016",
+    "source": "Review11 Scene 224"
+  },
+  {
+    "type": "sentence",
+    "front": "What impressed me most wasn't the size of the palace, but the craftsmanship and attention to detail.",
+    "meaning": "最打动我的不是宫殿的规模，而是工艺水平和对细节的重视。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004017",
+    "source": "Review11 Scene 224"
+  },
+  {
+    "type": "sentence",
+    "front": "I put my phone away for a moment so I could take it all in.",
+    "meaning": "我暂时收起手机，以便静静感受眼前的一切。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004018",
+    "source": "Review11 Scene 224"
+  },
+  {
+    "type": "word",
+    "front": "swollen stream",
+    "meaning": "降雨、融雪后水量暴涨的溪流",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004019",
+    "source": "Review11 Scene 225"
+  },
+  {
+    "type": "word",
+    "front": "in spate",
+    "meaning": "河流处于急涨水状态",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004020",
+    "source": "Review11 Scene 225"
+  },
+  {
+    "type": "word",
+    "front": "fast-flowing current",
+    "meaning": "急促水流",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004021",
+    "source": "Review11 Scene 225"
+  },
+  {
+    "type": "word",
+    "front": "crossing point",
+    "meaning": "河流计划过河点",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004022",
+    "source": "Review11 Scene 225"
+  },
+  {
+    "type": "word",
+    "front": "submerged",
+    "meaning": "被水淹没的",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004023",
+    "source": "Review11 Scene 225"
+  },
+  {
+    "type": "word",
+    "front": "riverbed",
+    "meaning": "河床",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004024",
+    "source": "Review11 Scene 225"
+  },
+  {
+    "type": "word",
+    "front": "turbid",
+    "meaning": "泥沙多、浑浊的",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004025",
+    "source": "Review11 Scene 225"
+  },
+  {
+    "type": "word",
+    "front": "slippery riverbank",
+    "meaning": "湿滑的河岸",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004026",
+    "source": "Review11 Scene 225"
+  },
+  {
+    "type": "word",
+    "front": "unstable footing",
+    "meaning": "难以站稳的落脚条件",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004027",
+    "source": "Review11 Scene 225"
+  },
+  {
+    "type": "word",
+    "front": "ford a stream",
+    "meaning": "涉水过溪",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004028",
+    "source": "Review11 Scene 225"
+  },
+  {
+    "type": "word",
+    "front": "upstream",
+    "meaning": "上游方向",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004029",
+    "source": "Review11 Scene 225"
+  },
+  {
+    "type": "word",
+    "front": "downstream",
+    "meaning": "下游方向",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004030",
+    "source": "Review11 Scene 225"
+  },
+  {
+    "type": "word",
+    "front": "floating debris",
+    "meaning": "水中漂浮的杂物、树枝",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004031",
+    "source": "Review11 Scene 225"
+  },
+  {
+    "type": "word",
+    "front": "runoff",
+    "meaning": "地表径流",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004032",
+    "source": "Review11 Scene 225"
+  },
+  {
+    "type": "word",
+    "front": "catchment area",
+    "meaning": "汇水区",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004033",
+    "source": "Review11 Scene 225"
+  },
+  {
+    "type": "word",
+    "front": "impassable",
+    "meaning": "无法通行的",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004034",
+    "source": "Review11 Scene 225"
+  },
+  {
+    "type": "word",
+    "front": "overflow its banks",
+    "meaning": "河水漫过河岸",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004035",
+    "source": "Review11 Scene 225"
+  },
+  {
+    "type": "sentence",
+    "front": "The stream is badly swollen, and we can't identify a safe crossing point, so we should turn back.",
+    "meaning": "溪流水位严重上涨，我们无法确认安全过河点，所以应该返回。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004036",
+    "source": "Review11 Scene 225"
+  },
+  {
+    "type": "sentence",
+    "front": "The riverbed is submerged, and the current is carrying floating debris downstream.",
+    "meaning": "河床已经淹没，水流正带着漂浮杂物冲向下游。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004037",
+    "source": "Review11 Scene 225"
   }
 ];
 
