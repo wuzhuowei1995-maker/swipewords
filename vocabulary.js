@@ -26134,15 +26134,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "handrail",
-    "meaning": "扶手",
-    "example": "",
-    "weight": 3,
-    "id": "sw-003678",
-    "source": "Review11 Scene 207"
-  },
-  {
-    "type": "word",
     "front": "gap between the boards",
     "meaning": "木板之间的缝隙",
     "example": "",
@@ -27115,15 +27106,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "roll in",
-    "meaning": "云、雾或恶劣天气逐渐涌入",
-    "example": "",
-    "weight": 3,
-    "id": "sw-003787",
-    "source": "Review11 Scene 213"
-  },
-  {
-    "type": "word",
     "front": "low cloud",
     "meaning": "低云层",
     "example": "",
@@ -27399,15 +27381,6 @@ const VOCABULARY = [
     "example": "",
     "weight": 3,
     "id": "sw-003818",
-    "source": "Review11 Scene 214"
-  },
-  {
-    "type": "word",
-    "front": "staple together",
-    "meaning": "用订书钉订在一起",
-    "example": "",
-    "weight": 3,
-    "id": "sw-003819",
     "source": "Review11 Scene 214"
   },
   {
@@ -29203,15 +29176,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "swollen stream",
-    "meaning": "降雨、融雪后水量暴涨的溪流",
-    "example": "",
-    "weight": 3,
-    "id": "sw-004019",
-    "source": "Review11 Scene 225"
-  },
-  {
-    "type": "word",
     "front": "in spate",
     "meaning": "河流处于急涨水状态",
     "example": "",
@@ -30397,6 +30361,24 @@ const VOCABULARY = [
     "weight": 3,
     "id": "sw-004151",
     "source": "Review11 Scene 231"
+  },
+  {
+    "type": "word",
+    "front": "hourly rate",
+    "meaning": "时薪、每小时工资",
+    "example": "Could you confirm the hourly rate for this part-time position?",
+    "weight": 3,
+    "id": "sw-004152",
+    "source": "Review11 Scene 220"
+  },
+  {
+    "type": "word",
+    "front": "flow rate",
+    "meaning": "单位时间通过某截面的水量（流量）",
+    "example": "The flow rate increased after the heavy rainfall.",
+    "weight": 3,
+    "id": "sw-004153",
+    "source": "Review11 Scene 225"
   }
 ];
 
