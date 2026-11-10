@@ -26221,6 +26221,1059 @@ const VOCABULARY = [
     "weight": 3,
     "id": "sw-003687",
     "source": "Review11 Scene 207"
+  },
+  {
+    "type": "word",
+    "front": "loan period",
+    "meaning": "借阅期限",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003688",
+    "source": "Review11 Scene 208"
+  },
+  {
+    "type": "word",
+    "front": "be due back",
+    "meaning": "借出的物品应到期归还",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003689",
+    "source": "Review11 Scene 208"
+  },
+  {
+    "type": "word",
+    "front": "renewal limit",
+    "meaning": "续借次数或期限上限",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003690",
+    "source": "Review11 Scene 208"
+  },
+  {
+    "type": "word",
+    "front": "place a hold on",
+    "meaning": "预约一本目前不能借出的书",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003691",
+    "source": "Review11 Scene 208"
+  },
+  {
+    "type": "word",
+    "front": "waiting list",
+    "meaning": "等待名单、预约队列",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003692",
+    "source": "Review11 Scene 208"
+  },
+  {
+    "type": "word",
+    "front": "on loan",
+    "meaning": "物品当前已经借出",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003693",
+    "source": "Review11 Scene 208"
+  },
+  {
+    "type": "word",
+    "front": "recall a book",
+    "meaning": "图书馆要求提前归还图书",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003694",
+    "source": "Review11 Scene 208"
+  },
+  {
+    "type": "word",
+    "front": "revised due date",
+    "meaning": "调整后的归还截止日期",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003695",
+    "source": "Review11 Scene 208"
+  },
+  {
+    "type": "word",
+    "front": "circulation desk",
+    "meaning": "图书馆借还书服务台",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003696",
+    "source": "Review11 Scene 208"
+  },
+  {
+    "type": "word",
+    "front": "library catalogue",
+    "meaning": "图书馆馆藏检索目录",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003697",
+    "source": "Review11 Scene 208"
+  },
+  {
+    "type": "word",
+    "front": "call number",
+    "meaning": "索书号；馆藏定位编号",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003698",
+    "source": "Review11 Scene 208"
+  },
+  {
+    "type": "word",
+    "front": "interlibrary loan",
+    "meaning": "馆际互借",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003699",
+    "source": "Review11 Scene 208"
+  },
+  {
+    "type": "word",
+    "front": "reference-only",
+    "meaning": "仅供馆内查阅的",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003700",
+    "source": "Review11 Scene 208"
+  },
+  {
+    "type": "word",
+    "front": "short-term loan",
+    "meaning": "短期借阅",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003701",
+    "source": "Review11 Scene 208"
+  },
+  {
+    "type": "word",
+    "front": "overdue fine",
+    "meaning": "逾期归还罚款",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003702",
+    "source": "Review11 Scene 208"
+  },
+  {
+    "type": "word",
+    "front": "book drop",
+    "meaning": "非营业时间还书箱",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003703",
+    "source": "Review11 Scene 208"
+  },
+  {
+    "type": "word",
+    "front": "borrowing privileges",
+    "meaning": "读者借阅权限",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003704",
+    "source": "Review11 Scene 208"
+  },
+  {
+    "type": "sentence",
+    "front": "I tried to renew the book, but someone else had already placed a hold on it.",
+    "meaning": "我尝试续借，但其他人已经预约了这本书。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003705",
+    "source": "Review11 Scene 208"
+  },
+  {
+    "type": "sentence",
+    "front": "All copies are on loan. Could I request the title through interlibrary loan?",
+    "meaning": "所有副本都借出去了。我可以通过馆际互借申请这本书吗？",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003706",
+    "source": "Review11 Scene 208"
+  },
+  {
+    "type": "word",
+    "front": "marked as delivered",
+    "meaning": "被物流系统标记为已送达",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003707",
+    "source": "Review11 Scene 209"
+  },
+  {
+    "type": "word",
+    "front": "delivery scan",
+    "meaning": "物流送达扫描记录",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003708",
+    "source": "Review11 Scene 209"
+  },
+  {
+    "type": "word",
+    "front": "delivery photo",
+    "meaning": "快递员提供的送达照片",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003709",
+    "source": "Review11 Scene 209"
+  },
+  {
+    "type": "word",
+    "front": "safe place",
+    "meaning": "获指定或认可的包裹安全放置点",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003710",
+    "source": "Review11 Scene 209"
+  },
+  {
+    "type": "word",
+    "front": "misdelivered",
+    "meaning": "错误投递的",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003711",
+    "source": "Review11 Scene 209"
+  },
+  {
+    "type": "word",
+    "front": "neighbouring address",
+    "meaning": "附近的另一个地址",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003712",
+    "source": "Review11 Scene 209"
+  },
+  {
+    "type": "word",
+    "front": "courier company",
+    "meaning": "快递配送公司",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003713",
+    "source": "Review11 Scene 209"
+  },
+  {
+    "type": "word",
+    "front": "parcel carrier",
+    "meaning": "包裹运输承运商",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003714",
+    "source": "Review11 Scene 209"
+  },
+  {
+    "type": "word",
+    "front": "signature required",
+    "meaning": "配送需要签收",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003715",
+    "source": "Review11 Scene 209"
+  },
+  {
+    "type": "word",
+    "front": "delivery exception",
+    "meaning": "派送异常状态",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003716",
+    "source": "Review11 Scene 209"
+  },
+  {
+    "type": "word",
+    "front": "redelivery attempt",
+    "meaning": "再次尝试派送",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003717",
+    "source": "Review11 Scene 209"
+  },
+  {
+    "type": "word",
+    "front": "collection code",
+    "meaning": "包裹取件码",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003718",
+    "source": "Review11 Scene 209"
+  },
+  {
+    "type": "word",
+    "front": "investigation case",
+    "meaning": "客服调查案件",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003719",
+    "source": "Review11 Scene 209"
+  },
+  {
+    "type": "word",
+    "front": "case reference number",
+    "meaning": "案件查询参考编号",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003720",
+    "source": "Review11 Scene 209"
+  },
+  {
+    "type": "word",
+    "front": "replacement shipment",
+    "meaning": "重新寄送的商品",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003721",
+    "source": "Review11 Scene 209"
+  },
+  {
+    "type": "word",
+    "front": "buyer protection",
+    "meaning": "买家权益保障机制",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003722",
+    "source": "Review11 Scene 209"
+  },
+  {
+    "type": "word",
+    "front": "file a missing-parcel claim",
+    "meaning": "正式提交包裹遗失申诉",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003723",
+    "source": "Review11 Scene 209"
+  },
+  {
+    "type": "sentence",
+    "front": "The parcel was marked as delivered, but the delivery photo doesn't match my address.",
+    "meaning": "包裹显示已送达，但送达照片与我的地址不符。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003724",
+    "source": "Review11 Scene 209"
+  },
+  {
+    "type": "sentence",
+    "front": "Could you give me a case reference number and explain the next step in the investigation?",
+    "meaning": "能提供案件编号，并解释调查的下一步吗？",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003725",
+    "source": "Review11 Scene 209"
+  },
+  {
+    "type": "word",
+    "front": "nonfarm payrolls",
+    "meaning": "美国非农就业人数变化",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003726",
+    "source": "Review11 Scene 210"
+  },
+  {
+    "type": "word",
+    "front": "consensus forecast",
+    "meaning": "市场或分析师一致预测",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003727",
+    "source": "Review11 Scene 210"
+  },
+  {
+    "type": "word",
+    "front": "beat expectations",
+    "meaning": "公布数据好于预期",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003728",
+    "source": "Review11 Scene 210"
+  },
+  {
+    "type": "word",
+    "front": "unemployment rate",
+    "meaning": "失业率",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003729",
+    "source": "Review11 Scene 210"
+  },
+  {
+    "type": "word",
+    "front": "upward revision",
+    "meaning": "对之前数据进行上修",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003730",
+    "source": "Review11 Scene 210"
+  },
+  {
+    "type": "word",
+    "front": "labour-market resilience",
+    "meaning": "劳动力市场韧性",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003731",
+    "source": "Review11 Scene 210"
+  },
+  {
+    "type": "word",
+    "front": "labour-force participation rate",
+    "meaning": "劳动参与率",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003732",
+    "source": "Review11 Scene 210"
+  },
+  {
+    "type": "word",
+    "front": "underemployment",
+    "meaning": "就业不足",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003733",
+    "source": "Review11 Scene 210"
+  },
+  {
+    "type": "word",
+    "front": "wage growth",
+    "meaning": "工资增长",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003734",
+    "source": "Review11 Scene 210"
+  },
+  {
+    "type": "word",
+    "front": "Treasury yield",
+    "meaning": "美国国债收益率",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003735",
+    "source": "Review11 Scene 210"
+  },
+  {
+    "type": "word",
+    "front": "hawkish tilt",
+    "meaning": "货币政策预期向鹰派方向变化",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003736",
+    "source": "Review11 Scene 210"
+  },
+  {
+    "type": "word",
+    "front": "rate hike",
+    "meaning": "加息",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003737",
+    "source": "Review11 Scene 210"
+  },
+  {
+    "type": "word",
+    "front": "market-implied probability",
+    "meaning": "根据市场价格推算的事件概率",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003738",
+    "source": "Review11 Scene 210"
+  },
+  {
+    "type": "word",
+    "front": "inflation print",
+    "meaning": "某次公布的通胀数据",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003739",
+    "source": "Review11 Scene 210"
+  },
+  {
+    "type": "word",
+    "front": "upside surprise",
+    "meaning": "公布结果意外高于预期",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003740",
+    "source": "Review11 Scene 210"
+  },
+  {
+    "type": "word",
+    "front": "discount rate",
+    "meaning": "贴现率",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003741",
+    "source": "Review11 Scene 210"
+  },
+  {
+    "type": "word",
+    "front": "present value",
+    "meaning": "现值",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003742",
+    "source": "Review11 Scene 210"
+  },
+  {
+    "type": "word",
+    "front": "a tug of war",
+    "meaning": "两种力量相互拉扯、争夺主导",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003743",
+    "source": "Review11 Scene 210"
+  },
+  {
+    "type": "sentence",
+    "front": "There's a tug of war between stronger earnings expectations and higher discount rates.",
+    "meaning": "更强的盈利预期与更高的贴现率正在相互拉扯。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003744",
+    "source": "Review11 Scene 210"
+  },
+  {
+    "type": "sentence",
+    "front": "The jobs report beat expectations, but that doesn't automatically mean stocks will rise.",
+    "meaning": "就业数据超出预期，但这不意味着股票一定上涨。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003745",
+    "source": "Review11 Scene 210"
+  },
+  {
+    "type": "word",
+    "front": "planning fallacy",
+    "meaning": "计划谬误，系统性低估完成任务所需时间",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003746",
+    "source": "Review11 Scene 211"
+  },
+  {
+    "type": "word",
+    "front": "overly optimistic",
+    "meaning": "过度乐观的",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003747",
+    "source": "Review11 Scene 211"
+  },
+  {
+    "type": "word",
+    "front": "best-case scenario",
+    "meaning": "最理想情况",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003748",
+    "source": "Review11 Scene 211"
+  },
+  {
+    "type": "word",
+    "front": "hidden steps",
+    "meaning": "一开始容易忽略的工作环节",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003749",
+    "source": "Review11 Scene 211"
+  },
+  {
+    "type": "word",
+    "front": "scope creep",
+    "meaning": "需求范围逐渐扩大",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003750",
+    "source": "Review11 Scene 211"
+  },
+  {
+    "type": "word",
+    "front": "task dependency",
+    "meaning": "任务之间的依赖关系",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003751",
+    "source": "Review11 Scene 211"
+  },
+  {
+    "type": "word",
+    "front": "cascading delay",
+    "meaning": "连锁延误",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003752",
+    "source": "Review11 Scene 211"
+  },
+  {
+    "type": "word",
+    "front": "unexpected setback",
+    "meaning": "意外阻碍或挫折",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003753",
+    "source": "Review11 Scene 211"
+  },
+  {
+    "type": "word",
+    "front": "time sink",
+    "meaning": "特别耗费时间的事情",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003754",
+    "source": "Review11 Scene 211"
+  },
+  {
+    "type": "word",
+    "front": "margin for error",
+    "meaning": "容错空间、估算余地",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003755",
+    "source": "Review11 Scene 211"
+  },
+  {
+    "type": "word",
+    "front": "contingency buffer",
+    "meaning": "为意外预留的时间或资源",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003756",
+    "source": "Review11 Scene 211"
+  },
+  {
+    "type": "word",
+    "front": "build in some slack",
+    "meaning": "在日程中有意识地预留弹性",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003757",
+    "source": "Review11 Scene 211"
+  },
+  {
+    "type": "word",
+    "front": "competing priorities",
+    "meaning": "相互争夺时间的不同重要事项",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003758",
+    "source": "Review11 Scene 211"
+  },
+  {
+    "type": "word",
+    "front": "realistic timeline",
+    "meaning": "现实可行的时间安排",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003759",
+    "source": "Review11 Scene 211"
+  },
+  {
+    "type": "word",
+    "front": "past benchmark",
+    "meaning": "过去类似项目的实际参考基准",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003760",
+    "source": "Review11 Scene 211"
+  },
+  {
+    "type": "word",
+    "front": "reference-class forecasting",
+    "meaning": "利用类似历史项目结果进行预测",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003761",
+    "source": "Review11 Scene 211"
+  },
+  {
+    "type": "word",
+    "front": "time audit",
+    "meaning": "记录并分析时间的实际用法",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003762",
+    "source": "Review11 Scene 211"
+  },
+  {
+    "type": "word",
+    "front": "overrun the schedule",
+    "meaning": "实际耗时超出原定计划",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003763",
+    "source": "Review11 Scene 211"
+  },
+  {
+    "type": "sentence",
+    "front": "My original estimate was overly optimistic because I overlooked several hidden steps.",
+    "meaning": "我最初的估算过于乐观，因为忽略了几个隐藏环节。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003764",
+    "source": "Review11 Scene 211"
+  },
+  {
+    "type": "sentence",
+    "front": "We should build some slack into the schedule to allow for unexpected setbacks.",
+    "meaning": "我们应该在日程中预留弹性，以应对意外困难。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003765",
+    "source": "Review11 Scene 211"
+  },
+  {
+    "type": "word",
+    "front": "industrial action",
+    "meaning": "劳资集体行动，例如罢工",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003766",
+    "source": "Review11 Scene 212"
+  },
+  {
+    "type": "word",
+    "front": "rail strike",
+    "meaning": "铁路罢工",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003767",
+    "source": "Review11 Scene 212"
+  },
+  {
+    "type": "word",
+    "front": "service disruption notice",
+    "meaning": "交通服务中断通知",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003768",
+    "source": "Review11 Scene 212"
+  },
+  {
+    "type": "word",
+    "front": "reduced timetable",
+    "meaning": "缩减后的交通时刻表",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003769",
+    "source": "Review11 Scene 212"
+  },
+  {
+    "type": "word",
+    "front": "service suspension",
+    "meaning": "服务暂停运行",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003770",
+    "source": "Review11 Scene 212"
+  },
+  {
+    "type": "word",
+    "front": "rail replacement bus",
+    "meaning": "铁路替代巴士",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003771",
+    "source": "Review11 Scene 212"
+  },
+  {
+    "type": "word",
+    "front": "replacement coach",
+    "meaning": "替代铁路服务的长途大巴",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003772",
+    "source": "Review11 Scene 212"
+  },
+  {
+    "type": "word",
+    "front": "temporary boarding point",
+    "meaning": "临时上车地点",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003773",
+    "source": "Review11 Scene 212"
+  },
+  {
+    "type": "word",
+    "front": "coach stand",
+    "meaning": "大巴站台或指定发车站位",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003774",
+    "source": "Review11 Scene 212"
+  },
+  {
+    "type": "word",
+    "front": "ticket acceptance",
+    "meaning": "其他交通服务对原车票的接受安排",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003775",
+    "source": "Review11 Scene 212"
+  },
+  {
+    "type": "word",
+    "front": "alternative operator",
+    "meaning": "可以提供替代服务的运营商",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003776",
+    "source": "Review11 Scene 212"
+  },
+  {
+    "type": "word",
+    "front": "revised timetable",
+    "meaning": "调整后的运行时刻表",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003777",
+    "source": "Review11 Scene 212"
+  },
+  {
+    "type": "word",
+    "front": "journey planner",
+    "meaning": "出行规划工具",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003778",
+    "source": "Review11 Scene 212"
+  },
+  {
+    "type": "word",
+    "front": "direct service",
+    "meaning": "无需中途换乘的直达服务",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003779",
+    "source": "Review11 Scene 212"
+  },
+  {
+    "type": "word",
+    "front": "onward connection",
+    "meaning": "当前旅程之后的下一段换乘",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003780",
+    "source": "Review11 Scene 212"
+  },
+  {
+    "type": "word",
+    "front": "revised itinerary",
+    "meaning": "调整后的完整行程安排",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003781",
+    "source": "Review11 Scene 212"
+  },
+  {
+    "type": "word",
+    "front": "journey abandonment",
+    "meaning": "因交通异常而放弃原定行程",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003782",
+    "source": "Review11 Scene 212"
+  },
+  {
+    "type": "word",
+    "front": "travel disruption",
+    "meaning": "交通中断、正常出行受扰",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003783",
+    "source": "Review11 Scene 212"
+  },
+  {
+    "type": "sentence",
+    "front": "My train was cancelled, and I need to check whether my ticket is valid on the replacement coach.",
+    "meaning": "我的火车取消了，我需要确认原车票是否适用于替代大巴。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003784",
+    "source": "Review11 Scene 212"
+  },
+  {
+    "type": "sentence",
+    "front": "The revised timetable means I'll probably miss my onward connection.",
+    "meaning": "调整后的时刻表意味着我很可能赶不上下一段换乘。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003785",
+    "source": "Review11 Scene 212"
+  },
+  {
+    "type": "word",
+    "front": "fog bank",
+    "meaning": "一大片浓雾",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003786",
+    "source": "Review11 Scene 213"
+  },
+  {
+    "type": "word",
+    "front": "roll in",
+    "meaning": "云、雾或恶劣天气逐渐涌入",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003787",
+    "source": "Review11 Scene 213"
+  },
+  {
+    "type": "word",
+    "front": "low cloud",
+    "meaning": "低云层",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003788",
+    "source": "Review11 Scene 213"
+  },
+  {
+    "type": "word",
+    "front": "cloud base",
+    "meaning": "云底高度",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003789",
+    "source": "Review11 Scene 213"
+  },
+  {
+    "type": "word",
+    "front": "visibility drops",
+    "meaning": "能见度下降",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003790",
+    "source": "Review11 Scene 213"
+  },
+  {
+    "type": "word",
+    "front": "visibility range",
+    "meaning": "能见距离、可视范围",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003791",
+    "source": "Review11 Scene 213"
+  },
+  {
+    "type": "word",
+    "front": "line of sight",
+    "meaning": "从观察点到目标的直接视线",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003792",
+    "source": "Review11 Scene 213"
+  },
+  {
+    "type": "word",
+    "front": "ridge crest",
+    "meaning": "山脊顶部",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003793",
+    "source": "Review11 Scene 213"
+  },
+  {
+    "type": "word",
+    "front": "steep drop-off",
+    "meaning": "地形突然陡降的边缘",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003794",
+    "source": "Review11 Scene 213"
+  },
+  {
+    "type": "word",
+    "front": "cliff edge",
+    "meaning": "悬崖边缘",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003795",
+    "source": "Review11 Scene 213"
+  },
+  {
+    "type": "word",
+    "front": "disoriented",
+    "meaning": "方向感混乱的",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003796",
+    "source": "Review11 Scene 213"
+  },
+  {
+    "type": "word",
+    "front": "lose your bearings",
+    "meaning": "失去方向感",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003797",
+    "source": "Review11 Scene 213"
+  },
+  {
+    "type": "word",
+    "front": "within earshot",
+    "meaning": "处在能互相听见的距离内",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003798",
+    "source": "Review11 Scene 213"
+  },
+  {
+    "type": "word",
+    "front": "regroup",
+    "meaning": "分散的人重新集合",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003799",
+    "source": "Review11 Scene 213"
+  },
+  {
+    "type": "word",
+    "front": "retreat route",
+    "meaning": "撤退路线",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003800",
+    "source": "Review11 Scene 213"
+  },
+  {
+    "type": "word",
+    "front": "the fog lifts",
+    "meaning": "大雾逐渐消散",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003801",
+    "source": "Review11 Scene 213"
+  },
+  {
+    "type": "word",
+    "front": "a break in the cloud",
+    "meaning": "云层短暂散开形成的空隙",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003802",
+    "source": "Review11 Scene 213"
+  },
+  {
+    "type": "sentence",
+    "front": "We lost our bearings in the fog, so we regrouped and followed a confirmed retreat route.",
+    "meaning": "我们在浓雾中失去方向感，于是重新集合，沿确认的撤退路线返回。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003803",
+    "source": "Review11 Scene 213"
+  },
+  {
+    "type": "sentence",
+    "front": "Visibility dropped so much that we could barely make out the trail ahead.",
+    "meaning": "能见度下降得很严重，我们几乎辨认不出前方步道。",
+    "example": "",
+    "weight": 3,
+    "id": "sw-003804",
+    "source": "Review11 Scene 213"
   }
 ];
 
