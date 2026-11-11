@@ -174,6 +174,27 @@
       pointer-events: none;
       font-variant-numeric: tabular-nums;
     }
+    /* Tap-to-speak: separate from swipe gestures, opposite the manage button. */
+    #sw-speak-button {
+      position: fixed;
+      z-index: 100;
+      left: max(20px, env(safe-area-inset-left));
+      bottom: max(20px, env(safe-area-inset-bottom));
+      width: 50px;
+      height: 50px;
+      border: 0;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      background: rgba(35,35,35,.08);
+      color: #222;
+      font-size: 25px;
+      cursor: pointer;
+      touch-action: manipulation;
+    }
+    #sw-speak-button.speaking {background: rgba(35,35,35,.18);}
+    #sw-speak-button:focus-visible {outline: 2px solid #222; outline-offset: 3px;}
+
     /* SwipeWords local removal and restoration panel */
     #sw-menu-button {
       position: fixed;
