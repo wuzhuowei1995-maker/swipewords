@@ -23254,7 +23254,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "meal prep",
     "meaning": "提前准备未来几顿饭",
-    "example": "辨析：meal prep 可只备食材；batch-cook 强调集中烹制。",
+    "example": "辨析：meal prep 可只备食材；batch-cook 强调集中烹制。\nExample: During meal prep, I washed and chopped the vegetables for the next two days.",
     "weight": 3,
     "id": "sw-003352",
     "source": "Review10 Scene 190"
@@ -24289,7 +24289,7 @@ const VOCABULARY = [
     "type": "ladder",
     "front": "use-by date / best-before date",
     "meaning": "安全食用截止日期 / 最佳品质日期",
-    "example": "辨析：不能因为闻起来正常就忽略 use-by；best-before 更侧重品质。",
+    "example": "辨析：不能因为闻起来正常就忽略 use-by；best-before 更侧重品质。\nExample: The yoghurt is past its use-by date, but the biscuits are only past their best-before date.",
     "weight": 3,
     "id": "sw-003470",
     "source": "Review10 Contrasts"
@@ -24298,7 +24298,7 @@ const VOCABULARY = [
     "type": "ladder",
     "front": "meal prep / batch-cook",
     "meaning": "提前备餐 / 一次集中做多份",
-    "example": "辨析：meal prep 可只备食材；batch-cook 强调集中烹制。",
+    "example": "辨析：meal prep 可只备食材；batch-cook 强调集中烹制。\nExample: I did some meal prep by chopping vegetables, then batch-cooked four portions of soup.",
     "weight": 3,
     "id": "sw-003471",
     "source": "Review10 Contrasts"
@@ -24307,7 +24307,7 @@ const VOCABULARY = [
     "type": "ladder",
     "front": "rinse off / rinse out",
     "meaning": "冲掉表面残留 / 冲洗容器内部",
-    "example": "辨析：介词改变动作的作用位置。",
+    "example": "辨析：介词改变动作的作用位置。\nExample: Rinse off the dirt on the outside, then rinse out the container.",
     "weight": 3,
     "id": "sw-003472",
     "source": "Review10 Contrasts"
@@ -24316,7 +24316,7 @@ const VOCABULARY = [
     "type": "ladder",
     "front": "reduce sauce / thicken up",
     "meaning": "通过蒸发收汁 / 稠度逐渐增加",
-    "example": "辨析：前者是过程和方法，后者是结果。",
+    "example": "辨析：前者是过程和方法，后者是结果。\nExample: I reduced the sauce over low heat and waited for it to thicken up.",
     "weight": 3,
     "id": "sw-003473",
     "source": "Review10 Contrasts"
@@ -24325,7 +24325,7 @@ const VOCABULARY = [
     "type": "ladder",
     "front": "source of funds / source of wealth",
     "meaning": "具体资金来源 / 整体财富积累来源",
-    "example": "辨析：银行核查对象不同。",
+    "example": "辨析：银行核查对象不同。\nExample: The bank asked for the source of funds for the transfer and the source of wealth behind my savings.",
     "weight": 3,
     "id": "sw-003474",
     "source": "Review10 Contrasts"
@@ -24334,7 +24334,7 @@ const VOCABULARY = [
     "type": "ladder",
     "front": "comparable room / complimentary upgrade",
     "meaning": "条件相近的房间 / 免费升级",
-    "example": "辨析：换房不等于获得更高等级房型。",
+    "example": "辨析：换房不等于获得更高等级房型。\nExample: I requested a comparable room, but the hotel offered a complimentary upgrade.",
     "weight": 3,
     "id": "sw-003475",
     "source": "Review10 Contrasts"
@@ -24343,7 +24343,7 @@ const VOCABULARY = [
     "type": "ladder",
     "front": "taper / fade",
     "meaning": "自然渐短 / 短发渐变推剪",
-    "example": "辨析：理发术语有交叉，但 fade 往往更突出由短到长的过渡。",
+    "example": "辨析：理发术语有交叉，但 fade 往往更突出由短到长的过渡。\nExample: The barber used a gradual taper at the back and a sharper fade around the sides.",
     "weight": 3,
     "id": "sw-003476",
     "source": "Review10 Contrasts"
@@ -24352,7 +24352,7 @@ const VOCABULARY = [
     "type": "ladder",
     "front": "thin walls / soundproofing",
     "meaning": "薄墙 / 隔音性能",
-    "example": "辨析：前者可能是差隔音的原因，后者是整体效果。",
+    "example": "辨析：前者可能是差隔音的原因，后者是整体效果。\nExample: The thin walls let noise travel between rooms, so the soundproofing was poor.",
     "weight": 3,
     "id": "sw-003477",
     "source": "Review10 Contrasts"
@@ -24361,7 +24361,7 @@ const VOCABULARY = [
     "type": "ladder",
     "front": "transfer window / fare zone",
     "meaning": "换乘时间窗口 / 票价地理分区",
-    "example": "辨析：一项是时间条件，一项是地理条件。",
+    "example": "辨析：一项是时间条件，一项是地理条件。\nExample: The ticket is valid within this fare zone, and the transfer window lasts ninety minutes.",
     "weight": 3,
     "id": "sw-003478",
     "source": "Review10 Contrasts"
@@ -24370,7 +24370,7 @@ const VOCABULARY = [
     "type": "ladder",
     "front": "run dry / stagnant water",
     "meaning": "水源干涸 / 水体停滞不流动",
-    "example": "辨析：无水与有水但不流动是两种问题。",
+    "example": "辨析：无水与有水但不流动是两种问题。\nExample: The spring can run dry in summer, while stagnant water may remain in the old pool.",
     "weight": 3,
     "id": "sw-003479",
     "source": "Review10 Contrasts"
@@ -24379,7 +24379,7 @@ const VOCABULARY = [
     "type": "ladder",
     "front": "refill point / resupply point",
     "meaning": "补水点 / 补充各类物资的地点",
-    "example": "辨析：resupply 范围更广。",
+    "example": "辨析：resupply 范围更广。\nExample: We filled our bottles at the refill point and bought food at the next resupply point.",
     "weight": 3,
     "id": "sw-003480",
     "source": "Review10 Contrasts"
@@ -24388,7 +24388,7 @@ const VOCABULARY = [
     "type": "ladder",
     "front": "contour line / contour interval",
     "meaning": "等高线 / 相邻等高线的海拔差",
-    "example": "辨析：一个是图上曲线，一个是标注的数值。",
+    "example": "辨析：一个是图上曲线，一个是标注的数值。\nExample: Each contour line shows an elevation, and the contour interval is twenty metres.",
     "weight": 3,
     "id": "sw-003481",
     "source": "Review10 Contrasts"
@@ -24397,7 +24397,7 @@ const VOCABULARY = [
     "type": "ladder",
     "front": "GPS drift / false trail",
     "meaning": "定位漂移 / 可能误导的实际小径",
-    "example": "辨析：前者为设备定位问题，后者为现场路径问题。",
+    "example": "辨析：前者为设备定位问题，后者为现场路径问题。\nExample: GPS drift shifted our location on the map, while a false trail led into the wrong valley.",
     "weight": 3,
     "id": "sw-003482",
     "source": "Review10 Contrasts"
@@ -24406,7 +24406,7 @@ const VOCABULARY = [
     "type": "ladder",
     "front": "customer retention / repeat purchase",
     "meaning": "客户留存 / 单次重复购买",
-    "example": "辨析：前者是整体关系或指标，后者是具体行为。",
+    "example": "辨析：前者是整体关系或指标，后者是具体行为。\nExample: Customer retention improved, and the share of customers making a repeat purchase also rose.",
     "weight": 3,
     "id": "sw-003483",
     "source": "Review10 Contrasts"
@@ -24415,7 +24415,7 @@ const VOCABULARY = [
     "type": "ladder",
     "front": "switching costs / lock-in effect",
     "meaning": "更换服务的障碍 / 因障碍留在原平台的结果",
-    "example": "辨析：转换成本是机制之一，锁定效应是结果。",
+    "example": "辨析：转换成本是机制之一，锁定效应是结果。\nExample: High switching costs can create a lock-in effect that keeps customers with one service.",
     "weight": 3,
     "id": "sw-003484",
     "source": "Review10 Contrasts"
@@ -24424,7 +24424,7 @@ const VOCABULARY = [
     "type": "ladder",
     "front": "headcount / plus-one",
     "meaning": "活动总人数 / 额外携带的同行者",
-    "example": "辨析：增加一位 plus-one 通常需要更新 headcount。",
+    "example": "辨析：增加一位 plus-one 通常需要更新 headcount。\nExample: The guest brought a plus-one, so we increased the headcount by one.",
     "weight": 3,
     "id": "sw-003485",
     "source": "Review10 Contrasts"
@@ -24433,7 +24433,7 @@ const VOCABULARY = [
     "type": "ladder",
     "front": "berth / compartment",
     "meaning": "卧铺位置 / 车厢独立包间",
-    "example": "辨析：一个是睡觉的铺位，一个是容纳铺位的空间。",
+    "example": "辨析：一个是睡觉的铺位，一个是容纳铺位的空间。\nExample: My berth was the upper bunk in a four-person sleeping compartment.",
     "weight": 3,
     "id": "sw-003486",
     "source": "Review10 Contrasts"
@@ -24442,7 +24442,7 @@ const VOCABULARY = [
     "type": "ladder",
     "front": "baggage tag / tracing reference",
     "meaning": "托运行李标签编号 / 行李异常案件编号",
-    "example": "辨析：两个号码用于不同追踪目的。",
+    "example": "辨析：两个号码用于不同追踪目的。\nExample: I gave the airline my baggage tag number and the tracing reference for the missing suitcase.",
     "weight": 3,
     "id": "sw-003487",
     "source": "Review10 Contrasts"
@@ -24451,7 +24451,7 @@ const VOCABULARY = [
     "type": "ladder",
     "front": "microspikes / crampons",
     "meaning": "轻型防滑链 / 登山冰爪",
-    "example": "辨析：适用地形及技术要求不同，不能随意互相替代。",
+    "example": "辨析：适用地形及技术要求不同，不能随意互相替代。\nExample: Microspikes may help on a mildly icy path, but technical slopes can require crampons.",
     "weight": 3,
     "id": "sw-003488",
     "source": "Review10 Contrasts"
@@ -24460,7 +24460,7 @@ const VOCABULARY = [
     "type": "ladder",
     "front": "thermal conductivity / heat capacity",
     "meaning": "热导率 / 热容量",
-    "example": "辨析：一个与传热速度相关，一个与温度变化所需热量相关。",
+    "example": "辨析：一个与传热速度相关，一个与温度变化所需热量相关。\nExample: Thermal conductivity affects how quickly heat moves, while heat capacity describes how much energy raises an object's temperature.",
     "weight": 3,
     "id": "sw-003489",
     "source": "Review10 Contrasts"
