@@ -27161,7 +27161,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "lose your bearings",
     "meaning": "失去方向感",
-    "example": "",
+    "example": "We lost our bearings in the fog and returned to our last confirmed waypoint.",
     "weight": 3,
     "id": "sw-003797",
     "source": "Review11 Scene 213"
@@ -27170,7 +27170,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "within earshot",
     "meaning": "处在能互相听见的距离内",
-    "example": "",
+    "example": "Stay within earshot so we can communicate in poor visibility.",
     "weight": 3,
     "id": "sw-003798",
     "source": "Review11 Scene 213"
@@ -27179,7 +27179,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "regroup",
     "meaning": "分散的人重新集合",
-    "example": "",
+    "example": "We regrouped at the junction before continuing.",
     "weight": 3,
     "id": "sw-003799",
     "source": "Review11 Scene 213"
@@ -27197,7 +27197,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "the fog lifts",
     "meaning": "大雾逐渐消散",
-    "example": "",
+    "example": "We'll wait in the shelter until the fog lifts.",
     "weight": 3,
     "id": "sw-003801",
     "source": "Review11 Scene 213"
@@ -27206,7 +27206,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "a break in the cloud",
     "meaning": "云层短暂散开形成的空隙",
-    "example": "",
+    "example": "A brief break in the cloud revealed the summit.",
     "weight": 3,
     "id": "sw-003802",
     "source": "Review11 Scene 213"
@@ -27242,7 +27242,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "print queue",
     "meaning": "等待打印的任务队列",
-    "example": "",
+    "example": "My document was stuck in the print queue.",
     "weight": 3,
     "id": "sw-003806",
     "source": "Review11 Scene 214"
@@ -27251,7 +27251,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "double-sided printing",
     "meaning": "双面打印",
-    "example": "",
+    "example": "Double-sided printing saves paper on longer assignments.",
     "weight": 3,
     "id": "sw-003807",
     "source": "Review11 Scene 214"
@@ -27260,7 +27260,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "single-sided printing",
     "meaning": "单面打印",
-    "example": "",
+    "example": "Choose single-sided printing if the teacher requires it.",
     "weight": 3,
     "id": "sw-003808",
     "source": "Review11 Scene 214"
@@ -27269,7 +27269,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "page orientation",
     "meaning": "页面横向或纵向设置",
-    "example": "",
+    "example": "Change the page orientation to landscape for the wide table.",
     "weight": 3,
     "id": "sw-003809",
     "source": "Review11 Scene 214"
@@ -27278,7 +27278,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "page range",
     "meaning": "打印页码范围",
-    "example": "",
+    "example": "Select the page range if you only need pages three to five.",
     "weight": 3,
     "id": "sw-003810",
     "source": "Review11 Scene 214"
@@ -27287,7 +27287,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "paper tray",
     "meaning": "打印机纸盒、进纸托盘",
-    "example": "",
+    "example": "The printer stopped because the paper tray was empty.",
     "weight": 3,
     "id": "sw-003811",
     "source": "Review11 Scene 214"
@@ -27296,7 +27296,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "misfeed",
     "meaning": "进纸错误",
-    "example": "",
+    "example": "A misfeed caused the paper to enter the printer at an angle.",
     "weight": 3,
     "id": "sw-003812",
     "source": "Review11 Scene 214"
@@ -27305,7 +27305,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "clear a jam",
     "meaning": "清除卡纸等内部堵塞",
-    "example": "",
+    "example": "I opened the printer to clear a jam.",
     "weight": 3,
     "id": "sw-003813",
     "source": "Review11 Scene 214"
@@ -27314,7 +27314,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "test page",
     "meaning": "测试打印页",
-    "example": "",
+    "example": "Print a test page to check the alignment.",
     "weight": 3,
     "id": "sw-003814",
     "source": "Review11 Scene 214"
@@ -27323,7 +27323,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "collate",
     "meaning": "逐份按页码正确顺序排列打印件",
-    "example": "",
+    "example": "Select the option to collate the pages into complete sets.",
     "weight": 3,
     "id": "sw-003815",
     "source": "Review11 Scene 214"
@@ -27332,7 +27332,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "scaling",
     "meaning": "打印时对内容进行缩放",
-    "example": "",
+    "example": "Adjust the scaling so the diagram fits on one sheet.",
     "weight": 3,
     "id": "sw-003816",
     "source": "Review11 Scene 214"
@@ -27341,7 +27341,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "misaligned",
     "meaning": "未正确对齐、位置偏移的",
-    "example": "",
+    "example": "The text was misaligned after I changed the margins.",
     "weight": 3,
     "id": "sw-003817",
     "source": "Review11 Scene 214"
@@ -27350,7 +27350,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "ink smudge",
     "meaning": "油墨被蹭开的污迹",
-    "example": "",
+    "example": "An ink smudge covered part of the printed text.",
     "weight": 3,
     "id": "sw-003818",
     "source": "Review11 Scene 214"
@@ -27359,7 +27359,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "spiral binding",
     "meaning": "螺旋装订",
-    "example": "",
+    "example": "I chose spiral binding for the final report.",
     "weight": 3,
     "id": "sw-003820",
     "source": "Review11 Scene 214"
@@ -27386,7 +27386,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "be locked out",
     "meaning": "被锁在门外或无法进入账户",
-    "example": "",
+    "example": "I was locked out of my room after leaving my keys inside.",
     "weight": 3,
     "id": "sw-003823",
     "source": "Review11 Scene 215"
@@ -27395,7 +27395,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "automatic locking",
     "meaning": "自动上锁机制",
-    "example": "",
+    "example": "The door has automatic locking, so don't leave the key inside.",
     "weight": 3,
     "id": "sw-003824",
     "source": "Review11 Scene 215"
@@ -27404,7 +27404,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "keyring",
     "meaning": "钥匙圈、钥匙串",
-    "example": "",
+    "example": "I keep my room key on the same keyring as my bicycle key.",
     "weight": 3,
     "id": "sw-003825",
     "source": "Review11 Scene 215"
@@ -27422,7 +27422,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "spare set",
     "meaning": "备用的一整套钥匙或物品",
-    "example": "",
+    "example": "The reception desk keeps a spare set of room keys.",
     "weight": 3,
     "id": "sw-003827",
     "source": "Review11 Scene 215"
@@ -27431,7 +27431,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "key fob",
     "meaning": "电子门禁钥匙扣",
-    "example": "",
+    "example": "My key fob stopped working at the building entrance.",
     "weight": 3,
     "id": "sw-003828",
     "source": "Review11 Scene 215"
@@ -27440,7 +27440,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "access badge",
     "meaning": "门禁卡、身份识别卡",
-    "example": "",
+    "example": "I scanned my access badge to enter the staff area.",
     "weight": 3,
     "id": "sw-003829",
     "source": "Review11 Scene 215"
@@ -27449,7 +27449,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "caretaker",
     "meaning": "楼宇照看、管理或维修人员",
-    "example": "",
+    "example": "I called the caretaker to report the broken lock.",
     "weight": 3,
     "id": "sw-003830",
     "source": "Review11 Scene 215"
@@ -27458,7 +27458,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "identity verification",
     "meaning": "身份核实",
-    "example": "",
+    "example": "The staff required identity verification before issuing a replacement key.",
     "weight": 3,
     "id": "sw-003831",
     "source": "Review11 Scene 215"
@@ -27467,7 +27467,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "let someone in",
     "meaning": "开门让某人进入",
-    "example": "",
+    "example": "Could you let me in? I've left my key upstairs.",
     "weight": 3,
     "id": "sw-003832",
     "source": "Review11 Scene 215"
@@ -27476,7 +27476,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "after-hours service",
     "meaning": "非正常营业时间提供的服务",
-    "example": "",
+    "example": "The building offers after-hours service for urgent lock problems.",
     "weight": 3,
     "id": "sw-003833",
     "source": "Review11 Scene 215"
@@ -27494,7 +27494,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "lock cylinder",
     "meaning": "锁芯",
-    "example": "",
+    "example": "The locksmith replaced the damaged lock cylinder.",
     "weight": 3,
     "id": "sw-003835",
     "source": "Review11 Scene 215"
@@ -27503,7 +27503,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "rekey a lock",
     "meaning": "重新配置锁芯使旧钥匙失效",
-    "example": "",
+    "example": "The landlord decided to rekey the lock after a key went missing.",
     "weight": 3,
     "id": "sw-003836",
     "source": "Review11 Scene 215"
@@ -27512,7 +27512,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "replacement key",
     "meaning": "补办的钥匙",
-    "example": "",
+    "example": "I paid for a replacement key at reception.",
     "weight": 3,
     "id": "sw-003837",
     "source": "Review11 Scene 215"
@@ -27521,7 +27521,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "key cutting",
     "meaning": "配钥匙、复制钥匙服务",
-    "example": "",
+    "example": "The shop offers a key-cutting service.",
     "weight": 3,
     "id": "sw-003838",
     "source": "Review11 Scene 215"
@@ -27530,7 +27530,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "authorise access",
     "meaning": "批准某人进入的权限",
-    "example": "",
+    "example": "The manager must authorise access to the restricted room.",
     "weight": 3,
     "id": "sw-003839",
     "source": "Review11 Scene 215"
@@ -27557,7 +27557,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "geopolitical risk premium",
     "meaning": "地缘政治风险溢价",
-    "example": "",
+    "example": "A geopolitical risk premium can raise the price of oil during a crisis.",
     "weight": 3,
     "id": "sw-003842",
     "source": "Review11 Scene 216"
@@ -27566,7 +27566,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "de-escalation",
     "meaning": "局势缓和、冲突降级",
-    "example": "",
+    "example": "Signs of de-escalation eased some investors' concerns.",
     "weight": 3,
     "id": "sw-003843",
     "source": "Review11 Scene 216"
@@ -27575,7 +27575,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "peace talks",
     "meaning": "和平谈判",
-    "example": "",
+    "example": "The two sides agreed to resume peace talks.",
     "weight": 3,
     "id": "sw-003844",
     "source": "Review11 Scene 216"
@@ -27584,7 +27584,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "supply disruption",
     "meaning": "供应中断",
-    "example": "",
+    "example": "A supply disruption could affect energy prices.",
     "weight": 3,
     "id": "sw-003845",
     "source": "Review11 Scene 216"
@@ -27593,7 +27593,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "shipping route",
     "meaning": "航运路线",
-    "example": "",
+    "example": "The shipping route passes through a strategically important strait.",
     "weight": 3,
     "id": "sw-003846",
     "source": "Review11 Scene 216"
@@ -27602,7 +27602,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "energy market",
     "meaning": "能源市场",
-    "example": "",
+    "example": "The energy market reacted sharply to the announcement.",
     "weight": 3,
     "id": "sw-003847",
     "source": "Review11 Scene 216"
@@ -27611,7 +27611,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "oil benchmark",
     "meaning": "油价基准",
-    "example": "",
+    "example": "Brent is widely used as an oil benchmark.",
     "weight": 3,
     "id": "sw-003848",
     "source": "Review11 Scene 216"
@@ -27620,7 +27620,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "Brent crude",
     "meaning": "布伦特原油",
-    "example": "",
+    "example": "Brent crude prices rose after the supply warning.",
     "weight": 3,
     "id": "sw-003849",
     "source": "Review11 Scene 216"
@@ -27629,7 +27629,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "risk appetite",
     "meaning": "投资者风险偏好",
-    "example": "",
+    "example": "Lower bond yields can sometimes support investors' risk appetite.",
     "weight": 3,
     "id": "sw-003850",
     "source": "Review11 Scene 216"
@@ -27638,7 +27638,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "risk-off sentiment",
     "meaning": "市场避险情绪",
-    "example": "",
+    "example": "Risk-off sentiment pushed investors towards perceived safe-haven assets.",
     "weight": 3,
     "id": "sw-003851",
     "source": "Review11 Scene 216"
@@ -27656,7 +27656,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "broad-based rebound",
     "meaning": "多个板块共同参与的广泛反弹",
-    "example": "",
+    "example": "The rebound was broad-based, with gains across several sectors.",
     "weight": 3,
     "id": "sw-003853",
     "source": "Review11 Scene 216"
@@ -27665,7 +27665,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "energy-intensive",
     "meaning": "高耗能的",
-    "example": "",
+    "example": "Smelting aluminium is an energy-intensive industrial process.",
     "weight": 3,
     "id": "sw-003854",
     "source": "Review11 Scene 216"
@@ -27674,7 +27674,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "input costs",
     "meaning": "生产或服务投入成本",
-    "example": "",
+    "example": "Rising input costs squeezed the manufacturer's profit margins.",
     "weight": 3,
     "id": "sw-003855",
     "source": "Review11 Scene 216"
@@ -27683,7 +27683,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "margin pressure",
     "meaning": "利润率受到挤压的压力",
-    "example": "",
+    "example": "Higher wages and energy bills created margin pressure.",
     "weight": 3,
     "id": "sw-003856",
     "source": "Review11 Scene 216"
@@ -27692,7 +27692,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "earnings catalyst",
     "meaning": "可能引发股价重估的业绩事件",
-    "example": "",
+    "example": "The upcoming earnings report could be an earnings catalyst.",
     "weight": 3,
     "id": "sw-003857",
     "source": "Review11 Scene 216"
@@ -27701,7 +27701,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "staying power",
     "meaning": "某个趋势持续下去的能力",
-    "example": "",
+    "example": "We need to see whether the rally has staying power.",
     "weight": 3,
     "id": "sw-003858",
     "source": "Review11 Scene 216"
@@ -27710,7 +27710,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "headline risk",
     "meaning": "突发新闻引发市场波动的风险",
-    "example": "",
+    "example": "Unexpected political announcements can create headline risk for investors.",
     "weight": 3,
     "id": "sw-003859",
     "source": "Review11 Scene 216"
@@ -27737,7 +27737,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "probability of precipitation",
     "meaning": "降水概率",
-    "example": "",
+    "example": "The forecast shows a sixty-percent probability of precipitation.",
     "weight": 3,
     "id": "sw-003862",
     "source": "Review11 Scene 217"
@@ -27746,7 +27746,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "forecast horizon",
     "meaning": "天气预报向未来预测的时间跨度",
-    "example": "",
+    "example": "Uncertainty often increases at a longer forecast horizon.",
     "weight": 3,
     "id": "sw-003863",
     "source": "Review11 Scene 217"
@@ -27755,7 +27755,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "forecast confidence",
     "meaning": "天气预测的可信度",
-    "example": "",
+    "example": "Forecast confidence was relatively low for the weekend.",
     "weight": 3,
     "id": "sw-003864",
     "source": "Review11 Scene 217"
@@ -27764,7 +27764,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "weather model",
     "meaning": "天气模拟模型",
-    "example": "",
+    "example": "A weather model simulates the atmosphere using mathematical equations.",
     "weight": 3,
     "id": "sw-003865",
     "source": "Review11 Scene 217"
@@ -27773,7 +27773,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "model run",
     "meaning": "模型的一次计算运行及结果",
-    "example": "",
+    "example": "The latest model run shifted the expected rainfall farther east.",
     "weight": 3,
     "id": "sw-003866",
     "source": "Review11 Scene 217"
@@ -27782,7 +27782,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "ensemble forecast",
     "meaning": "集合预报，运行多组模拟",
-    "example": "",
+    "example": "The ensemble forecast showed several possible storm tracks.",
     "weight": 3,
     "id": "sw-003867",
     "source": "Review11 Scene 217"
@@ -27800,7 +27800,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "initial conditions",
     "meaning": "模型计算的初始条件",
-    "example": "",
+    "example": "Small differences in initial conditions can change the model's results.",
     "weight": 3,
     "id": "sw-003869",
     "source": "Review11 Scene 217"
@@ -27809,7 +27809,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "atmospheric conditions",
     "meaning": "温度、气压、湿度等大气条件",
-    "example": "",
+    "example": "Atmospheric conditions changed rapidly near the front.",
     "weight": 3,
     "id": "sw-003870",
     "source": "Review11 Scene 217"
@@ -27818,7 +27818,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "nowcasting",
     "meaning": "临近预报，针对很短时间内的天气",
-    "example": "",
+    "example": "Nowcasting is useful for monitoring rain over the next few hours.",
     "weight": 3,
     "id": "sw-003871",
     "source": "Review11 Scene 217"
@@ -27827,7 +27827,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "localised shower",
     "meaning": "局部阵雨",
-    "example": "",
+    "example": "A localised shower passed over the village while nearby areas stayed dry.",
     "weight": 3,
     "id": "sw-003872",
     "source": "Review11 Scene 217"
@@ -27836,7 +27836,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "rain band",
     "meaning": "带状降雨区域",
-    "example": "",
+    "example": "A narrow rain band moved across the coast.",
     "weight": 3,
     "id": "sw-003873",
     "source": "Review11 Scene 217"
@@ -27845,7 +27845,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "model resolution",
     "meaning": "天气模型的空间分辨率",
-    "example": "",
+    "example": "A model's resolution affects how much local detail it can represent.",
     "weight": 3,
     "id": "sw-003874",
     "source": "Review11 Scene 217"
@@ -27854,7 +27854,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "microclimate",
     "meaning": "局部小气候",
-    "example": "",
+    "example": "The valley has a cooler microclimate than the nearby city.",
     "weight": 3,
     "id": "sw-003875",
     "source": "Review11 Scene 217"
@@ -27863,7 +27863,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "rain gauge",
     "meaning": "雨量计",
-    "example": "",
+    "example": "The rain gauge measured twelve millimetres of rain.",
     "weight": 3,
     "id": "sw-003876",
     "source": "Review11 Scene 217"
@@ -27872,7 +27872,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "observation network",
     "meaning": "多个观测站点构成的观测网络",
-    "example": "",
+    "example": "The observation network includes weather stations across the region.",
     "weight": 3,
     "id": "sw-003877",
     "source": "Review11 Scene 217"
@@ -27881,7 +27881,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "forecast update cycle",
     "meaning": "预报或模型定期更新的周期",
-    "example": "",
+    "example": "Check the forecast update cycle before relying on an old model run.",
     "weight": 3,
     "id": "sw-003878",
     "source": "Review11 Scene 217"
@@ -27917,7 +27917,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "self-check-in",
     "meaning": "自助办理入住",
-    "example": "",
+    "example": "The hotel offers self-check-in for late arrivals.",
     "weight": 3,
     "id": "sw-003882",
     "source": "Review11 Scene 218"
@@ -27926,7 +27926,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "entry instructions",
     "meaning": "进入住宿设施的具体说明",
-    "example": "",
+    "example": "I didn't receive the entry instructions before reaching the apartment.",
     "weight": 3,
     "id": "sw-003883",
     "source": "Review11 Scene 218"
@@ -27944,7 +27944,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "keypad",
     "meaning": "数字键盘",
-    "example": "",
+    "example": "Enter the code on the keypad beside the door.",
     "weight": 3,
     "id": "sw-003885",
     "source": "Review11 Scene 218"
@@ -27953,7 +27953,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "keyless entry",
     "meaning": "无钥匙进入系统",
-    "example": "",
+    "example": "The building uses a keyless entry system.",
     "weight": 3,
     "id": "sw-003886",
     "source": "Review11 Scene 218"
@@ -27962,7 +27962,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "activate a code",
     "meaning": "使密码开始有效",
-    "example": "",
+    "example": "The host needs to activate the code before you can enter.",
     "weight": 3,
     "id": "sw-003887",
     "source": "Review11 Scene 218"
@@ -27971,7 +27971,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "code expiry",
     "meaning": "密码过期或失效时间",
-    "example": "",
+    "example": "The email explains the code expiry time.",
     "weight": 3,
     "id": "sw-003888",
     "source": "Review11 Scene 218"
@@ -27980,7 +27980,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "emergency helpline",
     "meaning": "紧急服务热线",
-    "example": "",
+    "example": "I called the emergency helpline because the entry code failed.",
     "weight": 3,
     "id": "sw-003889",
     "source": "Review11 Scene 218"
@@ -27989,7 +27989,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "booking reference",
     "meaning": "预订识别编号",
-    "example": "",
+    "example": "Keep your booking reference ready when contacting the hotel.",
     "weight": 3,
     "id": "sw-003890",
     "source": "Review11 Scene 218"
@@ -28007,7 +28007,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "synchronise",
     "meaning": "使设备、系统或数据同步",
-    "example": "",
+    "example": "The lock needs to synchronise with the booking system.",
     "weight": 3,
     "id": "sw-003892",
     "source": "Review11 Scene 218"
@@ -28016,7 +28016,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "override code",
     "meaning": "授权情况下覆盖普通设置的管理密码",
-    "example": "",
+    "example": "The caretaker used an override code to open the door.",
     "weight": 3,
     "id": "sw-003893",
     "source": "Review11 Scene 218"
@@ -28025,7 +28025,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "lobby",
     "meaning": "入口大厅",
-    "example": "",
+    "example": "We waited in the lobby until the receptionist arrived.",
     "weight": 3,
     "id": "sw-003894",
     "source": "Review11 Scene 218"
@@ -28034,7 +28034,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "lockbox",
     "meaning": "上锁的钥匙盒或保管盒",
-    "example": "",
+    "example": "The host left the room key in a secure lockbox.",
     "weight": 3,
     "id": "sw-003895",
     "source": "Review11 Scene 218"
@@ -28052,7 +28052,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "check-out time",
     "meaning": "退房时间",
-    "example": "",
+    "example": "The hotel's check-out time is eleven in the morning.",
     "weight": 3,
     "id": "sw-003897",
     "source": "Review11 Scene 218"
@@ -28061,7 +28061,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "late-arrival arrangement",
     "meaning": "深夜抵达的入住安排",
-    "example": "",
+    "example": "We arranged late arrival with the host in advance.",
     "weight": 3,
     "id": "sw-003898",
     "source": "Review11 Scene 218"
@@ -28088,7 +28088,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "alpine pasture",
     "meaning": "高山牧场",
-    "example": "",
+    "example": "Sheep were grazing in the alpine pasture.",
     "weight": 3,
     "id": "sw-003901",
     "source": "Review11 Scene 219"
@@ -28097,7 +28097,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "livestock guardian dog",
     "meaning": "牲畜护卫犬",
-    "example": "",
+    "example": "A livestock guardian dog watched over the flock.",
     "weight": 3,
     "id": "sw-003902",
     "source": "Review11 Scene 219"
@@ -28106,7 +28106,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "working dog",
     "meaning": "工作犬",
-    "example": "",
+    "example": "The working dog stayed close to the sheep.",
     "weight": 3,
     "id": "sw-003903",
     "source": "Review11 Scene 219"
@@ -28115,7 +28115,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "flock",
     "meaning": "一群绵羊或鸟",
-    "example": "",
+    "example": "A flock of sheep blocked the footpath.",
     "weight": 3,
     "id": "sw-003904",
     "source": "Review11 Scene 219"
@@ -28124,7 +28124,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "herd",
     "meaning": "一群牛、鹿或其他牲畜",
-    "example": "",
+    "example": "A herd of cattle grazed near the stream.",
     "weight": 3,
     "id": "sw-003905",
     "source": "Review11 Scene 219"
@@ -28133,7 +28133,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "grazing",
     "meaning": "吃草、放牧",
-    "example": "",
+    "example": "Grazing animals moved slowly across the hillside.",
     "weight": 3,
     "id": "sw-003906",
     "source": "Review11 Scene 219"
@@ -28142,7 +28142,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "pasture warning sign",
     "meaning": "牧场警示牌",
-    "example": "",
+    "example": "The pasture warning sign advised hikers to keep their distance from guardian dogs.",
     "weight": 3,
     "id": "sw-003907",
     "source": "Review11 Scene 219"
@@ -28151,7 +28151,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "territorial behaviour",
     "meaning": "领地性行为",
-    "example": "",
+    "example": "The dog showed territorial behaviour as we approached the flock.",
     "weight": 3,
     "id": "sw-003908",
     "source": "Review11 Scene 219"
@@ -28160,7 +28160,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "defensive posture",
     "meaning": "防御性姿态",
-    "example": "",
+    "example": "The dog adopted a defensive posture when we got too close.",
     "weight": 3,
     "id": "sw-003909",
     "source": "Review11 Scene 219"
@@ -28169,7 +28169,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "bark at someone",
     "meaning": "朝某人吠叫",
-    "example": "",
+    "example": "The guardian dog barked at us from the field.",
     "weight": 3,
     "id": "sw-003910",
     "source": "Review11 Scene 219"
@@ -28178,7 +28178,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "approach cautiously",
     "meaning": "谨慎接近",
-    "example": "",
+    "example": "Approach cautiously and follow the posted safety guidance.",
     "weight": 3,
     "id": "sw-003911",
     "source": "Review11 Scene 219"
@@ -28187,7 +28187,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "give something a wide berth",
     "meaning": "远远绕开、与某物保持距离",
-    "example": "",
+    "example": "We gave the herd a wide berth rather than walking through it.",
     "weight": 3,
     "id": "sw-003912",
     "source": "Review11 Scene 219"
@@ -28196,7 +28196,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "avoid direct eye contact",
     "meaning": "避免持续直接盯着眼睛",
-    "example": "",
+    "example": "Avoid direct eye contact with the guarding dog if local guidance recommends it.",
     "weight": 3,
     "id": "sw-003913",
     "source": "Review11 Scene 219"
@@ -28205,7 +28205,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "provoke an animal",
     "meaning": "刺激、激怒动物",
-    "example": "",
+    "example": "Don't provoke the animal by throwing objects at it.",
     "weight": 3,
     "id": "sw-003914",
     "source": "Review11 Scene 219"
@@ -28214,7 +28214,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "pasture gate",
     "meaning": "牧场栅栏门",
-    "example": "",
+    "example": "Please close the pasture gate after passing through.",
     "weight": 3,
     "id": "sw-003915",
     "source": "Review11 Scene 219"
@@ -28223,7 +28223,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "shepherd",
     "meaning": "牧羊人",
-    "example": "",
+    "example": "The shepherd was moving the flock to another field.",
     "weight": 3,
     "id": "sw-003916",
     "source": "Review11 Scene 219"
@@ -28250,7 +28250,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "job opening",
     "meaning": "招聘职位、岗位空缺",
-    "example": "",
+    "example": "I found a job opening that matches my experience.",
     "weight": 3,
     "id": "sw-003919",
     "source": "Review11 Scene 220"
@@ -28259,7 +28259,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "be shortlisted",
     "meaning": "通过初筛、进入候选名单",
-    "example": "",
+    "example": "I was shortlisted for an interview.",
     "weight": 3,
     "id": "sw-003920",
     "source": "Review11 Scene 220"
@@ -28268,7 +28268,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "relevant experience",
     "meaning": "相关工作经验",
-    "example": "",
+    "example": "My previous role gave me relevant experience in data analysis.",
     "weight": 3,
     "id": "sw-003921",
     "source": "Review11 Scene 220"
@@ -28286,7 +28286,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "physically demanding",
     "meaning": "体力要求高的",
-    "example": "",
+    "example": "The warehouse job is physically demanding.",
     "weight": 3,
     "id": "sw-003923",
     "source": "Review11 Scene 220"
@@ -28295,7 +28295,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "work under pressure",
     "meaning": "在压力下完成工作",
-    "example": "",
+    "example": "The employer asked whether I could work under pressure.",
     "weight": 3,
     "id": "sw-003924",
     "source": "Review11 Scene 220"
@@ -28304,7 +28304,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "walk someone through",
     "meaning": "逐步向某人说明流程",
-    "example": "",
+    "example": "Could you walk me through a typical working day?",
     "weight": 3,
     "id": "sw-003925",
     "source": "Review11 Scene 220"
@@ -28322,7 +28322,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "gross pay",
     "meaning": "税前工资",
-    "example": "",
+    "example": "The contract lists gross pay before taxes and deductions.",
     "weight": 3,
     "id": "sw-003927",
     "source": "Review11 Scene 220"
@@ -28331,7 +28331,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "take-home pay",
     "meaning": "税后实际到手工资",
-    "example": "",
+    "example": "My take-home pay is lower than the gross amount.",
     "weight": 3,
     "id": "sw-003928",
     "source": "Review11 Scene 220"
@@ -28340,7 +28340,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "paid training",
     "meaning": "带薪培训",
-    "example": "",
+    "example": "The company provides paid training for new employees.",
     "weight": 3,
     "id": "sw-003929",
     "source": "Review11 Scene 220"
@@ -28349,7 +28349,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "compulsory",
     "meaning": "强制参加的、必须的",
-    "example": "",
+    "example": "Attendance at the safety briefing is compulsory.",
     "weight": 3,
     "id": "sw-003930",
     "source": "Review11 Scene 220"
@@ -28358,7 +28358,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "probationary period",
     "meaning": "试用期",
-    "example": "",
+    "example": "New employees have a three-month probationary period.",
     "weight": 3,
     "id": "sw-003931",
     "source": "Review11 Scene 220"
@@ -28367,7 +28367,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "notice period",
     "meaning": "辞职或终止合同前的提前通知期",
-    "example": "",
+    "example": "The contract specifies a notice period for resignation.",
     "weight": 3,
     "id": "sw-003932",
     "source": "Review11 Scene 220"
@@ -28376,7 +28376,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "reference check",
     "meaning": "向推荐人核实情况",
-    "example": "",
+    "example": "The employer requested permission to conduct a reference check.",
     "weight": 3,
     "id": "sw-003933",
     "source": "Review11 Scene 220"
@@ -28385,7 +28385,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "onboarding",
     "meaning": "新员工入职与岗位熟悉流程",
-    "example": "",
+    "example": "The onboarding process includes training and account setup.",
     "weight": 3,
     "id": "sw-003934",
     "source": "Review11 Scene 220"
@@ -28412,7 +28412,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "loose dog",
     "meaning": "没有被拴住、控制住的狗",
-    "example": "",
+    "example": "A loose dog ran towards the footpath.",
     "weight": 3,
     "id": "sw-003937",
     "source": "Review11 Scene 221"
@@ -28421,7 +28421,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "lunge at someone",
     "meaning": "突然朝某人扑过去",
-    "example": "",
+    "example": "The dog suddenly lunged at the cyclist.",
     "weight": 3,
     "id": "sw-003938",
     "source": "Review11 Scene 221"
@@ -28430,7 +28430,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "bite wound",
     "meaning": "咬伤形成的伤口",
-    "example": "",
+    "example": "A nurse examined the bite wound.",
     "weight": 3,
     "id": "sw-003939",
     "source": "Review11 Scene 221"
@@ -28439,7 +28439,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "break the skin",
     "meaning": "咬破或弄破皮肤",
-    "example": "",
+    "example": "The bite broke the skin and caused bleeding.",
     "weight": 3,
     "id": "sw-003940",
     "source": "Review11 Scene 221"
@@ -28448,7 +28448,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "apply pressure",
     "meaning": "按压伤口帮助控制出血",
-    "example": "",
+    "example": "I applied pressure to the wound with a clean cloth.",
     "weight": 3,
     "id": "sw-003941",
     "source": "Review11 Scene 221"
@@ -28457,7 +28457,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "emergency dispatcher",
     "meaning": "紧急救助调度员",
-    "example": "",
+    "example": "The emergency dispatcher asked for my exact location.",
     "weight": 3,
     "id": "sw-003942",
     "source": "Review11 Scene 221"
@@ -28466,7 +28466,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "report an incident",
     "meaning": "报告一起事件、事故",
-    "example": "",
+    "example": "I reported the incident to the local authorities.",
     "weight": 3,
     "id": "sw-003943",
     "source": "Review11 Scene 221"
@@ -28475,7 +28475,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "dispatch an ambulance",
     "meaning": "派遣救护车",
-    "example": "",
+    "example": "The dispatcher sent an ambulance to the scene.",
     "weight": 3,
     "id": "sw-003944",
     "source": "Review11 Scene 221"
@@ -28484,7 +28484,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "attend the scene",
     "meaning": "警员、急救人员等到现场处理",
-    "example": "",
+    "example": "Emergency responders attended the scene within minutes.",
     "weight": 3,
     "id": "sw-003945",
     "source": "Review11 Scene 221"
@@ -28493,7 +28493,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "paramedic",
     "meaning": "院前急救人员",
-    "example": "",
+    "example": "A paramedic checked the injured person's condition.",
     "weight": 3,
     "id": "sw-003946",
     "source": "Review11 Scene 221"
@@ -28502,7 +28502,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "emergency department (ED)",
     "meaning": "医院急诊科",
-    "example": "",
+    "example": "The injured hiker was taken to the emergency department.",
     "weight": 3,
     "id": "sw-003947",
     "source": "Review11 Scene 221"
@@ -28511,7 +28511,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "triage",
     "meaning": "预检分诊、按伤情紧急程度分类",
-    "example": "",
+    "example": "A nurse performed triage to determine how urgently the injury needed attention.",
     "weight": 3,
     "id": "sw-003948",
     "source": "Review11 Scene 221"
@@ -28520,7 +28520,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "waiting area",
     "meaning": "候诊区",
-    "example": "",
+    "example": "We waited in the hospital waiting area.",
     "weight": 3,
     "id": "sw-003949",
     "source": "Review11 Scene 221"
@@ -28538,7 +28538,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "rabies exposure assessment",
     "meaning": "狂犬病暴露风险评估",
-    "example": "",
+    "example": "The hospital carried out a rabies exposure assessment.",
     "weight": 3,
     "id": "sw-003951",
     "source": "Review11 Scene 221"
@@ -28547,7 +28547,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "post-exposure prophylaxis (PEP)",
     "meaning": "暴露后预防处置",
-    "example": "",
+    "example": "A clinician assessed whether post-exposure prophylaxis was needed.",
     "weight": 3,
     "id": "sw-003952",
     "source": "Review11 Scene 221"
@@ -28556,7 +28556,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "discharge instructions",
     "meaning": "书面的出院医嘱",
-    "example": "",
+    "example": "I read the discharge instructions before leaving the hospital.",
     "weight": 3,
     "id": "sw-003953",
     "source": "Review11 Scene 221"
@@ -28565,7 +28565,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "register with a family doctor",
     "meaning": "登记、注册家庭医生",
-    "example": "",
+    "example": "I registered with a family doctor after moving to the city.",
     "weight": 3,
     "id": "sw-003954",
     "source": "Review11 Scene 221"
@@ -28574,7 +28574,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "primary care clinic",
     "meaning": "基层医疗诊所",
-    "example": "",
+    "example": "The primary care clinic is near the university.",
     "weight": 3,
     "id": "sw-003955",
     "source": "Review11 Scene 221"
@@ -28583,7 +28583,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "follow-up appointment",
     "meaning": "后续复诊预约",
-    "example": "",
+    "example": "I scheduled a follow-up appointment for the following week.",
     "weight": 3,
     "id": "sw-003956",
     "source": "Review11 Scene 221"
@@ -28610,7 +28610,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "market breadth",
     "meaning": "市场上涨或下跌的参与广度",
-    "example": "",
+    "example": "Market breadth helps show how many stocks are participating in a rally.",
     "weight": 3,
     "id": "sw-003959",
     "source": "Review11 Scene 222"
@@ -28619,7 +28619,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "headline index",
     "meaning": "媒体常引用的主要市场指数",
-    "example": "",
+    "example": "The headline index rose even though most stocks were flat.",
     "weight": 3,
     "id": "sw-003960",
     "source": "Review11 Scene 222"
@@ -28628,7 +28628,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "market-cap weighted",
     "meaning": "按市值加权的",
-    "example": "",
+    "example": "A market-cap-weighted index gives larger companies more influence.",
     "weight": 3,
     "id": "sw-003961",
     "source": "Review11 Scene 222"
@@ -28637,7 +28637,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "equal-weighted index",
     "meaning": "等权重指数",
-    "example": "",
+    "example": "An equal-weighted index assigns the same weight to each constituent.",
     "weight": 3,
     "id": "sw-003962",
     "source": "Review11 Scene 222"
@@ -28646,7 +28646,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "heavyweight stock",
     "meaning": "大型权重股",
-    "example": "",
+    "example": "One heavyweight stock drove much of the index's gain.",
     "weight": 3,
     "id": "sw-003963",
     "source": "Review11 Scene 222"
@@ -28655,7 +28655,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "disproportionate influence",
     "meaning": "不成比例的影响力",
-    "example": "",
+    "example": "A few large firms had a disproportionate influence on the result.",
     "weight": 3,
     "id": "sw-003964",
     "source": "Review11 Scene 222"
@@ -28664,7 +28664,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "sector rotation",
     "meaning": "行业之间的资金轮换",
-    "example": "",
+    "example": "Sector rotation moved money from technology into defensive stocks.",
     "weight": 3,
     "id": "sw-003965",
     "source": "Review11 Scene 222"
@@ -28673,7 +28673,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "dispersion",
     "meaning": "行业内或资产之间的表现分散度",
-    "example": "",
+    "example": "High dispersion means returns vary considerably across stocks.",
     "weight": 3,
     "id": "sw-003966",
     "source": "Review11 Scene 222"
@@ -28682,7 +28682,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "stock-specific risk",
     "meaning": "个股特有风险",
-    "example": "",
+    "example": "Diversification can reduce some stock-specific risk.",
     "weight": 3,
     "id": "sw-003967",
     "source": "Review11 Scene 222"
@@ -28691,7 +28691,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "company-specific headline",
     "meaning": "某家特定公司的新闻事件",
-    "example": "",
+    "example": "A company-specific headline pushed the stock sharply lower.",
     "weight": 3,
     "id": "sw-003968",
     "source": "Review11 Scene 222"
@@ -28700,7 +28700,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "outperform",
     "meaning": "表现优于比较基准",
-    "example": "",
+    "example": "The fund outperformed its benchmark last year.",
     "weight": 3,
     "id": "sw-003969",
     "source": "Review11 Scene 222"
@@ -28709,7 +28709,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "underperform",
     "meaning": "表现逊于比较基准",
-    "example": "",
+    "example": "The sector underperformed the broader market.",
     "weight": 3,
     "id": "sw-003970",
     "source": "Review11 Scene 222"
@@ -28718,7 +28718,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "broad rally",
     "meaning": "多个板块参与的市场上涨",
-    "example": "",
+    "example": "The broad rally included industrials, banks and technology firms.",
     "weight": 3,
     "id": "sw-003971",
     "source": "Review11 Scene 222"
@@ -28727,7 +28727,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "concentration risk",
     "meaning": "集中持有少数资产的风险",
-    "example": "",
+    "example": "A portfolio dominated by one company has concentration risk.",
     "weight": 3,
     "id": "sw-003972",
     "source": "Review11 Scene 222"
@@ -28736,7 +28736,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "valuation reset",
     "meaning": "市场重新调整资产估值",
-    "example": "",
+    "example": "The stock experienced a valuation reset as interest rates rose.",
     "weight": 3,
     "id": "sw-003973",
     "source": "Review11 Scene 222"
@@ -28745,7 +28745,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "on a stock-by-stock basis",
     "meaning": "逐只股票分别分析",
-    "example": "",
+    "example": "We should evaluate earnings quality on a stock-by-stock basis.",
     "weight": 3,
     "id": "sw-003974",
     "source": "Review11 Scene 222"
@@ -28754,7 +28754,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "paint with a broad brush",
     "meaning": "以过于笼统的方式概括",
-    "example": "",
+    "example": "It's misleading to paint the whole industry with a broad brush.",
     "weight": 3,
     "id": "sw-003975",
     "source": "Review11 Scene 222"
@@ -28763,7 +28763,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "not a monolith",
     "meaning": "不是内部完全同质的整体",
-    "example": "",
+    "example": "The technology sector is not a monolith; its companies have different business models.",
     "weight": 3,
     "id": "sw-003976",
     "source": "Review11 Scene 222"
@@ -28790,7 +28790,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "pluralistic ignorance",
     "meaning": "多元无知，误判其他人的真实想法",
-    "example": "",
+    "example": "Pluralistic ignorance can arise when everyone privately doubts a plan but assumes others support it.",
     "weight": 3,
     "id": "sw-003979",
     "source": "Review11 Scene 223"
@@ -28799,7 +28799,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "privately disagree",
     "meaning": "私下持不同意见",
-    "example": "",
+    "example": "Several employees privately disagreed with the proposal.",
     "weight": 3,
     "id": "sw-003980",
     "source": "Review11 Scene 223"
@@ -28808,7 +28808,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "nod along",
     "meaning": "跟着点头、表面附和",
-    "example": "",
+    "example": "Some people nodded along even though they had concerns.",
     "weight": 3,
     "id": "sw-003981",
     "source": "Review11 Scene 223"
@@ -28817,7 +28817,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "speak up",
     "meaning": "主动发言，尤其表示意见",
-    "example": "",
+    "example": "She decided to speak up during the meeting.",
     "weight": 3,
     "id": "sw-003982",
     "source": "Review11 Scene 223"
@@ -28826,7 +28826,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "voice a concern",
     "meaning": "明确说出一项担忧",
-    "example": "",
+    "example": "I want to voice a concern about the timeline.",
     "weight": 3,
     "id": "sw-003983",
     "source": "Review11 Scene 223"
@@ -28835,7 +28835,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "dissenting opinion",
     "meaning": "不同于主流看法的意见",
-    "example": "",
+    "example": "The manager invited dissenting opinions before the final decision.",
     "weight": 3,
     "id": "sw-003984",
     "source": "Review11 Scene 223"
@@ -28853,7 +28853,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "false impression",
     "meaning": "错误印象",
-    "example": "",
+    "example": "Silence created a false impression of unanimous agreement.",
     "weight": 3,
     "id": "sw-003986",
     "source": "Review11 Scene 223"
@@ -28862,7 +28862,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "misinterpret someone's behaviour",
     "meaning": "误解他人的行为",
-    "example": "",
+    "example": "It's easy to misinterpret someone's behaviour without context.",
     "weight": 3,
     "id": "sw-003987",
     "source": "Review11 Scene 223"
@@ -28871,7 +28871,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "peer pressure",
     "meaning": "同伴或群体压力",
-    "example": "",
+    "example": "Peer pressure may discourage people from expressing doubts.",
     "weight": 3,
     "id": "sw-003988",
     "source": "Review11 Scene 223"
@@ -28880,7 +28880,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "fear of embarrassment",
     "meaning": "害怕出丑或尴尬",
-    "example": "",
+    "example": "Fear of embarrassment kept him from asking questions.",
     "weight": 3,
     "id": "sw-003989",
     "source": "Review11 Scene 223"
@@ -28889,7 +28889,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "go against the grain",
     "meaning": "违背常规或多数人的做法",
-    "example": "",
+    "example": "She was willing to go against the grain and challenge the proposal.",
     "weight": 3,
     "id": "sw-003990",
     "source": "Review11 Scene 223"
@@ -28898,7 +28898,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "open-ended question",
     "meaning": "开放式问题",
-    "example": "",
+    "example": "An open-ended question encourages a more detailed answer.",
     "weight": 3,
     "id": "sw-003991",
     "source": "Review11 Scene 223"
@@ -28907,7 +28907,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "invite feedback",
     "meaning": "主动邀请反馈",
-    "example": "",
+    "example": "The team leader invited feedback from everyone.",
     "weight": 3,
     "id": "sw-003992",
     "source": "Review11 Scene 223"
@@ -28925,7 +28925,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "psychological safety",
     "meaning": "表达不同意见时不担心羞辱的心理安全感",
-    "example": "",
+    "example": "Psychological safety can make it easier for people to raise concerns.",
     "weight": 3,
     "id": "sw-003994",
     "source": "Review11 Scene 223"
@@ -28934,7 +28934,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "keep your reservations to yourself",
     "meaning": "把保留意见藏在心里",
-    "example": "",
+    "example": "Don't keep your reservations to yourself if the plan has serious risks.",
     "weight": 3,
     "id": "sw-003995",
     "source": "Review11 Scene 223"
@@ -28943,7 +28943,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "challenge an assumption",
     "meaning": "质疑未经充分验证的假设",
-    "example": "",
+    "example": "We should challenge the assumption that every user wants the same feature.",
     "weight": 3,
     "id": "sw-003996",
     "source": "Review11 Scene 223"
@@ -28970,7 +28970,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "intricate",
     "meaning": "包含大量精细细节的、复杂精美的",
-    "example": "",
+    "example": "The building's intricate stone carvings caught my attention.",
     "weight": 3,
     "id": "sw-003999",
     "source": "Review11 Scene 224"
@@ -28979,7 +28979,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "craftsmanship",
     "meaning": "工艺水准、手工技艺",
-    "example": "",
+    "example": "The detailed woodwork showed exceptional craftsmanship.",
     "weight": 3,
     "id": "sw-004000",
     "source": "Review11 Scene 224"
@@ -28988,7 +28988,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "ornate",
     "meaning": "装饰丰富、华丽繁复的",
-    "example": "",
+    "example": "The ornate ceiling was covered in elaborate decoration.",
     "weight": 3,
     "id": "sw-004001",
     "source": "Review11 Scene 224"
@@ -28997,7 +28997,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "archway",
     "meaning": "拱门通道、拱形门洞",
-    "example": "",
+    "example": "We walked through a narrow archway into the courtyard.",
     "weight": 3,
     "id": "sw-004002",
     "source": "Review11 Scene 224"
@@ -29006,7 +29006,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "geometric pattern",
     "meaning": "几何纹样",
-    "example": "",
+    "example": "The walls were covered with repeating geometric patterns.",
     "weight": 3,
     "id": "sw-004003",
     "source": "Review11 Scene 224"
@@ -29015,7 +29015,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "calligraphy",
     "meaning": "书法、装饰性文字艺术",
-    "example": "",
+    "example": "Elegant calligraphy decorated the entrance.",
     "weight": 3,
     "id": "sw-004004",
     "source": "Review11 Scene 224"
@@ -29024,7 +29024,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "slender columns",
     "meaning": "纤细修长的柱子",
-    "example": "",
+    "example": "Slender columns supported the arches around the courtyard.",
     "weight": 3,
     "id": "sw-004005",
     "source": "Review11 Scene 224"
@@ -29033,7 +29033,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "courtyard",
     "meaning": "庭院",
-    "example": "",
+    "example": "The quiet courtyard offered a break from the busy streets.",
     "weight": 3,
     "id": "sw-004006",
     "source": "Review11 Scene 224"
@@ -29042,7 +29042,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "interplay of light and shadow",
     "meaning": "光与影交织的视觉效果",
-    "example": "",
+    "example": "The interplay of light and shadow changed throughout the afternoon.",
     "weight": 3,
     "id": "sw-004007",
     "source": "Review11 Scene 224"
@@ -29051,7 +29051,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "intimate atmosphere",
     "meaning": "亲近、细腻的空间氛围",
-    "example": "",
+    "example": "The small room had an intimate atmosphere.",
     "weight": 3,
     "id": "sw-004008",
     "source": "Review11 Scene 224"
@@ -29060,7 +29060,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "stop in your tracks",
     "meaning": "因惊讶或震撼突然停下脚步",
-    "example": "",
+    "example": "The view was so beautiful that I stopped in my tracks.",
     "weight": 3,
     "id": "sw-004009",
     "source": "Review11 Scene 224"
@@ -29078,7 +29078,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "feel transported back in time",
     "meaning": "感觉仿佛回到过去的时代",
-    "example": "",
+    "example": "Walking through the old streets made me feel transported back in time.",
     "weight": 3,
     "id": "sw-004011",
     "source": "Review11 Scene 224"
@@ -29087,7 +29087,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "soak up the atmosphere",
     "meaning": "尽情感受周围的氛围",
-    "example": "",
+    "example": "We sat in the square to soak up the atmosphere.",
     "weight": 3,
     "id": "sw-004012",
     "source": "Review11 Scene 224"
@@ -29096,7 +29096,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "leave a lasting impression",
     "meaning": "留下持久而深刻的印象",
-    "example": "",
+    "example": "The architecture left a lasting impression on me.",
     "weight": 3,
     "id": "sw-004013",
     "source": "Review11 Scene 224"
@@ -29105,7 +29105,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "words don't do it justice",
     "meaning": "语言无法充分表达其美或震撼",
-    "example": "",
+    "example": "The view was extraordinary; words don't do it justice.",
     "weight": 3,
     "id": "sw-004014",
     "source": "Review11 Scene 224"
@@ -29114,7 +29114,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "underwhelming",
     "meaning": "实际体验低于期待的",
-    "example": "",
+    "example": "After seeing several grand cathedrals, the next church felt underwhelming.",
     "weight": 3,
     "id": "sw-004015",
     "source": "Review11 Scene 224"
@@ -29123,7 +29123,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "live up to the hype",
     "meaning": "实际体验符合宣传和期待",
-    "example": "",
+    "example": "The historic site lived up to the hype.",
     "weight": 3,
     "id": "sw-004016",
     "source": "Review11 Scene 224"
@@ -29150,7 +29150,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "in spate",
     "meaning": "河流处于急涨水状态",
-    "example": "",
+    "example": "The river was in spate after days of heavy rain.",
     "weight": 3,
     "id": "sw-004020",
     "source": "Review11 Scene 225"
@@ -29159,7 +29159,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "fast-flowing current",
     "meaning": "急促水流",
-    "example": "",
+    "example": "The fast-flowing current swept branches downstream.",
     "weight": 3,
     "id": "sw-004021",
     "source": "Review11 Scene 225"
@@ -29177,7 +29177,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "submerged",
     "meaning": "被水淹没的",
-    "example": "",
+    "example": "The stepping stones were completely submerged.",
     "weight": 3,
     "id": "sw-004023",
     "source": "Review11 Scene 225"
@@ -29186,7 +29186,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "riverbed",
     "meaning": "河床",
-    "example": "",
+    "example": "We couldn't see the riverbed through the muddy water.",
     "weight": 3,
     "id": "sw-004024",
     "source": "Review11 Scene 225"
@@ -29195,7 +29195,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "turbid",
     "meaning": "泥沙多、浑浊的",
-    "example": "",
+    "example": "The water was turbid after the storm.",
     "weight": 3,
     "id": "sw-004025",
     "source": "Review11 Scene 225"
@@ -29204,7 +29204,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "slippery riverbank",
     "meaning": "湿滑的河岸",
-    "example": "",
+    "example": "We avoided the slippery riverbank.",
     "weight": 3,
     "id": "sw-004026",
     "source": "Review11 Scene 225"
@@ -29213,7 +29213,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "unstable footing",
     "meaning": "难以站稳的落脚条件",
-    "example": "",
+    "example": "The wet rocks provided unstable footing.",
     "weight": 3,
     "id": "sw-004027",
     "source": "Review11 Scene 225"
@@ -29222,7 +29222,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "ford a stream",
     "meaning": "涉水过溪",
-    "example": "",
+    "example": "It wasn't safe to ford the stream after the rainfall.",
     "weight": 3,
     "id": "sw-004028",
     "source": "Review11 Scene 225"
@@ -29231,7 +29231,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "upstream",
     "meaning": "上游方向",
-    "example": "",
+    "example": "We walked upstream to look for a safer route.",
     "weight": 3,
     "id": "sw-004029",
     "source": "Review11 Scene 225"
@@ -29240,7 +29240,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "downstream",
     "meaning": "下游方向",
-    "example": "",
+    "example": "The current was stronger farther downstream.",
     "weight": 3,
     "id": "sw-004030",
     "source": "Review11 Scene 225"
@@ -29258,7 +29258,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "runoff",
     "meaning": "地表径流",
-    "example": "",
+    "example": "Heavy runoff raised the stream level quickly.",
     "weight": 3,
     "id": "sw-004032",
     "source": "Review11 Scene 225"
@@ -29267,7 +29267,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "catchment area",
     "meaning": "汇水区",
-    "example": "",
+    "example": "Rain falling across the catchment area can raise river levels.",
     "weight": 3,
     "id": "sw-004033",
     "source": "Review11 Scene 225"
@@ -29276,7 +29276,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "impassable",
     "meaning": "无法通行的",
-    "example": "",
+    "example": "The crossing was impassable after the storm.",
     "weight": 3,
     "id": "sw-004034",
     "source": "Review11 Scene 225"
@@ -29285,7 +29285,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "overflow its banks",
     "meaning": "河水漫过河岸",
-    "example": "",
+    "example": "The river overflowed its banks and flooded the path.",
     "weight": 3,
     "id": "sw-004035",
     "source": "Review11 Scene 225"
@@ -29312,7 +29312,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "high-pitched",
     "meaning": "高音调、尖锐的",
-    "example": "",
+    "example": "The brake made a high-pitched noise whenever I slowed down.",
     "weight": 3,
     "id": "sw-004038",
     "source": "Review11 Scene 226"
@@ -29321,7 +29321,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "squealing brakes",
     "meaning": "发出尖锐声的刹车",
-    "example": "",
+    "example": "Squealing brakes can indicate a problem that needs inspection.",
     "weight": 3,
     "id": "sw-004039",
     "source": "Review11 Scene 226"
@@ -29330,7 +29330,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "brake pad",
     "meaning": "刹车片",
-    "example": "",
+    "example": "The mechanic checked whether the brake pads were worn.",
     "weight": 3,
     "id": "sw-004040",
     "source": "Review11 Scene 226"
@@ -29339,7 +29339,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "brake rotor",
     "meaning": "碟刹刹车盘",
-    "example": "",
+    "example": "The brake rotor was rubbing against the pad.",
     "weight": 3,
     "id": "sw-004041",
     "source": "Review11 Scene 226"
@@ -29348,7 +29348,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "brake caliper",
     "meaning": "刹车卡钳",
-    "example": "",
+    "example": "The mechanic adjusted the brake caliper.",
     "weight": 3,
     "id": "sw-004042",
     "source": "Review11 Scene 226"
@@ -29357,7 +29357,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "caliper alignment",
     "meaning": "卡钳对齐状态",
-    "example": "",
+    "example": "Poor caliper alignment caused the rotor to rub.",
     "weight": 3,
     "id": "sw-004043",
     "source": "Review11 Scene 226"
@@ -29366,7 +29366,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "worn down",
     "meaning": "磨薄、磨损严重的",
-    "example": "",
+    "example": "The brake pad had worn down and needed replacement.",
     "weight": 3,
     "id": "sw-004044",
     "source": "Review11 Scene 226"
@@ -29375,7 +29375,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "uneven wear",
     "meaning": "不均匀磨损",
-    "example": "",
+    "example": "Uneven wear can be a sign of poor alignment.",
     "weight": 3,
     "id": "sw-004045",
     "source": "Review11 Scene 226"
@@ -29402,7 +29402,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "brake lever travel",
     "meaning": "刹车手柄移动行程",
-    "example": "",
+    "example": "Excessive brake lever travel may indicate a problem with the braking system.",
     "weight": 3,
     "id": "sw-004048",
     "source": "Review11 Scene 226"
@@ -29411,7 +29411,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "spongy brake lever",
     "meaning": "手感软、缺乏明确反馈的刹车手柄",
-    "example": "",
+    "example": "The brake lever felt spongy rather than firm.",
     "weight": 3,
     "id": "sw-004049",
     "source": "Review11 Scene 226"
@@ -29420,7 +29420,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "engage the brakes",
     "meaning": "使制动装置发挥作用",
-    "example": "",
+    "example": "Squeeze the lever to engage the brakes.",
     "weight": 3,
     "id": "sw-004050",
     "source": "Review11 Scene 226"
@@ -29429,7 +29429,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "responsive",
     "meaning": "反应灵敏的",
-    "example": "",
+    "example": "The brakes felt more responsive after the repair.",
     "weight": 3,
     "id": "sw-004051",
     "source": "Review11 Scene 226"
@@ -29438,7 +29438,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "bed in new pads",
     "meaning": "磨合新刹车片",
-    "example": "",
+    "example": "The mechanic explained how to bed in the new pads safely.",
     "weight": 3,
     "id": "sw-004052",
     "source": "Review11 Scene 226"
@@ -29447,7 +29447,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "stopping distance",
     "meaning": "制动距离",
-    "example": "",
+    "example": "Worn tyres can increase stopping distance on wet roads.",
     "weight": 3,
     "id": "sw-004053",
     "source": "Review11 Scene 226"
@@ -29465,7 +29465,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "get something checked out",
     "meaning": "请专业人员检查问题",
-    "example": "",
+    "example": "You should get the brakes checked out before riding again.",
     "weight": 3,
     "id": "sw-004055",
     "source": "Review11 Scene 226"
@@ -29492,7 +29492,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "screening",
     "meaning": "电影放映场次",
-    "example": "",
+    "example": "The next screening starts at seven in the evening.",
     "weight": 3,
     "id": "sw-004058",
     "source": "Review11 Scene 227"
@@ -29501,7 +29501,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "seat availability",
     "meaning": "座位剩余情况",
-    "example": "",
+    "example": "I checked seat availability before booking the film.",
     "weight": 3,
     "id": "sw-004059",
     "source": "Review11 Scene 227"
@@ -29510,7 +29510,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "front row",
     "meaning": "第一排、前排",
-    "example": "",
+    "example": "We avoided the front row because it was too close to the screen.",
     "weight": 3,
     "id": "sw-004060",
     "source": "Review11 Scene 227"
@@ -29519,7 +29519,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "dubbed version",
     "meaning": "配音版",
-    "example": "",
+    "example": "The cinema offered a dubbed version of the film.",
     "weight": 3,
     "id": "sw-004061",
     "source": "Review11 Scene 227"
@@ -29528,7 +29528,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "original-language screening",
     "meaning": "原声语言放映",
-    "example": "",
+    "example": "I preferred the original-language screening.",
     "weight": 3,
     "id": "sw-004062",
     "source": "Review11 Scene 227"
@@ -29537,7 +29537,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "English subtitles",
     "meaning": "英文字幕",
-    "example": "",
+    "example": "The film had English subtitles.",
     "weight": 3,
     "id": "sw-004063",
     "source": "Review11 Scene 227"
@@ -29546,7 +29546,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "spoiler",
     "meaning": "剧透信息",
-    "example": "",
+    "example": "Don't tell me the ending; I want to avoid spoilers.",
     "weight": 3,
     "id": "sw-004064",
     "source": "Review11 Scene 227"
@@ -29555,7 +29555,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "plot twist",
     "meaning": "剧情反转",
-    "example": "",
+    "example": "The plot twist completely changed my understanding of the story.",
     "weight": 3,
     "id": "sw-004065",
     "source": "Review11 Scene 227"
@@ -29573,7 +29573,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "build up tension",
     "meaning": "逐渐营造紧张感",
-    "example": "",
+    "example": "The director slowly built up tension before the final scene.",
     "weight": 3,
     "id": "sw-004067",
     "source": "Review11 Scene 227"
@@ -29582,7 +29582,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "gripping",
     "meaning": "扣人心弦的",
-    "example": "",
+    "example": "The final act was gripping from start to finish.",
     "weight": 3,
     "id": "sw-004068",
     "source": "Review11 Scene 227"
@@ -29591,7 +29591,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "pacing",
     "meaning": "叙事节奏",
-    "example": "",
+    "example": "The pacing felt slow in the first half.",
     "weight": 3,
     "id": "sw-004069",
     "source": "Review11 Scene 227"
@@ -29600,7 +29600,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "restrained",
     "meaning": "克制的、不夸张的",
-    "example": "",
+    "example": "The acting was restrained and natural.",
     "weight": 3,
     "id": "sw-004070",
     "source": "Review11 Scene 227"
@@ -29618,7 +29618,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "end credits",
     "meaning": "片尾演职员表",
-    "example": "",
+    "example": "We stayed in our seats through the end credits.",
     "weight": 3,
     "id": "sw-004072",
     "source": "Review11 Scene 227"
@@ -29627,7 +29627,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "post-credit scene",
     "meaning": "片尾彩蛋",
-    "example": "",
+    "example": "There was a short post-credit scene after the credits.",
     "weight": 3,
     "id": "sw-004073",
     "source": "Review11 Scene 227"
@@ -29654,7 +29654,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "customs data",
     "meaning": "海关统计数据",
-    "example": "",
+    "example": "The latest customs data showed an increase in exports.",
     "weight": 3,
     "id": "sw-004076",
     "source": "Review11 Scene 228"
@@ -29672,7 +29672,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "export surge",
     "meaning": "出口激增",
-    "example": "",
+    "example": "An export surge helped support industrial output.",
     "weight": 3,
     "id": "sw-004078",
     "source": "Review11 Scene 228"
@@ -29681,7 +29681,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "headline figure",
     "meaning": "最引人注目的核心数据",
-    "example": "",
+    "example": "The headline figure masked differences across industries.",
     "weight": 3,
     "id": "sw-004079",
     "source": "Review11 Scene 228"
@@ -29690,7 +29690,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "high-tech shipments",
     "meaning": "高技术产品的出货和交付",
-    "example": "",
+    "example": "High-tech shipments rose faster than traditional exports.",
     "weight": 3,
     "id": "sw-004080",
     "source": "Review11 Scene 228"
@@ -29699,7 +29699,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "semiconductor exports",
     "meaning": "半导体产品出口",
-    "example": "",
+    "example": "Semiconductor exports increased during the quarter.",
     "weight": 3,
     "id": "sw-004081",
     "source": "Review11 Scene 228"
@@ -29708,7 +29708,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "domestic consumption",
     "meaning": "国内消费",
-    "example": "",
+    "example": "Domestic consumption remained weak despite stronger exports.",
     "weight": 3,
     "id": "sw-004082",
     "source": "Review11 Scene 228"
@@ -29717,7 +29717,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "property slump",
     "meaning": "房地产市场持续低迷",
-    "example": "",
+    "example": "A prolonged property slump affected household confidence.",
     "weight": 3,
     "id": "sw-004083",
     "source": "Review11 Scene 228"
@@ -29726,7 +29726,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "export-led growth",
     "meaning": "出口带动型增长",
-    "example": "",
+    "example": "Export-led growth can leave an economy exposed to foreign demand.",
     "weight": 3,
     "id": "sw-004084",
     "source": "Review11 Scene 228"
@@ -29735,7 +29735,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "trade truce",
     "meaning": "贸易争端中的暂时休战安排",
-    "example": "",
+    "example": "The two countries agreed to a temporary trade truce.",
     "weight": 3,
     "id": "sw-004085",
     "source": "Review11 Scene 228"
@@ -29744,7 +29744,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "tariff reduction",
     "meaning": "关税下调",
-    "example": "",
+    "example": "The agreement included a tariff reduction on selected goods.",
     "weight": 3,
     "id": "sw-004086",
     "source": "Review11 Scene 228"
@@ -29753,7 +29753,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "protectionist measures",
     "meaning": "保护主义措施",
-    "example": "",
+    "example": "New protectionist measures could raise trade costs.",
     "weight": 3,
     "id": "sw-004087",
     "source": "Review11 Scene 228"
@@ -29762,7 +29762,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "bring forward shipments",
     "meaning": "把出货时间提前",
-    "example": "",
+    "example": "Some exporters brought forward shipments ahead of the tariff deadline.",
     "weight": 3,
     "id": "sw-004088",
     "source": "Review11 Scene 228"
@@ -29771,7 +29771,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "trade imbalance",
     "meaning": "贸易不平衡",
-    "example": "",
+    "example": "A persistent trade imbalance became a political concern.",
     "weight": 3,
     "id": "sw-004089",
     "source": "Review11 Scene 228"
@@ -29780,7 +29780,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "trading partner",
     "meaning": "贸易伙伴",
-    "example": "",
+    "example": "The country's largest trading partner accounted for a significant share of exports.",
     "weight": 3,
     "id": "sw-004090",
     "source": "Review11 Scene 228"
@@ -29789,7 +29789,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "reliance on overseas demand",
     "meaning": "对海外需求的依赖",
-    "example": "",
+    "example": "Reliance on overseas demand can increase exposure to global slowdowns.",
     "weight": 3,
     "id": "sw-004091",
     "source": "Review11 Scene 228"
@@ -29798,7 +29798,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "underlying weakness",
     "meaning": "表面强势之下潜藏的疲弱",
-    "example": "",
+    "example": "Strong export figures may conceal underlying weakness in domestic demand.",
     "weight": 3,
     "id": "sw-004092",
     "source": "Review11 Scene 228"
@@ -29807,7 +29807,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "shrug off",
     "meaning": "对新闻或冲击反应不大、未受到明显影响",
-    "example": "",
+    "example": "Investors shrugged off the disappointing headline.",
     "weight": 3,
     "id": "sw-004093",
     "source": "Review11 Scene 228"
@@ -29843,7 +29843,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "thermal inertia",
     "meaning": "热惯性",
-    "example": "",
+    "example": "High thermal inertia can slow changes in a building's indoor temperature.",
     "weight": 3,
     "id": "sw-004097",
     "source": "Review11 Scene 229"
@@ -29861,7 +29861,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "release heat",
     "meaning": "释放热量",
-    "example": "",
+    "example": "Thick walls release heat gradually after sunset.",
     "weight": 3,
     "id": "sw-004099",
     "source": "Review11 Scene 229"
@@ -29879,7 +29879,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "insulation",
     "meaning": "隔热、保温材料与措施",
-    "example": "",
+    "example": "Good insulation reduces unwanted heat transfer.",
     "weight": 3,
     "id": "sw-004101",
     "source": "Review11 Scene 229"
@@ -29888,7 +29888,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "masonry",
     "meaning": "砖石砌体结构或砌筑工艺",
-    "example": "",
+    "example": "The old building uses thick masonry walls.",
     "weight": 3,
     "id": "sw-004102",
     "source": "Review11 Scene 229"
@@ -29897,7 +29897,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "temperature swing",
     "meaning": "温度波动幅度",
-    "example": "",
+    "example": "The building experiences a smaller indoor temperature swing than the outside air.",
     "weight": 3,
     "id": "sw-004103",
     "source": "Review11 Scene 229"
@@ -29906,7 +29906,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "time lag",
     "meaning": "变化出现的时间滞后",
-    "example": "",
+    "example": "There is a time lag between outdoor heating and the indoor temperature peak.",
     "weight": 3,
     "id": "sw-004104",
     "source": "Review11 Scene 229"
@@ -29915,7 +29915,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "shaded courtyard",
     "meaning": "有遮阴的庭院",
-    "example": "",
+    "example": "The shaded courtyard stayed cooler than the street.",
     "weight": 3,
     "id": "sw-004105",
     "source": "Review11 Scene 229"
@@ -29924,7 +29924,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "cross-ventilation",
     "meaning": "穿堂通风",
-    "example": "",
+    "example": "Cross-ventilation helps move air through the rooms.",
     "weight": 3,
     "id": "sw-004106",
     "source": "Review11 Scene 229"
@@ -29933,7 +29933,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "passive cooling",
     "meaning": "被动降温措施",
-    "example": "",
+    "example": "Passive cooling methods can reduce the need for air conditioning.",
     "weight": 3,
     "id": "sw-004107",
     "source": "Review11 Scene 229"
@@ -29942,7 +29942,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "stack effect",
     "meaning": "烟囱效应",
-    "example": "",
+    "example": "The stack effect can drive warm air upwards through a tall building.",
     "weight": 3,
     "id": "sw-004108",
     "source": "Review11 Scene 229"
@@ -29951,7 +29951,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "night ventilation",
     "meaning": "夜间利用凉爽空气通风",
-    "example": "",
+    "example": "Night ventilation can help remove heat stored during the day.",
     "weight": 3,
     "id": "sw-004109",
     "source": "Review11 Scene 229"
@@ -29960,7 +29960,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "accumulated heat",
     "meaning": "积累的热量",
-    "example": "",
+    "example": "The accumulated heat was released slowly overnight.",
     "weight": 3,
     "id": "sw-004110",
     "source": "Review11 Scene 229"
@@ -29969,7 +29969,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "beat down on",
     "meaning": "太阳猛烈地照射",
-    "example": "",
+    "example": "The afternoon sun beat down on the stone walls.",
     "weight": 3,
     "id": "sw-004111",
     "source": "Review11 Scene 229"
@@ -29996,7 +29996,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "towering spires",
     "meaning": "高耸的尖塔",
-    "example": "",
+    "example": "Towering spires rose above the historic city.",
     "weight": 3,
     "id": "sw-004114",
     "source": "Review11 Scene 230"
@@ -30005,7 +30005,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "sculpted façade",
     "meaning": "带有丰富雕塑装饰的外立面",
-    "example": "",
+    "example": "The sculpted façade was covered with figures and decorative details.",
     "weight": 3,
     "id": "sw-004115",
     "source": "Review11 Scene 230"
@@ -30014,7 +30014,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "stained-glass windows",
     "meaning": "彩色玻璃窗",
-    "example": "",
+    "example": "Sunlight passed through the stained-glass windows.",
     "weight": 3,
     "id": "sw-004116",
     "source": "Review11 Scene 230"
@@ -30023,7 +30023,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "shafts of sunlight",
     "meaning": "一束束阳光",
-    "example": "",
+    "example": "Shafts of sunlight fell across the stone floor.",
     "weight": 3,
     "id": "sw-004117",
     "source": "Review11 Scene 230"
@@ -30032,7 +30032,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "wash over",
     "meaning": "光线或情绪缓缓覆盖、涌过",
-    "example": "",
+    "example": "Warm colours washed over the columns as the sun moved.",
     "weight": 3,
     "id": "sw-004118",
     "source": "Review11 Scene 230"
@@ -30041,7 +30041,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "be bathed in light",
     "meaning": "沐浴在光线中",
-    "example": "",
+    "example": "The interior was bathed in soft golden light.",
     "weight": 3,
     "id": "sw-004119",
     "source": "Review11 Scene 230"
@@ -30050,7 +30050,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "branching columns",
     "meaning": "向上分叉、仿树枝形态的柱子",
-    "example": "",
+    "example": "The branching columns resembled the trunks and limbs of trees.",
     "weight": 3,
     "id": "sw-004120",
     "source": "Review11 Scene 230"
@@ -30059,7 +30059,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "vaulted ceiling",
     "meaning": "拱形天花板、穹窿顶部",
-    "example": "",
+    "example": "The vaulted ceiling soared above the nave.",
     "weight": 3,
     "id": "sw-004121",
     "source": "Review11 Scene 230"
@@ -30068,7 +30068,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "stone canopy",
     "meaning": "像树冠的石质顶部结构",
-    "example": "",
+    "example": "The stone canopy created the impression of a forest overhead.",
     "weight": 3,
     "id": "sw-004122",
     "source": "Review11 Scene 230"
@@ -30077,7 +30077,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "otherworldly",
     "meaning": "仿佛超越现实世界的",
-    "example": "",
+    "example": "The interior had an almost otherworldly beauty.",
     "weight": 3,
     "id": "sw-004123",
     "source": "Review11 Scene 230"
@@ -30086,7 +30086,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "hushed atmosphere",
     "meaning": "低声安静、近乎肃穆的氛围",
-    "example": "",
+    "example": "A hushed atmosphere filled the cathedral.",
     "weight": 3,
     "id": "sw-004124",
     "source": "Review11 Scene 230"
@@ -30095,7 +30095,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "awe-struck",
     "meaning": "因震撼而说不出话的",
-    "example": "",
+    "example": "I stood awe-struck beneath the enormous ceiling.",
     "weight": 3,
     "id": "sw-004125",
     "source": "Review11 Scene 230"
@@ -30104,7 +30104,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "crane your neck",
     "meaning": "使劲仰起脖子看高处",
-    "example": "",
+    "example": "We craned our necks to admire the high arches.",
     "weight": 3,
     "id": "sw-004126",
     "source": "Review11 Scene 230"
@@ -30113,7 +30113,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "take your breath away",
     "meaning": "美得令人屏息、震撼人心",
-    "example": "",
+    "example": "The view from the mountain pass took my breath away.",
     "weight": 3,
     "id": "sw-004127",
     "source": "Review11 Scene 230"
@@ -30122,7 +30122,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "striking contrast",
     "meaning": "鲜明对比",
-    "example": "",
+    "example": "The modern glass entrance created a striking contrast with the ancient stonework.",
     "weight": 3,
     "id": "sw-004128",
     "source": "Review11 Scene 230"
@@ -30131,7 +30131,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "cathedral fatigue",
     "meaning": "连续看教堂产生的审美疲劳（描述性说法）",
-    "example": "",
+    "example": "After visiting so many churches, I began to experience cathedral fatigue.",
     "weight": 3,
     "id": "sw-004129",
     "source": "Review11 Scene 230"
@@ -30140,7 +30140,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "linger on",
     "meaning": "目光或注意力长时间停留于",
-    "example": "",
+    "example": "My eyes lingered on the intricate carving above the doorway.",
     "weight": 3,
     "id": "sw-004130",
     "source": "Review11 Scene 230"
@@ -30149,7 +30149,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "hard to put into words",
     "meaning": "难以用语言表达",
-    "example": "",
+    "example": "The feeling was hard to put into words.",
     "weight": 3,
     "id": "sw-004131",
     "source": "Review11 Scene 230"
@@ -30176,7 +30176,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "jagged peaks",
     "meaning": "轮廓如锯齿的山峰",
-    "example": "",
+    "example": "Jagged peaks rose sharply above the valley.",
     "weight": 3,
     "id": "sw-004134",
     "source": "Review11 Scene 231"
@@ -30185,7 +30185,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "sheer rock face",
     "meaning": "几乎垂直的巨大岩壁",
-    "example": "",
+    "example": "A sheer rock face towered beside the narrow trail.",
     "weight": 3,
     "id": "sw-004135",
     "source": "Review11 Scene 231"
@@ -30194,7 +30194,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "limestone tower",
     "meaning": "塔状石灰岩山峰",
-    "example": "",
+    "example": "A limestone tower stood out against the evening sky.",
     "weight": 3,
     "id": "sw-004136",
     "source": "Review11 Scene 231"
@@ -30212,7 +30212,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "rocky saddle",
     "meaning": "两个高处之间的岩石山鞍",
-    "example": "",
+    "example": "We crossed a rocky saddle between the peaks.",
     "weight": 3,
     "id": "sw-004138",
     "source": "Review11 Scene 231"
@@ -30221,7 +30221,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "gravel trail",
     "meaning": "碎石路面步道",
-    "example": "",
+    "example": "The gravel trail made a crunching noise under our boots.",
     "weight": 3,
     "id": "sw-004139",
     "source": "Review11 Scene 231"
@@ -30230,7 +30230,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "crunch underfoot",
     "meaning": "碎石、雪或落叶在脚下咯吱作响",
-    "example": "",
+    "example": "Loose stones crunched underfoot as we walked.",
     "weight": 3,
     "id": "sw-004140",
     "source": "Review11 Scene 231"
@@ -30239,7 +30239,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "dominate the horizon",
     "meaning": "成为远方最醒目的景物",
-    "example": "",
+    "example": "The mountain dominated the horizon all afternoon.",
     "weight": 3,
     "id": "sw-004141",
     "source": "Review11 Scene 231"
@@ -30248,7 +30248,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "a sweeping panorama",
     "meaning": "宽广壮丽、几乎一览无余的全景",
-    "example": "",
+    "example": "From the summit, we enjoyed a sweeping panorama of the valley.",
     "weight": 3,
     "id": "sw-004142",
     "source": "Review11 Scene 231"
@@ -30257,7 +30257,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "the view opens up",
     "meaning": "视野突然开阔起来",
-    "example": "",
+    "example": "The view opened up as we reached the ridge.",
     "weight": 3,
     "id": "sw-004143",
     "source": "Review11 Scene 231"
@@ -30266,7 +30266,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "sharply defined silhouette",
     "meaning": "轮廓边缘非常清晰的剪影",
-    "example": "",
+    "example": "The peaks formed sharply defined silhouettes against the sunset.",
     "weight": 3,
     "id": "sw-004144",
     "source": "Review11 Scene 231"
@@ -30275,7 +30275,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "undulating terrain",
     "meaning": "连绵起伏的地形",
-    "example": "",
+    "example": "The path crossed gently undulating terrain.",
     "weight": 3,
     "id": "sw-004145",
     "source": "Review11 Scene 231"
@@ -30284,7 +30284,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "be dotted with",
     "meaning": "某一区域零星点缀着",
-    "example": "",
+    "example": "The green hills were dotted with small farmhouses.",
     "weight": 3,
     "id": "sw-004146",
     "source": "Review11 Scene 231"
@@ -30293,7 +30293,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "feel dwarfed by",
     "meaning": "在巨大事物面前感到自己渺小",
-    "example": "",
+    "example": "I felt dwarfed by the enormous cliffs around me.",
     "weight": 3,
     "id": "sw-004147",
     "source": "Review11 Scene 231"
@@ -30311,7 +30311,7 @@ const VOCABULARY = [
     "type": "word",
     "front": "the final stretch",
     "meaning": "路程、任务最后一段",
-    "example": "",
+    "example": "We reached the final stretch just before sunset.",
     "weight": 3,
     "id": "sw-004149",
     "source": "Review11 Scene 231"
