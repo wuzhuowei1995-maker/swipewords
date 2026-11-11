@@ -8846,20 +8846,39 @@ const VOCABULARY = [
     "id": "sw-001379"
   },
   {
-    "type": "word",
-    "front": "cloudy / murky water",
-    "meaning": "浑浊的水",
-    "example": "The water was cloudy and murky after the heavy rain.",
+    "type": "group",
+    "front": "水质描述：饮用与风险",
+    "meaning": "4 个相关表达",
+    "example": "",
     "weight": 3,
-    "id": "sw-001381"
-  },
-  {
-    "type": "word",
-    "front": "contaminated water",
-    "meaning": "受污染的水",
-    "example": "Don't drink contaminated water without appropriate treatment.",
-    "weight": 3,
-    "id": "sw-001383"
+    "id": "sw-001381",
+    "groupKind": "comparison",
+    "terms": [
+      {
+        "front": "cloudy / murky water",
+        "meaning": "浑浊的水",
+        "example": "The water was cloudy and murky after the heavy rain.",
+        "originalId": "sw-001381"
+      },
+      {
+        "front": "stagnant water",
+        "meaning": "停滞不流动的水",
+        "example": "The stagnant water had an unpleasant smell.",
+        "originalId": "sw-003261"
+      },
+      {
+        "front": "contaminated water",
+        "meaning": "受污染的水",
+        "example": "Don't drink contaminated water without appropriate treatment.",
+        "originalId": "sw-001383"
+      },
+      {
+        "front": "potable water",
+        "meaning": "符合饮用要求的水",
+        "example": "The sign says the tap provides potable water.",
+        "originalId": "sw-003257"
+      }
+    ]
   },
   {
     "type": "word",
@@ -10254,20 +10273,39 @@ const VOCABULARY = [
     "id": "sw-001591"
   },
   {
-    "type": "word",
-    "front": "thick / dense fog",
-    "meaning": "浓雾",
-    "example": "Dense fog hid the summit from view.",
+    "type": "group",
+    "front": "起雾与消散：不同状态",
+    "meaning": "4 个相关表达",
+    "example": "",
     "weight": 3,
-    "id": "sw-001592"
-  },
-  {
-    "type": "word",
-    "front": "patchy fog",
-    "meaning": "局部零散分布的雾",
-    "example": "Patchy fog covered parts of the valley.",
-    "weight": 3,
-    "id": "sw-001593"
+    "id": "sw-001592",
+    "groupKind": "comparison",
+    "terms": [
+      {
+        "front": "thick / dense fog",
+        "meaning": "浓雾",
+        "example": "Dense fog hid the summit from view.",
+        "originalId": "sw-001592"
+      },
+      {
+        "front": "patchy fog",
+        "meaning": "局部零散分布的雾",
+        "example": "Patchy fog covered parts of the valley.",
+        "originalId": "sw-001593"
+      },
+      {
+        "front": "fog bank",
+        "meaning": "一大片浓雾",
+        "example": "A thick fog bank moved across the valley.",
+        "originalId": "sw-003786"
+      },
+      {
+        "front": "the fog lifts",
+        "meaning": "大雾逐渐消散",
+        "example": "We'll wait in the shelter until the fog lifts.",
+        "originalId": "sw-003801"
+      }
+    ]
   },
   {
     "type": "word",
@@ -14534,12 +14572,39 @@ const VOCABULARY = [
     "id": "sw-002242"
   },
   {
-    "type": "word",
-    "front": "loose gravel",
-    "meaning": "松散碎石",
-    "example": "Loose gravel made the descent unstable.",
+    "type": "group",
+    "front": "地面危险：不同地形",
+    "meaning": "4 个相关表达",
+    "example": "",
     "weight": 3,
-    "id": "sw-002244"
+    "id": "sw-002244",
+    "groupKind": "comparison",
+    "terms": [
+      {
+        "front": "loose gravel",
+        "meaning": "松散碎石",
+        "example": "Loose gravel made the descent unstable.",
+        "originalId": "sw-002244"
+      },
+      {
+        "front": "scree",
+        "meaning": "山坡松散碎石",
+        "example": "Loose scree covered the steep mountainside.",
+        "originalId": "sw-002785"
+      },
+      {
+        "front": "boggy ground",
+        "meaning": "含水量很高、泥泞松软的地面",
+        "example": "Boggy ground made the path difficult to follow.",
+        "originalId": "sw-003673"
+      },
+      {
+        "front": "unstable footing",
+        "meaning": "难以站稳的落脚条件",
+        "example": "The wet rocks provided unstable footing.",
+        "originalId": "sw-004027"
+      }
+    ]
   },
   {
     "type": "word",
@@ -14604,14 +14669,6 @@ const VOCABULARY = [
     "example": "The computer froze again during the presentation.",
     "weight": 3,
     "id": "sw-002254"
-  },
-  {
-    "type": "word",
-    "front": "unrecognized transaction",
-    "meaning": "不认识的交易",
-    "example": "I reported an unrecognized transaction to my bank.",
-    "weight": 3,
-    "id": "sw-002255"
   },
   {
     "type": "word",
@@ -15766,20 +15823,45 @@ const VOCABULARY = [
     "weight": 3
   },
   {
-    "type": "word",
-    "front": "a sharp pain",
-    "meaning": "尖锐刺痛",
-    "example": "I felt a sharp pain in my ankle after the fall.",
+    "type": "group",
+    "front": "疼痛与不适：不同感觉",
+    "meaning": "5 个相关表达",
+    "example": "",
     "weight": 3,
-    "id": "sw-002436"
-  },
-  {
-    "type": "word",
-    "front": "a dull ache",
-    "meaning": "隐隐钝痛",
-    "example": "A dull ache developed in my shoulders after the hike.",
-    "weight": 3,
-    "id": "sw-002437"
+    "id": "sw-002436",
+    "groupKind": "comparison",
+    "terms": [
+      {
+        "front": "a sharp pain",
+        "meaning": "尖锐刺痛",
+        "example": "I felt a sharp pain in my ankle after the fall.",
+        "originalId": "sw-002436"
+      },
+      {
+        "front": "a dull ache",
+        "meaning": "隐隐钝痛",
+        "example": "A dull ache developed in my shoulders after the hike.",
+        "originalId": "sw-002437"
+      },
+      {
+        "front": "rubbing sensation",
+        "meaning": "摩擦感",
+        "example": "I felt a rubbing sensation near my heel.",
+        "originalId": "sw-002492"
+      },
+      {
+        "front": "red and tender",
+        "meaning": "发红且触碰疼痛",
+        "example": "The skin was red and tender after the long walk.",
+        "originalId": "sw-002493"
+      },
+      {
+        "front": "slightly swollen",
+        "meaning": "轻微肿胀",
+        "example": "My ankle looked slightly swollen after the hike.",
+        "originalId": "sw-002494"
+      }
+    ]
   },
   {
     "type": "word",
@@ -16167,30 +16249,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "rubbing sensation",
-    "meaning": "摩擦感",
-    "example": "I felt a rubbing sensation near my heel.",
-    "weight": 3,
-    "id": "sw-002492"
-  },
-  {
-    "type": "word",
-    "front": "red and tender",
-    "meaning": "发红且触碰疼痛",
-    "example": "The skin was red and tender after the long walk.",
-    "weight": 3,
-    "id": "sw-002493"
-  },
-  {
-    "type": "word",
-    "front": "slightly swollen",
-    "meaning": "轻微肿胀",
-    "example": "My ankle looked slightly swollen after the hike.",
-    "weight": 3,
-    "id": "sw-002494"
-  },
-  {
-    "type": "word",
     "front": "grit",
     "meaning": "沙砾",
     "example": "A piece of grit had got inside my shoe.",
@@ -16572,14 +16630,6 @@ const VOCABULARY = [
     "example": "There was no obvious alternative to turning back.",
     "weight": 3,
     "id": "sw-002553"
-  },
-  {
-    "type": "word",
-    "front": "washed-out trail",
-    "meaning": "被水冲毁的路线",
-    "example": "The washed-out trail was closed to hikers.",
-    "weight": 3,
-    "id": "sw-002554"
   },
   {
     "type": "word",
@@ -17422,28 +17472,39 @@ const VOCABULARY = [
     "id": "sw-002666"
   },
   {
-    "type": "word",
-    "front": "duplicate charge",
-    "meaning": "重复扣款",
-    "example": "I noticed a duplicate charge on my bank statement.",
+    "type": "group",
+    "front": "银行扣款：不同状态",
+    "meaning": "4 个相关表达",
+    "example": "",
     "weight": 3,
-    "id": "sw-002667"
-  },
-  {
-    "type": "word",
-    "front": "pending transaction",
-    "meaning": "待处理的交易",
-    "example": "The payment is still showing as a pending transaction.",
-    "weight": 3,
-    "id": "sw-002668"
-  },
-  {
-    "type": "word",
-    "front": "posted transaction",
-    "meaning": "正式入账的交易",
-    "example": "The charge became a posted transaction two days later.",
-    "weight": 3,
-    "id": "sw-002669"
+    "id": "sw-002668",
+    "groupKind": "comparison",
+    "terms": [
+      {
+        "front": "pending transaction",
+        "meaning": "待处理的交易",
+        "example": "The payment is still showing as a pending transaction.",
+        "originalId": "sw-002668"
+      },
+      {
+        "front": "posted transaction",
+        "meaning": "正式入账的交易",
+        "example": "The charge became a posted transaction two days later.",
+        "originalId": "sw-002669"
+      },
+      {
+        "front": "duplicate charge",
+        "meaning": "重复扣款",
+        "example": "I noticed a duplicate charge on my bank statement.",
+        "originalId": "sw-002667"
+      },
+      {
+        "front": "unrecognized transaction",
+        "meaning": "不认识的交易",
+        "example": "I reported an unrecognized transaction to my bank.",
+        "originalId": "sw-002255"
+      }
+    ]
   },
   {
     "type": "word",
@@ -18308,14 +18369,6 @@ const VOCABULARY = [
     "example": "Hundreds of passengers were stranded after the airport closed.",
     "weight": 3,
     "id": "sw-002783"
-  },
-  {
-    "type": "word",
-    "front": "scree",
-    "meaning": "山坡松散碎石",
-    "example": "Loose scree covered the steep mountainside.",
-    "weight": 3,
-    "id": "sw-002785"
   },
   {
     "type": "word",
@@ -19412,13 +19465,40 @@ const VOCABULARY = [
     "source": "Review10 Scene 160"
   },
   {
-    "type": "word",
-    "front": "blurry / blurred vision",
-    "meaning": "模糊的；视线模糊",
-    "example": "My vision became blurry after staring at the screen for hours.",
+    "type": "group",
+    "front": "视力问题：不同描述",
+    "meaning": "4 个相关表达",
+    "example": "",
     "weight": 3,
     "id": "sw-002934",
-    "source": "Review10 Scene 161"
+    "source": "Review10 Scene 161",
+    "groupKind": "comparison",
+    "terms": [
+      {
+        "front": "blurry / blurred vision",
+        "meaning": "模糊的；视线模糊",
+        "example": "My vision became blurry after staring at the screen for hours.",
+        "originalId": "sw-002934"
+      },
+      {
+        "front": "nearsighted / shortsighted",
+        "meaning": "近视的（美式／英式）",
+        "example": "I'm nearsighted, so I need glasses to see distant objects clearly.",
+        "originalId": "sw-002941"
+      },
+      {
+        "front": "farsighted / longsighted",
+        "meaning": "远视的（美式／英式）",
+        "example": "Someone who is farsighted may have trouble focusing on nearby objects.",
+        "originalId": "sw-002942"
+      },
+      {
+        "front": "astigmatism",
+        "meaning": "散光",
+        "example": "The eye test showed that I have astigmatism.",
+        "originalId": "sw-002943"
+      }
+    ]
   },
   {
     "type": "word",
@@ -19472,33 +19552,6 @@ const VOCABULARY = [
     "example": "My glasses prescription has changed since last year.",
     "weight": 3,
     "id": "sw-002940",
-    "source": "Review10 Scene 161"
-  },
-  {
-    "type": "word",
-    "front": "nearsighted / shortsighted",
-    "meaning": "近视的（美式／英式）",
-    "example": "I'm nearsighted, so I need glasses to see distant objects clearly.",
-    "weight": 3,
-    "id": "sw-002941",
-    "source": "Review10 Scene 161"
-  },
-  {
-    "type": "word",
-    "front": "farsighted / longsighted",
-    "meaning": "远视的（美式／英式）",
-    "example": "Someone who is farsighted may have trouble focusing on nearby objects.",
-    "weight": 3,
-    "id": "sw-002942",
-    "source": "Review10 Scene 161"
-  },
-  {
-    "type": "word",
-    "front": "astigmatism",
-    "meaning": "散光",
-    "example": "The eye test showed that I have astigmatism.",
-    "weight": 3,
-    "id": "sw-002943",
     "source": "Review10 Scene 161"
   },
   {
@@ -19683,15 +19736,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "reference price",
-    "meaning": "用于比较判断的参考价格",
-    "example": "The original price served as a reference price.",
-    "weight": 3,
-    "id": "sw-002964",
-    "source": "Review10 Scene 163"
-  },
-  {
-    "type": "word",
     "front": "initial figure",
     "meaning": "最初呈现的数字",
     "example": "The initial figure was much higher than I expected.",
@@ -19709,13 +19753,40 @@ const VOCABULARY = [
     "source": "Review10 Scene 163"
   },
   {
-    "type": "word",
-    "front": "list price",
-    "meaning": "标价、目录价",
-    "example": "The list price is higher than the current sale price.",
+    "type": "group",
+    "front": "价格：参考与比较",
+    "meaning": "4 个相关表达",
+    "example": "",
     "weight": 3,
     "id": "sw-002967",
-    "source": "Review10 Scene 163"
+    "source": "Review10 Scene 163",
+    "groupKind": "comparison",
+    "terms": [
+      {
+        "front": "list price",
+        "meaning": "标价、目录价",
+        "example": "The list price is higher than the current sale price.",
+        "originalId": "sw-002967"
+      },
+      {
+        "front": "reference price",
+        "meaning": "用于比较判断的参考价格",
+        "example": "The original price served as a reference price.",
+        "originalId": "sw-002964"
+      },
+      {
+        "front": "promotional price",
+        "meaning": "促销价",
+        "example": "The promotional price applied only to loyalty-card holders.",
+        "originalId": "sw-003269"
+      },
+      {
+        "front": "unit price",
+        "meaning": "按同一计量单位计算的价格",
+        "example": "Compare the unit price to see which package offers better value.",
+        "originalId": "sw-003273"
+      }
+    ]
   },
   {
     "type": "word",
@@ -19826,13 +19897,40 @@ const VOCABULARY = [
     "source": "Review10 Scene 164"
   },
   {
-    "type": "word",
-    "front": "adjoining room",
-    "meaning": "相邻的房间",
-    "example": "I could hear people talking in the adjoining room.",
+    "type": "group",
+    "front": "旅馆房间：几种状态",
+    "meaning": "4 个相关表达",
+    "example": "",
     "weight": 3,
     "id": "sw-002980",
-    "source": "Review10 Scene 164"
+    "source": "Review10 Scene 164",
+    "groupKind": "comparison",
+    "terms": [
+      {
+        "front": "adjoining room",
+        "meaning": "相邻的房间",
+        "example": "I could hear people talking in the adjoining room.",
+        "originalId": "sw-002980"
+      },
+      {
+        "front": "vacant room",
+        "meaning": "空置房间",
+        "example": "Could you move me to a vacant room on another floor?",
+        "originalId": "sw-002987"
+      },
+      {
+        "front": "comparable room",
+        "meaning": "条件相近的房间",
+        "example": "I'd be happy with a comparable room in a quieter area.",
+        "originalId": "sw-002988"
+      },
+      {
+        "front": "complimentary upgrade",
+        "meaning": "免费升级房型",
+        "example": "The hotel offered a complimentary upgrade after the complaint.",
+        "originalId": "sw-002989"
+      }
+    ]
   },
   {
     "type": "word",
@@ -19890,33 +19988,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "vacant room",
-    "meaning": "空置房间",
-    "example": "Could you move me to a vacant room on another floor?",
-    "weight": 3,
-    "id": "sw-002987",
-    "source": "Review10 Scene 164"
-  },
-  {
-    "type": "word",
-    "front": "comparable room",
-    "meaning": "条件相近的房间",
-    "example": "I'd be happy with a comparable room in a quieter area.",
-    "weight": 3,
-    "id": "sw-002988",
-    "source": "Review10 Scene 164"
-  },
-  {
-    "type": "word",
-    "front": "complimentary upgrade",
-    "meaning": "免费升级房型",
-    "example": "The hotel offered a complimentary upgrade after the complaint.",
-    "weight": 3,
-    "id": "sw-002989",
-    "source": "Review10 Scene 164"
-  },
-  {
-    "type": "word",
     "front": "relocate (room)",
     "meaning": "换到另一间房",
     "example": "They relocated us to a room away from the lift.",
@@ -19925,13 +19996,40 @@ const VOCABULARY = [
     "source": "Review10 Scene 164"
   },
   {
-    "type": "word",
-    "front": "overgrown",
-    "meaning": "被植物覆盖而难以通过的",
-    "example": "The trail was overgrown and difficult to follow.",
+    "type": "group",
+    "front": "步道：路径状况",
+    "meaning": "4 个相关表达",
+    "example": "",
     "weight": 3,
     "id": "sw-002991",
-    "source": "Review10 Scene 165"
+    "source": "Review10 Scene 165",
+    "groupKind": "comparison",
+    "terms": [
+      {
+        "front": "overgrown",
+        "meaning": "被植物覆盖而难以通过的",
+        "example": "The trail was overgrown and difficult to follow.",
+        "originalId": "sw-002991"
+      },
+      {
+        "front": "faint path",
+        "meaning": "不清楚、不容易看见的小路",
+        "example": "The faint path almost disappeared in the grass.",
+        "originalId": "sw-003430"
+      },
+      {
+        "front": "false trail",
+        "meaning": "容易误导人的错误小径",
+        "example": "A false trail led us away from the marked route.",
+        "originalId": "sw-003431"
+      },
+      {
+        "front": "washed-out trail",
+        "meaning": "被水冲毁的路线",
+        "example": "The washed-out trail was closed to hikers.",
+        "originalId": "sw-002554"
+      }
+    ]
   },
   {
     "type": "word",
@@ -21767,13 +21865,40 @@ const VOCABULARY = [
     "source": "Review10 Scene 179"
   },
   {
-    "type": "word",
-    "front": "shift swap",
-    "meaning": "两名员工交换班次",
-    "example": "I arranged a shift swap with a colleague.",
+    "type": "group",
+    "front": "工作班次：几种安排",
+    "meaning": "4 个相关表达",
+    "example": "",
     "weight": 3,
     "id": "sw-003194",
-    "source": "Review10 Scene 179"
+    "source": "Review10 Scene 179",
+    "groupKind": "comparison",
+    "terms": [
+      {
+        "front": "shift swap",
+        "meaning": "两名员工交换班次",
+        "example": "I arranged a shift swap with a colleague.",
+        "originalId": "sw-003194"
+      },
+      {
+        "front": "partial shift",
+        "meaning": "一整个班次的一部分",
+        "example": "I can work a partial shift but not the whole afternoon.",
+        "originalId": "sw-003199"
+      },
+      {
+        "front": "double shift",
+        "meaning": "连续承担两个班次",
+        "example": "She worked a double shift because a colleague was absent.",
+        "originalId": "sw-003205"
+      },
+      {
+        "front": "pick up a shift",
+        "meaning": "额外接下一次工作班次",
+        "example": "I picked up an extra shift over the weekend.",
+        "originalId": "sw-003200"
+      }
+    ]
   },
   {
     "type": "word",
@@ -21813,24 +21938,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "partial shift",
-    "meaning": "一整个班次的一部分",
-    "example": "I can work a partial shift but not the whole afternoon.",
-    "weight": 3,
-    "id": "sw-003199",
-    "source": "Review10 Scene 179"
-  },
-  {
-    "type": "word",
-    "front": "pick up a shift",
-    "meaning": "额外接下一次工作班次",
-    "example": "I picked up an extra shift over the weekend.",
-    "weight": 3,
-    "id": "sw-003200",
-    "source": "Review10 Scene 179"
-  },
-  {
-    "type": "word",
     "front": "shift overlap",
     "meaning": "两个班次重叠的交接时段",
     "example": "The shift overlap gave us time to explain the unfinished tasks.",
@@ -21863,15 +21970,6 @@ const VOCABULARY = [
     "example": "Employees must clock in at the start of each shift and clock out at the end.",
     "weight": 3,
     "id": "sw-003204",
-    "source": "Review10 Scene 179"
-  },
-  {
-    "type": "word",
-    "front": "double shift",
-    "meaning": "连续承担两个班次",
-    "example": "She worked a double shift because a colleague was absent.",
-    "weight": 3,
-    "id": "sw-003205",
     "source": "Review10 Scene 179"
   },
   {
@@ -22335,15 +22433,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "potable water",
-    "meaning": "符合饮用要求的水",
-    "example": "The sign says the tap provides potable water.",
-    "weight": 3,
-    "id": "sw-003257",
-    "source": "Review10 Scene 183"
-  },
-  {
-    "type": "word",
     "front": "untreated water",
     "meaning": "未经适当处理的水",
     "example": "Keep untreated water separate from your clean bottle to avoid cross-contamination.",
@@ -22367,15 +22456,6 @@ const VOCABULARY = [
     "example": "Check the filter cartridge for damage before using it.",
     "weight": 3,
     "id": "sw-003260",
-    "source": "Review10 Scene 183"
-  },
-  {
-    "type": "word",
-    "front": "stagnant water",
-    "meaning": "停滞不流动的水",
-    "example": "The stagnant water had an unpleasant smell.",
-    "weight": 3,
-    "id": "sw-003261",
     "source": "Review10 Scene 183"
   },
   {
@@ -22443,15 +22523,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "promotional price",
-    "meaning": "促销价",
-    "example": "The promotional price applied only to loyalty-card holders.",
-    "weight": 3,
-    "id": "sw-003269",
-    "source": "Review10 Scene 184"
-  },
-  {
-    "type": "word",
     "front": "loyalty card",
     "meaning": "商店会员卡",
     "example": "I scanned my loyalty card before paying.",
@@ -22475,15 +22546,6 @@ const VOCABULARY = [
     "example": "The multibuy offer applied when I bought three items.",
     "weight": 3,
     "id": "sw-003272",
-    "source": "Review10 Scene 184"
-  },
-  {
-    "type": "word",
-    "front": "unit price",
-    "meaning": "按同一计量单位计算的价格",
-    "example": "Compare the unit price to see which package offers better value.",
-    "weight": 3,
-    "id": "sw-003273",
     "source": "Review10 Scene 184"
   },
   {
@@ -23883,24 +23945,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "faint path",
-    "meaning": "不清楚、不容易看见的小路",
-    "example": "The faint path almost disappeared in the grass.",
-    "weight": 3,
-    "id": "sw-003430",
-    "source": "Review10 Scene 195"
-  },
-  {
-    "type": "word",
-    "front": "false trail",
-    "meaning": "容易误导人的错误小径",
-    "example": "A false trail led us away from the marked route.",
-    "weight": 3,
-    "id": "sw-003431",
-    "source": "Review10 Scene 195"
-  },
-  {
-    "type": "word",
     "front": "overshoot a turn",
     "meaning": "走过或错过应该转向的位置",
     "example": "We overshot the turn and had to retrace our steps.",
@@ -24584,40 +24628,40 @@ const VOCABULARY = [
     "source": "Review11 Scene 197"
   },
   {
-    "type": "word",
-    "front": "asking price",
-    "meaning": "卖家要价",
-    "example": "The asking price was higher than I wanted to pay.",
+    "type": "group",
+    "front": "谈价：报价与底线",
+    "meaning": "4 个相关表达",
+    "example": "",
     "weight": 3,
     "id": "sw-003508",
-    "source": "Review11 Scene 197"
-  },
-  {
-    "type": "word",
-    "front": "negotiable",
-    "meaning": "可协商的；价格可商量",
-    "example": "The seller said the price was negotiable.",
-    "weight": 3,
-    "id": "sw-003509",
-    "source": "Review11 Scene 197"
-  },
-  {
-    "type": "word",
-    "front": "open to offers",
-    "meaning": "愿意考虑买家提出的报价",
-    "example": "The seller is open to offers but won't accept an extremely low price.",
-    "weight": 3,
-    "id": "sw-003510",
-    "source": "Review11 Scene 197"
-  },
-  {
-    "type": "word",
-    "front": "firm on price",
-    "meaning": "价格不再商量",
-    "example": "He's firm on price because the bicycle is almost new.",
-    "weight": 3,
-    "id": "sw-003511",
-    "source": "Review11 Scene 197"
+    "source": "Review11 Scene 197",
+    "groupKind": "comparison",
+    "terms": [
+      {
+        "front": "asking price",
+        "meaning": "卖家要价",
+        "example": "The asking price was higher than I wanted to pay.",
+        "originalId": "sw-003508"
+      },
+      {
+        "front": "negotiable",
+        "meaning": "可协商的；价格可商量",
+        "example": "The seller said the price was negotiable.",
+        "originalId": "sw-003509"
+      },
+      {
+        "front": "firm on price",
+        "meaning": "价格不再商量",
+        "example": "He's firm on price because the bicycle is almost new.",
+        "originalId": "sw-003511"
+      },
+      {
+        "front": "open to offers",
+        "meaning": "愿意考虑买家提出的报价",
+        "example": "The seller is open to offers but won't accept an extremely low price.",
+        "originalId": "sw-003510"
+      }
+    ]
   },
   {
     "type": "word",
@@ -24890,13 +24934,40 @@ const VOCABULARY = [
     "source": "Review11 Scene 199"
   },
   {
-    "type": "word",
-    "front": "flicker frequency",
-    "meaning": "闪烁频率",
-    "example": "The flicker frequency affects how the light appears on camera.",
+    "type": "group",
+    "front": "相机灯光：常见问题",
+    "meaning": "4 个相关表达",
+    "example": "",
     "weight": 3,
     "id": "sw-003542",
-    "source": "Review11 Scene 199"
+    "source": "Review11 Scene 199",
+    "groupKind": "comparison",
+    "terms": [
+      {
+        "front": "flicker frequency",
+        "meaning": "闪烁频率",
+        "example": "The flicker frequency affects how the light appears on camera.",
+        "originalId": "sw-003542"
+      },
+      {
+        "front": "banding",
+        "meaning": "画面出现明暗条纹的现象",
+        "example": "Banding appeared across the video under the LED lights.",
+        "originalId": "sw-003548"
+      },
+      {
+        "front": "light fluctuation",
+        "meaning": "光线亮度波动",
+        "example": "The camera captured light fluctuations that I couldn't see directly.",
+        "originalId": "sw-003549"
+      },
+      {
+        "front": "anti-flicker setting",
+        "meaning": "相机防闪烁设置",
+        "example": "I enabled the camera's anti-flicker setting.",
+        "originalId": "sw-003550"
+      }
+    ]
   },
   {
     "type": "word",
@@ -24941,33 +25012,6 @@ const VOCABULARY = [
     "example": "A longer exposure time may make motion blur more visible.",
     "weight": 3,
     "id": "sw-003547",
-    "source": "Review11 Scene 199"
-  },
-  {
-    "type": "word",
-    "front": "banding",
-    "meaning": "画面出现明暗条纹的现象",
-    "example": "Banding appeared across the video under the LED lights.",
-    "weight": 3,
-    "id": "sw-003548",
-    "source": "Review11 Scene 199"
-  },
-  {
-    "type": "word",
-    "front": "light fluctuation",
-    "meaning": "光线亮度波动",
-    "example": "The camera captured light fluctuations that I couldn't see directly.",
-    "weight": 3,
-    "id": "sw-003549",
-    "source": "Review11 Scene 199"
-  },
-  {
-    "type": "word",
-    "front": "anti-flicker setting",
-    "meaning": "相机防闪烁设置",
-    "example": "I enabled the camera's anti-flicker setting.",
-    "weight": 3,
-    "id": "sw-003550",
     "source": "Review11 Scene 199"
   },
   {
@@ -25611,15 +25655,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "divergence",
-    "meaning": "不同公司或板块表现的分化",
-    "example": "There was a sharp divergence between technology and energy stocks.",
-    "weight": 3,
-    "id": "sw-003623",
-    "source": "Review11 Scene 204"
-  },
-  {
-    "type": "word",
     "front": "hyperscaler",
     "meaning": "超大规模云计算服务商",
     "example": "A hyperscaler may operate data centres across several regions.",
@@ -25916,31 +25951,40 @@ const VOCABULARY = [
     "source": "Review11 Scene 205"
   },
   {
-    "type": "word",
-    "front": "full-to-full fuel policy",
-    "meaning": "满油取车、满油还车政策",
-    "example": "Our rental agreement uses a full-to-full fuel policy.",
+    "type": "group",
+    "front": "租车与还车：燃油和费用",
+    "meaning": "4 个相关表达",
+    "example": "",
     "weight": 3,
     "id": "sw-003657",
-    "source": "Review11 Scene 206"
-  },
-  {
-    "type": "word",
-    "front": "top up the tank",
-    "meaning": "把油箱补加到规定油量",
-    "example": "I stopped at a petrol station to top up the tank.",
-    "weight": 3,
-    "id": "sw-003658",
-    "source": "Review11 Scene 206"
-  },
-  {
-    "type": "word",
-    "front": "fuel receipt",
-    "meaning": "加油收据",
-    "example": "Keep the fuel receipt in case the rental company asks for it.",
-    "weight": 3,
-    "id": "sw-003659",
-    "source": "Review11 Scene 206"
+    "source": "Review11 Scene 206",
+    "groupKind": "comparison",
+    "terms": [
+      {
+        "front": "full-to-full fuel policy",
+        "meaning": "满油取车、满油还车政策",
+        "example": "Our rental agreement uses a full-to-full fuel policy.",
+        "originalId": "sw-003657"
+      },
+      {
+        "front": "fuel receipt",
+        "meaning": "加油收据",
+        "example": "Keep the fuel receipt in case the rental company asks for it.",
+        "originalId": "sw-003659"
+      },
+      {
+        "front": "top up the tank",
+        "meaning": "把油箱补加到规定油量",
+        "example": "I stopped at a petrol station to top up the tank.",
+        "originalId": "sw-003658"
+      },
+      {
+        "front": "late-return fee",
+        "meaning": "延迟还车费",
+        "example": "The rental company charges a late-return fee.",
+        "originalId": "sw-003662"
+      }
+    ]
   },
   {
     "type": "word",
@@ -25958,15 +26002,6 @@ const VOCABULARY = [
     "example": "We must return the car before the drop-off deadline.",
     "weight": 3,
     "id": "sw-003661",
-    "source": "Review11 Scene 206"
-  },
-  {
-    "type": "word",
-    "front": "late-return fee",
-    "meaning": "延迟还车费",
-    "example": "The rental company charges a late-return fee.",
-    "weight": 3,
-    "id": "sw-003662",
     "source": "Review11 Scene 206"
   },
   {
@@ -26057,15 +26092,6 @@ const VOCABULARY = [
     "example": "The boardwalk crosses a fragile wetland.",
     "weight": 3,
     "id": "sw-003672",
-    "source": "Review11 Scene 207"
-  },
-  {
-    "type": "word",
-    "front": "boggy ground",
-    "meaning": "含水量很高、泥泞松软的地面",
-    "example": "Boggy ground made the path difficult to follow.",
-    "weight": 3,
-    "id": "sw-003673",
     "source": "Review11 Scene 207"
   },
   {
@@ -27069,15 +27095,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "fog bank",
-    "meaning": "一大片浓雾",
-    "example": "A thick fog bank moved across the valley.",
-    "weight": 3,
-    "id": "sw-003786",
-    "source": "Review11 Scene 213"
-  },
-  {
-    "type": "word",
     "front": "low cloud",
     "meaning": "低云层",
     "example": "Low cloud covered the ridge just before noon.",
@@ -27191,15 +27208,6 @@ const VOCABULARY = [
     "example": "We lost our bearings in the fog, so we regrouped and followed a confirmed retreat route.",
     "weight": 3,
     "id": "sw-003800",
-    "source": "Review11 Scene 213"
-  },
-  {
-    "type": "word",
-    "front": "the fog lifts",
-    "meaning": "大雾逐渐消散",
-    "example": "We'll wait in the shelter until the fog lifts.",
-    "weight": 3,
-    "id": "sw-003801",
     "source": "Review11 Scene 213"
   },
   {
@@ -27650,15 +27658,6 @@ const VOCABULARY = [
     "example": "I would distinguish a temporary relief rally from a lasting improvement in fundamentals.",
     "weight": 3,
     "id": "sw-003852",
-    "source": "Review11 Scene 216"
-  },
-  {
-    "type": "word",
-    "front": "broad-based rebound",
-    "meaning": "多个板块共同参与的广泛反弹",
-    "example": "The rebound was broad-based, with gains across several sectors.",
-    "weight": 3,
-    "id": "sw-003853",
     "source": "Review11 Scene 216"
   },
   {
@@ -28662,15 +28661,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "sector rotation",
-    "meaning": "行业之间的资金轮换",
-    "example": "Sector rotation moved money from technology into defensive stocks.",
-    "weight": 3,
-    "id": "sw-003965",
-    "source": "Review11 Scene 222"
-  },
-  {
-    "type": "word",
     "front": "dispersion",
     "meaning": "行业内或资产之间的表现分散度",
     "example": "High dispersion means returns vary considerably across stocks.",
@@ -28715,13 +28705,40 @@ const VOCABULARY = [
     "source": "Review11 Scene 222"
   },
   {
-    "type": "word",
-    "front": "broad rally",
-    "meaning": "多个板块参与的市场上涨",
-    "example": "The broad rally included industrials, banks and technology firms.",
+    "type": "group",
+    "front": "市场走势：不同表现",
+    "meaning": "4 个相关表达",
+    "example": "",
     "weight": 3,
     "id": "sw-003971",
-    "source": "Review11 Scene 222"
+    "source": "Review11 Scene 222",
+    "groupKind": "comparison",
+    "terms": [
+      {
+        "front": "broad rally",
+        "meaning": "多个板块参与的市场上涨",
+        "example": "The broad rally included industrials, banks and technology firms.",
+        "originalId": "sw-003971"
+      },
+      {
+        "front": "broad-based rebound",
+        "meaning": "多个板块共同参与的广泛反弹",
+        "example": "The rebound was broad-based, with gains across several sectors.",
+        "originalId": "sw-003853"
+      },
+      {
+        "front": "sector rotation",
+        "meaning": "行业之间的资金轮换",
+        "example": "Sector rotation moved money from technology into defensive stocks.",
+        "originalId": "sw-003965"
+      },
+      {
+        "front": "divergence",
+        "meaning": "不同公司或板块表现的分化",
+        "example": "There was a sharp divergence between technology and energy stocks.",
+        "originalId": "sw-003623"
+      }
+    ]
   },
   {
     "type": "word",
@@ -29211,15 +29228,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "unstable footing",
-    "meaning": "难以站稳的落脚条件",
-    "example": "The wet rocks provided unstable footing.",
-    "weight": 3,
-    "id": "sw-004027",
-    "source": "Review11 Scene 225"
-  },
-  {
-    "type": "word",
     "front": "ford a stream",
     "meaning": "涉水过溪",
     "example": "It wasn't safe to ford the stream after the rainfall.",
@@ -29318,13 +29326,40 @@ const VOCABULARY = [
     "source": "Review11 Scene 226"
   },
   {
-    "type": "word",
-    "front": "squealing brakes",
-    "meaning": "发出尖锐声的刹车",
-    "example": "Squealing brakes can indicate a problem that needs inspection.",
+    "type": "group",
+    "front": "刹车故障：典型描述",
+    "meaning": "4 个相关表达",
+    "example": "",
     "weight": 3,
     "id": "sw-004039",
-    "source": "Review11 Scene 226"
+    "source": "Review11 Scene 226",
+    "groupKind": "comparison",
+    "terms": [
+      {
+        "front": "squealing brakes",
+        "meaning": "发出尖锐声的刹车",
+        "example": "Squealing brakes can indicate a problem that needs inspection.",
+        "originalId": "sw-004039"
+      },
+      {
+        "front": "spongy brake lever",
+        "meaning": "手感软、缺乏明确反馈的刹车手柄",
+        "example": "The brake lever felt spongy rather than firm.",
+        "originalId": "sw-004049"
+      },
+      {
+        "front": "brake lever travel",
+        "meaning": "刹车手柄移动行程",
+        "example": "Excessive brake lever travel may indicate a problem with the braking system.",
+        "originalId": "sw-004048"
+      },
+      {
+        "front": "uneven wear",
+        "meaning": "不均匀磨损",
+        "example": "Uneven wear can be a sign of poor alignment.",
+        "originalId": "sw-004045"
+      }
+    ]
   },
   {
     "type": "word",
@@ -29373,15 +29408,6 @@ const VOCABULARY = [
   },
   {
     "type": "word",
-    "front": "uneven wear",
-    "meaning": "不均匀磨损",
-    "example": "Uneven wear can be a sign of poor alignment.",
-    "weight": 3,
-    "id": "sw-004045",
-    "source": "Review11 Scene 226"
-  },
-  {
-    "type": "word",
     "front": "rubbing noise",
     "meaning": "持续摩擦产生的声音",
     "example": "My brakes keep squealing, and I can hear a rubbing noise even when I'm not braking.",
@@ -29396,24 +29422,6 @@ const VOCABULARY = [
     "example": "Spin the wheel by hand.",
     "weight": 3,
     "id": "sw-004047",
-    "source": "Review11 Scene 226"
-  },
-  {
-    "type": "word",
-    "front": "brake lever travel",
-    "meaning": "刹车手柄移动行程",
-    "example": "Excessive brake lever travel may indicate a problem with the braking system.",
-    "weight": 3,
-    "id": "sw-004048",
-    "source": "Review11 Scene 226"
-  },
-  {
-    "type": "word",
-    "front": "spongy brake lever",
-    "meaning": "手感软、缺乏明确反馈的刹车手柄",
-    "example": "The brake lever felt spongy rather than firm.",
-    "weight": 3,
-    "id": "sw-004049",
     "source": "Review11 Scene 226"
   },
   {
