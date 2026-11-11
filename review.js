@@ -212,7 +212,7 @@
   // On-device speech, no API key or audio file needed. Only starts on a user tap.
   const speechAvailable=typeof window.speechSynthesis!=="undefined" &&
     typeof window.SpeechSynthesisUtterance==="function";
-  let speaking=false, speechToken=0;
+  let speaking=false, speechToken=0, queuedSpeech=[];
   const speakButton=btn("🔊",toggleSpeech);
   speakButton.id="sw-speak-button";
   speakButton.setAttribute("aria-label","朗读当前词汇及例句");
@@ -228,6 +228,7 @@
   }
   function stopSpeech(){
     speechToken++;
+    queuedSpeech=[];
     if(speechAvailable){
       try{window.speechSynthesis.cancel();}catch(_){}
     }
@@ -277,6 +278,7 @@
     try{
       parts.forEach((part,index)=>{
         const utterance=new window.SpeechSynthesisUtterance(part.text);
+        queuedSpeech.push(utterance); // Keep utterances alive on mobile Safari.
         utterance.lang=part.lang;
         utterance.rate=0.9;
         // All utterances are queued directly inside the user's click event.
@@ -290,6 +292,7 @@
           utterance.onend=()=>{
             if(token!==speechToken)return;
             speaking=false;
+            queuedSpeech=[];
             updateSpeakButton();
           };
         }
