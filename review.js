@@ -209,6 +209,99 @@
     }
     return node;
   }
+  // On-device speech, no API key or audio file needed. Only starts on a user tap.
+  const speechAvailable=typeof window.speechSynthesis!=="undefined" &&
+    typeof window.SpeechSynthesisUtterance==="function";
+  let speaking=false, speechToken=0;
+  const speakButton=btn("🔊",toggleSpeech);
+  speakButton.id="sw-speak-button";
+  speakButton.setAttribute("aria-label","朗读当前词汇及例句");
+  speakButton.setAttribute("aria-pressed","false");
+  speakButton.title="朗读当前英文词汇及例句";
+  document.body.appendChild(speakButton);
+  function updateSpeakButton(){
+    speakButton.textContent=speaking?"■":"🔊";
+    speakButton.setAttribute("aria-label",speaking?"停止朗读":"朗读当前词汇及例句");
+    speakButton.setAttribute("aria-pressed",String(speaking));
+    speakButton.title=speaking?"停止朗读":"朗读当前英文词汇及例句";
+    speakButton.classList.toggle("speaking",speaking);
+  }
+  function stopSpeech(){
+    speechToken++;
+    if(speechAvailable){
+      try{window.speechSynthesis.cancel();}catch(_){}
+    }
+    speaking=false;
+    updateSpeakButton();
+  }
+  function englishExample(value){
+    // Some comparison cards include explanatory Chinese notes; do not
+    // pronounce them with an English-language speech synthesizer.
+    return String(value||"").split(/\n+/)
+      .filter(line=>!/[\u3400-\u9fff]/.test(line))
+      .map(line=>line.replace(/^Example:\s*/i,"").trim())
+      .filter(Boolean).join(" ");
+  }
+  function speechParts(item){
+    if(!item)return [];
+    if(item.type==="kana"){
+      const syllable=item.hiragana||item.katakana||item.front;
+      return syllable?[{text:syllable,lang:"ja-JP"}]:[];
+    }
+    const result=[];
+    function add(text){
+      const clean=String(text||"").replace(/\s*[\/+→]\s*/g,", ").trim();
+      if(clean)result.push({text:clean,lang:"en-US"});
+    }
+    if(item.type==="group"&&Array.isArray(item.terms)){
+      for(const term of item.terms){
+        // In a one-word-many-meanings group, term.front is merely "用法 1".
+        add(item.groupKind==="senses"?item.front:term.front);
+        add(englishExample(term.example));
+      }
+    }else{
+      add(item.front);
+      add(englishExample(item.example));
+    }
+    return result;
+  }
+  function toggleSpeech(){
+    if(speaking){stopSpeech();return;}
+    if(!speechAvailable){hint("此浏览器不支持系统语音朗读。");return;}
+    const parts=speechParts(current());
+    if(!parts.length){hint("当前卡片没有可朗读的内容。");return;}
+    stopSpeech();
+    const token=speechToken;
+    speaking=true;
+    updateSpeakButton();
+    try{
+      parts.forEach((part,index)=>{
+        const utterance=new window.SpeechSynthesisUtterance(part.text);
+        utterance.lang=part.lang;
+        utterance.rate=0.9;
+        // All utterances are queued directly inside the user's click event.
+        utterance.onerror=(event)=>{
+          if(token!==speechToken)return;
+          stopSpeech();
+          if(event.error!=="interrupted"&&event.error!=="canceled")
+            hint("语音播放失败，请检查设备音量或浏览器语音设置。");
+        };
+        if(index===parts.length-1){
+          utterance.onend=()=>{
+            if(token!==speechToken)return;
+            speaking=false;
+            updateSpeakButton();
+          };
+        }
+        window.speechSynthesis.speak(utterance);
+      });
+    }catch(_){
+      stopSpeech();
+      hint("当前设备无法启动语音播放。");
+    }
+  }
+  window.addEventListener("pagehide",stopSpeech);
+  document.addEventListener("visibilitychange",()=>{if(document.hidden)stopSpeech();});
   const counter=el("","sw-counters");
   counter.id="sw-counters";
   counter.setAttribute("aria-label","复习计数");
@@ -229,6 +322,7 @@
     if(busy||menuOpen)return;
     const previous=app.querySelector(".card");
     if(!draw()){hint("本轮剩余卡片尚在100次冷却期内，不会提前重复。");return;}
+    stopSpeech();
     busy=true;
     const upcoming=card(current(),"enter-up");app.appendChild(upcoming);
     requestAnimationFrame(()=>{previous?.classList.add("exit-up");upcoming.classList.add("enter-active");});
@@ -242,9 +336,10 @@
   sheet.setAttribute("role","dialog");sheet.setAttribute("aria-modal","true");sheet.setAttribute("aria-label","词条管理");
   overlay.appendChild(sheet);document.body.appendChild(overlay);
   overlay.addEventListener("click",e=>{if(e.target===overlay)setMenu(false);});
-  function setMenu(open){menuOpen=!!open;overlay.hidden=!menuOpen;menu.setAttribute("aria-expanded",String(menuOpen));if(menuOpen)updateSheet();}
+  function setMenu(open){menuOpen=!!open;overlay.hidden=!menuOpen;menu.setAttribute("aria-expanded",String(menuOpen));if(menuOpen){stopSpeech();updateSheet();}}
   function removeCurrent() {
     const x=current();if(!removable(x))return;
+    stopSpeech();
     removed.push({id:x.id,front:x.front,type:x.type,removedAt:new Date().toISOString()});
     removedIDs.add(x.id);save(REMOVED,removed);
     // The removed card is skipped; the rest of the current cycle is kept.
