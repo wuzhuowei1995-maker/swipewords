@@ -15,13 +15,31 @@
   const WINDOW = 100, THRESHOLD = 46;
   function read(k) { try {return JSON.parse(localStorage.getItem(k));}catch(_){return null;} }
   function save(k,v) {try {localStorage.setItem(k,JSON.stringify(v));}catch(_){}}
-  function key(x) {return JSON.stringify([x.type||"",x.front||"",x.meaning||"",x.example||"",x.hiragana||"",x.katakana||"",x.romaji||""]);}
+  // Stable IDs prevent editing an example or explanation from resetting swipe history.
+  function key(x) {return x?.id||fallbackID(x);}
   function paragraph(x) {return /paragraph|passage|article|long.text/i.test(String(x?.type||""));}
   function removable(x) {return !!x && !paragraph(x);}
   let removed=Array.isArray(read(REMOVED))?read(REMOVED):[];
   removed=removed.filter((x,i,a)=>x&&typeof x.id==="string"&&a.findIndex(y=>y&&y.id===x.id)===i);
   let removedIDs=new Set(removed.map(x=>x.id));
   const knownIDs=new Map(items.map(x=>[x.id,x]));
+  // Backward-compatible migration from the old content-dependent JSON keys.
+  function migrateKey(value) {
+    if(typeof value!=="string")return null;
+    if(knownIDs.has(value))return value;
+    let fields;
+    try {fields=JSON.parse(value);} catch (_) {return null;}
+    if(!Array.isArray(fields)||fields.length<4)return null;
+    const [type,front,meaning]=fields;
+    const same=items.filter(x=>x.type===type&&x.front===front);
+    const exact=same.find(x=>x.meaning===meaning);
+    if(exact)return exact.id;
+    if(same.length)return same[0].id;
+    // A formerly separate meaning may now be inside a consolidated group card.
+    const grouped=items.find(x=>x.type==="group"&&
+      (x.front===front || (x.terms||[]).some(t=>t.front===front)));
+    return grouped?.id||null;
+  }
   const english=items.filter(x=>x.type!=="kana");
   const split=Math.floor(english.length*0.4);
   const ranks=new Map(english.map((x,i)=>[key(x),i]));
@@ -49,8 +67,8 @@
   // Keep the existing local history. A cycle queue is persisted separately from
   // recentKeys so removing/restoring a card never starts a new shuffle.
   const state=old&&Array.isArray(old.recentKeys)
-    ? {currentKey:typeof old.currentKey==="string"?old.currentKey:null,
-       recentKeys:old.recentKeys.filter(x=>typeof x==="string").slice(-WINDOW),
+    ? {currentKey:migrateKey(old.currentKey),
+       recentKeys:[...new Set(old.recentKeys.map(migrateKey).filter(Boolean))].slice(-WINDOW),
        remainingCycleIds:Array.isArray(old.remainingCycleIds)?old.remainingCycleIds.filter(x=>typeof x==="string"):null,
        draws:Number.isSafeInteger(old.draws)&&old.draws>=0?old.draws:0,
        appearances:old.appearances&&typeof old.appearances==="object"&&!Array.isArray(old.appearances)?old.appearances:{},
