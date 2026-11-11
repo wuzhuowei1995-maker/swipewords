@@ -175,6 +175,17 @@
       const row=el("","kana-pair");
       row.append(el(x.hiragana||x.front,"kana-symbol"),el(x.katakana||x.meaning,"kana-symbol"));
       node.append(row,el(x.romaji||x.example,"kana-pronunciation"));
+    } else if(x.type==="group" && Array.isArray(x.terms)) {
+      node.classList.add("group-card");
+      node.append(el(x.front,"group-heading"));
+      const list=el("","group-list");
+      x.terms.forEach(term=>{
+        const entry=el("","group-entry");
+        entry.append(el(term.front,"group-term"),el(term.meaning,"group-meaning"));
+        if(term.example)entry.append(el(term.example,"group-example"));
+        list.appendChild(entry);
+      });
+      node.append(list);
     } else {
       node.append(el(x.front,"front"),el(x.meaning,"meaning"),el(x.example,"example"));
     }
@@ -299,12 +310,15 @@
     link.target="_blank";link.rel="noopener noreferrer";link.textContent="查看 GitHub Issues";
     sheet.appendChild(link);
   }
-  let touchX=0,touchY=0;
-  app.addEventListener("touchstart",e=>{if(e.touches.length){touchX=e.touches[0].clientX;touchY=e.touches[0].clientY;}},{passive:true});
+  let touchX=0,touchY=0,touchInsideGroup=false;
+  app.addEventListener("touchstart",e=>{
+    if(e.touches.length){touchX=e.touches[0].clientX;touchY=e.touches[0].clientY;touchInsideGroup=!!e.target.closest(".group-list");}
+  },{passive:true});
   app.addEventListener("touchend",e=>{
     if(!e.changedTouches.length||menuOpen)return;
     const dx=e.changedTouches[0].clientX-touchX,dy=e.changedTouches[0].clientY-touchY;
-    if((dy< -THRESHOLD&&Math.abs(dy)>Math.abs(dx))||(dx< -THRESHOLD&&Math.abs(dx)>Math.abs(dy)))next();
+    // Inside long comparison cards, vertical movement scrolls instead of changing cards.
+    if((!touchInsideGroup&&dy< -THRESHOLD&&Math.abs(dy)>Math.abs(dx))||(dx< -THRESHOLD&&Math.abs(dx)>Math.abs(dy)))next();
   },{passive:true});
   let pointer=null;
   app.addEventListener("pointerdown",e=>{if(e.pointerType!=="touch")pointer=[e.clientX,e.clientY];});
@@ -315,6 +329,7 @@
   });
   let wheelLock=false;
   app.addEventListener("wheel",e=>{
+    if(e.target.closest(".group-list"))return; // Let long comparison cards scroll normally.
     e.preventDefault();if(wheelLock||Math.abs(e.deltaY)<8)return;
     wheelLock=true;if(e.deltaY>0)next();setTimeout(()=>{wheelLock=false;},250);
   },{passive:false});
