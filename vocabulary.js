@@ -29950,6 +29950,456 @@ const VOCABULARY = [
     "weight": 3,
     "id": "sw-004247",
     "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "leaves rustling",
+    "meaning": "树叶沙沙作响",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004248",
+    "source": "Sound Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "snow crunching underfoot",
+    "meaning": "脚踩积雪的咯吱声",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004249",
+    "source": "Sound Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "wind howling",
+    "meaning": "狂风呼啸",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004250",
+    "source": "Sound Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "wind whistling through the trees",
+    "meaning": "风穿过树林的呼呼声",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004251",
+    "source": "Sound Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "rain pattering on the roof",
+    "meaning": "雨点敲打屋顶的淅沥声",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004252",
+    "source": "Sound Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "rain pounding against the windows",
+    "meaning": "大雨猛烈拍打窗户",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004253",
+    "source": "Sound Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "thunder rumbling",
+    "meaning": "雷声隆隆",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004254",
+    "source": "Sound Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "waves crashing against the rocks",
+    "meaning": "海浪猛烈拍打岩石",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004255",
+    "source": "Sound Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "water trickling down the rocks",
+    "meaning": "水沿岩石潺潺流下",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004256",
+    "source": "Sound Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a stream babbling",
+    "meaning": "小溪潺潺作响",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004257",
+    "source": "Sound Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "fire crackling",
+    "meaning": "火焰噼啪作响",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004258",
+    "source": "Sound Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "twigs snapping underfoot",
+    "meaning": "脚下树枝咔嚓折断",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004259",
+    "source": "Sound Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "gravel crunching underfoot",
+    "meaning": "踩碎石路的嘎吱声",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004260",
+    "source": "Sound Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "branches creaking in the wind",
+    "meaning": "树枝在风中吱呀作响",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004261",
+    "source": "Sound Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "ice cracking",
+    "meaning": "冰层咔嚓开裂",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004262",
+    "source": "Sound Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "birds chirping",
+    "meaning": "鸟儿啾啾叫",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004263",
+    "source": "Sound Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "birds squawking",
+    "meaning": "鸟儿发出刺耳的嘎嘎叫声",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004264",
+    "source": "Sound Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "dogs barking",
+    "meaning": "狗汪汪叫",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004265",
+    "source": "Sound Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "dogs growling",
+    "meaning": "狗低声咆哮",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004266",
+    "source": "Sound Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "wolves howling",
+    "meaning": "狼嚎",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004267",
+    "source": "Sound Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "cats purring",
+    "meaning": "猫发出呼噜声",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004268",
+    "source": "Sound Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "cats hissing",
+    "meaning": "猫发出嘶嘶的威胁声",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004269",
+    "source": "Sound Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "bees buzzing",
+    "meaning": "蜜蜂嗡嗡飞舞",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004270",
+    "source": "Sound Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "crickets chirping",
+    "meaning": "蟋蟀唧唧叫",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004271",
+    "source": "Sound Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "frogs croaking",
+    "meaning": "青蛙呱呱叫",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004272",
+    "source": "Sound Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "car horns honking",
+    "meaning": "汽车喇叭嘟嘟响",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004273",
+    "source": "Sound Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "tires screeching",
+    "meaning": "轮胎发出尖锐摩擦声",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004274",
+    "source": "Sound Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "brakes squealing",
+    "meaning": "刹车发出刺耳尖叫",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004275",
+    "source": "Sound Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "engines roaring",
+    "meaning": "发动机轰鸣",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004276",
+    "source": "Sound Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "motorcycles revving",
+    "meaning": "摩托车发动机加速轰响",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004277",
+    "source": "Sound Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "trains rattling along the tracks",
+    "meaning": "火车沿铁轨哐当行驶",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004278",
+    "source": "Sound Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "sirens wailing",
+    "meaning": "警笛长鸣",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004279",
+    "source": "Sound Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "bells ringing",
+    "meaning": "铃声响起",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004280",
+    "source": "Sound Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "clocks ticking",
+    "meaning": "时钟滴答作响",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004281",
+    "source": "Sound Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "machines humming",
+    "meaning": "机器持续低声嗡鸣",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004282",
+    "source": "Sound Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "doors creaking",
+    "meaning": "门吱呀作响",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004283",
+    "source": "Sound Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "doors slamming shut",
+    "meaning": "门砰的一声关上",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004284",
+    "source": "Sound Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "glass shattering",
+    "meaning": "玻璃哗啦碎裂",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004285",
+    "source": "Sound Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "keys jingling",
+    "meaning": "钥匙叮当作响",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004286",
+    "source": "Sound Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "coins clinking",
+    "meaning": "硬币轻轻碰撞叮当响",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004287",
+    "source": "Sound Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "dishes clattering",
+    "meaning": "餐具哐啷碰撞",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004288",
+    "source": "Sound Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "water dripping from a tap",
+    "meaning": "水龙头滴滴答答漏水",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004289",
+    "source": "Sound Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "water splashing",
+    "meaning": "水哗啦飞溅",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004290",
+    "source": "Sound Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "plastic bags rustling",
+    "meaning": "塑料袋窸窣作响",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004291",
+    "source": "Sound Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a phone buzzing",
+    "meaning": "手机嗡嗡振动",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004292",
+    "source": "Sound Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "footsteps echoing",
+    "meaning": "脚步声回荡",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004293",
+    "source": "Sound Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "people whispering",
+    "meaning": "人们窃窃私语",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004294",
+    "source": "Sound Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "someone snoring",
+    "meaning": "某人打呼噜",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004295",
+    "source": "Sound Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "someone gasping for air",
+    "meaning": "某人喘着气、倒吸气",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004296",
+    "source": "Sound Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a stomach growling",
+    "meaning": "肚子咕噜作响",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004297",
+    "source": "Sound Collocations 2026-11-12"
   }
 ];
 
