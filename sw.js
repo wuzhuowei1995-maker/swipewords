@@ -1,4 +1,4 @@
-const CACHE = "swipewords-delete-1794488282813";
+const CACHE = "swipewords-quick-remove-20261112-v2";
 const ASSETS = [
   "./",
   "./index.html",
@@ -31,6 +31,7 @@ self.addEventListener("fetch", (event) => {
 
   // 页面、逻辑和词库优先读取线上最新版；离线时退回缓存。
   if (
+    url.pathname.endsWith("/") ||
     url.pathname.endsWith("/index.html") ||
     url.pathname.endsWith("/vocabulary.js") ||
     url.pathname.endsWith("/app.js") ||
