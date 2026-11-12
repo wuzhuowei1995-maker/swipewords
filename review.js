@@ -408,7 +408,9 @@
     const head=el("","sw-heading");
     head.append(el("词条管理","sw-heading-title"),btn("×",()=>setMenu(false),"sw-close"));
     sheet.appendChild(head);
-    sheet.append(el("右下角 × 可直接本地移除当前卡片；此处可恢复。移除不会重置随机历史或当前轮次。","sw-help"),
+    const remove=btn("移除当前卡片",removeCurrent,"sw-primary");
+    remove.disabled=!removable(current());
+    sheet.append(remove,el("右下角 × 也可直接移除当前卡片。移除仅在本机生效，不会重置随机历史或当前轮次。","sw-help"),
       el("已移除 · "+removed.length,"sw-title"));
     const list=el("","sw-removed-list");
     if(!removed.length)list.append(el("暂无移除记录","sw-muted"));
