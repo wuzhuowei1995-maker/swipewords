@@ -30400,6 +30400,972 @@ const VOCABULARY = [
     "weight": 3,
     "id": "sw-004297",
     "source": "Sound Collocations 2026-11-12"
+  },
+  {
+    "type": "group",
+    "front": "温度：凉爽 → 寒冷 → 极寒",
+    "meaning": "10 个表达",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004298",
+    "source": "Weather Intensity Groups 2026-11-12",
+    "groupKind": "comparison",
+    "terms": [
+      {
+        "front": "cool",
+        "meaning": "凉爽的",
+        "example": ""
+      },
+      {
+        "front": "chilly",
+        "meaning": "微冷的、凉飕飕的",
+        "example": ""
+      },
+      {
+        "front": "nippy",
+        "meaning": "有点刺骨的冷",
+        "example": ""
+      },
+      {
+        "front": "cold",
+        "meaning": "寒冷的",
+        "example": ""
+      },
+      {
+        "front": "bitterly cold",
+        "meaning": "寒冷刺骨",
+        "example": ""
+      },
+      {
+        "front": "freezing",
+        "meaning": "冷得要命；冰冻的",
+        "example": ""
+      },
+      {
+        "front": "icy cold",
+        "meaning": "冰冷刺骨",
+        "example": ""
+      },
+      {
+        "front": "bone-chilling",
+        "meaning": "寒冷彻骨",
+        "example": ""
+      },
+      {
+        "front": "frigid",
+        "meaning": "严寒的",
+        "example": ""
+      },
+      {
+        "front": "dangerously cold",
+        "meaning": "危险的低温",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "type": "group",
+    "front": "温度：温暖 → 炎热 → 酷热",
+    "meaning": "10 个表达",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004299",
+    "source": "Weather Intensity Groups 2026-11-12",
+    "groupKind": "comparison",
+    "terms": [
+      {
+        "front": "mild",
+        "meaning": "温和的",
+        "example": ""
+      },
+      {
+        "front": "pleasantly warm",
+        "meaning": "暖和舒适的",
+        "example": ""
+      },
+      {
+        "front": "warm",
+        "meaning": "温暖的",
+        "example": ""
+      },
+      {
+        "front": "balmy",
+        "meaning": "温暖宜人的",
+        "example": ""
+      },
+      {
+        "front": "hot",
+        "meaning": "炎热的",
+        "example": ""
+      },
+      {
+        "front": "very hot",
+        "meaning": "非常热",
+        "example": ""
+      },
+      {
+        "front": "sweltering",
+        "meaning": "闷热难耐的",
+        "example": ""
+      },
+      {
+        "front": "scorching",
+        "meaning": "灼热的",
+        "example": ""
+      },
+      {
+        "front": "blistering heat",
+        "meaning": "酷热、灼人的高温",
+        "example": ""
+      },
+      {
+        "front": "unbearable heat",
+        "meaning": "难以忍受的高温",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "type": "group",
+    "front": "阳光与天空：晴朗 → 阴沉",
+    "meaning": "10 个表达",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004300",
+    "source": "Weather Intensity Groups 2026-11-12",
+    "groupKind": "comparison",
+    "terms": [
+      {
+        "front": "clear skies",
+        "meaning": "万里无云",
+        "example": ""
+      },
+      {
+        "front": "bright sunshine",
+        "meaning": "明媚阳光",
+        "example": ""
+      },
+      {
+        "front": "sunny",
+        "meaning": "晴朗的",
+        "example": ""
+      },
+      {
+        "front": "mostly sunny",
+        "meaning": "大部分时间晴朗",
+        "example": ""
+      },
+      {
+        "front": "partly cloudy",
+        "meaning": "局部多云",
+        "example": ""
+      },
+      {
+        "front": "scattered clouds",
+        "meaning": "零星云朵",
+        "example": ""
+      },
+      {
+        "front": "mostly cloudy",
+        "meaning": "大部分时间多云",
+        "example": ""
+      },
+      {
+        "front": "cloudy",
+        "meaning": "多云的",
+        "example": ""
+      },
+      {
+        "front": "overcast",
+        "meaning": "阴云密布的",
+        "example": ""
+      },
+      {
+        "front": "gloomy",
+        "meaning": "阴沉昏暗的",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "type": "group",
+    "front": "降雨：毛毛雨 → 暴雨 → 极端降雨",
+    "meaning": "13 个表达",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004301",
+    "source": "Weather Intensity Groups 2026-11-12",
+    "groupKind": "comparison",
+    "terms": [
+      {
+        "front": "a few drops of rain",
+        "meaning": "几滴雨",
+        "example": ""
+      },
+      {
+        "front": "light drizzle",
+        "meaning": "细毛毛雨",
+        "example": ""
+      },
+      {
+        "front": "drizzle",
+        "meaning": "毛毛雨",
+        "example": ""
+      },
+      {
+        "front": "light rain",
+        "meaning": "小雨",
+        "example": ""
+      },
+      {
+        "front": "scattered showers",
+        "meaning": "零星阵雨",
+        "example": ""
+      },
+      {
+        "front": "steady rain",
+        "meaning": "持续稳定的降雨",
+        "example": ""
+      },
+      {
+        "front": "moderate rain",
+        "meaning": "中雨",
+        "example": ""
+      },
+      {
+        "front": "heavy rain",
+        "meaning": "大雨",
+        "example": ""
+      },
+      {
+        "front": "pouring rain",
+        "meaning": "倾盆大雨",
+        "example": ""
+      },
+      {
+        "front": "torrential rain",
+        "meaning": "暴雨",
+        "example": ""
+      },
+      {
+        "front": "a downpour",
+        "meaning": "一场倾盆大雨",
+        "example": ""
+      },
+      {
+        "front": "a cloudburst",
+        "meaning": "突发性极强降雨",
+        "example": ""
+      },
+      {
+        "front": "flash flooding",
+        "meaning": "突发性洪水",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "type": "group",
+    "front": "降雪：零星飘雪 → 大雪 → 暴风雪",
+    "meaning": "12 个表达",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004302",
+    "source": "Weather Intensity Groups 2026-11-12",
+    "groupKind": "comparison",
+    "terms": [
+      {
+        "front": "a few snowflakes",
+        "meaning": "零星雪花",
+        "example": ""
+      },
+      {
+        "front": "flurries",
+        "meaning": "短暂小雪",
+        "example": ""
+      },
+      {
+        "front": "light snow",
+        "meaning": "小雪",
+        "example": ""
+      },
+      {
+        "front": "snow showers",
+        "meaning": "阵雪",
+        "example": ""
+      },
+      {
+        "front": "steady snowfall",
+        "meaning": "持续降雪",
+        "example": ""
+      },
+      {
+        "front": "moderate snowfall",
+        "meaning": "中等强度降雪",
+        "example": ""
+      },
+      {
+        "front": "heavy snow",
+        "meaning": "大雪",
+        "example": ""
+      },
+      {
+        "front": "thick snowfall",
+        "meaning": "密集降雪",
+        "example": ""
+      },
+      {
+        "front": "blowing snow",
+        "meaning": "风吹起的积雪或降雪",
+        "example": ""
+      },
+      {
+        "front": "a snowstorm",
+        "meaning": "暴风雪、强降雪天气",
+        "example": ""
+      },
+      {
+        "front": "blizzard conditions",
+        "meaning": "暴风雪天气条件",
+        "example": ""
+      },
+      {
+        "front": "whiteout conditions",
+        "meaning": "白茫茫一片、几乎失去能见度",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "type": "group",
+    "front": "风：微风 → 强风 → 狂风",
+    "meaning": "13 个表达",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004303",
+    "source": "Weather Intensity Groups 2026-11-12",
+    "groupKind": "comparison",
+    "terms": [
+      {
+        "front": "calm",
+        "meaning": "无风的、平静的",
+        "example": ""
+      },
+      {
+        "front": "a light breeze",
+        "meaning": "微风",
+        "example": ""
+      },
+      {
+        "front": "a gentle breeze",
+        "meaning": "轻柔的微风",
+        "example": ""
+      },
+      {
+        "front": "a moderate breeze",
+        "meaning": "和缓的风",
+        "example": ""
+      },
+      {
+        "front": "breezy",
+        "meaning": "微风习习的",
+        "example": ""
+      },
+      {
+        "front": "windy",
+        "meaning": "有风的、风大的",
+        "example": ""
+      },
+      {
+        "front": "a strong breeze",
+        "meaning": "较强的风",
+        "example": ""
+      },
+      {
+        "front": "strong winds",
+        "meaning": "强风",
+        "example": ""
+      },
+      {
+        "front": "gusty",
+        "meaning": "阵风强劲的",
+        "example": ""
+      },
+      {
+        "front": "high winds",
+        "meaning": "大风",
+        "example": ""
+      },
+      {
+        "front": "gale-force winds",
+        "meaning": "烈风、接近或达到烈风等级的风",
+        "example": ""
+      },
+      {
+        "front": "storm-force winds",
+        "meaning": "暴风级强风",
+        "example": ""
+      },
+      {
+        "front": "hurricane-force winds",
+        "meaning": "飓风级强风",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "type": "group",
+    "front": "湿度与闷热：清爽 → 潮湿 → 闷热难耐",
+    "meaning": "10 个表达",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004304",
+    "source": "Weather Intensity Groups 2026-11-12",
+    "groupKind": "comparison",
+    "terms": [
+      {
+        "front": "crisp air",
+        "meaning": "清爽的空气",
+        "example": ""
+      },
+      {
+        "front": "dry air",
+        "meaning": "干燥的空气",
+        "example": ""
+      },
+      {
+        "front": "comfortable humidity",
+        "meaning": "舒适的湿度",
+        "example": ""
+      },
+      {
+        "front": "slightly humid",
+        "meaning": "略微潮湿",
+        "example": ""
+      },
+      {
+        "front": "humid",
+        "meaning": "潮湿的、湿热的",
+        "example": ""
+      },
+      {
+        "front": "muggy",
+        "meaning": "闷热潮湿的",
+        "example": ""
+      },
+      {
+        "front": "sticky",
+        "meaning": "黏腻闷热的",
+        "example": ""
+      },
+      {
+        "front": "hot and humid",
+        "meaning": "又热又潮湿",
+        "example": ""
+      },
+      {
+        "front": "stifling",
+        "meaning": "闷得喘不过气的",
+        "example": ""
+      },
+      {
+        "front": "oppressively humid",
+        "meaning": "湿热得令人难受",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "type": "group",
+    "front": "干燥：舒适 → 干燥 → 极度干旱",
+    "meaning": "10 个表达",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004305",
+    "source": "Weather Intensity Groups 2026-11-12",
+    "groupKind": "comparison",
+    "terms": [
+      {
+        "front": "pleasantly dry",
+        "meaning": "干爽舒适的",
+        "example": ""
+      },
+      {
+        "front": "dry",
+        "meaning": "干燥的",
+        "example": ""
+      },
+      {
+        "front": "low humidity",
+        "meaning": "低湿度",
+        "example": ""
+      },
+      {
+        "front": "very dry",
+        "meaning": "非常干燥",
+        "example": ""
+      },
+      {
+        "front": "parched",
+        "meaning": "干透的、极度干燥的",
+        "example": ""
+      },
+      {
+        "front": "bone-dry",
+        "meaning": "干得透彻",
+        "example": ""
+      },
+      {
+        "front": "arid",
+        "meaning": "干旱的",
+        "example": ""
+      },
+      {
+        "front": "extremely arid",
+        "meaning": "极端干旱的",
+        "example": ""
+      },
+      {
+        "front": "drought conditions",
+        "meaning": "干旱状况",
+        "example": ""
+      },
+      {
+        "front": "severe drought",
+        "meaning": "严重干旱",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "type": "group",
+    "front": "雾与能见度：轻雾 → 浓雾 → 几乎看不见",
+    "meaning": "11 个表达",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004306",
+    "source": "Weather Intensity Groups 2026-11-12",
+    "groupKind": "comparison",
+    "terms": [
+      {
+        "front": "clear visibility",
+        "meaning": "能见度良好",
+        "example": ""
+      },
+      {
+        "front": "a slight haze",
+        "meaning": "轻微薄霾",
+        "example": ""
+      },
+      {
+        "front": "hazy",
+        "meaning": "朦胧的、薄霾笼罩的",
+        "example": ""
+      },
+      {
+        "front": "misty",
+        "meaning": "薄雾蒙蒙的",
+        "example": ""
+      },
+      {
+        "front": "patches of fog",
+        "meaning": "局部有雾",
+        "example": ""
+      },
+      {
+        "front": "foggy",
+        "meaning": "有雾的",
+        "example": ""
+      },
+      {
+        "front": "dense fog",
+        "meaning": "浓雾",
+        "example": ""
+      },
+      {
+        "front": "thick fog",
+        "meaning": "大雾弥漫",
+        "example": ""
+      },
+      {
+        "front": "poor visibility",
+        "meaning": "能见度差",
+        "example": ""
+      },
+      {
+        "front": "near-zero visibility",
+        "meaning": "能见度接近零",
+        "example": ""
+      },
+      {
+        "front": "zero visibility",
+        "meaning": "零能见度",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "type": "group",
+    "front": "雷电与风暴：不稳定 → 雷雨 → 强烈风暴",
+    "meaning": "12 个表达",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004307",
+    "source": "Weather Intensity Groups 2026-11-12",
+    "groupKind": "comparison",
+    "terms": [
+      {
+        "front": "unsettled weather",
+        "meaning": "不稳定天气",
+        "example": ""
+      },
+      {
+        "front": "stormy weather",
+        "meaning": "暴风雨天气",
+        "example": ""
+      },
+      {
+        "front": "distant thunder",
+        "meaning": "远处雷声",
+        "example": ""
+      },
+      {
+        "front": "isolated thunderstorms",
+        "meaning": "局部雷暴",
+        "example": ""
+      },
+      {
+        "front": "scattered thunderstorms",
+        "meaning": "分散性雷暴",
+        "example": ""
+      },
+      {
+        "front": "thunderstorms",
+        "meaning": "雷暴",
+        "example": ""
+      },
+      {
+        "front": "frequent lightning",
+        "meaning": "频繁闪电",
+        "example": ""
+      },
+      {
+        "front": "intense thunderstorms",
+        "meaning": "强烈雷暴",
+        "example": ""
+      },
+      {
+        "front": "severe thunderstorms",
+        "meaning": "强雷暴",
+        "example": ""
+      },
+      {
+        "front": "damaging winds",
+        "meaning": "具有破坏性的强风",
+        "example": ""
+      },
+      {
+        "front": "destructive storms",
+        "meaning": "破坏性风暴",
+        "example": ""
+      },
+      {
+        "front": "a violent storm",
+        "meaning": "猛烈风暴",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "type": "group",
+    "front": "冰冻与路面：湿滑 → 结冰 → 极度危险",
+    "meaning": "12 个表达",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004308",
+    "source": "Weather Intensity Groups 2026-11-12",
+    "groupKind": "comparison",
+    "terms": [
+      {
+        "front": "damp ground",
+        "meaning": "微湿的地面",
+        "example": ""
+      },
+      {
+        "front": "wet ground",
+        "meaning": "湿地面",
+        "example": ""
+      },
+      {
+        "front": "muddy trails",
+        "meaning": "泥泞步道",
+        "example": ""
+      },
+      {
+        "front": "slippery surfaces",
+        "meaning": "湿滑路面",
+        "example": ""
+      },
+      {
+        "front": "frost-covered ground",
+        "meaning": "覆霜地面",
+        "example": ""
+      },
+      {
+        "front": "icy patches",
+        "meaning": "局部结冰",
+        "example": ""
+      },
+      {
+        "front": "icy roads",
+        "meaning": "结冰道路",
+        "example": ""
+      },
+      {
+        "front": "black ice",
+        "meaning": "难以察觉的透明薄冰",
+        "example": ""
+      },
+      {
+        "front": "freezing rain",
+        "meaning": "冻雨",
+        "example": ""
+      },
+      {
+        "front": "freezing drizzle",
+        "meaning": "冻毛毛雨",
+        "example": ""
+      },
+      {
+        "front": "glaze ice",
+        "meaning": "光滑透明的覆冰",
+        "example": ""
+      },
+      {
+        "front": "treacherous conditions",
+        "meaning": "极其危险、容易滑倒的路况",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "type": "group",
+    "front": "人体体感：舒适 → 不舒服 → 难以忍受",
+    "meaning": "15 个表达",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004309",
+    "source": "Weather Intensity Groups 2026-11-12",
+    "groupKind": "comparison",
+    "terms": [
+      {
+        "front": "pleasant",
+        "meaning": "宜人的",
+        "example": ""
+      },
+      {
+        "front": "comfortable",
+        "meaning": "舒适的",
+        "example": ""
+      },
+      {
+        "front": "refreshing",
+        "meaning": "清爽提神的",
+        "example": ""
+      },
+      {
+        "front": "brisk",
+        "meaning": "清凉而令人振奋的",
+        "example": ""
+      },
+      {
+        "front": "a bit chilly",
+        "meaning": "有点冷",
+        "example": ""
+      },
+      {
+        "front": "uncomfortably cold",
+        "meaning": "冷得不舒服",
+        "example": ""
+      },
+      {
+        "front": "biting cold",
+        "meaning": "刺骨寒冷",
+        "example": ""
+      },
+      {
+        "front": "numb with cold",
+        "meaning": "冷得发麻",
+        "example": ""
+      },
+      {
+        "front": "shivering",
+        "meaning": "冷得发抖",
+        "example": ""
+      },
+      {
+        "front": "soaked to the skin",
+        "meaning": "全身湿透",
+        "example": ""
+      },
+      {
+        "front": "drenched",
+        "meaning": "浑身湿透",
+        "example": ""
+      },
+      {
+        "front": "chilled to the bone",
+        "meaning": "冷到骨子里",
+        "example": ""
+      },
+      {
+        "front": "overheated",
+        "meaning": "热得受不了、身体过热",
+        "example": ""
+      },
+      {
+        "front": "sweating profusely",
+        "meaning": "大汗淋漓",
+        "example": ""
+      },
+      {
+        "front": "struggling with the heat",
+        "meaning": "热得难以忍受",
+        "example": ""
+      }
+    ]
+  },
+  {
+    "type": "group",
+    "front": "天气变化：好转 ↔ 恶化",
+    "meaning": "24 个表达",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004310",
+    "source": "Weather Intensity Groups 2026-11-12",
+    "groupKind": "comparison",
+    "terms": [
+      {
+        "front": "clearing up",
+        "meaning": "好转：天气转晴",
+        "example": ""
+      },
+      {
+        "front": "clouding over",
+        "meaning": "恶化：天空逐渐阴沉",
+        "example": ""
+      },
+      {
+        "front": "warming up",
+        "meaning": "好转：逐渐变暖",
+        "example": ""
+      },
+      {
+        "front": "cooling down",
+        "meaning": "恶化：逐渐变凉",
+        "example": ""
+      },
+      {
+        "front": "brightening up",
+        "meaning": "好转：天色放晴",
+        "example": ""
+      },
+      {
+        "front": "getting darker",
+        "meaning": "恶化：天色变暗",
+        "example": ""
+      },
+      {
+        "front": "easing off",
+        "meaning": "好转：风雨逐渐减弱",
+        "example": ""
+      },
+      {
+        "front": "picking up",
+        "meaning": "恶化：风逐渐增强",
+        "example": ""
+      },
+      {
+        "front": "dying down",
+        "meaning": "好转：风雨逐渐平息",
+        "example": ""
+      },
+      {
+        "front": "intensifying",
+        "meaning": "恶化：逐渐增强",
+        "example": ""
+      },
+      {
+        "front": "letting up",
+        "meaning": "好转：雨雪逐渐减弱",
+        "example": ""
+      },
+      {
+        "front": "getting heavier",
+        "meaning": "恶化：雨雪逐渐加大",
+        "example": ""
+      },
+      {
+        "front": "drying out",
+        "meaning": "好转：逐渐变干",
+        "example": ""
+      },
+      {
+        "front": "getting wetter",
+        "meaning": "恶化：逐渐变湿",
+        "example": ""
+      },
+      {
+        "front": "improving conditions",
+        "meaning": "好转：天气状况改善",
+        "example": ""
+      },
+      {
+        "front": "deteriorating conditions",
+        "meaning": "恶化：天气状况恶化",
+        "example": ""
+      },
+      {
+        "front": "temperatures rising",
+        "meaning": "好转：气温上升",
+        "example": ""
+      },
+      {
+        "front": "temperatures dropping",
+        "meaning": "恶化：气温下降",
+        "example": ""
+      },
+      {
+        "front": "a break in the clouds",
+        "meaning": "好转：云层出现空隙",
+        "example": ""
+      },
+      {
+        "front": "dark clouds rolling in",
+        "meaning": "恶化：乌云滚滚而来",
+        "example": ""
+      },
+      {
+        "front": "the fog lifting",
+        "meaning": "好转：雾逐渐消散",
+        "example": ""
+      },
+      {
+        "front": "the fog thickening",
+        "meaning": "恶化：雾越来越浓",
+        "example": ""
+      },
+      {
+        "front": "winds calming down",
+        "meaning": "好转：风逐渐平息",
+        "example": ""
+      },
+      {
+        "front": "winds strengthening",
+        "meaning": "恶化：风力增强",
+        "example": ""
+      }
+    ]
   }
 ];
 
