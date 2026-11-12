@@ -195,13 +195,30 @@
     #sw-speak-button.speaking {background: rgba(35,35,35,.18);}
     #sw-speak-button:focus-visible {outline: 2px solid #222; outline-offset: 3px;}
 
+    /* One-tap local removal at bottom right; management remains above it. */
+    #sw-remove-button {
+      position: fixed;
+      z-index: 100;
+      right: max(20px, env(safe-area-inset-right));
+      bottom: max(20px, env(safe-area-inset-bottom));
+      width: 44px; height: 44px;
+      border: 0; border-radius: 50%;
+      background: rgba(35,35,35,.08);
+      color: #333;
+      font-size: 21px;
+      display: grid; place-items: center;
+      cursor: pointer; touch-action: manipulation;
+    }
+    #sw-remove-button:disabled {opacity: .3; cursor: default;}
+    #sw-remove-button:focus-visible, #sw-menu-button:focus-visible {outline: 2px solid #222; outline-offset: 3px;}
+
     /* SwipeWords local removal and restoration panel */
     #sw-menu-button {
       position: fixed;
       z-index: 100;
       right: max(20px, env(safe-area-inset-right));
-      bottom: max(20px, env(safe-area-inset-bottom));
-      width: 50px; height: 50px;
+      bottom: calc(max(20px, env(safe-area-inset-bottom)) + 58px);
+      width: 44px; height: 44px;
       border: 0; border-radius: 50%;
       background: rgba(35,35,35,.08);
       color: #222;
