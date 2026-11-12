@@ -317,7 +317,7 @@
     const count=x?(state.appearances[x.id]||0):0;
     counter.textContent="已滑 "+state.draws+" · 本轮 "+completed+"/"+active+" · 本词 "+count+" 次";
   }
-  function render(){app.replaceChildren(card(current()));updateCounters();}
+  function render(){app.replaceChildren(card(current()));updateCounters();const removeButton=document.getElementById("sw-remove-button");if(removeButton)removeButton.disabled=!removable(current());}
   const toast=el("","sw-toast");toast.id="sw-toast";toast.setAttribute("role","status");document.body.appendChild(toast);
   let toastTimer;
   function hint(s){toast.textContent=s;toast.classList.add("visible");clearTimeout(toastTimer);toastTimer=setTimeout(()=>toast.classList.remove("visible"),3300);}
@@ -331,6 +331,12 @@
     requestAnimationFrame(()=>{previous?.classList.add("exit-up");upcoming.classList.add("enter-active");});
     setTimeout(()=>{previous?.remove();upcoming.classList.remove("enter-up","enter-active");busy=false;},190);
   }
+  const quickRemove=btn("×",()=>{if(!busy&&!menuOpen)removeCurrent();});
+  quickRemove.id="sw-remove-button";
+  quickRemove.setAttribute("aria-label","本地移除当前卡片");
+  quickRemove.title="本地移除当前卡片（直接移除，可在管理菜单恢复）";
+  document.body.appendChild(quickRemove);
+  quickRemove.disabled=!removable(current());
   const menu=btn("⋯",()=>setMenu(!menuOpen));menu.id="sw-menu-button";
   menu.setAttribute("aria-label","管理词条");menu.setAttribute("aria-haspopup","dialog");
   document.body.appendChild(menu);
@@ -402,9 +408,7 @@
     const head=el("","sw-heading");
     head.append(el("词条管理","sw-heading-title"),btn("×",()=>setMenu(false),"sw-close"));
     sheet.appendChild(head);
-    const remove=btn("移除当前卡片",removeCurrent,"sw-primary");
-    remove.disabled=!removable(current());
-    sheet.append(remove,el("移除仅在本机生效，不会重置随机历史或当前轮次；一轮内不会重复。","sw-help"),
+    sheet.append(el("右下角 × 可直接本地移除当前卡片；此处可恢复。移除不会重置随机历史或当前轮次。","sw-help"),
       el("已移除 · "+removed.length,"sw-title"));
     const list=el("","sw-removed-list");
     if(!removed.length)list.append(el("暂无移除记录","sw-muted"));
