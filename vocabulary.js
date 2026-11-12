@@ -29086,6 +29086,870 @@ const VOCABULARY = [
     "weight": 3,
     "id": "sw-004151",
     "source": "Review11 Scene 231"
+  },
+  {
+    "type": "word",
+    "front": "a pile of clothes",
+    "meaning": "一堆衣物",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004152",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a stack of books",
+    "meaning": "一摞书",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004153",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a stack of papers",
+    "meaning": "一叠文件",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004154",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a heap of rubbish",
+    "meaning": "一大堆垃圾",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004155",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a mound of dirt",
+    "meaning": "一堆泥土",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004156",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a pile of rubble",
+    "meaning": "一堆瓦砾",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004157",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a heap of leaves",
+    "meaning": "一堆落叶",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004158",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a bundle of clothes",
+    "meaning": "一捆衣服",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004159",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a bundle of sticks",
+    "meaning": "一捆树枝",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004160",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a bunch of flowers",
+    "meaning": "一束鲜花",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004161",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a bunch of keys",
+    "meaning": "一串钥匙",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004162",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a cluster of buildings",
+    "meaning": "一片建筑群",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004163",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a patch of grass",
+    "meaning": "一小片草地",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004164",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a stretch of road",
+    "meaning": "一段道路",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004165",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a shard of glass",
+    "meaning": "一块玻璃碎片",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004166",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a fragment of bone",
+    "meaning": "一块骨头碎片",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004167",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a piece of evidence",
+    "meaning": "一项证据",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004168",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a chunk of meat",
+    "meaning": "一大块肉",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004169",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a chunk of ice",
+    "meaning": "一大块冰",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004170",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a slice of bread",
+    "meaning": "一片面包",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004171",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a slice of pizza",
+    "meaning": "一块披萨",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004172",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a loaf of bread",
+    "meaning": "一条面包",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004173",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a block of cheese",
+    "meaning": "一大块奶酪",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004174",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a bar of chocolate",
+    "meaning": "一条巧克力",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004175",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a bar of soap",
+    "meaning": "一块肥皂",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004176",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a sheet of paper",
+    "meaning": "一张纸",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004177",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a strip of land",
+    "meaning": "一条狭长的土地",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004178",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a scrap of paper",
+    "meaning": "一小片废纸",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004179",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a grain of sand",
+    "meaning": "一粒沙子",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004180",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a herd of elephants",
+    "meaning": "一群大象",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004181",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a flock of sheep",
+    "meaning": "一群羊",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004182",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a flock of birds",
+    "meaning": "一群鸟",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004183",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a pack of wolves",
+    "meaning": "一群狼",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004184",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a pack of dogs",
+    "meaning": "一群狗",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004185",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a swarm of bees",
+    "meaning": "一群蜜蜂",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004186",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a swarm of insects",
+    "meaning": "一大群昆虫",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004187",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a school of fish",
+    "meaning": "一群鱼",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004188",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a colony of ants",
+    "meaning": "一群蚂蚁",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004189",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a colony of penguins",
+    "meaning": "一群企鹅",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004190",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a pride of lions",
+    "meaning": "一群狮子",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004191",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a pod of dolphins",
+    "meaning": "一群海豚",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004192",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a crowd of people",
+    "meaning": "一群人",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004193",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a group of tourists",
+    "meaning": "一群游客",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004194",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a team of researchers",
+    "meaning": "一个研究团队",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004195",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a crew of workers",
+    "meaning": "一队工人",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004196",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a panel of experts",
+    "meaning": "一个专家小组",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004197",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a board of directors",
+    "meaning": "董事会",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004198",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a committee of representatives",
+    "meaning": "一个代表委员会",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004199",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a delegation of officials",
+    "meaning": "一个官员代表团",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004200",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a band of musicians",
+    "meaning": "一支乐队",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004201",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a gang of criminals",
+    "meaning": "一伙罪犯",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004202",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a mob of protesters",
+    "meaning": "一群情绪激动的抗议者",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004203",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a wave of immigrants",
+    "meaning": "一波移民",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004204",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "an influx of tourists",
+    "meaning": "大量涌入的游客",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004205",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a stream of visitors",
+    "meaning": "络绎不绝的访客",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004206",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a queue of customers",
+    "meaning": "一队排队的顾客",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004207",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a gust of wind",
+    "meaning": "一阵强风",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004208",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a breeze of fresh air",
+    "meaning": "一阵清风",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004209",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a burst of sunlight",
+    "meaning": "突然出现的一束阳光",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004210",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a ray of sunshine",
+    "meaning": "一缕阳光",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004211",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a blanket of snow",
+    "meaning": "一层厚厚的积雪",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004212",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a layer of ice",
+    "meaning": "一层冰",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004213",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a sheet of ice",
+    "meaning": "一大片冰层",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004214",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a patch of fog",
+    "meaning": "一小片雾",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004215",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a bank of clouds",
+    "meaning": "一大片云层",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004216",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a plume of smoke",
+    "meaning": "一股烟柱",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004217",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a column of smoke",
+    "meaning": "一柱浓烟",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004218",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a cloud of dust",
+    "meaning": "一团尘土",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004219",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a drop of rain",
+    "meaning": "一滴雨",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004220",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a clap of thunder",
+    "meaning": "一声雷鸣",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004221",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a bottle of water",
+    "meaning": "一瓶水",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004222",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a glass of wine",
+    "meaning": "一杯葡萄酒",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004223",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a cup of coffee",
+    "meaning": "一杯咖啡",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004224",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a bowl of soup",
+    "meaning": "一碗汤",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004225",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a plate of pasta",
+    "meaning": "一盘意大利面",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004226",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a handful of nuts",
+    "meaning": "一把坚果",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004227",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a spoonful of sugar",
+    "meaning": "一勺糖",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004228",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a splash of milk",
+    "meaning": "少量牛奶",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004229",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a dash of pepper",
+    "meaning": "少许胡椒粉",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004230",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a sip of water",
+    "meaning": "一小口水",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004231",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a mouthful of food",
+    "meaning": "一大口食物",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004232",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a piece of advice",
+    "meaning": "一条建议",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004233",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a piece of information",
+    "meaning": "一条信息",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004234",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a series of events",
+    "meaning": "一系列事件",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004235",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a chain of reactions",
+    "meaning": "一连串反应",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004236",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a wave of protests",
+    "meaning": "一波抗议浪潮",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004237",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a surge of demand",
+    "meaning": "需求激增",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004238",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a flood of complaints",
+    "meaning": "大量投诉",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004239",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a string of failures",
+    "meaning": "接连的失败",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004240",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a round of negotiations",
+    "meaning": "一轮谈判",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004241",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a burst of anger",
+    "meaning": "一阵愤怒",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004242",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a sense of relief",
+    "meaning": "一种如释重负的感觉",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004243",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a glimmer of hope",
+    "meaning": "一线希望",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004244",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a spark of inspiration",
+    "meaning": "一丝灵感",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004245",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a moment of hesitation",
+    "meaning": "片刻犹豫",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004246",
+    "source": "Quantifier Collocations 2026-11-12"
+  },
+  {
+    "type": "word",
+    "front": "a period of uncertainty",
+    "meaning": "一段不确定时期",
+    "example": "",
+    "weight": 3,
+    "id": "sw-004247",
+    "source": "Quantifier Collocations 2026-11-12"
   }
 ];
 
