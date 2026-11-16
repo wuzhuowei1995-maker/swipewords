@@ -384,24 +384,39 @@
     const list=removed.filter(x=>knownIDs.has(x.id)&&removable(knownIDs.get(x.id)));
     if(!list.length){hint("没有可提交的已移除卡片。");return;}
     const title="[SwipeWords deletion] "+list.length+" cards";
-    const body=issueBody(list);
-    const url=REPO+"/issues/new?title="+encodeURIComponent(title)+"&body="+encodeURIComponent(body);
-    if(url.length<5500) {
+    const makeURL=body=>REPO+"/issues/new?title="+encodeURIComponent(title)+"&body="+encodeURIComponent(body);
+    const fullURL=makeURL(issueBody(list));
+    // Keep all deletion IDs in the GitHub Description even for large batches.
+    // The automated deletion workflow needs only the marker and schema JSON.
+    const compactBody=[
+      "SWIPEWORDS_DELETE_REQUEST_V1",
+      JSON.stringify({schema:"swipewords.delete.v1",ids:list.map(x=>x.id)})
+    ].join("\n");
+    const compactURL=makeURL(compactBody);
+    if(fullURL.length<5500 || compactURL.length<5500){
+      const url=fullURL.length<5500?fullURL:compactURL;
       window.open(url,"_blank","noopener,noreferrer");
-      hint("请在 GitHub 确认创建 Issue。");
-    } else {
-      const compactURL=REPO+"/issues/new?title="+encodeURIComponent(title);
-      const fallback=()=>{
-        const input=document.createElement("textarea");input.value=body;input.style.position="fixed";input.style.opacity="0";
-        document.body.appendChild(input);input.focus();input.select();
-        const ok=document.execCommand("copy");input.remove();
-        hint(ok?"已复制正文，请粘贴到 GitHub Issue。":"自动复制失败，请在电脑上提交。");
-      };
-      if(navigator.clipboard?.writeText)
-        navigator.clipboard.writeText(body).then(()=>hint("已复制正文，请粘贴到 GitHub Issue。"),fallback);
-      else fallback();
-      window.open(compactURL,"_blank","noopener,noreferrer");
+      hint("删除清单已自动填写到 Description，请检查后提交 GitHub Issue。");
+      return;
     }
+    // Extremely long lists cannot fit in a GitHub prefilled URL.
+    // Make the required paste step unmistakable rather than opening a silently blank form.
+    const pasteURL=REPO+"/issues/new?title="+encodeURIComponent(title);
+    const fallback=()=>{
+      const input=document.createElement("textarea");
+      input.value=compactBody;input.style.position="fixed";input.style.opacity="0";
+      document.body.appendChild(input);input.focus();input.select();
+      const ok=document.execCommand("copy");input.remove();
+      hint(ok?"清单已复制！请在 GitHub Description 按 Ctrl+V 粘贴后提交。":"复制失败！请勿提交空白 Description，请分批提交。");
+    };
+    if(navigator.clipboard?.writeText)
+      navigator.clipboard.writeText(compactBody).then(
+        ()=>hint("清单已复制！请在 GitHub Description 按 Ctrl+V 粘贴后提交。"),
+        fallback
+      );
+    else fallback();
+    window.open(pasteURL,"_blank","noopener,noreferrer");
+    window.alert("这次删除清单过长，GitHub 无法自动填写 Description。请在新窗口的 Description 中按 Ctrl+V 粘贴删除清单；如果未成功复制，不要提交空白 Issue。");
   }
   function updateSheet() {
     sheet.replaceChildren();
