@@ -4,6 +4,7 @@
   const node = document.getElementById("content");
   const view = document.getElementById("view");
   const menuBtn = document.getElementById("review-menu-btn");
+  const speakBtn = document.getElementById("review-speak-btn");
   const modal = document.getElementById("review-modal");
   const closeBtn = document.getElementById("review-close");
   const backdrop = document.getElementById("review-backdrop");
@@ -26,6 +27,8 @@
   const NO_REPEAT = 80;
   let deck = [], cursor = 0, recent = [], active = null, down = null;
   let removed = new Set();
+  let speaking = false, utterance = null;
+  let wheelSum = 0, lastWheelSwitch = 0;
 
   // Stable word keys survive changes to card order and example sentences.
   function cardKey(item) {
@@ -220,7 +223,51 @@
     el.textContent = content;
     node.appendChild(el);
   }
+  function stopSpeech() {
+    if ("speechSynthesis" in window) window.speechSynthesis.cancel();
+    speaking = false;
+    utterance = null;
+    speakBtn.setAttribute("aria-pressed", "false");
+    speakBtn.classList.remove("speaking");
+    speakBtn.setAttribute("aria-label", "朗读当前英文");
+    speakBtn.title = "朗读当前英文";
+  }
+
+  function speakCurrent() {
+    if (!active || !("speechSynthesis" in window) ||
+        typeof window.SpeechSynthesisUtterance !== "function") return;
+    if (speaking) { stopSpeech(); return; }
+    stopSpeech();
+    // Speak only the English card face, never the Chinese meaning or translations.
+    const speech = new window.SpeechSynthesisUtterance(active.front);
+    speech.lang = "en-US";
+    speech.rate = 0.9;
+    const voices = window.speechSynthesis.getVoices();
+    const englishVoice = voices.find(v => /^en[-_]US/i.test(v.lang)) ||
+      voices.find(v => /^en[-_]/i.test(v.lang));
+    if (englishVoice) speech.voice = englishVoice;
+    utterance = speech;
+    speaking = true;
+    speakBtn.setAttribute("aria-pressed", "true");
+    speakBtn.classList.add("speaking");
+    speakBtn.setAttribute("aria-label", "停止朗读");
+    speakBtn.title = "停止朗读";
+    const finish = () => {
+      if (utterance !== speech) return;
+      speaking = false;
+      utterance = null;
+      speakBtn.setAttribute("aria-pressed", "false");
+      speakBtn.classList.remove("speaking");
+      speakBtn.setAttribute("aria-label", "朗读当前英文");
+      speakBtn.title = "朗读当前英文";
+    };
+    speech.onend = finish;
+    speech.onerror = finish;
+    window.speechSynthesis.speak(speech);
+  }
+
   function render() {
+    stopSpeech();
     node.textContent = "";
     if (!deck.length) {
       active = null;
@@ -270,6 +317,15 @@
     if (modal && !modal.hidden) return;
     if (!deck.length) return;
     advance();
+  }
+  function previous() {
+    if (modal && !modal.hidden) return;
+    for (let i = cursor - 1; i >= 0; i--) {
+      if (removed.has(cardKeys[deck[i]])) continue;
+      cursor = i;
+      render();
+      return;
+    }
   }
   function resetAfterRemoval() {
     // The removed current card remains marked as seen in this round.
@@ -446,11 +502,36 @@
   restore();
   render();
   menuBtn.addEventListener("click", openManagement);
+  speakBtn.addEventListener("click", speakCurrent);
   closeBtn.addEventListener("click", closeManagement);
   backdrop.addEventListener("click", closeManagement);
   hideBtn.addEventListener("click", removeCurrent);
   batchBtn.addEventListener("click", submitBatch);
   copyBtn.addEventListener("click", copyBatch);
+
+  // Desktop mouse wheel / trackpad: one card per intentional scroll.
+  // If a long card has scrollable text, let the browser scroll the text first.
+  view.addEventListener("wheel", e => {
+    if (!modal.hidden || e.ctrlKey || e.metaKey) return;
+    const direction = Math.sign(e.deltaY);
+    if (!direction) return;
+    if (node.scrollHeight > node.clientHeight + 2) {
+      const canScrollDown = direction > 0 &&
+        node.scrollTop + node.clientHeight < node.scrollHeight - 2;
+      const canScrollUp = direction < 0 && node.scrollTop > 2;
+      if (canScrollDown || canScrollUp) { wheelSum = 0; return; }
+    }
+    e.preventDefault();
+    const now = Date.now();
+    if (now - lastWheelSwitch < 550) return;
+    wheelSum = Math.sign(wheelSum) === direction
+      ? wheelSum + (e.deltaMode === 1 ? e.deltaY * 16 : e.deltaMode === 2 ? e.deltaY * 700 : e.deltaY)
+      : (e.deltaMode === 1 ? e.deltaY * 16 : e.deltaMode === 2 ? e.deltaY * 700 : e.deltaY);
+    if (Math.abs(wheelSum) < 55) return;
+    lastWheelSwitch = now;
+    wheelSum = 0;
+    if (direction > 0) next(); else previous();
+  }, {passive:false});
 
   view.addEventListener("pointerdown", e => {
     if (e.button !== 0) return;
