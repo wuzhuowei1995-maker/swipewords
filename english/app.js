@@ -234,8 +234,12 @@
   }
 
   function speakCurrent() {
-    if (!active || !("speechSynthesis" in window) ||
-        typeof window.SpeechSynthesisUtterance !== "function") return;
+    if (!active) return;
+    if (!("speechSynthesis" in window) ||
+        typeof window.SpeechSynthesisUtterance !== "function") {
+      window.alert && window.alert("当前浏览器不支持英文朗读。请使用新版 Chrome、Edge 或 Safari。");
+      return;
+    }
     if (speaking) { stopSpeech(); return; }
     stopSpeech();
     // Speak only the English card face, never the Chinese meaning or translations.
@@ -523,13 +527,11 @@
     }
     e.preventDefault();
     const now = Date.now();
-    if (now - lastWheelSwitch < 550) return;
-    wheelSum = Math.sign(wheelSum) === direction
-      ? wheelSum + (e.deltaMode === 1 ? e.deltaY * 16 : e.deltaMode === 2 ? e.deltaY * 700 : e.deltaY)
-      : (e.deltaMode === 1 ? e.deltaY * 16 : e.deltaMode === 2 ? e.deltaY * 700 : e.deltaY);
-    if (Math.abs(wheelSum) < 55) return;
-    lastWheelSwitch = now;
+    // Each physical wheel notch should work immediately; throttle trackpad inertia.
+    // deltaMode 1 = lines; some mice generate deltas smaller than 55 pixels.
+    if (now - lastWheelSwitch < 420) return;
     wheelSum = 0;
+    lastWheelSwitch = now;
     if (direction > 0) next(); else previous();
   }, {passive:false});
 
@@ -565,6 +567,16 @@
   });
 
   if ("serviceWorker" in navigator && location.protocol.startsWith("http")) {
-    window.addEventListener("load", () => navigator.serviceWorker.register("./sw.js").catch(() => {}));
+    let hadController = !!navigator.serviceWorker.controller;
+    navigator.serviceWorker.addEventListener("controllerchange", () => {
+      // First install must not reload unnecessarily; replacing an old cache should.
+      if (hadController) window.location.reload();
+      hadController = true;
+    });
+    window.addEventListener("load", () => {
+      navigator.serviceWorker.register("./sw.js?v=24", {updateViaCache:"none"})
+        .then(registration => registration.update().catch(() => {}))
+        .catch(() => {});
+    });
   }
 })();
