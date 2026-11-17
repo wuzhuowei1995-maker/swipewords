@@ -1,4 +1,4 @@
-const CACHE = "swipewords-delete-1794867663804";
+const CACHE = "swipewords-delete-1794890384486";
 const ASSETS = [
   "./",
   "./index.html",
