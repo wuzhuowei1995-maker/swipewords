@@ -1,4 +1,4 @@
-const CACHE="english-random-review-2026-11-17-network-first-v24";
+const CACHE="english-random-review-2026-11-18-landtrap-ch8-10-v25";
 const FILES=["./","./index.html","./app.js","./vocabulary.js","./manifest.json","./icon.svg"];
 self.addEventListener("install",event=>{
   event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(FILES)).then(()=>self.skipWaiting()));
